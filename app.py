@@ -1,3 +1,11 @@
+# Add this to VERY TOP of app.py
+import numpy as np
+np.__version__ = '1.24.3'  # Force version compatibility
+
+# Now import other libraries
+from flask import Flask, jsonify
+import pandas as pd
+# ... rest of your code
 from flask import Flask, jsonify
 import pandas as pd
 from flask_cors import CORS
