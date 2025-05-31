@@ -1,41 +1,32 @@
-# Add this to VERY TOP of app.py
-import numpy as np
-np.__version__ = '1.24.3'  # Force version compatibility
-
-# Now import other libraries
+import os
 from flask import Flask, jsonify
 import pandas as pd
-# ... rest of your code
-from flask import Flask, jsonify
-import pandas as pd
-from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)  # Allows website access
 
-# Load match data
-matches = pd.read_csv('matches.csv')
+# Get the path to the CSV file
+base_dir = os.path.abspath(os.path.dirname(__file__))
+csv_path = os.path.join(base_dir, 'matches.csv')
 
-@app.route('/matches', methods=['GET'])
-def get_all_matches():
-    """Get all matches"""
-    return jsonify(matches.to_dict(orient='records'))
+# Load the data
+try:
+    df = pd.read_csv(csv_path)
+    print(f"✅ Successfully loaded data from {csv_path}")
+    print(f"📊 Found {len(df)} matches")
+except Exception as e:
+    print(f"❌ Error loading CSV: {e}")
+    df = pd.DataFrame()
 
-@app.route('/matches/<int:week>', methods=['GET'])
-def get_week_matches(week):
-    """Get matches by week number"""
-    week_matches = matches[matches['league_week_number'] == week]
-    return jsonify(week_matches.to_dict(orient='records'))
+@app.route('/')
+def home():
+    return "Brasileirão Broadcast API is running! 🎉 Use /matches endpoint"
 
-@app.route('/matches/team/<string:team>', methods=['GET'])
-def get_team_matches(team):
-    """Get matches for specific team (use 3-letter code like FLA)"""
-    team = team.upper()
-    team_matches = matches[
-        (matches['home_team_abbr'] == team) | 
-        (matches['away_team_abbr'] == team)
-    ]
-    return jsonify(team_matches.to_dict(orient='records'))
+@app.route('/matches')
+def get_matches():
+    if not df.empty:
+        return jsonify(df.to_dict(orient='records'))
+    else:
+        return jsonify({"error": "Data not loaded"}), 500
 
 if __name__ == '__main__':
     app.run(debug=True)

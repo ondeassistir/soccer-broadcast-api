@@ -1,5 +1,4 @@
-Flask==3.0.0
-pandas==2.0.3
-Flask-Cors==4.0.0
-gunicorn==21.2.0
-numpy==1.24.3  # Add this specific version
+Flask==2.3.3
+pandas==1.5.3
+numpy==1.24.3
+gunicorn==20.1.0
