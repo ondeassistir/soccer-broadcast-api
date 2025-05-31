@@ -2,8 +2,8 @@
   {
     "amazon_prime_video": true,
     "amazon_prime_video_logo": "https://ondeassistir.tv/images-scr/channels/prime.png",
-    "audio_only_1": "Rádio Globo",
-    "audio_only_2": "Radio B",
+    "audio_only_1": "FALSE",
+    "audio_only_2": "FALSE",
     "away_team_abbr": "CEA",
     "away_team_logo": "https://ondeassistir.tv/images-scr/teams/brasil/badge/cea.png",
     "away_team_name": "Ceará",
