@@ -1,36 +1,61 @@
-import os
+from fastapi import FastAPI, Query, HTTPException
+from typing import Optional
 import json
-from flask import Flask, jsonify
-from flask_cors import CORS  # Add this import
+import os
+from cachetools import cached, TTLCache
 
-app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+app = FastAPI()
 
-# ... rest of your existing code ...
-base_dir = os.path.abspath(os.path.dirname(__file__))
-json_path = os.path.join(base_dir, 'matches.json')
+# Cache: 100 items, 10-minute TTL
+cache = TTLCache(maxsize=100, ttl=600)
 
-# Load the data
-data = []
+# Data location
+MATCHES_FILE = "data/matches.json"
 
-try:
-    with open(json_path, 'r') as file:
-        data = json.load(file)
-    print(f"✅ Successfully loaded data from {json_path}")
-    print(f"📊 Found {len(data)} matches")
-except Exception as e:
-    print(f"❌ Error loading JSON: {e}")
+# Channel logo base URL
+LOGO_BASE_URL = "https://ondeassistir.tv/images-scr/channels"
 
-@app.route('/')
-def home():
-    return "Brasileirão Broadcast API is running! 🎉 Use /matches endpoint"
+# Load all matches
+@cached(cache)
+def load_all_matches():
+    if not os.path.exists(MATCHES_FILE):
+        raise HTTPException(status_code=500, detail="matches.json not found")
+    with open(MATCHES_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-@app.route('/matches')
-def get_matches():
-    if data:
-        return jsonify(data)
-    else:
-        return jsonify({"error": "Data not loaded"}), 500
+# GET /matches
+@app.get("/matches")
+def get_matches(
+    country: str = Query(..., description="Country ID (e.g., 'brazil')"),
+    league: Optional[str] = Query(None, description="League ID (e.g., 'serie-a')"),
+    date: Optional[str] = Query(None, description="Date in YYYY-MM-DD format")
+):
+    try:
+        all_matches = load_all_matches()
+    except HTTPException as e:
+        raise e
 
-if __name__ == '__main__':
-    app.run(debug=True)
+    # Filter by country, league, date
+    filtered = [
+        match for match in all_matches
+        if match.get("country_id") == country
+        and (not league or match.get("league_id") == league)
+        and (not date or match.get("date") == date)
+    ]
+
+    # Add full logo URL to each channel
+    for match in filtered:
+        match["channels"] = [
+            {
+                "id": ch,
+                "logo": f"{LOGO_BASE_URL}/{ch}.png"
+            }
+            for ch in match.get("channel_ids", [])
+        ]
+
+    return {
+        "country": country,
+        "league": league,
+        "date": date,
+        "matches": filtered
+    }
