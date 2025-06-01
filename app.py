@@ -1,15 +1,17 @@
 import os
 import json
 from flask import Flask, jsonify
+from flask_cors import CORS  # Add this import
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
-# Get the path to the JSON file
+# ... rest of your existing code ...
 base_dir = os.path.abspath(os.path.dirname(__file__))
 json_path = os.path.join(base_dir, 'matches.json')
 
 # Load the data
-data = []  # Initialize as empty list
+data = []
 
 try:
     with open(json_path, 'r') as file:
