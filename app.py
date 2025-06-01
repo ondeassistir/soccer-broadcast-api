@@ -1,21 +1,23 @@
 import os
+import json
 from flask import Flask, jsonify
-import pandas as pd
 
 app = Flask(__name__)
 
-# Get the path to the CSV file
+# Get the path to the JSON file
 base_dir = os.path.abspath(os.path.dirname(__file__))
-csv_path = os.path.join(base_dir, 'matches.csv')
+json_path = os.path.join(base_dir, 'matches.json')
 
 # Load the data
+data = []  # Initialize as empty list
+
 try:
-    df = pd.read_csv(csv_path)
-    print(f"✅ Successfully loaded data from {csv_path}")
-    print(f"📊 Found {len(df)} matches")
+    with open(json_path, 'r') as file:
+        data = json.load(file)
+    print(f"✅ Successfully loaded data from {json_path}")
+    print(f"📊 Found {len(data)} matches")
 except Exception as e:
-    print(f"❌ Error loading CSV: {e}")
-    df = pd.DataFrame()
+    print(f"❌ Error loading JSON: {e}")
 
 @app.route('/')
 def home():
@@ -23,8 +25,8 @@ def home():
 
 @app.route('/matches')
 def get_matches():
-    if not df.empty:
-        return jsonify(df.to_dict(orient='records'))
+    if data:
+        return jsonify(data)
     else:
         return jsonify({"error": "Data not loaded"}), 500
 
