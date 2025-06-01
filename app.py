@@ -1,24 +1,16 @@
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
+import json
 import os
 
 app = FastAPI()
 
-@app.get("/data/matches")
+# Mount the "data" folder as static files accessible at "/data"
+app.mount("/data", StaticFiles(directory="data"), name="data")
+
+# Example API endpoint to serve matches from the JSON file
+@app.get("/matches")
 async def get_matches():
-    file_path = os.path.join("data", "matches.json")
-    return FileResponse(file_path, media_type="application/json")
-
-import os
-from fastapi import FastAPI
-
-app = FastAPI()
-
-@app.get("/debug-files")
-async def debug_files():
-    root_files = os.listdir(".")
-    data_files = os.listdir("./data") if os.path.exists("./data") else []
-    return {
-        "files_in_root": root_files,
-        "files_in_data": data_files
-    }
+    with open("data/matches.json", "r", encoding="utf-8") as f:
+        matches = json.load(f)
+    return matches
