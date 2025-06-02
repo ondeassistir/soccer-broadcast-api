@@ -9,31 +9,35 @@ app = FastAPI()
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Allow all origins (you can restrict to your domain)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Serve static files from /data
+# Mount static files from /data
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
 
 @app.get("/matches")
-async def get_enriched_matches():
+async def get_matches():
+    # Load matches
     with open("data/matches.json", "r", encoding="utf-8") as f:
         matches = json.load(f)
 
+    # Load teams
     with open("data/teams.json", "r", encoding="utf-8") as f:
         teams = json.load(f)
 
     enriched_matches = []
-    for match in matches:
-	home_team_code = match["home_team"].upper()
-	away_team_code = match["away_team"].upper()
 
-	home_team = teams.get(home_team_code, {})
-	away_team = teams.get(away_team_code, {})
+    for match in matches:
+        # Convert team codes to uppercase to match teams.json keys
+        home_team_code = match["home_team"].upper()
+        away_team_code = match["away_team"].upper()
+
+        home_team = teams.get(home_team_code, {})
+        away_team = teams.get(away_team_code, {})
 
         enriched_matches.append({
             "match_id": f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_team_code.lower()}_x_{away_team_code.lower()}",
@@ -42,16 +46,16 @@ async def get_enriched_matches():
             "kickoff": match["kickoff"],
             "broadcasts": match.get("broadcasts", {}),
             "home_team": {
-                "id": home_team_code,
+                "id": home_team_code.lower(),
                 "name": home_team.get("name", home_team_code),
                 "badge": home_team.get("badge", ""),
-                "venue": home_team.get("venue", ""),
+                "venue": home_team.get("venue", "")
             },
             "away_team": {
-                "id": away_team_code,
+                "id": away_team_code.lower(),
                 "name": away_team.get("name", away_team_code),
                 "badge": away_team.get("badge", ""),
-                "venue": away_team.get("venue", ""),
+                "venue": away_team.get("venue", "")
             }
         })
 
