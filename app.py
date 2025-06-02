@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 import json
@@ -6,7 +6,7 @@ import os
 
 app = FastAPI()
 
-# Enable CORS
+# Enable CORS for all origins (adjust as needed)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -15,54 +15,39 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount static files at /data
+# Mount static files (like matches.json and teams.json)
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
 
-@app.get("/matches")
-async def get_matches():
-    # Load matches
+# Utility to load teams
+def load_teams():
+    with open("data/teams.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+# Utility to load and enrich matches
+def load_enriched_matches():
     with open("data/matches.json", "r", encoding="utf-8") as f:
         matches = json.load(f)
 
-    # Load teams
-    with open("data/teams.json", "r", encoding="utf-8") as f:
-        teams = json.load(f)
-
+    teams = load_teams()
     enriched_matches = []
 
     for match in matches:
-        # Normalize team codes to uppercase for lookup
-        home_team_code = match["home_team"].upper()
-        away_team_code = match["away_team"].upper()
+        home_code = match["home_team"].upper()
+        away_code = match["away_team"].upper()
 
-        home_team = teams.get(home_team_code, {})
-        away_team = teams.get(away_team_code, {})
+        home_team = teams.get(home_code, {})
+        away_team = teams.get(away_code, {})
+
+        match_id = f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_code.lower()}_x_{away_code.lower()}"
 
         enriched_matches.append({
-            "match_id": f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_team_code.lower()}_x_{away_team_code.lower()}",
+            "match_id": match_id,
             "league": match["league"],
             "league_week_number": match.get("league_week_number"),
             "kickoff": match["kickoff"],
             "broadcasts": match.get("broadcasts", {}),
             "home_team": {
-                "id": home_team_code.lower(),
-                "name": home_team.get("name", home_team_code),
-                "badge": home_team.get("badge", ""),
-                "venue": home_team.get("venue", "")
-            },
-            "away_team": {
-                "id": away_team_code.lower(),
-                "name": away_team.get("name", away_team_code),
-                "badge": away_team.get("badge", ""),
-                "venue": away_team.get("venue", "")
-            }
-        })
-
-    return enriched_matches
-
-
-@app.get("/debug/data-files")
-async def list_data_files():
-    files = os.listdir("data")
-    return {"files_in_data_folder": files}
+                "id": home_code.lower(),
+                "name": home_team.get("name", h_
