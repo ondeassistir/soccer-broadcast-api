@@ -29,11 +29,11 @@ async def get_enriched_matches():
 
     enriched_matches = []
     for match in matches:
-        home_team_code = match["home_team"]
-        away_team_code = match["away_team"]
+	home_team_code = match["home_team"].upper()
+	away_team_code = match["away_team"].upper()
 
-        home_team = teams.get(home_team_code.upper(), {})
-        away_team = teams.get(away_team_code.upper(), {})
+	home_team = teams.get(home_team_code, {})
+	away_team = teams.get(away_team_code, {})
 
         enriched_matches.append({
             "match_id": f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_team_code.lower()}_x_{away_team_code.lower()}",
