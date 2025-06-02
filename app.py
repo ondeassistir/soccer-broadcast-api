@@ -9,13 +9,13 @@ app = FastAPI()
 # Enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all origins (you can restrict to your domain)
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount static files from /data
+# Mount static files at /data
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
 
@@ -32,7 +32,7 @@ async def get_matches():
     enriched_matches = []
 
     for match in matches:
-        # Convert team codes to uppercase to match teams.json keys
+        # Normalize team codes to uppercase for lookup
         home_team_code = match["home_team"].upper()
         away_team_code = match["away_team"].upper()
 
