@@ -1,136 +1,128 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2638
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
-
-\f0\fs24 \cf0 \{\
-  "globo": \{\
-    "id": "globo",\
-    "name": "TV Globo",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/globo.png",\
-    "country": "BR"\
-  \},\
-  "globoplay": \{\
-    "id": "globoplay",\
-    "name": "Globoplay",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/globoplay.png",\
-    "country": "BR"\
-  \},\
-  "sportv": \{\
-    "id": "sportv",\
-    "name": "SporTV",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/sportv.png",\
-    "country": "BR"\
-  \},\
-  "premiere": \{\
-    "id": "premiere",\
-    "name": "Premiere",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/premiere.png",\
-    "country": "BR"\
-  \},\
-  "recordtv": \{\
-    "id": "recordtv",\
-    "name": "Record TV",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/recordtv.png",\
-    "country": "BR"\
-  \},\
-  "sbt": \{\
-    "id": "sbt",\
-    "name": "SBT",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/sbt.png",\
-    "country": "BR"\
-  \},\
-  "youtube": \{\
-    "id": "youtube",\
-    "name": "Youtube (Gr\'e1tis)",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/youtube.png",\
-    "country": "BR"\
-  \},\
-  "primevideo": \{\
-    "id": "primevideo",\
-    "name": "Amazon Prime",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/primevideo.png",\
-    "country": "BR"\
-  \},\
-  "cultura": \{\
-    "id": "cultura",\
-    "name": "TV Cultura",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/cultura.png",\
-    "country": "BR"\
-  \},\
-  "espn": \{\
-    "id": "espn",\
-    "name": "ESPN/Disney +",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/espn.png",\
-    "country": "BR"\
-  \},\
-  "tnt": \{\
-    "id": "tnt",\
-    "name": "TNT Sports/Max",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/tnt.png",\
-    "country": "BR"\
-  \},\
-  "nossofutebol": \{\
-    "id": "nossofutebol",\
-    "name": "Nosso Futebol",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/nossofutebol.png",\
-    "country": "BR"\
-  \},\
-  "goat": \{\
-    "id": "goat",\
-    "name": "Goat",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/goat.png",\
-    "country": "BR"\
-  \},\
-  "paramount": \{\
-    "id": "paramount",\
-    "name": "Paramount +",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/paramount.png",\
-    "country": "BR"\
-  \},\
-  "dazn": \{\
-    "id": "dazn",\
-    "name": "DAZN",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/dazn.png",\
-    "country": "BR"\
-  \},\
-  "onefootball": \{\
-    "id": "onefootball",\
-    "name": "OneFootball",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/onefootball.png",\
-    "country": "BR"\
-  \},\
-  "band": \{\
-    "id": "band",\
-    "name": "Band",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/band.png",\
-    "country": "BR"\
-  \},\
-  "redetv": \{\
-    "id": "redetv",\
-    "name": "RedeTV!",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/redetv.png",\
-    "country": "BR"\
-  \},\
-  "streaming": \{\
-    "id": "streaming",\
-    "name": "Streaming (Gr\'e1tis)",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/streaming.png",\
-    "country": "BR"\
-  \},\
-  "react": \{\
-    "id": "react",\
-    "name": "React (Audio)",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/react.png",\
-    "country": "BR"\
-  \},\
-  "radio2": \{\
-    "id": "radio2",\
-    "name": "R\'e1dio 2 (Audio)",\
-    "logo": "https://ondeassistir.tv/images-scr/channels/radio2.png",\
-    "country": "BR"\
-  \}\
-\}\
+{
+  "globo": {
+    "id": "globo",
+    "name": "TV Globo",
+    "logo": "https://ondeassistir.tv/images-scr/channels/globo.png",
+    "country": "BR"
+  },
+  "globoplay": {
+    "id": "globoplay",
+    "name": "Globoplay",
+    "logo": "https://ondeassistir.tv/images-scr/channels/globoplay.png",
+    "country": "BR"
+  },
+  "sportv": {
+    "id": "sportv",
+    "name": "SporTV",
+    "logo": "https://ondeassistir.tv/images-scr/channels/sportv.png",
+    "country": "BR"
+  },
+  "premiere": {
+    "id": "premiere",
+    "name": "Premiere",
+    "logo": "https://ondeassistir.tv/images-scr/channels/premiere.png",
+    "country": "BR"
+  },
+  "recordtv": {
+    "id": "recordtv",
+    "name": "Record TV",
+    "logo": "https://ondeassistir.tv/images-scr/channels/recordtv.png",
+    "country": "BR"
+  },
+  "sbt": {
+    "id": "sbt",
+    "name": "SBT",
+    "logo": "https://ondeassistir.tv/images-scr/channels/sbt.png",
+    "country": "BR"
+  },
+  "youtube": {
+    "id": "youtube",
+    "name": "Youtube (Grátis)",
+    "logo": "https://ondeassistir.tv/images-scr/channels/youtube.png",
+    "country": "BR"
+  },
+  "primevideo": {
+    "id": "primevideo",
+    "name": "Amazon Prime",
+    "logo": "https://ondeassistir.tv/images-scr/channels/primevideo.png",
+    "country": "BR"
+  },
+  "cultura": {
+    "id": "cultura",
+    "name": "TV Cultura",
+    "logo": "https://ondeassistir.tv/images-scr/channels/cultura.png",
+    "country": "BR"
+  },
+  "espn": {
+    "id": "espn",
+    "name": "ESPN/Disney +",
+    "logo": "https://ondeassistir.tv/images-scr/channels/espn.png",
+    "country": "BR"
+  },
+  "tnt": {
+    "id": "tnt",
+    "name": "TNT Sports/Max",
+    "logo": "https://ondeassistir.tv/images-scr/channels/tnt.png",
+    "country": "BR"
+  },
+  "nossofutebol": {
+    "id": "nossofutebol",
+    "name": "Nosso Futebol",
+    "logo": "https://ondeassistir.tv/images-scr/channels/nossofutebol.png",
+    "country": "BR"
+  },
+  "goat": {
+    "id": "goat",
+    "name": "Goat",
+    "logo": "https://ondeassistir.tv/images-scr/channels/goat.png",
+    "country": "BR"
+  },
+  "paramount": {
+    "id": "paramount",
+    "name": "Paramount +",
+    "logo": "https://ondeassistir.tv/images-scr/channels/paramount.png",
+    "country": "BR"
+  },
+  "dazn": {
+    "id": "dazn",
+    "name": "DAZN",
+    "logo": "https://ondeassistir.tv/images-scr/channels/dazn.png",
+    "country": "BR"
+  },
+  "onefootball": {
+    "id": "onefootball",
+    "name": "OneFootball",
+    "logo": "https://ondeassistir.tv/images-scr/channels/onefootball.png",
+    "country": "BR"
+  },
+  "band": {
+    "id": "band",
+    "name": "Band",
+    "logo": "https://ondeassistir.tv/images-scr/channels/band.png",
+    "country": "BR"
+  },
+  "redetv": {
+    "id": "redetv",
+    "name": "RedeTV!",
+    "logo": "https://ondeassistir.tv/images-scr/channels/redetv.png",
+    "country": "BR"
+  },
+  "streaming": {
+    "id": "streaming",
+    "name": "Streaming (Grátis)",
+    "logo": "https://ondeassistir.tv/images-scr/channels/streaming.png",
+    "country": "BR"
+  },
+  "react": {
+    "id": "react",
+    "name": "React (Audio)",
+    "logo": "https://ondeassistir.tv/images-scr/channels/react.png",
+    "country": "BR"
+  },
+  "radio2": {
+    "id": "radio2",
+    "name": "Rádio 2 (Audio)",
+    "logo": "https://ondeassistir.tv/images-scr/channels/radio2.png",
+    "country": "BR"
+  }
 }
