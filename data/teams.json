@@ -1,10 +1,10 @@
 {
-  "CAM": {
+  "Cam": {
     "id": "CAM",
     "name": "Atlético Mineiro",
     "short_name": "CAM",
     "venue": "Arena MRV",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CAM.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cam.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -13,7 +13,7 @@
     "name": "Bahia",
     "short_name": "BAH",
     "venue": "Arena Fonte Nova",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/BAH.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/bah.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -22,16 +22,16 @@
     "name": "Botafogo",
     "short_name": "BOT",
     "venue": "Nilton Santos",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/BOT.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/bot.png",
     "country": "BR",
-    "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
+    "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA", "LBERTADORES"]
   },
   "cea": {
     "id": "cea",
     "name": "Ceará",
     "short_name": "CEA",
     "venue": "Castelão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CEA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cea.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -40,7 +40,7 @@
     "name": "Corinthians",
     "short_name": "COR",
     "venue": "Neo Química Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/COR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cor.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -49,7 +49,7 @@
     "name": "Cruzeiro",
     "short_name": "CRU",
     "venue": "Mineirão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CRU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cru.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -58,7 +58,7 @@
     "name": "Flamengo",
     "short_name": "FLA",
     "venue": "Maracanã",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/FLA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/fla.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -67,7 +67,7 @@
     "name": "Fluminense",
     "short_name": "FLU",
     "venue": "Maracanã",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/FLU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/flu.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -76,7 +76,7 @@
     "name": "Fortaleza",
     "short_name": "FOR",
     "venue": "Castelão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/FOR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/for.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -85,7 +85,7 @@
     "name": "Grêmio",
     "short_name": "GRE",
     "venue": "Arena do Grêmio",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/GRE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/gre.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -94,7 +94,7 @@
     "name": "Internacional",
     "short_name": "INT",
     "venue": "Beira-Rio",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/INT.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/int.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -103,7 +103,7 @@
     "name": "Juventude",
     "short_name": "JUV",
     "venue": "Alfredo Jaconi",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/JUV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/juv.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -112,7 +112,7 @@
     "name": "Mirassol",
     "short_name": "MIR",
     "venue": "Estádio Municipal",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/MIR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/mir.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -121,7 +121,7 @@
     "name": "Palmeiras",
     "short_name": "PAL",
     "venue": "Allianz Parque",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/PAL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/pal.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -130,7 +130,7 @@
     "name": "Red Bull Bragantino",
     "short_name": "RBB",
     "venue": "Nabi Abi Chedid",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/RBB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/rbb.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -139,7 +139,7 @@
     "name": "Santos",
     "short_name": "SAN",
     "venue": "Vila Belmiro",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/SAN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/san.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -148,16 +148,16 @@
     "name": "São Paulo",
     "short_name": "SAO",
     "venue": "Morumbi",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/sao.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/sao.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "spo": {
-    "id": "spo",
+  "spt": {
+    "id": "spt",
     "name": "Sport",
     "short_name": "SPO",
     "venue": "Ilha do Retiro",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/SPO.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/spt.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -166,7 +166,7 @@
     "name": "Vasco da Gama",
     "short_name": "VAS",
     "venue": "São Januário",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/VAS.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/vas.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -175,7 +175,7 @@
     "name": "Vitória",
     "short_name": "VIT",
     "venue": "Barradão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/VIT.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/vit.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -184,7 +184,7 @@
     "name": "Amazonas",
     "short_name": "AMA",
     "venue": "Arena da Amazônia",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/AMA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/AMA.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -193,7 +193,7 @@
     "name": "América Mineiro",
     "short_name": "AME",
     "venue": "Independência",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/AME.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/AME.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -202,7 +202,7 @@
     "name": "Athletic",
     "short_name": "ATH",
     "venue": "Estádio Joaquim Portugal",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/ATH.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/ATH.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -211,7 +211,7 @@
     "name": "Athletico Paranaense",
     "short_name": "ATP",
     "venue": "Arena da Baixada",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/ATP.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/ATP.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -220,7 +220,7 @@
     "name": "Atlético Goianiense",
     "short_name": "ATG",
     "venue": "Antônio Accioly",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/ATG.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/ATG.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -229,7 +229,7 @@
     "name": "Avaí",
     "short_name": "AVA",
     "venue": "Ressacada",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/AVA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/AVA.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -238,7 +238,7 @@
     "name": "Botafogo-SP",
     "short_name": "BTS",
     "venue": "Santa Cruz",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/BTS.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/BTS.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -247,7 +247,7 @@
     "name": "Chapecoense",
     "short_name": "CHA",
     "venue": "Arena Condá",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CHA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CHA.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -256,7 +256,7 @@
     "name": "CRB",
     "short_name": "CRB",
     "venue": "Rei Pelé",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CRB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CRB.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -265,7 +265,7 @@
     "name": "Criciúma",
     "short_name": "CRI",
     "venue": "Heriberto Hülse",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CRI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CRI.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -274,7 +274,7 @@
     "name": "Cuiabá",
     "short_name": "CUI",
     "venue": "Arena Pantanal",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CUI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CUI.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -283,7 +283,7 @@
     "name": "Ferroviária",
     "short_name": "FER",
     "venue": "Fonte Luminosa",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/FER.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FER.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -292,7 +292,7 @@
     "name": "Goiás",
     "short_name": "GOI",
     "venue": "Serra Dourada",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/GOI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/GOI.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -301,7 +301,7 @@
     "name": "Novorizontino",
     "short_name": "NOV",
     "venue": "Jorge Ismael de Biasi",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/NOV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/NOV.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -310,7 +310,7 @@
     "name": "Operário Ferroviário",
     "short_name": "OPE",
     "venue": "Germano Krüger",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/OPE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/OPE.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -319,7 +319,7 @@
     "name": "Paysandu",
     "short_name": "PAY",
     "venue": "Curuzu",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/PAY.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/PAY.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -328,7 +328,7 @@
     "name": "Remo",
     "short_name": "REM",
     "venue": "Baenão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/REM.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/REM.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -337,7 +337,7 @@
     "name": "Vila Nova",
     "short_name": "VIL",
     "venue": "OBA",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/VIL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/VIL.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -346,7 +346,7 @@
     "name": "Volta Redonda",
     "short_name": "VOL",
     "venue": "Raulino de Oliveira",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/VOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/VOL.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -355,7 +355,7 @@
     "name": "CSA",
     "short_name": "CSA",
     "venue": "Rei Pelé",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/CSA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CSA.png",
     "country": "BR",
     "leagues": ["CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -364,7 +364,7 @@
     "name": "Retrô",
     "short_name": "RET",
     "venue": "Arena de Pernambuco",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/RET.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/RET.png",
     "country": "BR",
     "leagues": ["CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -373,7 +373,7 @@
     "name": "Brasil",
     "short_name": "BRA",
     "venue": "Multiple",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/BRA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/BRA.png",
     "country": "BR",
     "leagues": ["AMISTOSOS_SELECAO", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -382,7 +382,7 @@
     "name": "Brasil F",
     "short_name": "BRF",
     "venue": "Multiple",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/BRF.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/BRF.png",
     "country": "BR",
     "leagues": ["AMISTOSOS_SELECAO", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -391,7 +391,7 @@
     "name": "Team Feminino A",
     "short_name": "TFA",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/TFA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/TFA.png",
     "country": "BR",
     "leagues": ["FUT_FEM_BRA", "ESTADUAIS_BRA"]
   },
@@ -400,7 +400,7 @@
     "name": "Team Feminino B",
     "short_name": "TFB",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/TFB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/TFB.png",
     "country": "BR",
     "leagues": ["FUT_FEM_BRA", "ESTADUAIS_BRA"]
   },
@@ -409,7 +409,7 @@
     "name": "Team Estadual A",
     "short_name": "TEA",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/TEA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/TEA.png",
     "country": "BR",
     "leagues": ["ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -418,7 +418,7 @@
     "name": "Team Estadual B",
     "short_name": "TEB",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Brazil/badge/TEB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/TEB.png",
     "country": "BR",
     "leagues": ["ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -881,17 +881,17 @@
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
-  "int": {
-    "id": "int",
-    "name": "Inter Milan",
+  "Int-milan": {
+    "id": "int-milan",
+    "name": "Internazionale",
     "short_name": "INT",
     "venue": "San Siro",
     "badge": "https://ondeassistir.tv/images-scr/teams/Italy/badge/INT.png",
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
-  "juv": {
-    "id": "juv",
+  "Juv-ita": {
+    "id": "juv-ita",
     "name": "Juventus",
     "short_name": "JUV",
     "venue": "Allianz Stadium",
@@ -1745,10 +1745,10 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "int": {
-    "id": "int",
+  "int-mia": {
+    "id": "int-mia",
     "name": "Inter Miami CF",
-    "short_name": "INT",
+    "short_name": "MIA",
     "venue": "DRV PNK Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/north_america/badge/INT.png",
     "country": "NA",

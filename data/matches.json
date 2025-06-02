@@ -1,312 +1,343 @@
 [
   {
-    "match_id": "BRA_A_20250606_bot_cea",
+    "home_team": "bot",
+    "away_team": "cea",
+    "kickoff": "2025-06-06T20:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-06-06 20:00",
-    "home_team_id": "bot",
-    "away_team_id": "cea",
-    "channels": ["tv_globo", "premiere"],
     "league_week_number": 10,
-    "match_venue": "Nilton Santos"
+    "broadcasts": {
+      "br": ["globo", "premiere", "radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250531_bah_sao",
+    "home_team": "bah",
+    "away_team": "sao",
+    "kickoff": "2025-05-31T18:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-05-31 18:30",
-    "home_team_id": "bah",
-    "away_team_id": "sao",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Arena Fonte Nova"
+    "broadcasts": {
+      "br": ["globo", "premiere", "radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250531_vas_rbb",
+    "home_team": "vas",
+    "away_team": "rbb",
+    "kickoff": "2025-05-31T21:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-05-31 21:00",
-    "home_team_id": "vas",
-    "away_team_id": "rbb",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "São Januário"
+    "broadcasts": {
+      "br": ["globo", "premiere", "radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_mir_spt",
+    "home_team": "mir",
+    "away_team": "spt",
+    "kickoff": "2025-01-06T11:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 11:00",
-    "home_team_id": "mir",
-    "away_team_id": "spt",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Estádio José Maria de Campos Maia"
+    "broadcasts": {
+      "br": ["globo", "premiere", "radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_san_bot",
+    "home_team": "san",
+    "away_team": "bot",
+    "kickoff": "2025-01-06T16:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 16:00",
-    "home_team_id": "san",
-    "away_team_id": "bot",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Vila Belmiro"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_juv_gre",
+    "home_team": "juv",
+    "away_team": "gre",
+    "kickoff": "2025-01-06T16:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 16:00",
-    "home_team_id": "juv",
-    "away_team_id": "gre",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Alfredo Jaconi"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_fla_for",
+    "home_team": "fla",
+    "away_team": "for",
+    "kickoff": "2025-01-06T18:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 18:30",
-    "home_team_id": "fla",
-    "away_team_id": "for",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Maracanã"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_cor_vit",
+    "home_team": "cor",
+    "away_team": "vit",
+    "kickoff": "2025-01-06T18:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 18:30",
-    "home_team_id": "cor",
-    "away_team_id": "vit",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Neo Química Arena"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_cea_cam",
+    "home_team": "cea",
+    "away_team": "cam",
+    "kickoff": "2025-01-06T18:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 18:30",
-    "home_team_id": "cea",
-    "away_team_id": "cam",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Castelão"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_cru_pal",
+    "home_team": "cru",
+    "away_team": "pal",
+    "kickoff": "2025-01-06T19:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 19:30",
-    "home_team_id": "cru",
-    "away_team_id": "pal",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Mineirão"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20250106_int_flu",
+    "home_team": "int",
+    "away_team": "flu",
+    "kickoff": "2025-01-06T20:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-01-06 20:30",
-    "home_team_id": "int",
-    "away_team_id": "flu",
-    "channels": [],
     "league_week_number": 11,
-    "match_venue": "Beira-Rio"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20251206_rbb_bah",
+    "home_team": "rbb",
+    "away_team": "bah",
+    "kickoff": "2025-12-06T19:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-12-06 19:00",
-    "home_team_id": "rbb",
-    "away_team_id": "bah",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Nabi Abi Chedid"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20251206_vit_cru",
+    "home_team": "vit",
+    "away_team": "cru",
+    "kickoff": "2025-12-06T19:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-12-06 19:00",
-    "home_team_id": "vit",
-    "away_team_id": "cru",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Barradão"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20251206_for_san",
+    "home_team": "for",
+    "away_team": "san",
+    "kickoff": "2025-12-06T19:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-12-06 19:30",
-    "home_team_id": "for",
-    "away_team_id": "san",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Castelão"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20251206_gre_cor",
+    "home_team": "gre",
+    "away_team": "cor",
+    "kickoff": "2025-12-06T20:00:00Z",
     "league": "BRA_A",
-    "match_time": "2025-12-06 20:00",
-    "home_team_id": "gre",
-    "away_team_id": "cor",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Arena do Grêmio"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20251206_sao_vas",
+    "home_team": "sao",
+    "away_team": "vas",
+    "kickoff": "2025-12-06T21:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-12-06 21:30",
-    "home_team_id": "sao",
-    "away_team_id": "vas",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Morumbi"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_20251206_cam_int",
+    "home_team": "cam",
+    "away_team": "int",
+    "kickoff": "2025-12-06T21:30:00Z",
     "league": "BRA_A",
-    "match_time": "2025-12-06 21:30",
-    "home_team_id": "cam",
-    "away_team_id": "int",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Arena MRV"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_flu_cea",
+    "home_team": "flu",
+    "away_team": "cea",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "flu",
-    "away_team_id": "cea",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Maracanã"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_bot_mir",
+    "home_team": "bot",
+    "away_team": "mir",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "bot",
-    "away_team_id": "mir",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Nilton Santos"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_pal_juv",
+    "home_team": "pal",
+    "away_team": "juv",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "pal",
-    "away_team_id": "juv",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Allianz Parque"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_spt_fla",
+    "home_team": "spt",
+    "away_team": "fla",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "spt",
-    "away_team_id": "fla",
-    "channels": [],
     "league_week_number": 12,
-    "match_venue": "Ilha do Retiro"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_fla_sao",
+    "home_team": "fla",
+    "away_team": "sao",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "fla",
-    "away_team_id": "sao",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Maracanã"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_vas_bot",
+    "home_team": "vas",
+    "away_team": "bot",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "vas",
-    "away_team_id": "bot",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "São Januário"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_cor_rbb",
+    "home_team": "cor",
+    "away_team": "rbb",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "cor",
-    "away_team_id": "rbb",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Neo Química Arena"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_san_pal",
+    "home_team": "san",
+    "away_team": "pal",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "san",
-    "away_team_id": "pal",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Vila Belmiro"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_mir_flu",
+    "home_team": "mir",
+    "away_team": "flu",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "mir",
-    "away_team_id": "flu",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Estádio José Maria de Campos Maia"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_cru_gre",
+    "home_team": "cru",
+    "away_team": "gre",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "cru",
-    "away_team_id": "gre",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Mineirão"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_int_vit",
+    "home_team": "int",
+    "away_team": "vit",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "int",
-    "away_team_id": "vit",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Beira-Rio"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_bah_cam",
+    "home_team": "bah",
+    "away_team": "cam",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "bah",
-    "away_team_id": "cam",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Arena Fonte Nova"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_for_cea",
+    "home_team": "for",
+    "away_team": "cea",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "for",
-    "away_team_id": "cea",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Castelão"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   },
   {
-    "match_id": "BRA_A_00000000_juv_spt",
+    "home_team": "juv",
+    "away_team": "spt",
+    "kickoff": "No time yet",
     "league": "BRA_A",
-    "match_time": null,
-    "home_team_id": "juv",
-    "away_team_id": "spt",
-    "channels": [],
     "league_week_number": 13,
-    "match_venue": "Alfredo Jaconi"
+    "broadcasts": {
+      "br": ["radio2"],
+      "us": ["streaming"]
+    }
   }
 ]
