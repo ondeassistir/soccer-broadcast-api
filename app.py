@@ -50,4 +50,36 @@ def load_enriched_matches():
             "broadcasts": match.get("broadcasts", {}),
             "home_team": {
                 "id": home_code.lower(),
-                "name": home_team.get("name", h_
+                "name": home_team.get("name", home_code),
+                "badge": home_team.get("badge", ""),
+                "venue": home_team.get("venue", ""),
+            },
+            "away_team": {
+                "id": away_code.lower(),
+                "name": away_team.get("name", away_code),
+                "badge": away_team.get("badge", ""),
+                "venue": away_team.get("venue", ""),
+            }
+        })
+
+    return enriched_matches
+
+
+@app.get("/matches")
+async def get_all_matches():
+    return load_enriched_matches()
+
+
+@app.get("/matches/{match_id}")
+async def get_match_by_id(match_id: str):
+    matches = load_enriched_matches()
+    for match in matches:
+        if match["match_id"] == match_id:
+            return match
+    raise HTTPException(status_code=404, detail="Match not found")
+
+
+@app.get("/debug/data-files")
+async def list_data_files():
+    files = os.listdir("data")
+    return {"files_in_data_folder": files}
