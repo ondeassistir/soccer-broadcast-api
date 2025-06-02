@@ -7,147 +7,70 @@ from datetime import datetime
 
 app = FastAPI()
 
-# CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Change this to your frontend URL in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount static files
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
+def parse_date(date_str: str):
+    try:
+        return datetime.strptime(date_str, "%Y-%m-%d").date()
+    except Exception:
+        return None
 
 @app.get("/matches")
-@app.get("/matches/{match_id}")
-async def get_match_detail(match_id: str):
-    from urllib.parse import unquote
-    match_id = unquote(match_id)  # Ensure encoded characters are handled
-
-    with open("data/matches.json", "r", encoding="utf-8") as f:
-        matches = json.load(f)
-
-    with open("data/teams.json", "r", encoding="utf-8") as f:
-        teams = json.load(f)
-
-    for match in matches:
-        home_code = match["home_team"].upper()
-        away_code = match["away_team"].upper()
-        current_id = f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_code.lower()}_x_{away_code.lower()}"
-
-        if current_id == match_id:
-            home = teams.get(home_code, {})
-            away = teams.get(away_code, {})
-            return {
-                "match_id": current_id,
-                "league": match["league"],
-                "league_week_number": match.get("league_week_number"),
-                "kickoff": match["kickoff"],
-                "broadcasts": match.get("broadcasts", {}),
-                "home_team": {
-                    "id": home_code.lower(),
-                    "name": home.get("name", home_code),
-                    "badge": home.get("badge", ""),
-                    "venue": home.get("venue", "")
-                },
-                "away_team": {
-                    "id": away_code.lower(),
-                    "name": away.get("name", away_code),
-                    "badge": away.get("badge", ""),
-                    "venue": away.get("venue", "")
-                }
-            }
-
-    return {"error": "Match not found"}
-
 async def get_matches(
-    league: str = Query(None),
-    country: str = Query(None),
-    date: str = Query(None),  # Format: YYYY-MM-DD
+    league: str | None = Query(None, description="League code, e.g. BRA_A"),
+    date: str | None = Query(None, description="Match date, format YYYY-MM-DD"),
+    country: str | None = Query(None, description="Country code for broadcast filtering, e.g. br"),
 ):
     with open("data/matches.json", "r", encoding="utf-8") as f:
         matches = json.load(f)
 
-    with open("data/teams.json", "r", encoding="utf-8") as f:
-        teams = json.load(f)
+    filtered = []
 
-    enriched_matches = []
+    filter_date = parse_date(date) if date else None
+
     for match in matches:
-        home_code = match["home_team"].upper()
-        away_code = match["away_team"].upper()
-        home = teams.get(home_code, {})
-        away = teams.get(away_code, {})
+        # Filter by league
+        if league and match.get("league") != league:
+            continue
 
-        # Country-level filtering (based on broadcasts)
+        # Filter by date (compare only date portion of kickoff)
+        if filter_date:
+            try:
+                kickoff_date = datetime.fromisoformat(match["kickoff"].replace("Z", "+00:00")).date()
+                if kickoff_date != filter_date:
+                    continue
+            except Exception:
+                continue
+
+        # Filter by country in broadcasts
         if country:
             broadcasts = match.get("broadcasts", {})
             if country.lower() not in broadcasts:
                 continue
 
-        # Date filtering
-        if date and match["kickoff"] != "No time yet":
-            try:
-                match_date = datetime.fromisoformat(match["kickoff"].replace("Z", "+00:00")).date()
-                if match_date.isoformat() != date:
-                    continue
-            except:
-                continue
+        filtered.append(match)
 
-        enriched_matches.append({
-            "match_id": f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_code.lower()}_x_{away_code.lower()}",
-            "league": match["league"],
-            "league_week_number": match.get("league_week_number"),
-            "kickoff": match["kickoff"],
-            "broadcasts": match.get("broadcasts", {}),
-            "home_team": {
-                "id": home_code.lower(),
-                "name": home.get("name", home_code),
-                "badge": home.get("badge", ""),
-                "venue": home.get("venue", "")
-            },
-            "away_team": {
-                "id": away_code.lower(),
-                "name": away.get("name", away_code),
-                "badge": away.get("badge", ""),
-                "venue": away.get("venue", "")
-            }
-        })
-
-    # League filtering after enrichment
-    if league:
-        enriched_matches = [m for m in enriched_matches if m["league"] == league]
-
-    return enriched_matches
+    return filtered
 
 @app.get("/standings/{league}")
 async def get_standings(league: str):
-    import os
-
-    league = league.upper()
-    standings_file = f"data/standings_{league}.json"
-
-    if not os.path.exists(standings_file):
-        return {"error": f"Standings file for league {league} not found"}
-
-    with open(standings_file, "r", encoding="utf-8") as f:
+    filename = f"data/standings-{league}.json"
+    if not os.path.exists(filename):
+        return {"error": "League standings not found."}
+    with open(filename, "r", encoding="utf-8") as f:
         standings = json.load(f)
+    return standings
 
-    with open("data/teams.json", "r", encoding="utf-8") as f:
-        teams = json.load(f)
+# ... (rest of your existing app.py including /admin)
 
-    enriched = []
-    for row in standings:
-        team_code = row["team_id"].upper()
-        team = teams.get(team_code, {})
-        enriched.append({
-            **row,
-            "team_name": team.get("name", team_code),
-            "badge": team.get("badge", ""),
-        })
-
-    return enriched
 
 from fastapi.responses import HTMLResponse
 
