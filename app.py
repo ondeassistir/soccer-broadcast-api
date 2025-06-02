@@ -30,31 +30,31 @@ async def get_matches():
 
     enriched_matches = []
     for match in raw_matches:
-        home_team_code = match["home_team"]
-        away_team_code = match["away_team"]
+        home_code = match["home_team"].upper()
+	away_code = match["away_team"].upper()
 
-        home_team = teams.get(home_team_code.upper(), {})
-        away_team = teams.get(away_team_code.upper(), {})
+	home_team = teams_data.get(home_code, {"venue": "Unknown", "badge": ""})
+	away_team = teams_data.get(away_code, {"venue": "Unknown", "badge": ""})
 
         enriched_matches.append({
-            "match_id": f"{match['league']}_{match['kickoff']}_{home_team_code}_x_{away_team_code}",
-            "league": match["league"],
-            "league_week_number": match.get("league_week_number"),
-            "kickoff": match["kickoff"],
-            "broadcasts": match.get("broadcasts", {}),
-            "home_team": {
-                "id": home_team_code,
-                "name": home_team.get("name", home_team_code),
-                "badge": home_team.get("badge", ""),
-                "venue": home_team.get("venue", ""),
-            },
-            "away_team": {
-                "id": away_team_code,
-                "name": away_team.get("name", away_team_code),
-                "badge": away_team.get("badge", ""),
-                "venue": away_team.get("venue", ""),
-            }
-        })
+    "match_id": f"{match['league']}_{match['kickoff']}_{home_team_code}_x_{away_team_code}",
+    "league": match["league"],
+    "league_week_number": match.get("league_week_number"),
+    "kickoff": match["kickoff"],
+    "broadcasts": match.get("broadcasts", {}),
+    "home_team": {
+        "id": home_team_code,
+        "name": home_team.get("name", home_team_code),
+        "badge": home_team.get("badge", ""),
+        "venue": home_team.get("venue", "Unknown"),
+    },
+    "away_team": {
+        "id": away_team_code,
+        "name": away_team.get("name", away_team_code),
+        "badge": away_team.get("badge", ""),
+        "venue": away_team.get("venue", "Unknown"),
+    }
+})
 
     return enriched_matches
 
