@@ -197,8 +197,8 @@
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "ath": {
-    "id": "ATH",
+  "athmg": {
+    "id": "ATHMG",
     "name": "Athletic",
     "short_name": "ATH",
     "venue": "Estádio Joaquim Portugal",
@@ -206,10 +206,10 @@
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "atp": {
-    "id": "ATP",
+  "Cap": {
+    "id": "CAP",
     "name": "Athletico Paranaense",
-    "short_name": "ATP",
+    "short_name": "CAP",
     "venue": "Arena da Baixada",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/ATP.png",
     "country": "BR",
@@ -332,10 +332,10 @@
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "vil": {
-    "id": "VIL",
+  "vno": {
+    "id": "VNO",
     "name": "Vila Nova",
-    "short_name": "VIL",
+    "short_name": "VNO",
     "venue": "OBA",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/VIL.png",
     "country": "BR",
@@ -404,19 +404,19 @@
     "country": "BR",
     "leagues": ["FUT_FEM_BRA", "ESTADUAIS_BRA"]
   },
-  "tea": {
-    "id": "TEA",
+  "tex": {
+    "id": "TEX",
     "name": "Team Estadual A",
-    "short_name": "TEA",
+    "short_name": "TEX",
     "venue": "Various",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/TEA.png",
     "country": "BR",
     "leagues": ["ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "teb": {
-    "id": "TEB",
+  "tbb": {
+    "id": "TBB",
     "name": "Team Estadual B",
-    "short_name": "TEB",
+    "short_name": "TBB",
     "venue": "Various",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/TEB.png",
     "country": "BR",
@@ -431,10 +431,10 @@
     "country": "EN",
     "leagues": ["EPL"]
   },
-  "ast": {
-    "id": "AST",
+  "avl": {
+    "id": "AVL",
     "name": "Aston Villa",
-    "short_name": "AST",
+    "short_name": "AVL",
     "venue": "Villa Park",
     "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/AST.png",
     "country": "EN",
@@ -539,12 +539,12 @@
     "country": "EN",
     "leagues": ["EPL"]
   },
-  "mun": {
-    "id": "MUN",
+  "man": {
+    "id": "MAN",
     "name": "Manchester United",
-    "short_name": "MUN",
+    "short_name": "MAN",
     "venue": "Old Trafford",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/MUN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/MAN.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -602,19 +602,19 @@
     "country": "EN",
     "leagues": ["EPL"]
   },
-  "tea": {
-    "id": "TEA",
+  "tey": {
+    "id": "TEY",
     "name": "Team England A",
-    "short_name": "TEA",
+    "short_name": "TEY",
     "venue": "Wembley Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/TEA.png",
     "country": "EN",
     "leagues": ["ENG_FOOTBALL"]
   },
-  "teb": {
-    "id": "TEB",
+  "tcc": {
+    "id": "TCC",
     "name": "Team England B",
-    "short_name": "TEB",
+    "short_name": "TCC",
     "venue": "Wembley Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/TEB.png",
     "country": "EN",
@@ -692,8 +692,8 @@
     "country": "ES",
     "leagues": ["LALIGA"]
   },
-  "lev": {
-    "id": "LEV",
+  "levn": {
+    "id": "LEVN",
     "name": "Levante",
     "short_name": "LEV",
     "venue": "Ciutat de València",
@@ -1016,10 +1016,10 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "bre": {
-    "id": "BRE",
+  "Svw": {
+    "id": "SVW",
     "name": "Werder Bremen",
-    "short_name": "BRE",
+    "short_name": "SVW",
     "venue": "Weserstadion",
     "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BRE.png",
     "country": "DE",
@@ -1115,10 +1115,10 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "mon": {
-    "id": "MON",
+  "bmg": {
+    "id": "BMG",
     "name": "Borussia Mönchengladbach",
-    "short_name": "MON",
+    "short_name": "BMG",
     "venue": "Borussia-Park",
     "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/MON.png",
     "country": "DE",
@@ -1151,10 +1151,10 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "wol": {
-    "id": "WOL",
+  "wob": {
+    "id": "WOB",
     "name": "VfL Wolfsburg",
-    "short_name": "WOL",
+    "short_name": "WOB",
     "venue": "Volkswagen Arena",
     "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/WOL.png",
     "country": "DE",
@@ -1187,10 +1187,10 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
-  "bra": {
-    "id": "BRA",
+  "Ebs": {
+    "id": "EBS",
     "name": "Eintracht Braunschweig",
-    "short_name": "BRA",
+    "short_name": "EBS",
     "venue": "Eintracht-Stadion",
     "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BRA.png",
     "country": "DE",
@@ -1214,10 +1214,10 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
-  "for": {
-    "id": "FOR",
+  "f95": {
+    "id": "F95",
     "name": "Fortuna Düsseldorf",
-    "short_name": "FOR",
+    "short_name": "F95",
     "venue": "Merkur Spiel-Arena",
     "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/FOR.png",
     "country": "DE",
@@ -1358,8 +1358,8 @@
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
-  "bre": {
-    "id": "BRE",
+  "bres": {
+    "id": "BRES",
     "name": "Brest",
     "short_name": "BRE",
     "venue": "Stade Francis-Le Blé",
@@ -1412,10 +1412,10 @@
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
-  "mon": {
-    "id": "MON",
+  "Asm": {
+    "id": "ASM",
     "name": "Monaco",
-    "short_name": "MON",
+    "short_name": "ASM",
     "venue": "Stade Louis II",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/MON.png",
     "country": "FR",
@@ -1556,10 +1556,10 @@
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
-  "gre": {
-    "id": "GRE",
+  "Gf38": {
+    "id": "GF38",
     "name": "Grenoble",
-    "short_name": "GRE",
+    "short_name": "GF38",
     "venue": "Stade des Alpes",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/GRE.png",
     "country": "FR",
@@ -1592,10 +1592,10 @@
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
-  "nan": {
-    "id": "NAN",
+  "Asn": {
+    "id": "ASN",
     "name": "Nancy",
-    "short_name": "NAN",
+    "short_name": "ASN",
     "venue": "Stade Marcel Picot",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/NAN.png",
     "country": "FR",
@@ -1637,19 +1637,19 @@
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
-  "tfa": {
-    "id": "TFA",
+  "fff": {
+    "id": "FFF",
     "name": "Team French A",
-    "short_name": "TFA",
+    "short_name": "FFF",
     "venue": "Various",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/TFA.png",
     "country": "FR",
     "leagues": ["FRENCH_FOOTBALL"]
   },
-  "tfb": {
-    "id": "TFB",
+  "ff2": {
+    "id": "FF2",
     "name": "Team French B",
-    "short_name": "TFB",
+    "short_name": "FF2",
     "venue": "Various",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/TFB.png",
     "country": "FR",
@@ -1673,8 +1673,8 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "cha": {
-    "id": "CHA",
+  "chaus": {
+    "id": "CHAUS",
     "name": "Charlotte FC",
     "short_name": "CHA",
     "venue": "Bank of America Stadium",
@@ -1700,10 +1700,10 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "col": {
-    "id": "COL",
+  "cbs": {
+    "id": "CBS",
     "name": "Columbus Crew",
-    "short_name": "COL",
+    "short_name": "CBS",
     "venue": "Lower.com Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/north_america/badge/COL.png",
     "country": "NA",
@@ -1907,8 +1907,8 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "tor": {
-    "id": "TOR",
+  "yyz": {
+    "id": "YYZ",
     "name": "Toronto FC",
     "short_name": "TOR",
     "venue": "BMO Field",
@@ -2040,7 +2040,7 @@
     "venue": "Estadio Libertadores de América",
     "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/IND.png",
     "country": "LA",
-极    "leagues": ["SUDAMERICANA"]
+    "leagues": ["SUDAMERICANA"]
   },
   "godoy_cruz": {
     "id": "GODOY_CRUZ",
