@@ -1,0 +1,24 @@
+[
+  {
+    "position": 1,
+    "team_id": "BOT",
+    "played": 12,
+    "wins": 8,
+    "draws": 2,
+    "losses": 2,
+    "goals_for": 20,
+    "goals_against": 10,
+    "points": 26
+  },
+  {
+    "position": 2,
+    "team_id": "FLA",
+    "played": 12,
+    "wins": 7,
+    "draws": 3,
+    "losses": 2,
+    "goals_for": 18,
+    "goals_against": 9,
+    "points": 24
+  }
+]

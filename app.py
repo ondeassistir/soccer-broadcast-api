@@ -120,3 +120,31 @@ async def get_matches(
         enriched_matches = [m for m in enriched_matches if m["league"] == league]
 
     return enriched_matches
+
+@app.get("/standings/{league}")
+async def get_standings(league: str):
+    import os
+
+    league = league.upper()
+    standings_file = f"data/standings_{league}.json"
+
+    if not os.path.exists(standings_file):
+        return {"error": f"Standings file for league {league} not found"}
+
+    with open(standings_file, "r", encoding="utf-8") as f:
+        standings = json.load(f)
+
+    with open("data/teams.json", "r", encoding="utf-8") as f:
+        teams = json.load(f)
+
+    enriched = []
+    for row in standings:
+        team_code = row["team_id"].upper()
+        team = teams.get(team_code, {})
+        enriched.append({
+            **row,
+            "team_name": team.get("name", team_code),
+            "badge": team.get("badge", ""),
+        })
+
+    return enriched
