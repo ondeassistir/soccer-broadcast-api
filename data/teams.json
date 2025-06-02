@@ -4,183 +4,183 @@
     "name": "Atlético Mineiro",
     "short_name": "CAM",
     "venue": "Arena MRV",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cam.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CAM.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "bah": {
-    "id": "bah",
+    "id": "BAH",
     "name": "Bahia",
     "short_name": "BAH",
     "venue": "Arena Fonte Nova",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/bah.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/BAH.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "bot": {
-    "id": "bot",
+    "id": "BOT",
     "name": "Botafogo",
     "short_name": "BOT",
     "venue": "Nilton Santos",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/bot.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/BOT.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA", "LBERTADORES"]
   },
   "cea": {
-    "id": "cea",
+    "id": "CEA",
     "name": "Ceará",
     "short_name": "CEA",
     "venue": "Castelão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cea.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CEA.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "cor": {
-    "id": "cor",
+    "id": "COR",
     "name": "Corinthians",
     "short_name": "COR",
     "venue": "Neo Química Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cor.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/COR.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "cru": {
-    "id": "cru",
+    "id": "CRU",
     "name": "Cruzeiro",
     "short_name": "CRU",
     "venue": "Mineirão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/cru.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CRU.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "fla": {
-    "id": "fla",
+    "id": "FLA",
     "name": "Flamengo",
     "short_name": "FLA",
     "venue": "Maracanã",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/fla.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FLA.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "flu": {
-    "id": "flu",
+    "id": "FLU",
     "name": "Fluminense",
     "short_name": "FLU",
     "venue": "Maracanã",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/flu.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FLU.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "for": {
-    "id": "for",
+    "id": "FOR",
     "name": "Fortaleza",
     "short_name": "FOR",
     "venue": "Castelão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/for.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FOR.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "gre": {
-    "id": "gre",
+    "id": "GRE",
     "name": "Grêmio",
     "short_name": "GRE",
     "venue": "Arena do Grêmio",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/gre.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/GRE.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "int": {
-    "id": "int",
+    "id": "INT",
     "name": "Internacional",
     "short_name": "INT",
     "venue": "Beira-Rio",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/int.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/INT.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "juv": {
-    "id": "juv",
+    "id": "JUV",
     "name": "Juventude",
     "short_name": "JUV",
     "venue": "Alfredo Jaconi",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/juv.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/JUV.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "mir": {
-    "id": "mir",
+    "id": "MIR",
     "name": "Mirassol",
     "short_name": "MIR",
     "venue": "Estádio Municipal",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/mir.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/MIR.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "pal": {
-    "id": "pal",
+    "id": "PAL",
     "name": "Palmeiras",
     "short_name": "PAL",
     "venue": "Allianz Parque",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/pal.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/PAL.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "rbb": {
-    "id": "rbb",
+    "id": "RBB",
     "name": "Red Bull Bragantino",
     "short_name": "RBB",
     "venue": "Nabi Abi Chedid",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/rbb.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/RBB.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "san": {
-    "id": "san",
+    "id": "SAN",
     "name": "Santos",
     "short_name": "SAN",
     "venue": "Vila Belmiro",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/san.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/SAN.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "sao": {
-    "id": "sao",
+    "id": "SAO",
     "name": "São Paulo",
     "short_name": "SAO",
     "venue": "Morumbi",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/sao.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/SAO.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "spt": {
-    "id": "spt",
+    "id": "SPT",
     "name": "Sport",
     "short_name": "SPO",
     "venue": "Ilha do Retiro",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/spt.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/SPT.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "vas": {
-    "id": "vas",
+    "id": "VAS",
     "name": "Vasco da Gama",
     "short_name": "VAS",
     "venue": "São Januário",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/vas.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/VAS.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "vit": {
-    "id": "vit",
+    "id": "VIT",
     "name": "Vitória",
     "short_name": "VIT",
     "venue": "Barradão",
-    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/vit.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/VIT.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ama": {
-    "id": "ama",
+    "id": "AMA",
     "name": "Amazonas",
     "short_name": "AMA",
     "venue": "Arena da Amazônia",
@@ -189,7 +189,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ame": {
-    "id": "ame",
+    "id": "AME",
     "name": "América Mineiro",
     "short_name": "AME",
     "venue": "Independência",
@@ -198,7 +198,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ath": {
-    "id": "ath",
+    "id": "ATH",
     "name": "Athletic",
     "short_name": "ATH",
     "venue": "Estádio Joaquim Portugal",
@@ -207,7 +207,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "atp": {
-    "id": "atp",
+    "id": "ATP",
     "name": "Athletico Paranaense",
     "short_name": "ATP",
     "venue": "Arena da Baixada",
@@ -216,7 +216,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "atg": {
-    "id": "atg",
+    "id": "ATG",
     "name": "Atlético Goianiense",
     "short_name": "ATG",
     "venue": "Antônio Accioly",
@@ -225,7 +225,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ava": {
-    "id": "ava",
+    "id": "AVA",
     "name": "Avaí",
     "short_name": "AVA",
     "venue": "Ressacada",
@@ -234,7 +234,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "bts": {
-    "id": "bts",
+    "id": "BTS",
     "name": "Botafogo-SP",
     "short_name": "BTS",
     "venue": "Santa Cruz",
@@ -243,7 +243,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "cha": {
-    "id": "cha",
+    "id": "CHA",
     "name": "Chapecoense",
     "short_name": "CHA",
     "venue": "Arena Condá",
@@ -252,7 +252,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "crb": {
-    "id": "crb",
+    "id": "CRB",
     "name": "CRB",
     "short_name": "CRB",
     "venue": "Rei Pelé",
@@ -261,7 +261,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "cri": {
-    "id": "cri",
+    "id": "CRI",
     "name": "Criciúma",
     "short_name": "CRI",
     "venue": "Heriberto Hülse",
@@ -270,7 +270,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "cui": {
-    "id": "cui",
+    "id": "CUI",
     "name": "Cuiabá",
     "short_name": "CUI",
     "venue": "Arena Pantanal",
@@ -279,7 +279,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "fer": {
-    "id": "fer",
+    "id": "FER",
     "name": "Ferroviária",
     "short_name": "FER",
     "venue": "Fonte Luminosa",
@@ -288,7 +288,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "goi": {
-    "id": "goi",
+    "id": "GOI",
     "name": "Goiás",
     "short_name": "GOI",
     "venue": "Serra Dourada",
@@ -297,7 +297,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "nov": {
-    "id": "nov",
+    "id": "NOV",
     "name": "Novorizontino",
     "short_name": "NOV",
     "venue": "Jorge Ismael de Biasi",
@@ -306,7 +306,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ope": {
-    "id": "ope",
+    "id": "OPE",
     "name": "Operário Ferroviário",
     "short_name": "OPE",
     "venue": "Germano Krüger",
@@ -315,7 +315,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "pay": {
-    "id": "pay",
+    "id": "PAY",
     "name": "Paysandu",
     "short_name": "PAY",
     "venue": "Curuzu",
@@ -324,7 +324,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "rem": {
-    "id": "rem",
+    "id": "REM",
     "name": "Remo",
     "short_name": "REM",
     "venue": "Baenão",
@@ -333,7 +333,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "vil": {
-    "id": "vil",
+    "id": "VIL",
     "name": "Vila Nova",
     "short_name": "VIL",
     "venue": "OBA",
@@ -342,7 +342,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "vol": {
-    "id": "vol",
+    "id": "VOL",
     "name": "Volta Redonda",
     "short_name": "VOL",
     "venue": "Raulino de Oliveira",
@@ -351,7 +351,7 @@
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "csa": {
-    "id": "csa",
+    "id": "CSA",
     "name": "CSA",
     "short_name": "CSA",
     "venue": "Rei Pelé",
@@ -360,7 +360,7 @@
     "leagues": ["CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ret": {
-    "id": "ret",
+    "id": "RET",
     "name": "Retrô",
     "short_name": "RET",
     "venue": "Arena de Pernambuco",
@@ -369,7 +369,7 @@
     "leagues": ["CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "bra": {
-    "id": "bra",
+    "id": "BRA",
     "name": "Brasil",
     "short_name": "BRA",
     "venue": "Multiple",
@@ -378,7 +378,7 @@
     "leagues": ["AMISTOSOS_SELECAO", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "brf": {
-    "id": "brf",
+    "id": "BRF",
     "name": "Brasil F",
     "short_name": "BRF",
     "venue": "Multiple",
@@ -387,7 +387,7 @@
     "leagues": ["AMISTOSOS_SELECAO", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "tfa": {
-    "id": "tfa",
+    "id": "TFA",
     "name": "Team Feminino A",
     "short_name": "TFA",
     "venue": "Various",
@@ -396,7 +396,7 @@
     "leagues": ["FUT_FEM_BRA", "ESTADUAIS_BRA"]
   },
   "tfb": {
-    "id": "tfb",
+    "id": "TFB",
     "name": "Team Feminino B",
     "short_name": "TFB",
     "venue": "Various",
@@ -405,7 +405,7 @@
     "leagues": ["FUT_FEM_BRA", "ESTADUAIS_BRA"]
   },
   "tea": {
-    "id": "tea",
+    "id": "TEA",
     "name": "Team Estadual A",
     "short_name": "TEA",
     "venue": "Various",
@@ -414,7 +414,7 @@
     "leagues": ["ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "teb": {
-    "id": "teb",
+    "id": "TEB",
     "name": "Team Estadual B",
     "short_name": "TEB",
     "venue": "Various",
@@ -423,7 +423,7 @@
     "leagues": ["ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
   "ars": {
-    "id": "ars",
+    "id": "ARS",
     "name": "Arsenal",
     "short_name": "ARS",
     "venue": "Emirates Stadium",
@@ -432,7 +432,7 @@
     "leagues": ["EPL"]
   },
   "ast": {
-    "id": "ast",
+    "id": "AST",
     "name": "Aston Villa",
     "short_name": "AST",
     "venue": "Villa Park",
@@ -441,7 +441,7 @@
     "leagues": ["EPL"]
   },
   "bou": {
-    "id": "bou",
+    "id": "BOU",
     "name": "Bournemouth",
     "short_name": "BOU",
     "venue": "Vitality Stadium",
@@ -450,7 +450,7 @@
     "leagues": ["EPL"]
   },
   "bre": {
-    "id": "bre",
+    "id": "BRE",
     "name": "Brentford",
     "short_name": "BRE",
     "venue": "Brentford Community Stadium",
@@ -459,7 +459,7 @@
     "leagues": ["EPL"]
   },
   "bri": {
-    "id": "bri",
+    "id": "BRI",
     "name": "Brighton & Hove Albion",
     "short_name": "BRI",
     "venue": "Amex Stadium",
@@ -468,7 +468,7 @@
     "leagues": ["EPL"]
   },
   "bur": {
-    "id": "bur",
+    "id": "BUR",
     "name": "Burnley",
     "short_name": "BUR",
     "venue": "Turf Moor",
@@ -477,7 +477,7 @@
     "leagues": ["EPL"]
   },
   "che": {
-    "id": "che",
+    "id": "CHE",
     "name": "Chelsea",
     "short_name": "CHE",
     "venue": "Stamford Bridge",
@@ -486,7 +486,7 @@
     "leagues": ["EPL"]
   },
   "cry": {
-    "id": "cry",
+    "id": "CRY",
     "name": "Crystal Palace",
     "short_name": "CRY",
     "venue": "Selhurst Park",
@@ -495,7 +495,7 @@
     "leagues": ["EPL"]
   },
   "eve": {
-    "id": "eve",
+    "id": "EVE",
     "name": "Everton",
     "short_name": "EVE",
     "venue": "Goodison Park",
@@ -504,7 +504,7 @@
     "leagues": ["EPL"]
   },
   "ful": {
-    "id": "ful",
+    "id": "FUL",
     "name": "Fulham",
     "short_name": "FUL",
     "venue": "Craven Cottage",
@@ -513,7 +513,7 @@
     "leagues": ["EPL"]
   },
   "lee": {
-    "id": "lee",
+    "id": "LEE",
     "name": "Leeds United",
     "short_name": "LEE",
     "venue": "Elland Road",
@@ -522,7 +522,7 @@
     "leagues": ["EPL"]
   },
   "liv": {
-    "id": "liv",
+    "id": "LIV",
     "name": "Liverpool",
     "short_name": "LIV",
     "venue": "Anfield",
@@ -531,7 +531,7 @@
     "leagues": ["EPL"]
   },
   "mci": {
-    "id": "mci",
+    "id": "MCI",
     "name": "Manchester City",
     "short_name": "MCI",
     "venue": "Etihad Stadium",
@@ -540,7 +540,7 @@
     "leagues": ["EPL"]
   },
   "mun": {
-    "id": "mun",
+    "id": "MUN",
     "name": "Manchester United",
     "short_name": "MUN",
     "venue": "Old Trafford",
@@ -549,7 +549,7 @@
     "leagues": ["EPL"]
   },
   "new": {
-    "id": "new",
+    "id": "NEW",
     "name": "Newcastle United",
     "short_name": "NEW",
     "venue": "St James' Park",
@@ -558,7 +558,7 @@
     "leagues": ["EPL"]
   },
   "not": {
-    "id": "not",
+    "id": "NOT",
     "name": "Nottingham Forest",
     "short_name": "NOT",
     "venue": "City Ground",
@@ -567,7 +567,7 @@
     "leagues": ["EPL"]
   },
   "sun": {
-    "id": "sun",
+    "id": "SUN",
     "name": "Sunderland",
     "short_name": "SUN",
     "venue": "Stadium of Light",
@@ -576,7 +576,7 @@
     "leagues": ["EPL"]
   },
   "tot": {
-    "id": "tot",
+    "id": "TOT",
     "name": "Tottenham Hotspur",
     "short_name": "TOT",
     "venue": "Tottenham Hotspur Stadium",
@@ -585,7 +585,7 @@
     "leagues": ["EPL"]
   },
   "wes": {
-    "id": "wes",
+    "id": "WES",
     "name": "West Ham United",
     "short_name": "WES",
     "venue": "London Stadium",
@@ -594,7 +594,7 @@
     "leagues": ["EPL"]
   },
   "wol": {
-    "id": "wol",
+    "id": "WOL",
     "name": "Wolverhampton Wanderers",
     "short_name": "WOL",
     "venue": "Molineux Stadium",
@@ -603,7 +603,7 @@
     "leagues": ["EPL"]
   },
   "tea": {
-    "id": "tea",
+    "id": "TEA",
     "name": "Team England A",
     "short_name": "TEA",
     "venue": "Wembley Stadium",
@@ -612,7 +612,7 @@
     "leagues": ["ENG_FOOTBALL"]
   },
   "teb": {
-    "id": "teb",
+    "id": "TEB",
     "name": "Team England B",
     "short_name": "TEB",
     "venue": "Wembley Stadium",
@@ -621,7 +621,7 @@
     "leagues": ["ENG_FOOTBALL"]
   },
   "ala": {
-    "id": "ala",
+    "id": "ALA",
     "name": "Alavés",
     "short_name": "ALA",
     "venue": "Mendizorrotza",
@@ -630,7 +630,7 @@
     "leagues": ["LALIGA"]
   },
   "ath": {
-    "id": "ath",
+    "id": "ATH",
     "name": "Athletic Bilbao",
     "short_name": "ATH",
     "venue": "San Mamés",
@@ -639,7 +639,7 @@
     "leagues": ["LALIGA"]
   },
   "atm": {
-    "id": "atm",
+    "id": "ATM",
     "name": "Atlético Madrid",
     "short_name": "ATM",
     "venue": "Civitas Metropolitano",
@@ -648,7 +648,7 @@
     "leagues": ["LALIGA"]
   },
   "bar": {
-    "id": "bar",
+    "id": "BAR",
     "name": "Barcelona",
     "short_name": "BAR",
     "venue": "Spotify Camp Nou",
@@ -657,7 +657,7 @@
     "leagues": ["LALIGA"]
   },
   "cel": {
-    "id": "cel",
+    "id": "CEL",
     "name": "Celta Vigo",
     "short_name": "CEL",
     "venue": "Abanca-Balaídos",
@@ -666,7 +666,7 @@
     "leagues": ["LALIGA"]
   },
   "esp": {
-    "id": "esp",
+    "id": "ESP",
     "name": "Espanyol",
     "short_name": "ESP",
     "venue": "RCDE Stadium",
@@ -675,7 +675,7 @@
     "leagues": ["LALIGA"]
   },
   "get": {
-    "id": "get",
+    "id": "GET",
     "name": "Getafe",
     "short_name": "GET",
     "venue": "Coliseum Alfonso Pérez",
@@ -684,7 +684,7 @@
     "leagues": ["LALIGA"]
   },
   "gir": {
-    "id": "gir",
+    "id": "GIR",
     "name": "Girona",
     "short_name": "GIR",
     "venue": "Montilivi",
@@ -693,7 +693,7 @@
     "leagues": ["LALIGA"]
   },
   "lev": {
-    "id": "lev",
+    "id": "LEV",
     "name": "Levante",
     "short_name": "LEV",
     "venue": "Ciutat de València",
@@ -702,7 +702,7 @@
     "leagues": ["LALIGA"]
   },
   "mal": {
-    "id": "mal",
+    "id": "MAL",
     "name": "Mallorca",
     "short_name": "MAL",
     "venue": "Visit Mallorca Stadium",
@@ -711,7 +711,7 @@
     "leagues": ["LALIGA"]
   },
   "osa": {
-    "id": "osa",
+    "id": "OSA",
     "name": "Osasuna",
     "short_name": "OSA",
     "venue": "El Sadar",
@@ -720,7 +720,7 @@
     "leagues": ["LALIGA"]
   },
   "ray": {
-    "id": "ray",
+    "id": "RAY",
     "name": "Rayo Vallecano",
     "short_name": "RAY",
     "venue": "Vallecas",
@@ -729,7 +729,7 @@
     "leagues": ["LALIGA"]
   },
   "rbe": {
-    "id": "rbe",
+    "id": "RBE",
     "name": "Real Betis",
     "short_name": "RBE",
     "venue": "Benito Villamarín",
@@ -738,7 +738,7 @@
     "leagues": ["LALIGA"]
   },
   "rea": {
-    "id": "rea",
+    "id": "REA",
     "name": "Real Madrid",
     "short_name": "REA",
     "venue": "Santiago Bernabéu",
@@ -747,7 +747,7 @@
     "leagues": ["LALIGA"]
   },
   "rso": {
-    "id": "rso",
+    "id": "RSO",
     "name": "Real Sociedad",
     "short_name": "RSO",
     "venue": "Reale Arena",
@@ -756,7 +756,7 @@
     "leagues": ["LALIGA"]
   },
   "sev": {
-    "id": "sev",
+    "id": "SEV",
     "name": "Sevilla",
     "short_name": "SEV",
     "venue": "Ramón Sánchez Pizjuán",
@@ -765,7 +765,7 @@
     "leagues": ["LALIGA"]
   },
   "val": {
-    "id": "val",
+    "id": "VAL",
     "name": "Valencia",
     "short_name": "VAL",
     "venue": "Mestalla",
@@ -774,7 +774,7 @@
     "leagues": ["LALIGA"]
   },
   "vil": {
-    "id": "vil",
+    "id": "VIL",
     "name": "Villarreal",
     "short_name": "VIL",
     "venue": "Estadio de la Cerámica",
@@ -783,7 +783,7 @@
     "leagues": ["LALIGA"]
   },
   "tsa": {
-    "id": "tsa",
+    "id": "TSA",
     "name": "Team Spain A",
     "short_name": "TSA",
     "venue": "Various",
@@ -792,7 +792,7 @@
     "leagues": ["CDR"]
   },
   "tsb": {
-    "id": "tsb",
+    "id": "TSB",
     "name": "Team Spain B",
     "short_name": "TSB",
     "venue": "Various",
@@ -801,7 +801,7 @@
     "leagues": ["CDR"]
   },
   "tsc": {
-    "id": "tsc",
+    "id": "TSC",
     "name": "Team Spain C",
     "short_name": "TSC",
     "venue": "Various",
@@ -810,7 +810,7 @@
     "leagues": ["ESP_FOOTBALL"]
   },
   "acm": {
-    "id": "acm",
+    "id": "ACM",
     "name": "AC Milan",
     "short_name": "ACM",
     "venue": "San Siro",
@@ -819,7 +819,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "ata": {
-    "id": "ata",
+    "id": "ATA",
     "name": "Atalanta",
     "short_name": "ATA",
     "venue": "Gewiss Stadium",
@@ -828,7 +828,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "bol": {
-    "id": "bol",
+    "id": "BOL",
     "name": "Bologna",
     "short_name": "BOL",
     "venue": "Renato Dall'Ara",
@@ -837,7 +837,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "cag": {
-    "id": "cag",
+    "id": "CAG",
     "name": "Cagliari",
     "short_name": "CAG",
     "venue": "Unipol Domus",
@@ -846,7 +846,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "com": {
-    "id": "com",
+    "id": "COM",
     "name": "Como",
     "short_name": "COM",
     "venue": "Giuseppe Sinigaglia",
@@ -855,7 +855,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "fio": {
-    "id": "fio",
+    "id": "FIO",
     "name": "Fiorentina",
     "short_name": "FIO",
     "venue": "Artemio Franchi",
@@ -864,7 +864,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "gen": {
-    "id": "gen",
+    "id": "GEN",
     "name": "Genoa",
     "short_name": "GEN",
     "venue": "Luigi Ferraris",
@@ -873,7 +873,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "ver": {
-    "id": "ver",
+    "id": "VER",
     "name": "Hellas Verona",
     "short_name": "VER",
     "venue": "Marcantonio Bentegodi",
@@ -882,7 +882,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "Int-milan": {
-    "id": "int-milan",
+    "id": "INT-MILAN",
     "name": "Internazionale",
     "short_name": "INT",
     "venue": "San Siro",
@@ -891,7 +891,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "Juv-ita": {
-    "id": "juv-ita",
+    "id": "JUV-ITA",
     "name": "Juventus",
     "short_name": "JUV",
     "venue": "Allianz Stadium",
@@ -900,7 +900,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "laz": {
-    "id": "laz",
+    "id": "LAZ",
     "name": "Lazio",
     "short_name": "LAZ",
     "venue": "Stadio Olimpico",
@@ -909,7 +909,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "lec": {
-    "id": "lec",
+    "id": "LEC",
     "name": "Lecce",
     "short_name": "LEC",
     "venue": "Via del Mare",
@@ -918,7 +918,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "nap": {
-    "id": "nap",
+    "id": "NAP",
     "name": "Napoli",
     "short_name": "NAP",
     "venue": "Diego Armando Maradona",
@@ -927,7 +927,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "par": {
-    "id": "par",
+    "id": "PAR",
     "name": "Parma",
     "short_name": "PAR",
     "venue": "Ennio Tardini",
@@ -936,7 +936,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "pis": {
-    "id": "pis",
+    "id": "PIS",
     "name": "Pisa",
     "short_name": "PIS",
     "venue": "Arena Garibaldi",
@@ -945,7 +945,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "rom": {
-    "id": "rom",
+    "id": "ROM",
     "name": "Roma",
     "short_name": "ROM",
     "venue": "Stadio Olimpico",
@@ -954,7 +954,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "sas": {
-    "id": "sas",
+    "id": "SAS",
     "name": "Sassuolo",
     "short_name": "SAS",
     "venue": "Mapei Stadium",
@@ -963,7 +963,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "tor": {
-    "id": "tor",
+    "id": "TOR",
     "name": "Torino",
     "short_name": "TOR",
     "venue": "Stadio Olimpico Grande Torino",
@@ -972,7 +972,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "udi": {
-    "id": "udi",
+    "id": "UDI",
     "name": "Udinese",
     "short_name": "UDI",
     "venue": "Dacia Arena",
@@ -981,7 +981,7 @@
     "leagues": ["ITASERIE_A"]
   },
   "tia": {
-    "id": "tia",
+    "id": "TIA",
     "name": "Team Italy A",
     "short_name": "TIA",
     "venue": "Various",
@@ -990,7 +990,7 @@
     "leagues": ["ITALIAN_FOOTBALL"]
   },
   "tib": {
-    "id": "tib",
+    "id": "TIB",
     "name": "Team Italy B",
     "short_name": "TIB",
     "venue": "Various",
@@ -999,7 +999,7 @@
     "leagues": ["ITALIAN_FOOTBALL"]
   },
   "aug": {
-    "id": "aug",
+    "id": "AUG",
     "name": "FC Augsburg",
     "short_name": "AUG",
     "venue": "WWK Arena",
@@ -1008,7 +1008,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "uni": {
-    "id": "uni",
+    "id": "UNI",
     "name": "Union Berlin",
     "short_name": "UNI",
     "venue": "Stadion An der Alten Försterei",
@@ -1017,7 +1017,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "bre": {
-    "id": "bre",
+    "id": "BRE",
     "name": "Werder Bremen",
     "short_name": "BRE",
     "venue": "Weserstadion",
@@ -1026,7 +1026,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "dor": {
-    "id": "dor",
+    "id": "DOR",
     "name": "Borussia Dortmund",
     "short_name": "DOR",
     "venue": "Signal Iduna Park",
@@ -1035,7 +1035,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "fra": {
-    "id": "fra",
+    "id": "FRA",
     "name": "Eintracht Frankfurt",
     "short_name": "FRA",
     "venue": "Deutsche Bank Park",
@@ -1044,7 +1044,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "fre": {
-    "id": "fre",
+    "id": "FRE",
     "name": "SC Freiburg",
     "short_name": "FRE",
     "venue": "Europa-Park Stadion",
@@ -1053,7 +1053,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "ham": {
-    "id": "ham",
+    "id": "HAM",
     "name": "Hamburger SV",
     "short_name": "HAM",
     "venue": "Volksparkstadion",
@@ -1062,7 +1062,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "hei": {
-    "id": "hei",
+    "id": "HEI",
     "name": "FC Heidenheim",
     "short_name": "HEI",
     "venue": "Voith-Arena",
@@ -1071,7 +1071,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "hof": {
-    "id": "hof",
+    "id": "HOF",
     "name": "TSG Hoffenheim",
     "short_name": "HOF",
     "venue": "PreZero Arena",
@@ -1080,7 +1080,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "kol": {
-    "id": "kol",
+    "id": "KOL",
     "name": "FC Köln",
     "short_name": "KOL",
     "venue": "RheinEnergieStadion",
@@ -1089,7 +1089,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "lei": {
-    "id": "lei",
+    "id": "LEI",
     "name": "RB Leipzig",
     "short_name": "LEI",
     "venue": "Red Bull Arena",
@@ -1098,7 +1098,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "lev": {
-    "id": "lev",
+    "id": "LEV",
     "name": "Bayer Leverkusen",
     "short_name": "LEV",
     "venue": "BayArena",
@@ -1107,7 +1107,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "mai": {
-    "id": "mai",
+    "id": "MAI",
     "name": "Mainz 05",
     "short_name": "MAI",
     "venue": "Mewa Arena",
@@ -1116,7 +1116,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "mon": {
-    "id": "mon",
+    "id": "MON",
     "name": "Borussia Mönchengladbach",
     "short_name": "MON",
     "venue": "Borussia-Park",
@@ -1125,7 +1125,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "bay": {
-    "id": "bay",
+    "id": "BAY",
     "name": "Bayern Munich",
     "short_name": "BAY",
     "venue": "Allianz Arena",
@@ -1134,7 +1134,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "stp": {
-    "id": "stp",
+    "id": "STP",
     "name": "FC St. Pauli",
     "short_name": "STP",
     "venue": "Millerntor-Stadion",
@@ -1143,7 +1143,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "stt": {
-    "id": "stt",
+    "id": "STT",
     "name": "VfB Stuttgart",
     "short_name": "STT",
     "venue": "Mercedes-Benz Arena",
@@ -1152,7 +1152,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "wol": {
-    "id": "wol",
+    "id": "WOL",
     "name": "VfL Wolfsburg",
     "short_name": "WOL",
     "venue": "Volkswagen Arena",
@@ -1161,7 +1161,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "her": {
-    "id": "her",
+    "id": "HER",
     "name": "Hertha BSC",
     "short_name": "HER",
     "venue": "Olympiastadion",
@@ -1170,7 +1170,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "arm": {
-    "id": "arm",
+    "id": "ARM",
     "name": "Arminia Bielefeld",
     "short_name": "ARM",
     "venue": "SchücoArena",
@@ -1179,7 +1179,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "boc": {
-    "id": "boc",
+    "id": "BOC",
     "name": "VfL Bochum",
     "short_name": "BOC",
     "venue": "Vonovia Ruhrstadion",
@@ -1188,7 +1188,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "bra": {
-    "id": "bra",
+    "id": "BRA",
     "name": "Eintracht Braunschweig",
     "short_name": "BRA",
     "venue": "Eintracht-Stadion",
@@ -1197,7 +1197,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "dar": {
-    "id": "dar",
+    "id": "DAR",
     "name": "Darmstadt 98",
     "short_name": "DAR",
     "venue": "Merck-Stadion am Böllenfalltor",
@@ -1206,7 +1206,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "dyn": {
-    "id": "dyn",
+    "id": "DYN",
     "name": "Dynamo Dresden",
     "short_name": "DYN",
     "venue": "Rudolf-Harbig-Stadion",
@@ -1215,7 +1215,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "for": {
-    "id": "for",
+    "id": "FOR",
     "name": "Fortuna Düsseldorf",
     "short_name": "FOR",
     "venue": "Merkur Spiel-Arena",
@@ -1224,7 +1224,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "elv": {
-    "id": "elv",
+    "id": "ELV",
     "name": "SV Elversberg",
     "short_name": "ELV",
     "venue": "Ursapharm-Arena",
@@ -1233,7 +1233,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "fur": {
-    "id": "fur",
+    "id": "FUR",
     "name": "Greuther Fürth",
     "short_name": "FUR",
     "venue": "Sportpark Ronhof",
@@ -1242,7 +1242,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "han": {
-    "id": "han",
+    "id": "HAN",
     "name": "Hannover 96",
     "short_name": "HAN",
     "venue": "HDI-Arena",
@@ -1251,7 +1251,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "kai": {
-    "id": "kai",
+    "id": "KAI",
     "name": "FC Kaiserslautern",
     "short_name": "KAI",
     "venue": "Fritz-Walter-Stadion",
@@ -1260,7 +1260,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "kar": {
-    "id": "kar",
+    "id": "KAR",
     "name": "Karlsruher SC",
     "short_name": "KAR",
     "venue": "Wildparkstadion",
@@ -1269,7 +1269,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "kie": {
-    "id": "kie",
+    "id": "KIE",
     "name": "Holstein Kiel",
     "short_name": "KIE",
     "venue": "Holstein-Stadion",
@@ -1278,7 +1278,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "mag": {
-    "id": "mag",
+    "id": "MAG",
     "name": "FC Magdeburg",
     "short_name": "MAG",
     "venue": "MDCC-Arena",
@@ -1287,7 +1287,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "mun": {
-    "id": "mun",
+    "id": "MUN",
     "name": "Preußen Münster",
     "short_name": "MUN",
     "venue": "Preußenstadion",
@@ -1296,7 +1296,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "nur": {
-    "id": "nur",
+    "id": "NUR",
     "name": "FC Nürnberg",
     "short_name": "NUR",
     "venue": "Max-Morlock-Stadion",
@@ -1305,7 +1305,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "pad": {
-    "id": "pad",
+    "id": "PAD",
     "name": "SC Paderborn",
     "short_name": "PAD",
     "venue": "Benteler-Arena",
@@ -1314,7 +1314,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "sch": {
-    "id": "sch",
+    "id": "SCH",
     "name": "Schalke 04",
     "short_name": "SCH",
     "venue": "Veltins-Arena",
@@ -1323,7 +1323,7 @@
     "leagues": ["BUNDESLIGA_2"]
   },
   "tga": {
-    "id": "tga",
+    "id": "TGA",
     "name": "Team German A",
     "short_name": "TGA",
     "venue": "Various",
@@ -1332,7 +1332,7 @@
     "leagues": ["GER_FOOTBALL"]
   },
   "tgb": {
-    "id": "tgb",
+    "id": "TGB",
     "name": "Team German B",
     "short_name": "TGB",
     "venue": "Various",
@@ -1341,7 +1341,7 @@
     "leagues": ["GER_FOOTBALL"]
   },
   "ang": {
-    "id": "ang",
+    "id": "ANG",
     "name": "Angers",
     "short_name": "ANG",
     "venue": "Stade Raymond Kopa",
@@ -1350,7 +1350,7 @@
     "leagues": ["LIGUE_1"]
   },
   "aux": {
-    "id": "aux",
+    "id": "AUX",
     "name": "Auxerre",
     "short_name": "AUX",
     "venue": "Stade Abbé-Deschamps",
@@ -1359,7 +1359,7 @@
     "leagues": ["LIGUE_1"]
   },
   "bre": {
-    "id": "bre",
+    "id": "BRE",
     "name": "Brest",
     "short_name": "BRE",
     "venue": "Stade Francis-Le Blé",
@@ -1368,7 +1368,7 @@
     "leagues": ["LIGUE_1"]
   },
   "hav": {
-    "id": "hav",
+    "id": "HAV",
     "name": "Le Havre",
     "short_name": "HAV",
     "venue": "Stade Océane",
@@ -1377,7 +1377,7 @@
     "leagues": ["LIGUE_1"]
   },
   "len": {
-    "id": "len",
+    "id": "LEN",
     "name": "Lens",
     "short_name": "LEN",
     "venue": "Stade Bollaert-Delelis",
@@ -1386,7 +1386,7 @@
     "leagues": ["LIGUE_1"]
   },
   "lil": {
-    "id": "lil",
+    "id": "LIL",
     "name": "Lille",
     "short_name": "LIL",
     "venue": "Stade Pierre-Mauroy",
@@ -1395,7 +1395,7 @@
     "leagues": ["LIGUE_1"]
   },
   "lyo": {
-    "id": "lyo",
+    "id": "LYO",
     "name": "Lyon",
     "short_name": "LYO",
     "venue": "Groupama Stadium",
@@ -1404,7 +1404,7 @@
     "leagues": ["LIGUE_1"]
   },
   "mar": {
-    "id": "mar",
+    "id": "MAR",
     "name": "Marseille",
     "short_name": "MAR",
     "venue": "Orange Vélodrome",
@@ -1413,7 +1413,7 @@
     "leagues": ["LIGUE_1"]
   },
   "mon": {
-    "id": "mon",
+    "id": "MON",
     "name": "Monaco",
     "short_name": "MON",
     "venue": "Stade Louis II",
@@ -1422,7 +1422,7 @@
     "leagues": ["LIGUE_1"]
   },
   "mon": {
-    "id": "mon",
+    "id": "MON",
     "name": "Montpellier",
     "short_name": "MON",
     "venue": "Stade de la Mosson",
@@ -1431,7 +1431,7 @@
     "leagues": ["LIGUE_1"]
   },
   "nan": {
-    "id": "nan",
+    "id": "NAN",
     "name": "Nantes",
     "short_name": "NAN",
     "venue": "Stade de la Beaujoire",
@@ -1440,7 +1440,7 @@
     "leagues": ["LIGUE_1"]
   },
   "nic": {
-    "id": "nic",
+    "id": "NIC",
     "name": "Nice",
     "short_name": "NIC",
     "venue": "Allianz Riviera",
@@ -1449,7 +1449,7 @@
     "leagues": ["LIGUE_1"]
   },
   "psg": {
-    "id": "psg",
+    "id": "PSG",
     "name": "Paris Saint-Germain",
     "short_name": "PSG",
     "venue": "Parc des Princes",
@@ -1458,7 +1458,7 @@
     "leagues": ["LIGUE_1"]
   },
   "rei": {
-    "id": "rei",
+    "id": "REI",
     "name": "Reims",
     "short_name": "REI",
     "venue": "Stade Auguste Delaune",
@@ -1467,7 +1467,7 @@
     "leagues": ["LIGUE_1"]
   },
   "ren": {
-    "id": "ren",
+    "id": "REN",
     "name": "Rennes",
     "short_name": "REN",
     "venue": "Roazhon Park",
@@ -1476,7 +1476,7 @@
     "leagues": ["LIGUE_1"]
   },
   "sai": {
-    "id": "sai",
+    "id": "SAI",
     "name": "Saint-Étienne",
     "short_name": "SAI",
     "venue": "Stade Geoffroy-Guichard",
@@ -1485,7 +1485,7 @@
     "leagues": ["LIGUE_1"]
   },
   "str": {
-    "id": "str",
+    "id": "STR",
     "name": "Strasbourg",
     "short_name": "STR",
     "venue": "Stade de la Meinau",
@@ -1494,7 +1494,7 @@
     "leagues": ["LIGUE_1"]
   },
   "tou": {
-    "id": "tou",
+    "id": "TOU",
     "name": "Toulouse",
     "short_name": "TOU",
     "venue": "Stadium Municipal",
@@ -1503,7 +1503,7 @@
     "leagues": ["LIGUE_1"]
   },
   "aja": {
-    "id": "aja",
+    "id": "AJA",
     "name": "Ajaccio",
     "short_name": "AJA",
     "venue": "Stade François Coty",
@@ -1512,7 +1512,7 @@
     "leagues": ["LIGUE_2"]
   },
   "ami": {
-    "id": "ami",
+    "id": "AMI",
     "name": "Amiens",
     "short_name": "AMI",
     "venue": "Stade de la Licorne",
@@ -1521,7 +1521,7 @@
     "leagues": ["LIGUE_2"]
   },
   "ann": {
-    "id": "ann",
+    "id": "ANN",
     "name": "Annecy",
     "short_name": "ANN",
     "venue": "Parc des Sports",
@@ -1530,7 +1530,7 @@
     "leagues": ["LIGUE_2"]
   },
   "bas": {
-    "id": "bas",
+    "id": "BAS",
     "name": "Bastia",
     "short_name": "BAS",
     "venue": "Stade Armand Cesari",
@@ -1539,7 +1539,7 @@
     "leagues": ["LIGUE_2"]
   },
   "cle": {
-    "id": "cle",
+    "id": "CLE",
     "name": "Clermont",
     "short_name": "CLE",
     "venue": "Stade Gabriel Montpied",
@@ -1548,7 +1548,7 @@
     "leagues": ["LIGUE_2"]
   },
   "dun": {
-    "id": "dun",
+    "id": "DUN",
     "name": "Dunkerque",
     "short_name": "DUN",
     "venue": "Stade Marcel-Tribut",
@@ -1557,7 +1557,7 @@
     "leagues": ["LIGUE_2"]
   },
   "gre": {
-    "id": "gre",
+    "id": "GRE",
     "name": "Grenoble",
     "short_name": "GRE",
     "venue": "Stade des Alpes",
@@ -1566,7 +1566,7 @@
     "leagues": ["LIGUE_2"]
   },
   "gui": {
-    "id": "gui",
+    "id": "GUI",
     "name": "Guingamp",
     "short_name": "GUI",
     "venue": "Stade Roudourou",
@@ -1575,7 +1575,7 @@
     "leagues": ["LIGUE_2"]
   },
   "lav": {
-    "id": "lav",
+    "id": "LAV",
     "name": "Laval",
     "short_name": "LAV",
     "venue": "Stade Francis Le Basser",
@@ -1584,7 +1584,7 @@
     "leagues": ["LIGUE_2"]
   },
   "lem": {
-    "id": "lem",
+    "id": "LEM",
     "name": "Le Mans",
     "short_name": "LEM",
     "venue": "MMArena",
@@ -1593,7 +1593,7 @@
     "leagues": ["LIGUE_2"]
   },
   "nan": {
-    "id": "nan",
+    "id": "NAN",
     "name": "Nancy",
     "short_name": "NAN",
     "venue": "Stade Marcel Picot",
@@ -1602,7 +1602,7 @@
     "leagues": ["LIGUE_2"]
   },
   "pau": {
-    "id": "pau",
+    "id": "PAU",
     "name": "Pau",
     "short_name": "PAU",
     "venue": "Nouste Camp",
@@ -1611,7 +1611,7 @@
     "leagues": ["LIGUE_2"]
   },
   "red": {
-    "id": "red",
+    "id": "RED",
     "name": "Red Star",
     "short_name": "RED",
     "venue": "Stade Bauer",
@@ -1620,7 +1620,7 @@
     "leagues": ["LIGUE_2"]
   },
   "rod": {
-    "id": "rod",
+    "id": "ROD",
     "name": "Rodez",
     "short_name": "ROD",
     "venue": "Stade Paul Lignon",
@@ -1629,7 +1629,7 @@
     "leagues": ["LIGUE_2"]
   },
   "tro": {
-    "id": "tro",
+    "id": "TRO",
     "name": "Troyes",
     "short_name": "TRO",
     "venue": "Stade de l'Aube",
@@ -1638,7 +1638,7 @@
     "leagues": ["LIGUE_2"]
   },
   "tfa": {
-    "id": "tfa",
+    "id": "TFA",
     "name": "Team French A",
     "short_name": "TFA",
     "venue": "Various",
@@ -1647,7 +1647,7 @@
     "leagues": ["FRENCH_FOOTBALL"]
   },
   "tfb": {
-    "id": "tfb",
+    "id": "TFB",
     "name": "Team French B",
     "short_name": "TFB",
     "venue": "Various",
@@ -1656,7 +1656,7 @@
     "leagues": ["FRENCH_FOOTBALL"]
   },
   "atl": {
-    "id": "atl",
+    "id": "ATL",
     "name": "Atlanta United FC",
     "short_name": "ATL",
     "venue": "Mercedes-Benz Stadium",
@@ -1665,7 +1665,7 @@
     "leagues": ["MLS"]
   },
   "aus": {
-    "id": "aus",
+    "id": "AUS",
     "name": "Austin FC",
     "short_name": "AUS",
     "venue": "Q2 Stadium",
@@ -1674,7 +1674,7 @@
     "leagues": ["MLS"]
   },
   "cha": {
-    "id": "cha",
+    "id": "CHA",
     "name": "Charlotte FC",
     "short_name": "CHA",
     "venue": "Bank of America Stadium",
@@ -1683,7 +1683,7 @@
     "leagues": ["MLS"]
   },
   "chi": {
-    "id": "chi",
+    "id": "CHI",
     "name": "Chicago Fire FC",
     "short_name": "CHI",
     "venue": "Soldier Field",
@@ -1692,7 +1692,7 @@
     "leagues": ["MLS"]
   },
   "col": {
-    "id": "col",
+    "id": "COL",
     "name": "Colorado Rapids",
     "short_name": "COL",
     "venue": "Dick's Sporting Goods Park",
@@ -1701,7 +1701,7 @@
     "leagues": ["MLS"]
   },
   "col": {
-    "id": "col",
+    "id": "COL",
     "name": "Columbus Crew",
     "short_name": "COL",
     "venue": "Lower.com Field",
@@ -1710,7 +1710,7 @@
     "leagues": ["MLS"]
   },
   "dcu": {
-    "id": "dcu",
+    "id": "DCU",
     "name": "D.C. United",
     "short_name": "DCU",
     "venue": "Audi Field",
@@ -1719,7 +1719,7 @@
     "leagues": ["MLS"]
   },
   "fcc": {
-    "id": "fcc",
+    "id": "FCC",
     "name": "FC Cincinnati",
     "short_name": "FCC",
     "venue": "TQL Stadium",
@@ -1728,7 +1728,7 @@
     "leagues": ["MLS"]
   },
   "fcd": {
-    "id": "fcd",
+    "id": "FCD",
     "name": "FC Dallas",
     "short_name": "FCD",
     "venue": "Toyota Stadium",
@@ -1737,7 +1737,7 @@
     "leagues": ["MLS"]
   },
   "hou": {
-    "id": "hou",
+    "id": "HOU",
     "name": "Houston Dynamo FC",
     "short_name": "HOU",
     "venue": "Shell Energy Stadium",
@@ -1746,7 +1746,7 @@
     "leagues": ["MLS"]
   },
   "int-mia": {
-    "id": "int-mia",
+    "id": "INT-MIA",
     "name": "Inter Miami CF",
     "short_name": "MIA",
     "venue": "DRV PNK Stadium",
@@ -1755,7 +1755,7 @@
     "leagues": ["MLS"]
   },
   "lag": {
-    "id": "lag",
+    "id": "LAG",
     "name": "LA Galaxy",
     "short_name": "LAG",
     "venue": "Dignity Health Sports Park",
@@ -1764,7 +1764,7 @@
     "leagues": ["MLS"]
   },
   "laf": {
-    "id": "laf",
+    "id": "LAF",
     "name": "Los Angeles FC (LAFC)",
     "short_name": "LAF",
     "venue": "BMO Stadium",
@@ -1773,7 +1773,7 @@
     "leagues": ["MLS"]
   },
   "min": {
-    "id": "min",
+    "id": "MIN",
     "name": "Minnesota United FC",
     "short_name": "MIN",
     "venue": "Allianz Field",
@@ -1782,7 +1782,7 @@
     "leagues": ["MLS"]
   },
   "nas": {
-    "id": "nas",
+    "id": "NAS",
     "name": "Nashville SC",
     "short_name": "NAS",
     "venue": "GEODIS Park",
@@ -1791,7 +1791,7 @@
     "leagues": ["MLS"]
   },
   "ner": {
-    "id": "ner",
+    "id": "NER",
     "name": "New England Revolution",
     "short_name": "NER",
     "venue": "Gillette Stadium",
@@ -1800,7 +1800,7 @@
     "leagues": ["MLS"]
   },
   "nyc": {
-    "id": "nyc",
+    "id": "NYC",
     "name": "New York City FC",
     "short_name": "NYC",
     "venue": "Yankee Stadium",
@@ -1809,7 +1809,7 @@
     "leagues": ["MLS"]
   },
   "nyr": {
-    "id": "nyr",
+    "id": "NYR",
     "name": "New York Red Bulls",
     "short_name": "NYR",
     "venue": "Red Bull Arena",
@@ -1818,7 +1818,7 @@
     "leagues": ["MLS"]
   },
   "orl": {
-    "id": "orl",
+    "id": "ORL",
     "name": "Orlando City SC",
     "short_name": "ORL",
     "venue": "Exploria Stadium",
@@ -1827,7 +1827,7 @@
     "leagues": ["MLS"]
   },
   "phi": {
-    "id": "phi",
+    "id": "PHI",
     "name": "Philadelphia Union",
     "short_name": "PHI",
     "venue": "Subaru Park",
@@ -1836,7 +1836,7 @@
     "leagues": ["MLS"]
   },
   "por": {
-    "id": "por",
+    "id": "POR",
     "name": "Portland Timbers",
     "short_name": "POR",
     "venue": "Providence Park",
@@ -1845,7 +1845,7 @@
     "leagues": ["MLS"]
   },
   "rsl": {
-    "id": "rsl",
+    "id": "RSL",
     "name": "Real Salt Lake",
     "short_name": "RSL",
     "venue": "America First Field",
@@ -1854,7 +1854,7 @@
     "leagues": ["MLS"]
   },
   "sdf": {
-    "id": "sdf",
+    "id": "SDF",
     "name": "San Diego FC",
     "short_name": "SDF",
     "venue": "Snapdragon Stadium",
@@ -1863,7 +1863,7 @@
     "leagues": ["MLS"]
   },
   "sje": {
-    "id": "sje",
+    "id": "SJE",
     "name": "San Jose Earthquakes",
     "short_name": "SJE",
     "venue": "PayPal Park",
@@ -1872,7 +1872,7 @@
     "leagues": ["MLS"]
   },
   "sea": {
-    "id": "sea",
+    "id": "SEA",
     "name": "Seattle Sounders FC",
     "short_name": "SEA",
     "venue": "Lumen Field",
@@ -1881,7 +1881,7 @@
     "leagues": ["MLS"]
   },
   "sks": {
-    "id": "sks",
+    "id": "SKS",
     "name": "Sporting Kansas City",
     "short_name": "SKS",
     "venue": "Children's Mercy Park",
@@ -1890,7 +1890,7 @@
     "leagues": ["MLS"]
   },
   "stl": {
-    "id": "stl",
+    "id": "STL",
     "name": "St. Louis City SC",
     "short_name": "STL",
     "venue": "CityPark Stadium",
@@ -1899,7 +1899,7 @@
     "leagues": ["MLS"]
   },
   "cmo": {
-    "id": "cmo",
+    "id": "CMO",
     "name": "CF Montréal",
     "short_name": "CMO",
     "venue": "Saputo Stadium",
@@ -1908,7 +1908,7 @@
     "leagues": ["MLS"]
   },
   "tor": {
-    "id": "tor",
+    "id": "TOR",
     "name": "Toronto FC",
     "short_name": "TOR",
     "venue": "BMO Field",
@@ -1917,7 +1917,7 @@
     "leagues": ["MLS"]
   },
   "van": {
-    "id": "van",
+    "id": "VAN",
     "name": "Vancouver Whitecaps FC",
     "short_name": "VAN",
     "venue": "BC Place",
@@ -1926,7 +1926,7 @@
     "leagues": ["MLS"]
   },
   "estudiantes": {
-    "id": "estudiantes",
+    "id": "ESTUDIANTES",
     "name": "Estudiantes",
     "short_name": "EST",
     "venue": "Estadio Jorge Luis Hirschi",
@@ -1935,7 +1935,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "river_plate": {
-    "id": "river_plate",
+    "id": "RIVER_PLATE",
     "name": "River Plate",
     "short_name": "RIV",
     "venue": "Estadio Mâs Monumental",
@@ -1944,7 +1944,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "universitario": {
-    "id": "universitario",
+    "id": "UNIVERSITARIO",
     "name": "Universitario",
     "short_name": "UNI",
     "venue": "Estadio Monumental",
@@ -1953,7 +1953,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "ldu_quito": {
-    "id": "ldu_quito",
+    "id": "LDU_QUITO",
     "name": "LDU Quito",
     "short_name": "LDU",
     "venue": "Estadio Rodrigo Paz Delgado",
@@ -1962,7 +1962,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "libertad": {
-    "id": "libertad",
+    "id": "LIBERTAD",
     "name": "Libertad",
     "short_name": "LIB",
     "venue": "Estadio Tigo La Huerta",
@@ -1971,7 +1971,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "racing": {
-    "id": "racing",
+    "id": "RACING",
     "name": "Racing",
     "short_name": "RAC",
     "venue": "Estadio Presidente Perón",
@@ -1980,7 +1980,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "atletico_nacional": {
-    "id": "atletico_nacional",
+    "id": "ATLETICO_NACIONAL",
     "name": "Atlético Nacional",
     "short_name": "NAC",
     "venue": "Estadio Atanasio Girardot",
@@ -1989,16 +1989,16 @@
     "leagues": ["LIBERTADORES"]
   },
   "cerro_porteno": {
-    "id": "cerro_porteno",
+    "id": "CERRO_PORTENO",
     "name": "Cerro Porteño",
     "short_name": "CCP",
     "venue": "Estadio General Pablo Rojas",
-    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/CCP.png",
+    "bad极": "https://ondeassistir.tv/images-scr/teams/latam/badge/CCP.png",
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
   "velez_sarsfield": {
-    "id": "velez_sarsfield",
+    "id": "VELEZ_SARSFIELD",
     "name": "Vélez Sarsfield",
     "short_name": "VEL",
     "venue": "Estadio José Amalfitani",
@@ -2007,7 +2007,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "penarol": {
-    "id": "penarol",
+    "id": "PENAROL",
     "name": "Peñarol",
     "short_name": "PEN",
     "venue": "Estadio Campeón del Siglo",
@@ -2016,7 +2016,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "huracan": {
-    "id": "huracan",
+    "id": "HURACAN",
     "name": "Huracán",
     "short_name": "HUR",
     "venue": "Estadio Tomás Adolfo Ducó",
@@ -2025,7 +2025,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "universidad_catolica": {
-    "id": "universidad_catolica",
+    "id": "UNIVERSIDAD_CATOLICA",
     "name": "Universidad Católica",
     "short_name": "UCA",
     "venue": "Estadio San Carlos de Apoquindo",
@@ -2034,16 +2034,16 @@
     "leagues": ["SUDAMERICANA"]
   },
   "independiente": {
-    "id": "independiente",
+    "id": "INDEPENDIENTE",
     "name": "Independiente",
     "short_name": "IND",
     "venue": "Estadio Libertadores de América",
     "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/IND.png",
     "country": "LA",
-    "leagues": ["SUDAMERICANA"]
+极    "leagues": ["SUDAMERICANA"]
   },
   "godoy_cruz": {
-    "id": "godoy_cruz",
+    "id": "GODOY_CRUZ",
     "name": "Godoy Cruz",
     "short_name": "GOD",
     "venue": "Estadio Malvinas Argentinas",
@@ -2052,7 +2052,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "lanus": {
-    "id": "lanus",
+    "id": "LANUS",
     "name": "Lanús",
     "short_name": "LAN",
     "venue": "Estadio Ciudad de Lanús",
@@ -2061,7 +2061,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "cienciano": {
-    "id": "cienciano",
+    "id": "CIENCIANO",
     "name": "Cienciano",
     "short_name": "CIE",
     "venue": "Estadio Inca Garcilaso de la Vega",
@@ -2070,7 +2070,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "once_caldas": {
-    "id": "once_caldas",
+    "id": "ONCE_CALDAS",
     "name": "Once Caldas",
     "short_name": "ONC",
     "venue": "Estadio Palogrande",
@@ -2079,7 +2079,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "palestino": {
-    "id": "palestino",
+    "id": "PALESTINO",
     "name": "Palestino",
     "short_name": "PAL",
     "venue": "Estadio Municipal de La Cisterna",
@@ -2088,7 +2088,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "america_de_cali": {
-    "id": "america_de_cali",
+    "id": "AMERICA_DE_CALI",
     "name": "América de Cali",
     "short_name": "AME",
     "venue": "Estadio Olímpico Pascual Guerrero",
@@ -2097,7 +2097,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "guarani": {
-    "id": "guarani",
+    "id": "GUARANI",
     "name": "Guaraní",
     "short_name": "GUA",
     "venue": "Estadio Rogelio Livieres",
@@ -2106,7 +2106,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "cerro_largo": {
-    "id": "cerro_largo",
+    "id": "CERRO_LARGO",
     "name": "Cerro Largo",
     "short_name": "CLG",
     "venue": "Estadio Arquitecto Antonio Eleuterio Ubilla",
@@ -2115,7 +2115,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "central_cordoba": {
-    "id": "central_cordoba",
+    "id": "CENTRAL_CORDOBA",
     "name": "Central Córdoba",
     "short_name": "CEN",
     "venue": "Estadio Único Madre de Ciudades",
@@ -2124,7 +2124,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "universidad_de_chile": {
-    "id": "universidad_de_chile",
+    "id": "UNIVERSIDAD_DE_CHILE",
     "name": "Universidad de Chile",
     "short_name": "UCH",
     "venue": "Estadio Nacional Julio Martínez Prádanos",
@@ -2133,7 +2133,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "independiente_del_valle": {
-    "id": "independiente_del_valle",
+    "id": "INDEPENDIENTE_DEL_VALLE",
     "name": "Independiente del Valle",
     "short_name": "IDV",
     "venue": "Estadio Banco Guayaquil",
@@ -2142,16 +2142,16 @@
     "leagues": ["SUDAMERICANA"]
   },
   "bolivar": {
-    "id": "bolivar",
+    "id": "BOLIVAR",
     "name": "Bolívar",
     "short_name": "BOL",
     "venue": "Estadio Hernando Siles",
-    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/BOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/极teams/latam/badge/BOL.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
   "atletico_bucaramanga": {
-    "id": "atletico_bucaramanga",
+    "id": "ATLETICO_BUCARAMANGA",
     "name": "Atlético Bucaramanga",
     "short_name": "BUC",
     "venue": "Estadio Alfonso López",
@@ -2160,7 +2160,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "san_antonio_bulo_bulo": {
-    "id": "san_antonio_bulo_bulo",
+    "id": "SAN_ANTONIO_BULO_BULO",
     "name": "San Antonio Bulo Bulo",
     "short_name": "SAB",
     "venue": "Estadio Municipal de Villa Tunari",
@@ -2169,7 +2169,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "alianza_lima": {
-    "id": "alianza_lima",
+    "id": "ALIANZA_LIMA",
     "name": "Alianza Lima",
     "short_name": "ALI",
     "venue": "Estadio Alejandro Villanueva",
@@ -2178,7 +2178,7 @@
     "leagues": ["SUDAMERICANA"]
   },
   "boca_juniors": {
-    "id": "boca_juniors",
+    "id": "BOCA_JUNIORS",
     "name": "Boca Juniors",
     "short_name": "BOC",
     "venue": "La Bombonera",
@@ -2187,7 +2187,7 @@
     "leagues": ["WORLD_CUP_2026"]
   },
   "al_hilal": {
-    "id": "al_hilal",
+    "id": "AL_HILAL",
     "name": "Al-Hilal",
     "short_name": "HIL",
     "venue": "TBD",
@@ -2196,7 +2196,7 @@
     "leagues": ["CLUB_WC"]
   },
   "urawa_red_diamonds": {
-    "id": "urawa_red_diamonds",
+    "id": "URAWA_RED_DIAMONDS",
     "name": "Urawa Red Diamonds",
     "short_name": "URA",
     "venue": "TBD",
@@ -2205,16 +2205,16 @@
     "leagues": ["CLUB_WC"]
   },
   "al_ain": {
-    "id": "al_ain",
+    "id": "AL_AIN",
     "name": "Al Ain",
-    "short_name": "ALN",
+    "short_name": "AIN",
     "venue": "TBD",
-    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/ALN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AIN.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
   "ulsan_hd": {
-    "id": "ulsan_hd",
+    "id": "ULSAN_HD",
     "name": "Ulsan HD",
     "short_name": "ULS",
     "venue": "TBD",
@@ -2223,7 +2223,7 @@
     "leagues": ["CLUB_WC"]
   },
   "al_ahly": {
-    "id": "al_ahly",
+    "id": "AL_AHLY",
     "name": "Al Ahly",
     "short_name": "AHL",
     "venue": "TBD",
@@ -2232,7 +2232,7 @@
     "leagues": ["CLUB_WC"]
   },
   "wydad_ac": {
-    "id": "wydad_ac",
+    "id": "WYDAD_AC",
     "name": "Wydad AC",
     "short_name": "WYD",
     "venue": "TBD",
@@ -2241,34 +2241,34 @@
     "leagues": ["CLUB_WC"]
   },
   "esperance_de_tunis": {
-    "id": "esperance_de_tunis",
+    "id": "ESPERANCE_DE_TUNIS",
     "name": "Espérance de Tunis",
-    "short_name": "EST",
+    "short_name": "ESP",
     "venue": "TBD",
-    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/EST.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/ESP.png",
     "country": "INT_FOOTBALL",
-    "leagues": ["CLUB_WC"]
+    "leagues": ["CLUB_W极"]
   },
   "mamelodi_sundowns": {
-    "id": "mamelodi_sundowns",
+    "id": "MAMELODI_SUNDOWNS",
     "name": "Mamelodi Sundowns",
-    "short_name": "MSD",
+    "short_name": "MAM",
     "venue": "TBD",
-    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/MSD.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/MAM.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
   "auckland_city": {
-    "id": "auckland_city",
+    "id": "AUCKLAND_CITY",
     "name": "Auckland City",
     "short_name": "AUC",
     "venue": "TBD",
-    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AUC.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AUCF.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
   "monterrey": {
-    "id": "monterrey",
+    "id": "MONTERREY",
     "name": "Monterrey",
     "short_name": "MTY",
     "venue": "Estadio BBVA",
@@ -2277,7 +2277,7 @@
     "leagues": ["CLUB_WC"]
   },
   "pachuca": {
-    "id": "pachuca",
+    "id": "PACHUCA",
     "name": "Pachuca",
     "short_name": "PAC",
     "venue": "Estadio Hidalgo",
@@ -2286,7 +2286,7 @@
     "leagues": ["CLUB_WC"]
   },
   "Porto": {
-    "id": "porto",
+    "id": "PORTO",
     "name": "Porto",
     "short_name": "POR",
     "venue": "TBD",
@@ -2295,7 +2295,7 @@
     "leagues": ["CLUB_WC"]
   },
   "Benfica": {
-    "id": "benfica",
+    "id": "BENFICA",
     "name": "Benfica",
     "short_name": "BEN",
     "venue": "TBD",
@@ -2304,7 +2304,7 @@
     "leagues": ["CLUB_WC"]
   },
   "argentina": {
-    "id": "argentina",
+    "id": "ARGENTINA",
     "name": "Argentina",
     "short_name": "ARG",
     "venue": "Estadio Monumental Antonio Vespucio Liberti",
@@ -2313,7 +2313,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "ecuador": {
-    "id": "ecuador",
+    "id": "ECUADOR",
     "name": "Ecuador",
     "short_name": "ECU",
     "venue": "Estadio Rodrigo Paz Delgado",
@@ -2322,7 +2322,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "uruguay": {
-    "id": "uruguay",
+    "id": "URUGUAY",
     "name": "Uruguay",
     "short_name": "URU",
     "venue": "Estadio Centenario",
@@ -2331,7 +2331,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "brazil": {
-    "id": "brazil",
+    "id": "BRAZIL",
     "name": "Brazil",
     "short_name": "BRA",
     "venue": "Estadio do Maracanã",
@@ -2340,7 +2340,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "paraguay": {
-    "id": "paraguay",
+    "id": "PARAGUAY",
     "name": "Paraguay",
     "short_name": "PAR",
     "venue": "Estadio Defensores del Chaco",
@@ -2349,7 +2349,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "colombia": {
-    "id": "colombia",
+    "id": "COLOMBIA",
     "name": "Colombia",
     "short_name": "COL",
     "venue": "Estadio Metropolitano Roberto Meléndez",
@@ -2358,7 +2358,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "venezuela": {
-    "id": "venezuela",
+    "id": "VENEZUELA",
     "name": "Venezuela",
     "short_name": "VEN",
     "venue": "Estadio Olímpico de la UCV",
@@ -2367,7 +2367,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "bolivia": {
-    "id": "bolivia",
+    "id": "BOLIVIA",
     "name": "Bolivia",
     "short_name": "BOL",
     "venue": "Estadio Hernando Siles",
@@ -2376,7 +2376,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "peru": {
-    "id": "peru",
+    "id": "PERU",
     "name": "Peru",
     "short_name": "PER",
     "venue": "Estadio Nacional del Perú",
@@ -2385,7 +2385,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "chile": {
-    "id": "chile",
+    "id": "CHILE",
     "name": "Chile",
     "short_name": "CHI",
     "venue": "Estadio Nacional Julio Martínez Prádanos",
