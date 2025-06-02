@@ -6,55 +6,59 @@ import os
 
 app = FastAPI()
 
-# Enable CORS for all origins (adjust if needed)
+# Add CORS middleware to allow requests from your frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Replace with your frontend domain in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount static folder
+# Serve static files from /data
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
-# Load team metadata (badge, venue)
-def load_teams():
-    with open("data/teams.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+# Load teams data once at startup
+with open("data/teams.json", "r", encoding="utf-8") as f:
+    teams = json.load(f)
 
-teams_data = load_teams()
-
-# Generate match_id and enrich match with venue/badge
-def enrich_match(match):
-    home = match.get("home_team").upper()
-    away = match.get("away_team").upper()
-    kickoff = match.get("kickoff")
-    league = match.get("league")
-    
-    match_id = f"{league}_{kickoff}_{home}_x_{away}".lower().replace(" ", "_")
-
-    home_info = teams_data.get(home, {})
-    away_info = teams_data.get(away, {})
-
-    return {
-        "match_id": match_id,
-        **match,
-        "home_team_venue": home_info.get("venue", "Unknown"),
-        "home_team_badge": home_info.get("badge", ""),
-        "away_team_venue": away_info.get("venue", "Unknown"),
-        "away_team_badge": away_info.get("badge", "")
-    }
-
+# Enriched match data endpoint
 @app.get("/matches")
 async def get_matches():
     with open("data/matches.json", "r", encoding="utf-8") as f:
         raw_matches = json.load(f)
 
-    enriched_matches = [enrich_match(m) for m in raw_matches]
+    enriched_matches = []
+    for match in raw_matches:
+        home_code = match["home_team"].upper()
+	away_code = match["away_team"].upper()
+
+	home_team = teams_data.get(home_code, {"venue": "Unknown", "badge": ""})
+	away_team = teams_data.get(away_code, {"venue": "Unknown", "badge": ""})
+
+        enriched_matches.append({
+    "match_id": f"{match['league']}_{match['kickoff']}_{home_team_code}_x_{away_team_code}",
+    "league": match["league"],
+    "league_week_number": match.get("league_week_number"),
+    "kickoff": match["kickoff"],
+    "broadcasts": match.get("broadcasts", {}),
+    "home_team": {
+        "id": home_team_code,
+        "name": home_team.get("name", home_team_code),
+        "badge": home_team.get("badge", ""),
+        "venue": home_team.get("venue", "Unknown"),
+    },
+    "away_team": {
+        "id": away_team_code,
+        "name": away_team.get("name", away_team_code),
+        "badge": away_team.get("badge", ""),
+        "venue": away_team.get("venue", "Unknown"),
+    }
+})
+
     return enriched_matches
 
-# Debug route
+# Debug endpoint to view files in /data folder
 @app.get("/debug/data-files")
 async def list_data_files():
     files = os.listdir("data")
