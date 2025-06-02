@@ -148,3 +148,72 @@ async def get_standings(league: str):
         })
 
     return enriched
+
+from fastapi.responses import HTMLResponse
+
+@app.get("/admin", response_class=HTMLResponse)
+async def admin_interface():
+    return """
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Admin JSON Editor</title>
+        <style>
+            body { font-family: sans-serif; padding: 2rem; background: #f2f2f2; }
+            textarea { width: 100%; height: 400px; font-family: monospace; }
+            select, button { margin: 1rem 0; padding: 0.5rem; }
+        </style>
+    </head>
+    <body>
+        <h2>📂 Edit JSON File</h2>
+        <select id="fileSelect">
+            <option value="matches.json">matches.json</option>
+            <option value="teams.json">teams.json</option>
+            <option value="standings_BRA_A.json">standings_BRA_A.json</option>
+        </select>
+        <button onclick="load()">Load</button>
+        <button onclick="save()">Save</button>
+        <br/>
+        <textarea id="editor"></textarea>
+        <script>
+            async function load() {
+                const file = document.getElementById('fileSelect').value;
+                const res = await fetch('/data/' + file);
+                const text = await res.text();
+                document.getElementById('editor').value = text;
+            }
+            async function save() {
+                const file = document.getElementById('fileSelect').value;
+                const json = document.getElementById('editor').value;
+                const res = await fetch('/admin/save', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ file, json })
+                });
+                const result = await res.json();
+                alert(result.message || result.error);
+            }
+        </script>
+    </body>
+    </html>
+    """
+from fastapi import Request
+
+@app.post("/admin/save")
+async def save_file(request: Request):
+    data = await request.json()
+    filename = data.get("file")
+    json_data = data.get("json")
+
+    filepath = os.path.join("data", filename)
+    if not os.path.exists(filepath):
+        return {"error": f"{filename} not found"}
+
+    try:
+        parsed = json.loads(json_data)  # Validate JSON before saving
+        with open(filepath, "w", encoding="utf-8") as f:
+            json.dump(parsed, f, ensure_ascii=False, indent=2)
+        return {"message": f"{filename} saved successfully ✅"}
+    except json.JSONDecodeError as e:
+        return {"error": f"JSON Error: {str(e)}"}
+
