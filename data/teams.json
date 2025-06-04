@@ -49,7 +49,7 @@
     "name": "Cruzeiro",
     "short_name": "CRU",
     "venue": "Mineirão",
-    "bad极": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CRU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/CRU.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -67,7 +67,7 @@
     "name": "Fluminense",
     "short_name": "FLU",
     "venue": "Maracanã",
-    "badge": "极https://ondeassistir.tv/images-scr/teams/brazil/badge/FLU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FLU.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -294,7 +294,7 @@
     "venue": "Serra Dourada",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/GOI.png",
     "country": "BR",
-    "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_B极", "FUT_FEM_BRA"]
+    "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BR", "FUT_FEM_BRA"]
   },
   "NOV": {
     "id": "NOV",
@@ -735,7 +735,7 @@
     "venue": "Benito Villamarín",
     "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/RBE.png",
     "country": "ES",
-    "极leagues": ["LALIGA"]
+    "leagues": ["LALIGA"]
   },
   "REA": {
     "id": "REA",
@@ -1352,7 +1352,7 @@
   "AUX": {
     "id": "AUX",
     "name": "Auxerre",
-    "short_name": "AU极",
+    "short_name": "AUX",
     "venue": "Stade Abbé-Deschamps",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/AUX.png",
     "country": "FR",
@@ -1914,7 +1914,7 @@
     "venue": "BMO Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/north_america/badge/TOR.png",
     "country": "NA",
-    "leagues": ["ML极"]
+    "leagues": ["MLS"]
   },
   "VAN": {
     "id": "VAN",
@@ -1993,7 +1993,7 @@
     "name": "Cerro Porteño",
     "short_name": "CCP",
     "venue": "Estadio General Pablo Rojas",
-    "bad极": "https://ondeassistir.tv/images-scr/teams/latam/badge/CCP.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/CCP.png",
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
@@ -2146,7 +2146,7 @@
     "name": "Bolívar",
     "short_name": "BOL",
     "venue": "Estadio Hernando Siles",
-    "badge": "https://ondeassistir.tv/images-scr/极teams/latam/badge/BOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/BOL.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
@@ -2247,7 +2247,7 @@
     "venue": "TBD",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/ESP.png",
     "country": "INT_FOOTBALL",
-    "leagues": ["CLUB_W极"]
+    "leagues": ["CLUB_WR"]
   },
   "MAMELODI_SUNDOWNS": {
     "id": "MAMELODI_SUNDOWNS",
