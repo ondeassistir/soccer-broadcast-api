@@ -8,3 +8,4 @@ cachetools
 requests
 python-multipart
 requests
+beautifulsoup4
