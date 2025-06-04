@@ -1,54 +1,79 @@
-import json
+# helpers.py
+
 import os
-import requests
+import json
+from datetime import datetime
 from bs4 import BeautifulSoup
+import requests
+
 
 def load_teams():
     with open("data/teams.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def load_leagues():
     with open("data/leagues.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
-def load_matches_from_league(league_code):
-    try:
-        with open(f"data/{league_code}.json", "r", encoding="utf-8") as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return []
 
 def load_matches_from_all_leagues(leagues_dict, teams_dict):
-    matches = []
-    for file_name in os.listdir("data"):
-        if file_name.endswith(".json") and file_name not in ["teams.json", "leagues.json", "channels.json"]:
-            league_code = file_name.replace(".json", "")
-            league_matches = load_matches_from_league(league_code)
-            matches.extend(league_matches)
-    return matches
+    all_matches = []
 
-def get_team_info(teams_data, team_id):
-    return teams_data.get(team_id.upper(), {
-        "name": team_id.upper(),
-        "badge": "",
-        "venue": ""
-    })
+    for league_code in leagues_dict:
+        file_path = f"data/{league_code}.json"
+        if os.path.exists(file_path):
+            with open(file_path, "r", encoding="utf-8") as f:
+                try:
+                    matches = json.load(f)
+                except json.JSONDecodeError:
+                    matches = []
+
+                for match in matches:
+                    home_code = match.get("home_team", "").upper()
+                    away_code = match.get("away_team", "").upper()
+
+                    home_team = teams_dict.get(home_code, {})
+                    away_team = teams_dict.get(away_code, {})
+
+                    enriched_match = {
+                        "match_id": f"{match['league'].lower()}_{match['kickoff'].lower()}_{home_code.lower()}_x_{away_code.lower()}",
+                        "league": match.get("league"),
+                        "league_week_number": match.get("league_week_number"),
+                        "kickoff": match.get("kickoff"),
+                        "broadcasts": match.get("broadcasts", {}),
+                        "home_team": {
+                            "id": home_code.lower(),
+                            "name": home_team.get("name", home_code),
+                            "badge": home_team.get("badge", ""),
+                            "venue": home_team.get("venue", "")
+                        },
+                        "away_team": {
+                            "id": away_code.lower(),
+                            "name": away_team.get("name", away_code),
+                            "badge": away_team.get("badge", ""),
+                            "venue": away_team.get("venue", "")
+                        },
+                        "score": {
+                            "home": None,
+                            "away": None
+                        },
+                        "status": "upcoming",
+                        "minute": None
+                    }
+
+                    all_matches.append(enriched_match)
+
+    return all_matches
+
 
 def get_live_score(match_id):
-    try:
-        url = f"https://ondeassistir.tv/api/scores/{match_id}.json"
-        response = requests.get(url, timeout=2)
-        if response.status_code == 200:
-            data = response.json()
-            return {
-                "status": data.get("status"),
-                "minute": data.get("minute"),
-                "score": data.get("score")
-            }
-    except Exception:
-        pass
+    # Example dummy function (implement scraping logic here)
     return {
-        "status": None,
-        "minute": None,
-        "score": None
+        "status": "live",  # or "upcoming", "finished"
+        "minute": 45,
+        "score": {
+            "home": 1,
+            "away": 2
+        }
     }
