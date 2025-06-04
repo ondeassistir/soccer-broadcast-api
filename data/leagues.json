@@ -1,213 +1,212 @@
 {
     "BRA_A": {
-      "name": "Brasileirão Série A",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/brasileirao_serie_a.png",
-      "country": "Brasil"
+        "name": "Brasileirão Série A",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/brasileirao_serie_a.png",
+        "country": "Brasil"
     },
     "BRA_B": {
-      "name": "Brasileirão Série B",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/brasileirao_serie_b.png",
-      "country": "Brasil"
+        "name": "Brasileirão Série B",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/brasileirao_serie_b.png",
+        "country": "Brasil"
     },
     "CDB": {
-      "name": "Copa do Brasil",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/copa_do_brasil.png",
-      "country": "Brasil"
+        "name": "Copa do Brasil",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/copa_do_brasil.png",
+        "country": "Brasil"
     },
     "SCB": {
-      "name": "Super Copa do Brasil",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/super_copa_do_brasil.png",
-      "country": "Brasil"
+        "name": "Super Copa do Brasil",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/super_copa_do_brasil.png",
+        "country": "Brasil"
     },
     "AMISTOSOS_BRA": {
-      "name": "Amistosos da Seleção",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/amistosos_da_selecao.png",
-      "country": "Brasil"
+        "name": "Amistosos da Seleção",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/amistosos_da_selecao.png",
+        "country": "Brasil"
     },
     "FUT_FEM_BRA": {
-      "name": "Futebol Feminino",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/futebol_feminino.png",
-      "country": "Brasil"
+        "name": "Futebol Feminino",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/futebol_feminino.png",
+        "country": "Brasil"
     },
     "ESTADUAIS_BRA": {
-      "name": "Estaduais",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/estaduais.png",
-      "country": "Brasil"
+        "name": "Estaduais",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/estaduais.png",
+        "country": "Brasil"
     },
     "EPL": {
-      "name": "Premier League",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/premier_league.png",
-      "country": "England"
+        "name": "Premier League",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/premier_league.png",
+        "country": "England"
     },
     "ENG_FOOTBALL": {
-      "name": "English Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/english_football.png",
-      "country": "England"
+        "name": "English Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/english_football.png",
+        "country": "England"
     },
     "LALIGA": {
-      "name": "La Liga",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/la_liga.png",
-      "country": "Spain"
+        "name": "La Liga",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/la_liga.png",
+        "country": "Spain"
     },
     "CDR": {
-      "name": "Copa Del Rey",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/copa_del_rey.png",
-      "country": "Spain"
+        "name": "Copa Del Rey",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/copa_del_rey.png",
+        "country": "Spain"
     },
     "ESP_FOOTBALL": {
-      "name": "Spanish Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/spanish_football.png",
-      "country": "Spain"
+        "name": "Spanish Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/spanish_football.png",
+        "country": "Spain"
     },
     "ITASERIE_A": {
-      "name": "Italy Serie A",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/italy_serie_a.png",
-      "country": "Italy"
+        "name": "Italy Serie A",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/italy_serie_a.png",
+        "country": "Italy"
     },
     "ITA_FOOTBALL": {
-      "name": "Italy Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/italy_football.png",
-      "country": "Italy"
+        "name": "Italy Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/italy_football.png",
+        "country": "Italy"
     },
     "BUNDESLIGA": {
-      "name": "Bundesliga",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/bundesliga.png",
-      "country": "Germany"
+        "name": "Bundesliga",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/bundesliga.png",
+        "country": "Germany"
     },
     "BUNDESLIGA_2": {
-      "name": "Bundesliga 2",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/bundesliga_2.png",
-      "country": "Germany"
+        "name": "Bundesliga 2",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/bundesliga_2.png",
+        "country": "Germany"
     },
     "GER_FOOTBALL": {
-      "name": "German Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/german_football.png",
-      "country": "Germany"
+        "name": "German Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/german_football.png",
+        "country": "Germany"
     },
     "LIGUE_1": {
-      "name": "Ligue 1",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/ligue_1.png",
-      "country": "France"
+        "name": "Ligue 1",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/ligue_1.png",
+        "country": "France"
     },
     "LIGUE_2": {
-      "name": "Ligue 2",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/ligue_2.png",
-      "country": "France"
+        "name": "Ligue 2",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/ligue_2.png",
+        "country": "France"
     },
     "FRENCH_FOOTBALL": {
-      "name": "French Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/french_football.png",
-      "country": "France"
+        "name": "French Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/french_football.png",
+        "country": "France"
     },
     "UCL": {
-      "name": "UEFA Champions League",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_champions_league.png",
-      "country": "Europe"
+        "name": "UEFA Champions League",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_champions_league.png",
+        "country": "Europe"
     },
     "UEFA_CUP": {
-      "name": "UEFA Cup",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_cup.png",
-      "country": "Europe"
+        "name": "UEFA Cup",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_cup.png",
+        "country": "Europe"
     },
     "UEL": {
-      "name": "UEFA Europa League",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_europa_league.png",
-      "country": "Europe"
+        "name": "UEFA Europa League",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_europa_league.png",
+        "country": "Europe"
     },
     "UECL": {
-      "name": "UEFA Conference League",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_conference_league.png",
-      "country": "Europe"
+        "name": "UEFA Conference League",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/uefa_conference_league.png",
+        "country": "Europe"
     },
     "EUR_FOOTBALL": {
-      "name": "European Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/european_football.png",
-      "country": "Europe"
+        "name": "European Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/european_football.png",
+        "country": "Europe"
     },
     "INTERCONTINENTAL": {
-      "name": "FIFA Intercontinental Cup",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/fifa_intercontinental_cup.png",
-      "country": "International"
+        "name": "FIFA Intercontinental Cup",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/fifa_intercontinental_cup.png",
+        "country": "International"
     },
     "CLUB_WC": {
-      "name": "FIFA Club World Cup",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/fifa_club_world_cup.png",
-      "country": "International"
+        "name": "FIFA Club World Cup",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/fifa_club_world_cup.png",
+        "country": "International"
     },
     "WORLD_CUP_2026": {
-      "name": "FIFA World Cup 2026",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/fifa_world_cup_2026.png",
-      "country": "International"
+        "name": "FIFA World Cup 2026",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/fifa_world_cup_2026.png",
+        "country": "International"
     },
     "QUALIFIERS_2026": {
-      "name": "Qualifiers 2026",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/qualifiers_2026.png",
-      "country": "International"
+        "name": "Qualifiers 2026",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/qualifiers_2026.png",
+        "country": "International"
     },
     "INT_FOOTBALL": {
-      "name": "International Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/international_football.png",
-      "country": "International"
+        "name": "International Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/international_football.png",
+        "country": "International"
     },
     "INT_FRIENDLY": {
-      "name": "International Friendly",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/international_friendly.png",
-      "country": "International"
+        "name": "International Friendly",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/international_friendly.png",
+        "country": "International"
     },
     "LIBERTADORES": {
-      "name": "Copa Libertadores",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/copa_libertadores.png",
-      "country": "South America"
+        "name": "Copa Libertadores",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/copa_libertadores.png",
+        "country": "South America"
     },
     "SUDAMERICANA": {
-      "name": "Copa Sudamericana",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/copa_sudamericana.png",
-      "country": "South America"
+        "name": "Copa Sudamericana",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/copa_sudamericana.png",
+        "country": "South America"
     },
     "RECOPA": {
-      "name": "Recopa Sudamericana",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/recopa_sudamericana.png",
-      "country": "South America"
+        "name": "Recopa Sudamericana",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/recopa_sudamericana.png",
+        "country": "South America"
     },
     "COPA_AMERICA": {
-      "name": "Copa América",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/copa_america.png",
-      "country": "South America"
+        "name": "Copa América",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/copa_america.png",
+        "country": "South America"
     },
     "LATAM": {
-      "name": "Sulamerican Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/sulamerican_football.png",
-      "country": "South America"
+        "name": "Sulamerican Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/sulamerican_football.png",
+        "country": "South America"
     },
     "MLS": {
-      "name": "MLS",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/mls.png",
-      "country": "North America"
+        "name": "MLS",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/mls.png",
+        "country": "North America"
     },
     "GOLD_CUP_USA": {
-      "name": "Gold Cup",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/gold_cup.png",
-      "country": "North America"
+        "name": "Gold Cup",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/gold_cup.png",
+        "country": "North America"
     },
     "NATIONS_LEAGUE_USA": {
-      "name": "Nations League",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/nations_league.png",
-      "country": "North America"
+        "name": "Nations League",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/nations_league.png",
+        "country": "North America"
     },
     "CHAMPIONS_CUP_USA": {
-      "name": "Champions Cup",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/champions_cup.png",
-      "country": "North America"
+        "name": "Champions Cup",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/champions_cup.png",
+        "country": "North America"
     },
     "LEAGUES_CUP_USA": {
-      "name": "Leagues Cup",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/leagues_cup.png",
-      "country": "North America"
+        "name": "Leagues Cup",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/leagues_cup.png",
+        "country": "North America"
     },
     "OTHER_FOOTBALL": {
-      "name": "Football",
-      "logo": "https://ondeassistir.tv/images-scr/leagues/football.png",
-      "country": "Others"
+        "name": "Football",
+        "logo": "https://ondeassistir.tv/images-scr/leagues/football.png",
+        "country": "Others"
     }
-  }
 }
