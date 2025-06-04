@@ -1,5 +1,7 @@
 import json
 import os
+import requests
+from bs4 import BeautifulSoup
 
 def load_teams():
     with open("data/teams.json", "r", encoding="utf-8") as f:
@@ -31,3 +33,22 @@ def get_team_info(teams_data, team_id):
         "badge": "",
         "venue": ""
     })
+
+def get_live_score(match_id):
+    try:
+        url = f"https://ondeassistir.tv/api/scores/{match_id}.json"
+        response = requests.get(url, timeout=2)
+        if response.status_code == 200:
+            data = response.json()
+            return {
+                "status": data.get("status"),
+                "minute": data.get("minute"),
+                "score": data.get("score")
+            }
+    except Exception:
+        pass
+    return {
+        "status": None,
+        "minute": None,
+        "score": None
+    }
