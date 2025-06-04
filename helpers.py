@@ -18,7 +18,7 @@ def load_matches_from_league(league_code):
     except FileNotFoundError:
         return []
 
-def load_matches_from_all_leagues():
+def load_matches_from_all_leagues(leagues_dict, teams_dict):
     matches = []
     for file_name in os.listdir("data"):
         if file_name.endswith(".json") and file_name not in ["teams.json", "leagues.json", "channels.json"]:
