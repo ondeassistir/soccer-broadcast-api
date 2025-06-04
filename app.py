@@ -100,6 +100,28 @@ async def get_matches(
 
     return paginated_matches
 
+from fastapi import HTTPException
+
+@app.get("/matches/{match_id}")
+async def get_match_by_id(match_id: str):
+    teams = load_teams()
+    leagues = load_leagues()
+    all_matches = load_matches_from_all_leagues(leagues, teams)
+
+    for match in all_matches:
+        if match.get("match_id") == match_id:
+            # Optionally add live score
+            try:
+                live = get_live_score(match_id)
+                match.update(live)
+            except:
+                pass  # ignore scraper issues
+
+            return match
+
+    raise HTTPException(status_code=404, detail="Match not found")
+
+
 @app.get("/debug/data-files")
 async def list_data_files():
     return {
