@@ -1,0 +1,774 @@
+{
+  "tournament": "2025_FIFA_Club_World_Cup",
+  "matches": {
+    "group_stage": [
+      // ================= GROUP A =================
+      {
+        "home_team": "CHE",
+        "away_team": "AUC",
+        "kickoff": "2025-06-15T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "FLA",
+        "away_team": "JAZ",
+        "kickoff": "2025-06-16T19:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "AUC",
+        "away_team": "JAZ",
+        "kickoff": "2025-06-20T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "CHE",
+        "away_team": "FLA",
+        "kickoff": "2025-06-21T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "JAZ",
+        "away_team": "CHE",
+        "kickoff": "2025-06-25T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "AUC",
+        "away_team": "FLA",
+        "kickoff": "2025-06-26T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP B =================
+      {
+        "home_team": "MCI",
+        "away_team": "WYD",
+        "kickoff": "2025-06-16T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "PAL",
+        "away_team": "HIL",
+        "kickoff": "2025-06-17T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "WYD",
+        "away_team": "HIL",
+        "kickoff": "2025-06-21T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "MCI",
+        "away_team": "PAL",
+        "kickoff": "2025-06-22T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "HIL",
+        "away_team": "MCI",
+        "kickoff": "2025-06-26T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "WYD",
+        "away_team": "PAL",
+        "kickoff": "2025-06-27T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP C =================
+      {
+        "home_team": "BAY",
+        "away_team": "ESM",
+        "kickoff": "2025-06-17T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "RIV",
+        "away_team": "ITT",
+        "kickoff": "2025-06-18T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ESM",
+        "away_team": "ITT",
+        "kickoff": "2025-06-22T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "BAY",
+        "away_team": "RIV",
+        "kickoff": "2025-06-23T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ITT",
+        "away_team": "BAY",
+        "kickoff": "2025-06-27T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ESM",
+        "away_team": "RIV",
+        "kickoff": "2025-06-28T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP D =================
+      {
+        "home_team": "PSG",
+        "away_team": "MAM",
+        "kickoff": "2025-06-18T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "BOC",
+        "away_team": "UHD",
+        "kickoff": "2025-06-19T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "MAM",
+        "away_team": "UHD",
+        "kickoff": "2025-06-23T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "PSG",
+        "away_team": "BOC",
+        "kickoff": "2025-06-24T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "UHD",
+        "away_team": "PSG",
+        "kickoff": "2025-06-28T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "MAM",
+        "away_team": "BOC",
+        "kickoff": "2025-06-29T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP E =================
+      {
+        "home_team": "INT",
+        "away_team": "OFC",
+        "kickoff": "2025-06-19T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "SAN",
+        "away_team": "SHB",
+        "kickoff": "2025-06-20T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "OFC",
+        "away_team": "SHB",
+        "kickoff": "2025-06-24T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "INT",
+        "away_team": "SAN",
+        "kickoff": "2025-06-25T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "SHB",
+        "away_team": "INT",
+        "kickoff": "2025-06-29T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "OFC",
+        "away_team": "SAN",
+        "kickoff": "2025-06-30T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP F =================
+      {
+        "home_team": "JUV",
+        "away_team": "ZAM",
+        "kickoff": "2025-06-20T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "COR",
+        "away_team": "SSA",
+        "kickoff": "2025-06-21T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ZAM",
+        "away_team": "SSA",
+        "kickoff": "2025-06-25T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "JUV",
+        "away_team": "COR",
+        "kickoff": "2025-06-26T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "SSA",
+        "away_team": "JUV",
+        "kickoff": "2025-06-30T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ZAM",
+        "away_team": "COR",
+        "kickoff": "2025-07-01T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP G =================
+      {
+        "home_team": "ATM",
+        "away_team": "RCA",
+        "kickoff": "2025-06-21T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "IND",
+        "away_team": "PER",
+        "kickoff": "2025-06-22T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "RCA",
+        "away_team": "PER",
+        "kickoff": "2025-06-26T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ATM",
+        "away_team": "IND",
+        "kickoff": "2025-06-27T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "PER",
+        "away_team": "ATM",
+        "kickoff": "2025-07-01T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "RCA",
+        "away_team": "IND",
+        "kickoff": "2025-07-02T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= GROUP H =================
+      {
+        "home_team": "LIV",
+        "away_team": "ESS",
+        "kickoff": "2025-06-22T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "PEN",
+        "away_team": "YFM",
+        "kickoff": "2025-06-23T18:30:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 1,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ESS",
+        "away_team": "YFM",
+        "kickoff": "2025-06-27T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "LIV",
+        "away_team": "PEN",
+        "kickoff": "2025-06-28T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 2,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "YFM",
+        "away_team": "LIV",
+        "kickoff": "2025-07-02T18:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "ESS",
+        "away_team": "PEN",
+        "kickoff": "2025-07-03T21:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 3,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      }
+    ],
+
+    "knockout_stage": [
+      // ================= ROUND OF 16 =================
+      {
+        "home_team": "1A",
+        "away_team": "2B",
+        "kickoff": "2025-07-05T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1C",
+        "away_team": "2D",
+        "kickoff": "2025-07-05T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1E",
+        "away_team": "2F",
+        "kickoff": "2025-07-06T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1G",
+        "away_team": "2H",
+        "kickoff": "2025-07-06T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1B",
+        "away_team": "2A",
+        "kickoff": "2025-07-07T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1D",
+        "away_team": "2C",
+        "kickoff": "2025-07-07T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1F",
+        "away_team": "2E",
+        "kickoff": "2025-07-08T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "1H",
+        "away_team": "2G",
+        "kickoff": "2025-07-08T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 4,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= QUARTERFINALS =================
+      {
+        "home_team": "R16-1_Winner",
+        "away_team": "R16-2_Winner",
+        "kickoff": "2025-07-11T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 5,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "R16-3_Winner",
+        "away_team": "R16-4_Winner",
+        "kickoff": "2025-07-11T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 5,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "R16-5_Winner",
+        "away_team": "R16-6_Winner",
+        "kickoff": "2025-07-12T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 5,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "R16-7_Winner",
+        "away_team": "R16-8_Winner",
+        "kickoff": "2025-07-12T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 5,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= SEMIFINALS =================
+      {
+        "home_team": "QF1_Winner",
+        "away_team": "QF2_Winner",
+        "kickoff": "2025-07-15T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 6,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+      {
+        "home_team": "QF3_Winner",
+        "away_team": "QF4_Winner",
+        "kickoff": "2025-07-16T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 6,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= THIRD PLACE =================
+      {
+        "home_team": "SF1_Loser",
+        "away_team": "SF2_Loser",
+        "kickoff": "2025-07-19T17:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 7,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      },
+
+      // ================= FINAL =================
+      {
+        "home_team": "SF1_Winner",
+        "away_team": "SF2_Winner",
+        "kickoff": "2025-07-20T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": 7,
+        "broadcasts": {
+          "br": ["globo", "youtube"],
+          "us": ["dazn"]
+        }
+      }
+    ]
+  },
+  "metadata": {
+    "team_abbreviations": {
+      "CHE": "Chelsea FC",
+      "MCI": "Manchester City",
+      "FLA": "Flamengo",
+      "AUC": "Auckland City",
+      "JAZ": "Al Jazira",
+      "WYD": "Wydad AC",
+      "PAL": "Palmeiras",
+      "HIL": "Al Hilal",
+      "BAY": "Bayern Munich",
+      "RIV": "River Plate",
+      "ESM": "ES Tunis",
+      "ITT": "Al-Ittihad",
+      "PSG": "Paris Saint-Germain",
+      "BOC": "Boca Juniors",
+      "MAM": "Mamelodi Sundowns",
+      "UHD": "Urawa Red Diamonds",
+      "INT": "Inter Milan",
+      "SAN": "Santos",
+      "OFC": "OFC Representative",
+      "SHB": "Al-Shabab",
+      "JUV": "Juventus",
+      "COR": "Corinthians",
+      "ZAM": "Zamalek",
+      "SSA": "Al-Sadd",
+      "ATM": "Atletico Madrid",
+      "IND": "Independiente",
+      "RCA": "Raja Casablanca",
+      "PER": "Persepolis",
+      "LIV": "Liverpool",
+      "PEN": "Peñarol",
+      "ESS": "Esperance de Tunis",
+      "YFM": "Yokohama F. Marinos"
+    }
+  }
+}
