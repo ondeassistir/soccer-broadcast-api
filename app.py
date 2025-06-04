@@ -1,94 +1,108 @@
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-from typing import Optional
+from typing import List, Optional
+import json
+import os
 from datetime import datetime
-from helpers import load_teams, load_leagues, load_matches_from_all_leagues, get_live_score
+from helpers import (
+    load_teams,
+    load_leagues,
+    load_matches_from_all_leagues,
+    get_live_score,
+)
 
 app = FastAPI()
 
-# Enable CORS for frontend
+# CORS setup
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Change this to your frontend URL for security
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Mount static data folder
+# Serve /data folder
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
-# Load data
+# Load static dictionaries
 teams = load_teams()
 leagues = load_leagues()
-matches = load_matches_from_all_leagues(leagues, teams)
 
 @app.get("/matches")
 async def get_matches(
-    league: Optional[str] = Query(None),
-    team: Optional[str] = Query(None),
-    country: Optional[str] = Query(None),
-    date_from: Optional[str] = Query(None),
-    date_to: Optional[str] = Query(None),
-    page: int = Query(1, ge=1)
+    league: Optional[str] = None,
+    team: Optional[str] = None,
+    start_date: Optional[str] = None,
+    end_date: Optional[str] = None,
+    channel: Optional[str] = None,
+    page: int = 1,
+    per_page: int = 10
 ):
-    filtered = matches
+    all_matches = load_matches_from_all_leagues(leagues)
 
     # Filter by league
     if league:
-        filtered = [m for m in filtered if m["league"].lower() == league.lower()]
+        all_matches = [m for m in all_matches if m.get("league") == league]
 
     # Filter by team
     if team:
-        team = team.lower()
-        filtered = [
-            m for m in filtered
-            if m["home_team"]["id"].lower() == team or m["away_team"]["id"].lower() == team
-        ]
-
-    # Filter by country (channel availability)
-    if country:
-        filtered = [
-            m for m in filtered
-            if country.lower() in m.get("broadcasts", {})
-        ]
+        team = team.upper()
+        all_matches = [m for m in all_matches if m.get("home_team") == team or m.get("away_team") == team]
 
     # Filter by date range
-    def parse_date(d):
-        return datetime.strptime(d, "%Y-%m-%d")
+    if start_date or end_date:
+        def within_range(kickoff_str):
+            try:
+                dt = datetime.strptime(kickoff_str, "%Y-%m-%dT%H:%M:%SZ")
+            except Exception:
+                return False
+            if start_date:
+                start = datetime.strptime(start_date, "%Y-%m-%d")
+                if dt < start:
+                    return False
+            if end_date:
+                end = datetime.strptime(end_date, "%Y-%m-%d")
+                if dt > end:
+                    return False
+            return True
+        all_matches = [m for m in all_matches if within_range(m.get("kickoff", ""))]
 
-    if date_from:
-        filtered = [
-            m for m in filtered
-            if m["kickoff"] != "No time yet" and datetime.strptime(m["kickoff"], "%Y-%m-%dT%H:%M:%SZ") >= parse_date(date_from)
-        ]
-    if date_to:
-        filtered = [
-            m for m in filtered
-            if m["kickoff"] != "No time yet" and datetime.strptime(m["kickoff"], "%Y-%m-%dT%H:%M:%SZ") <= parse_date(date_to)
+    # Filter by broadcast channel
+    if channel:
+        channel = channel.lower()
+        all_matches = [
+            m for m in all_matches
+            if any(channel in [c.lower() for c in chans] for chans in m.get("broadcasts", {}).values())
         ]
 
-    # Sort by kickoff, most recent first
+    # Sort by kickoff date
     def sort_key(m):
-    	kickoff = m.get("kickoff", "No time yet")
-    	return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
+        kickoff = m.get("kickoff", "No time yet")
+        return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
 
+    all_matches.sort(key=sort_key, reverse=True)
 
+    # Pagination
+    start = (page - 1) * per_page
+    end = start + per_page
+    paginated_matches = all_matches[start:end]
 
-    filtered.sort(key=sort_key, reverse=True)
-
-    # Pagination (10 per page)
-    start = (page - 1) * 10
-    end = start + 10
-    paginated = filtered[start:end]
-
-    # Add live score info
-    for match in paginated:
-        live = get_live_score(match["match_id"])
+    # Add live score data (optional)
+    for match in paginated_matches:
+        match_id = match.get("match_id")
+        if not match_id:
+            continue
+        live = get_live_score(match_id)
         if live:
-            match["status"] = live.get("status")
-            match["minute"] = live.get("minute")
-            match["score"] = live.get("score")
+            match.update(live)
 
-    return paginated
+    return paginated_matches
+
+@app.get("/debug/data-files")
+async def list_data_files():
+    return {
+        "root_files": os.listdir(),
+        "data_files": os.listdir("data")
+    }
