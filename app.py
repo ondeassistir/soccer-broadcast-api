@@ -71,7 +71,9 @@ async def get_matches(
 
     # Sort by kickoff, most recent first
     def sort_key(m):
-        return m["kickoff"] if m["kickoff"] != "No time yet" else "9999-99-99T99:99:99Z"
+    kickoff = m.get("kickoff", "No time yet")
+    return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
+
 
     filtered.sort(key=sort_key, reverse=True)
 
