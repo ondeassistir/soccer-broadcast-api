@@ -4,6 +4,13 @@ from datetime import datetime
 from typing import List, Dict
 import requests
 
+import json
+
+def load_teams():
+    with open("data/teams.json", "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 # Load teams.json and leagues.json once
 with open("data/teams.json", "r", encoding="utf-8") as f:
     teams = json.load(f)
