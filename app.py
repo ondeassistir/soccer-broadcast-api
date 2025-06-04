@@ -40,7 +40,7 @@ async def get_matches(
     page: int = 1,
     per_page: int = 10
 ):
-    all_matches = load_matches_from_all_leagues(leagues)
+    all_matches = load_matches_from_all_leagues(leagues, teams)
 
     # Filter by league
     if league:
