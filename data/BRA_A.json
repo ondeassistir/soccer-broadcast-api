@@ -1,339 +1,467 @@
 [
-  // Previous weeks (10-13) would be here...
-  // Continuing from Week 14:
-  {
-    "home_team": "FLU",
-    "away_team": "CRU",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
+ {
+        "home_team": "BOT",
+        "away_team": "CEA",
+        "kickoff": "2025-04-06T23:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 10,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },    
+{
+        "home_team": "FLU",
+        "away_team": "CRU",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "VIT",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "MIR",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "FLA",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "SAO",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "SPT",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "FOR",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "INT",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "COR",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "JUV",
+        "away_team": "VAS",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 14,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "FLU",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "GRE",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "CAM",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "COR",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "SAN",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "JUV",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "INT",
+        "away_team": "CEA",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "RBB",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "BAH",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "SPT",
+        "away_team": "BOT",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "BAH",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "FOR",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "JUV",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "CRU",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "FLA",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "VAS",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "INT",
+        "away_team": "RBB",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "SAO",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "PAL",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
+    },
+    {
+        "home_team": "SPT",
+        "away_team": "GRE",
+        "kickoff": "2025-12-06T00:00:00Z",
+        "league": "BRA_A",
+        "league_week_number": 38,
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "streaming"
+            ]
+        }
     }
-  },
-  {
-    "home_team": "BOT",
-    "away_team": "VIT",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "PAL",
-    "away_team": "MIR",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "SAN",
-    "away_team": "FLA",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "RBB",
-    "away_team": "SAO",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "CAM",
-    "away_team": "SPT",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "GRE",
-    "away_team": "FOR",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "BAH",
-    "away_team": "INT",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "CEA",
-    "away_team": "COR",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "JUV",
-    "away_team": "VAS",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 14,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-
-  // Week 15
-  {
-    "home_team": "FLA",
-    "away_team": "FLU",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "VAS",
-    "away_team": "GRE",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "PAL",
-    "away_team": "CAM",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "SAO",
-    "away_team": "COR",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "MIR",
-    "away_team": "SAN",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "CRU",
-    "away_team": "JUV",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "INT",
-    "away_team": "CEA",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "VIT",
-    "away_team": "RBB",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "FOR",
-    "away_team": "BAH",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "SPT",
-    "away_team": "BOT",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 15,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-
-  // Weeks 16-38 continue in the same pattern...
-  // Sample of Week 38 matches:
-  {
-    "home_team": "FLU",
-    "away_team": "BAH",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "BOT",
-    "away_team": "FOR",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "COR",
-    "away_team": "JUV",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "SAN",
-    "away_team": "CRU",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "MIR",
-    "away_team": "FLA",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "CAM",
-    "away_team": "VAS",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "INT",
-    "away_team": "RBB",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "VIT",
-    "away_team": "SAO",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "CEA",
-    "away_team": "PAL",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  },
-  {
-    "home_team": "SPT",
-    "away_team": "GRE",
-    "kickoff": "2025-12-06T00:00:00Z",
-    "league": "BRA_A",
-    "league_week_number": 38,
-    "broadcasts": {
-      "br": ["premiere"],
-      "us": ["streaming"]
-    }
-  }
 ]
