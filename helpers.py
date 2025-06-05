@@ -12,8 +12,8 @@ def load_teams():
 
 def load_leagues():
     with open("data/leagues.json", "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return data["leagues"]
+        return json.load(f)
+
 
 
 def load_matches_from_all_leagues(leagues_dict, teams_dict):
