@@ -83,3 +83,5 @@ def get_live_score(match_id: str) -> Dict:
     #     return { ... }
     # except:
     #     return fallback above
+
+from scraper import get_live_score

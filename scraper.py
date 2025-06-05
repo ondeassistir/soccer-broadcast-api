@@ -1,27 +1,29 @@
 # scraper.py
 
-# This is a mock dictionary to simulate live scores.
-# Replace this later with actual scraping logic or API calls.
-MOCK_LIVE_SCORES = {
-    "bra_a_2025-06-06t20:00:00z_bot_x_cea": {
-        "status": "live",  # could be 'live', 'finished', 'upcoming'
-        "minute": 53,
-        "score": {
-            "home": 1,
-            "away": 0
+import requests
+from bs4 import BeautifulSoup
+
+def get_live_score(match_id):
+    try:
+        # Simulate fetching from Flashscore or another live source
+        # Replace with your own logic or URL pattern
+        # For now, this will simulate a dummy result
+        if "bot_x_cea" in match_id:
+            return {
+                "status": "live",
+                "minute": "35",
+                "score": "1 - 0"
+            }
+        else:
+            return {
+                "status": "upcoming",
+                "minute": None,
+                "score": None
+            }
+    except Exception as e:
+        print(f"Live score fetch failed for {match_id}: {e}")
+        return {
+            "status": "unknown",
+            "minute": None,
+            "score": None
         }
-    },
-    "club_wc_2025-06-08t18:00:00z_fla_x_ala": {
-        "status": "upcoming",
-        "minute": None,
-        "score": None
-    }
-}
-
-
-def get_live_score(match_id: str):
-    """
-    Given a match ID, return live score information.
-    This function can later be replaced with real scraping logic.
-    """
-    return MOCK_LIVE_SCORES.get(match_id)
