@@ -55,7 +55,21 @@ async def get_matches(
         return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
 
     sorted_matches = sorted(all_matches, key=sort_key, reverse=True)
-    return sorted_matches
+    enriched_matches = []
+for match in sorted_matches:
+    try:
+        live = get_live_score(match["match_id"])
+        match.update({
+            "status": live.get("status"),
+            "minute": live.get("minute"),
+            "score": live.get("score")
+        })
+    except Exception:
+        pass  # Fail silently if live data isn't available
+    enriched_matches.append(match)
+
+return enriched_matches
+
 
 @app.get("/matches/{match_id}")
 async def get_match_detail(match_id: str):
@@ -65,28 +79,106 @@ async def get_match_detail(match_id: str):
 
     for match in all_matches:
         if match.get("match_id") == match_id:
+  try:
+    live = get_live_score(match["match_id"])
+    match.update({
+        "status": live.get("status"),
+        "minute": live.get("minute"),
+        "score": live.get("score")
+    })
+except Exception:
+    pass
+
             return match
 
     raise HTTPException(status_code=404, detail="Match not found")
 
+@app.get("/teams")
+async def get_teams(league: Optional[str] = Query(None), country: Optional[str] = Query(None)):
+    teams_dict = load_teams()
+    filtered_teams = []
+
+    for team in teams_dict.values():
+        if league and league not in team.get("leagues", []):
+            continue
+        if country and team.get("country", "").lower() != country.lower():
+            continue
+        filtered_teams.append({
+            "id": team["id"],
+            "name": team["name"],
+            "short_name": team.get("short_name", team["id"]),
+            "badge": team.get("badge", ""),
+            "venue": team.get("venue", ""),
+            "country": team.get("country", "")
+        })
+
+    return filtered_teams
+
 @app.get("/teams/{team_id}")
 async def get_team_details(team_id: str):
-    team_id = team_id.upper()
     teams_dict = load_teams()
-    leagues_dict = load_leagues()
-
-    team_data = teams_dict.get(team_id)
-    if not team_data:
+    team = teams_dict.get(team_id.upper())
+    if not team:
         raise HTTPException(status_code=404, detail="Team not found")
 
+    leagues_dict = load_leagues()
     all_matches = load_matches_from_all_leagues(leagues_dict, teams_dict)
-
-    team_matches = [
-        match for match in all_matches
-        if match.get("home_team", {}).get("id") == team_id or match.get("away_team", {}).get("id") == team_id
-    ]
+    team_matches = [m for m in all_matches if m.get("home_team", {}).get("id") == team_id.upper() or m.get("away_team", {}).get("id") == team_id.upper()]
 
     return {
-        "team": team_data,
+        "team": team,
+        "matches": team_matches
+    }
+
+@app.get("/country/{country_name}")
+async def get_country_page(country_name: str):
+    leagues_dict = load_leagues()
+    country_leagues = [
+        {"code": code, **data}
+        for code, data in leagues_dict.items()
+        if data.get("country", "").lower() == country_name.lower()
+    ]
+    if not country_leagues:
+        raise HTTPException(status_code=404, detail="Country not found")
+    return {"country": country_name, "leagues": country_leagues}
+
+@app.get("/league/{league_code}")
+async def get_league_page(league_code: str):
+    leagues_dict = load_leagues()
+    league = leagues_dict.get(league_code)
+    if not league:
+        raise HTTPException(status_code=404, detail="League not found")
+
+    teams_dict = load_teams()
+    all_matches = load_matches_from_all_leagues(leagues_dict, teams_dict)
+    league_matches = [m for m in all_matches if m.get("league") == league_code]
+
+    def sort_key(m):
+        kickoff = m.get("kickoff", "No time yet")
+        return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
+
+    sorted_matches = sorted(league_matches, key=sort_key, reverse=True)
+    upcoming = [m for m in sorted_matches if m.get("kickoff", "") >= "2025"][:19]
+    past = [m for m in sorted_matches if m.get("kickoff", "") < "2025"][:19]
+
+    return {
+        "league": league,
+        "upcoming_matches": upcoming,
+        "past_matches": past
+    }
+
+@app.get("/team/{team_id}")
+async def get_team_page(team_id: str):
+    teams_dict = load_teams()
+    team = teams_dict.get(team_id.upper())
+    if not team:
+        raise HTTPException(status_code=404, detail="Team not found")
+
+    leagues_dict = load_leagues()
+    all_matches = load_matches_from_all_leagues(leagues_dict, teams_dict)
+    team_matches = [m for m in all_matches if m.get("home_team", {}).get("id") == team_id.upper() or m.get("away_team", {}).get("id") == team_id.upper()]
+
+    return {
+        "team": team,
         "matches": team_matches
     }
