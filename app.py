@@ -56,20 +56,19 @@ async def get_matches(
 
     sorted_matches = sorted(all_matches, key=sort_key, reverse=True)
     enriched_matches = []
-for match in sorted_matches:
-    try:
-        live = get_live_score(match["match_id"])
-        match.update({
-            "status": live.get("status"),
-            "minute": live.get("minute"),
-            "score": live.get("score")
-        })
-    except Exception:
-        pass  # Fail silently if live data isn't available
-    enriched_matches.append(match)
+    for match in sorted_matches:
+        try:
+            live = get_live_score(match["match_id"])
+            match.update({
+                "status": live.get("status"),
+                "minute": live.get("minute"),
+                "score": live.get("score")
+            })
+        except Exception:
+            pass
+        enriched_matches.append(match)
 
-return enriched_matches
-
+    return enriched_matches
 
 @app.get("/matches/{match_id}")
 async def get_match_detail(match_id: str):
@@ -79,16 +78,15 @@ async def get_match_detail(match_id: str):
 
     for match in all_matches:
         if match.get("match_id") == match_id:
-  try:
-    live = get_live_score(match["match_id"])
-    match.update({
-        "status": live.get("status"),
-        "minute": live.get("minute"),
-        "score": live.get("score")
-    })
-except Exception:
-    pass
-
+            try:
+                live = get_live_score(match["match_id"])
+                match.update({
+                    "status": live.get("status"),
+                    "minute": live.get("minute"),
+                    "score": live.get("score")
+                })
+            except Exception:
+                pass
             return match
 
     raise HTTPException(status_code=404, detail="Match not found")
