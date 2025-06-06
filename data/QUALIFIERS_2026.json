@@ -1,9 +1,9 @@
 [
     {
-        "league": "QUALIFIERS_2026"
-	"home_team": "NT_PAR",
+        "home_team": "NT_PAR",
         "away_team": "NT_URU",
         "kickoff": "2025-06-05T23:00:00Z",
+        "league": "QUALIFIERS_2026",
         "league_week_number": 15,
         "broadcasts": {
             "br": [
@@ -12,10 +12,10 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"
-	"home_team": "NT_ECU",
+        "home_team": "NT_ECU",
         "away_team": "NT_BRA",
         "kickoff": "2025-06-05T23:00:00Z",
+        "league": "QUALIFIERS_2026",
         "league_week_number": 15,
         "broadcasts": {
             "br": [
@@ -25,8 +25,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"        
-	"home_team": "NT_CHI",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_CHI",
         "away_team": "NT_ARG",
         "kickoff": "2025-06-06T01:00:00Z",
         "league_week_number": 15,
@@ -37,8 +37,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"        
-	"home_team": "NT_COL",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_COL",
         "away_team": "NT_PER",
         "kickoff": "2025-06-06T20:30:00Z",
         "league_week_number": 15,
@@ -49,8 +49,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"        
-	"home_team": "NT_VEN",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_VEN",
         "away_team": "NT_BOL",
         "kickoff": "2025-06-06T22:00:00Z",
         "league_week_number": 15,
@@ -61,8 +61,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"   
-	"home_team": "NT_BOL",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_BOL",
         "away_team": "NT_CHI",
         "kickoff": "2025-06-10T20:00:00Z",
         "league_week_number": 16,
@@ -73,8 +73,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"        
-	"home_team": "NT_URU",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_URU",
         "away_team": "NT_VEN",
         "kickoff": "2025-06-10T23:00:00Z",
         "league_week_number": 16,
@@ -85,8 +85,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"
-	"home_team": "NT_ARG",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_ARG",
         "away_team": "NT_COL",
         "kickoff": "2025-06-11T00:00:00Z",
         "league_week_number": 16,
@@ -97,8 +97,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"        
-	"home_team": "NT_BRA",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_BRA",
         "away_team": "NT_PAR",
         "kickoff": "2025-06-11T00:45:00Z",
         "league_week_number": 16,
@@ -110,8 +110,8 @@
         }
     },
     {
-	"league": "QUALIFIERS_2026"       
- 	"home_team": "NT_PER",
+        "league": "QUALIFIERS_2026",
+        "home_team": "NT_PER",
         "away_team": "NT_ECU",
         "kickoff": "2025-06-11T01:30:00Z",
         "league_week_number": 16,
