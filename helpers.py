@@ -69,6 +69,7 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
     return all_matches
 
 def get_live_score_from_supabase(match_id: str) -> dict:
+    print(f"⚠️ [DEBUG] get_live_score_from_supabase CALLED for: {match_id}")
     print("📛 Raw match_id in DB:", row.get("match_id"))
     print("📛 Raw score value:", row.get("score"), type(row.get("score")))
     print(f"🔍 Querying Supabase for match_id: {match_id}")
