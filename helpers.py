@@ -3,17 +3,23 @@ import os
 from typing import Dict, List
 import requests
 from bs4 import BeautifulSoup
+from supabase import create_client, Client
+from scraper import get_live_score  # Assuming you use this elsewhere
 
+# ✅ Load environment variables securely (these must be set in Render)
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+
+# ✅ Initialize Supabase client
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def load_teams() -> Dict:
     with open("data/teams.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 def load_leagues() -> Dict:
     with open("data/leagues.json", "r", encoding="utf-8") as f:
         return json.load(f)
-
 
 def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[Dict]:
     all_matches = []
@@ -62,38 +68,6 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
 
     return all_matches
 
-
-def get_live_score(match_id: str) -> Dict:
-    # Dummy fallback if scraping fails or is skipped
-    return {
-        "status": "upcoming",
-        "minute": None,
-        "score": {
-            "home": None,
-            "away": None
-        }
-    }
-
-    # Example of actual scraping usage:
-    # url = f"https://www.flashscore.com/match/{match_id}/"
-    # try:
-    #     response = requests.get(url)
-    #     soup = BeautifulSoup(response.text, 'html.parser')
-    #     # Scrape score and status here
-    #     return { ... }
-    # except:
-    #     return fallback above
-
-from scraper import get_live_score
-
-from supabase import create_client, Client
-import os
-
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
-
 def get_live_score_from_supabase(match_id: str) -> dict:
     try:
         result = supabase.table("live_scores").select("*").eq("match_id", match_id).limit(1).execute()
@@ -105,9 +79,9 @@ def get_live_score_from_supabase(match_id: str) -> dict:
                 "status": row.get("status")
             }
     except Exception as e:
-        print(f"Error fetching live score from Supabase: {e}")
-    
-    # fallback
+        print(f"⚠️ Error fetching live score from Supabase for {match_id}: {e}")
+
+    # fallback if nothing found
     return {
         "score": None,
         "minute": None,
