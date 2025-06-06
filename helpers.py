@@ -85,3 +85,31 @@ def get_live_score(match_id: str) -> Dict:
     #     return fallback above
 
 from scraper import get_live_score
+
+from supabase import create_client, Client
+import os
+
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+def get_live_score_from_supabase(match_id: str) -> dict:
+    try:
+        result = supabase.table("live_scores").select("*").eq("match_id", match_id).limit(1).execute()
+        if result.data:
+            row = result.data[0]
+            return {
+                "score": row.get("score"),
+                "minute": row.get("minute"),
+                "status": row.get("status")
+            }
+    except Exception as e:
+        print(f"Error fetching live score from Supabase: {e}")
+    
+    # fallback
+    return {
+        "score": None,
+        "minute": None,
+        "status": None
+    }
