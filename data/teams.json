@@ -2303,7 +2303,7 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "ARGENTINA": {
+  "NT_ARG": {
     "id": "NT_ARG",
     "name": "Argentina",
     "short_name": "ARG",
@@ -2312,7 +2312,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "ECUADOR": {
+  "NT_ECU": {
     "id": "NT_ECU",
     "name": "Ecuador",
     "short_name": "ECU",
@@ -2321,7 +2321,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "URUGUAY": {
+  "NT_URU": {
     "id": "NT_URU",
     "name": "Uruguay",
     "short_name": "URU",
@@ -2330,7 +2330,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "BRAZIL": {
+  "NT_BRA": {
     "id": "NT_BRA",
     "name": "Brazil",
     "short_name": "BRA",
@@ -2339,7 +2339,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "PARAGUAY": {
+  "NT_PAR": {
     "id": "NT_PAR",
     "name": "Paraguay",
     "short_name": "PAR",
@@ -2348,7 +2348,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "COLOMBIA": {
+  "NT_COL": {
     "id": "NT_COL",
     "name": "Colombia",
     "short_name": "COL",
@@ -2357,7 +2357,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "VENEZUELA": {
+  "NT_VEN": {
     "id": "NT_VEN",
     "name": "Venezuela",
     "short_name": "VEN",
@@ -2366,7 +2366,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "BOLIVIA": {
+  "NT_BOL": {
     "id": "NT_BOL",
     "name": "Bolivia",
     "short_name": "BOL",
@@ -2375,7 +2375,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "PERU": {
+  "NT_PER": {
     "id": "NT_PER",
     "name": "Peru",
     "short_name": "PER",
@@ -2384,7 +2384,7 @@
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
-  "CHILE": {
+  "NT_CHI": {
     "id": "NT_CHI",
     "name": "Chile",
     "short_name": "CHI",
