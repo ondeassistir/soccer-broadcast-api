@@ -1,7 +1,7 @@
 [
     {
-        "home_team": "PRY",
-        "away_team": "URY",
+        "home_team": "PARAGUAY",
+        "away_team": "URUGUAY",
         "kickoff": "2025-06-05T23:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -11,8 +11,8 @@
         }
     },
     {
-        "home_team": "ECU",
-        "away_team": "BRA",
+        "home_team": "ECUADOR",
+        "away_team": "BRAZIL",
         "kickoff": "2025-06-05T23:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -23,8 +23,8 @@
         }
     },
     {
-        "home_team": "CHI",
-        "away_team": "ARG",
+        "home_team": "CHILE",
+        "away_team": "ARGENTINA",
         "kickoff": "2025-06-06T01:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -34,8 +34,8 @@
         }
     },
     {
-        "home_team": "COL",
-        "away_team": "PER",
+        "home_team": "COLOMBIA",
+        "away_team": "PERU",
         "kickoff": "2025-06-06T20:30:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -45,8 +45,8 @@
         }
     },
     {
-        "home_team": "VEN",
-        "away_team": "BOL",
+        "home_team": "VENEZUELA",
+        "away_team": "BOLIVIA",
         "kickoff": "2025-06-06T22:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -56,8 +56,8 @@
         }
     },
     {
-        "home_team": "BOL",
-        "away_team": "CHI",
+        "home_team": "BOLIVIA",
+        "away_team": "CHILE",
         "kickoff": "2025-06-10T20:00:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -67,8 +67,8 @@
         }
     },
     {
-        "home_team": "URY",
-        "away_team": "VEN",
+        "home_team": "URUGUAY",
+        "away_team": "VENEZUELA",
         "kickoff": "2025-06-10T23:00:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -78,8 +78,8 @@
         }
     },
     {
-        "home_team": "ARG",
-        "away_team": "COL",
+        "home_team": "ARGENTINA",
+        "away_team": "COLOMBIA",
         "kickoff": "2025-06-11T00:00:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -89,8 +89,8 @@
         }
     },
     {
-        "home_team": "BRA",
-        "away_team": "PRY",
+        "home_team": "BRAZIL",
+        "away_team": "PARAGUAY",
         "kickoff": "2025-06-11T00:45:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -101,8 +101,8 @@
         }
     },
     {
-        "home_team": "PER",
-        "away_team": "ECU",
+        "home_team": "PERUU",
+        "away_team": "ECUADOR",
         "kickoff": "2025-06-11T01:30:00Z",
         "league_week_number": 16,
         "broadcasts": {
