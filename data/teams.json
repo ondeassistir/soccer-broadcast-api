@@ -2309,7 +2309,7 @@
     "short_name": "ARG",
     "venue": "Estadio Monumental Antonio Vespucio Liberti",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/ARG.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "ECUADOR": {
@@ -2318,7 +2318,7 @@
     "short_name": "ECU",
     "venue": "Estadio Rodrigo Paz Delgado",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/ECU.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "URUGUAY": {
@@ -2327,7 +2327,7 @@
     "short_name": "URU",
     "venue": "Estadio Centenario",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/URU.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "BRAZIL": {
@@ -2336,7 +2336,7 @@
     "short_name": "BRA",
     "venue": "Estadio do Maracanã",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/BRA.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "PARAGUAY": {
@@ -2345,7 +2345,7 @@
     "short_name": "PAR",
     "venue": "Estadio Defensores del Chaco",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/PAR.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "COLOMBIA": {
@@ -2354,7 +2354,7 @@
     "short_name": "COL",
     "venue": "Estadio Metropolitano Roberto Meléndez",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/COL.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "VENEZUELA": {
@@ -2363,7 +2363,7 @@
     "short_name": "VEN",
     "venue": "Estadio Olímpico de la UCV",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/VEN.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "BOLIVIA": {
@@ -2372,7 +2372,7 @@
     "short_name": "BOL",
     "venue": "Estadio Hernando Siles",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/BOL.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "PERU": {
@@ -2381,7 +2381,7 @@
     "short_name": "PER",
     "venue": "Estadio Nacional del Perú",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/PER.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "CHILE": {
@@ -2390,7 +2390,7 @@
     "short_name": "CHI",
     "venue": "Estadio Nacional Julio Martínez Prádanos",
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/CHI.png",
-    "country": "NAT",
+    "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   }
 }
