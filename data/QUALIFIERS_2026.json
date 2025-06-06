@@ -1,0 +1,114 @@
+[
+    {
+        "home_team": "PRY",
+        "away_team": "URY",
+        "kickoff": "2025-06-05T23:00:00Z",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "ECU",
+        "away_team": "BRA",
+        "kickoff": "2025-06-05T23:00:00Z",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "globo"
+            ]
+        }
+    },
+    {
+        "home_team": "CHI",
+        "away_team": "ARG",
+        "kickoff": "2025-06-06T01:00:00Z",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "COL",
+        "away_team": "PER",
+        "kickoff": "2025-06-06T20:30:00Z",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "VEN",
+        "away_team": "BOL",
+        "kickoff": "2025-06-06T22:00:00Z",
+        "league_week_number": 15,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "BOL",
+        "away_team": "CHI",
+        "kickoff": "2025-06-10T20:00:00Z",
+        "league_week_number": 16,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "URY",
+        "away_team": "VEN",
+        "kickoff": "2025-06-10T23:00:00Z",
+        "league_week_number": 16,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "ARG",
+        "away_team": "COL",
+        "kickoff": "2025-06-11T00:00:00Z",
+        "league_week_number": 16,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    },
+    {
+        "home_team": "BRA",
+        "away_team": "PRY",
+        "kickoff": "2025-06-11T00:45:00Z",
+        "league_week_number": 16,
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "globo"
+            ]
+        }
+    },
+    {
+        "home_team": "PER",
+        "away_team": "ECU",
+        "kickoff": "2025-06-11T01:30:00Z",
+        "league_week_number": 16,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    }
+]
