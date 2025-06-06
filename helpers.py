@@ -14,7 +14,6 @@ from typing import Dict, List
 import requests
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
-from scraper import get_live_score  # Assuming you use this elsewhere
 
 # ✅ Load environment variables securely (these must be set in Render)
 SUPABASE_URL = os.getenv("SUPABASE_URL")
@@ -79,6 +78,7 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
     return all_matches
 
 def get_live_score_from_supabase(match_id: str) -> dict:
+    print(f"🔍 Fetching live score for {match_id}")
     try:
         result = supabase.table("live_scores").select("*").eq("match_id", match_id).limit(1).execute()
         if result.data:
@@ -97,3 +97,4 @@ def get_live_score_from_supabase(match_id: str) -> dict:
         "minute": None,
         "status": None
     }
+

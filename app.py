@@ -73,6 +73,20 @@ async def get_matches(
     return enriched_matches
 
 @app.get("/matches/{match_id}")
+from helpers import get_live_score_from_supabase
+
+...
+
+try:
+    live = get_live_score_from_supabase(match["match_id"])
+    if live:
+        match.update({
+            "status": live.get("status"),
+            "minute": live.get("minute"),
+            "score": live.get("score")
+        })
+except Exception:
+    pass
 async def get_match_detail(match_id: str):
     leagues_dict = load_leagues()
     teams_dict = load_teams()
@@ -93,6 +107,7 @@ async def get_match_detail(match_id: str):
             return match
 
     raise HTTPException(status_code=404, detail="Match not found")
+print(f"✅ Live score found: {match.get('score')} for {match['match_id']}")
 
 @app.get("/teams")
 async def get_teams(league: Optional[str] = Query(None), country: Optional[str] = Query(None)):
