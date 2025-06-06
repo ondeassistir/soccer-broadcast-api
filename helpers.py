@@ -1,25 +1,16 @@
-import json
 import os
+import json
+from typing import Dict, List
 from supabase import create_client, Client
 
+# ✅ Load Supabase credentials from environment
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    raise ValueError("Missing Supabase credentials. Make sure SUPABASE_URL and SUPABASE_KEY are set in the environment.")
+    raise ValueError("❌ Missing Supabase credentials. Set SUPABASE_URL and SUPABASE_KEY in your environment.")
 
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
-
-from typing import Dict, List
-import requests
-from bs4 import BeautifulSoup
-from supabase import create_client, Client
-
-# ✅ Load environment variables securely (these must be set in Render)
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-
-# ✅ Initialize Supabase client
+# ✅ Create Supabase client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 def load_teams() -> Dict:
@@ -77,13 +68,12 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
 
     return all_matches
 
-import json
-
 def get_live_score_from_supabase(match_id: str) -> dict:
     print(f"🔍 Querying Supabase for match_id: {match_id}")
     try:
         result = supabase.table("live_scores").select("*").eq("match_id", match_id).limit(1).execute()
-        print(f"🧾 Supabase result: data={result.data} count={result.count}")
+        print(f"🧾 Supabase result: data={result.data}")
+
         if result.data:
             row = result.data[0]
 
@@ -92,14 +82,16 @@ def get_live_score_from_supabase(match_id: str) -> dict:
                 try:
                     score = json.loads(score)
                 except Exception:
-                    print("⚠️ Failed to parse score as JSON")
+                    print("⚠️ Could not parse score string as JSON")
                     score = None
 
+            print(f"✅ Returning live score for {match_id}: {score}, {row.get('minute')}, {row.get('status')}")
             return {
                 "score": score,
                 "minute": row.get("minute"),
                 "status": row.get("status")
             }
+
     except Exception as e:
         print(f"❌ Error fetching live score from Supabase: {e}")
 
@@ -108,14 +100,3 @@ def get_live_score_from_supabase(match_id: str) -> dict:
         "minute": None,
         "status": None
     }
-
-
-
-
-    # fallback if nothing found
-    return {
-        "score": None,
-        "minute": None,
-        "status": None
-    }
-
