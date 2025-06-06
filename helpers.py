@@ -90,7 +90,7 @@ from supabase import create_client, Client
 import os
 
 SUPABASE_URL = os.getenv("https://pmiwtahbdjzeifauzqun.supabase.co")
-SUPABASE_KEY = os.getenv("SyVkOtiL4D0mUQuZUgIoPR+8i17AZyZwIkAT+ac5y4lmfad3hU9VWUrqRk2kfVZm9anUR3/B2j9SdUM/zoYMgQ==")
+SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBtaXd0YWhiZGp6ZWlmYXV6cXVuIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0OTA4Nzk3OCwiZXhwIjoyMDY0NjYzOTc4fQ.Agd38gm_Dnpaee7MxaO1oiUFzGORWUczOqcqbkKHQV8")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
