@@ -81,11 +81,19 @@ def get_live_score_from_supabase(match_id: str) -> dict:
     print(f"🔍 Querying Supabase for match_id: {match_id}")
     try:
         result = supabase.table("live_scores").select("*").eq("match_id", match_id).limit(1).execute()
-        print(f"🧾 Supabase result: {result}")
+        print(f"🧾 Supabase result: data={result.data} count={result.count}")
         if result.data:
             row = result.data[0]
+            # Parse JSON from text field
+            score = row.get("score")
+            if isinstance(score, str):
+                try:
+                    score = json.loads(score)
+                except json.JSONDecodeError:
+                    score = None
+
             return {
-                "score": row.get("score"),
+                "score": score,
                 "minute": row.get("minute"),
                 "status": row.get("status")
             }
@@ -97,6 +105,7 @@ def get_live_score_from_supabase(match_id: str) -> dict:
         "minute": None,
         "status": None
     }
+
 
     # fallback if nothing found
     return {
