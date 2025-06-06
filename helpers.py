@@ -3,71 +3,62 @@ import os
 from typing import Dict, List
 from supabase import create_client, Client
 
-# Load environment variables for Supabase
+# Load Supabase credentials from environment
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 if not SUPABASE_URL or not SUPABASE_KEY:
-    raise ValueError(
-        "Missing Supabase credentials: please set SUPABASE_URL and SUPABASE_KEY in the environment"
-    )
+    raise ValueError("Missing SUPABASE_URL or SUPABASE_KEY")
 
-# Initialize Supabase client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
 def load_teams() -> Dict:
-    """Load teams dictionary from data/teams.json"""
     with open("data/teams.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def load_leagues() -> Dict:
-    """Load leagues dictionary from data/leagues.json"""
     with open("data/leagues.json", "r", encoding="utf-8") as f:
         return json.load(f)
 
 
 def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[Dict]:
-    """
-    Read every league JSON file under data/, enrich each match with team info,
-    and return a flat list of matches.
-    """
     all_matches: List[Dict] = []
-    for league_code in leagues_dict:
-        file_path = f"data/{league_code}.json"
-        if not os.path.exists(file_path):
+    for code in leagues_dict:
+        path = f"data/{code}.json"
+        if not os.path.exists(path):
             continue
-        with open(file_path, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as f:
             try:
                 matches = json.load(f)
             except json.JSONDecodeError:
                 continue
-        for match in matches:
-            home_code = match.get("home_team", "").upper()
-            away_code = match.get("away_team", "").upper()
 
-            home_team = teams_dict.get(home_code, {})
-            away_team = teams_dict.get(away_code, {})
+        for m in matches:
+            h = m.get("home_team", "").upper()
+            a = m.get("away_team", "").upper()
+            home = teams_dict.get(h, {})
+            away = teams_dict.get(a, {})
 
-            match_id = f"{match.get('league','').lower()}_{match.get('kickoff','').lower()}_{home_code.lower()}_x_{away_code.lower()}"
+            match_id = f"{m.get('league','').lower()}_{m.get('kickoff','').lower()}_{h.lower()}_x_{a.lower()}"
 
             enriched = {
-                "match_id": match_id,
-                "league": match.get("league"),
-                "league_week_number": match.get("league_week_number"),
-                "kickoff": match.get("kickoff"),
-                "broadcasts": match.get("broadcasts", {}),
+                "match_id":        match_id,
+                "league":          m.get("league"),
+                "league_week_number": m.get("league_week_number"),
+                "kickoff":         m.get("kickoff"),
+                "broadcasts":      m.get("broadcasts", {}),
                 "home_team": {
-                    "id": home_code,
-                    "name": home_team.get("name", home_code),
-                    "badge": home_team.get("badge", ""),
-                    "venue": home_team.get("venue", ""),
+                    "id":    h,
+                    "name":  home.get("name", h),
+                    "badge": home.get("badge", ""),
+                    "venue": home.get("venue", ""),
                 },
                 "away_team": {
-                    "id": away_code,
-                    "name": away_team.get("name", away_code),
-                    "badge": away_team.get("badge", ""),
-                    "venue": away_team.get("venue", ""),
+                    "id":    a,
+                    "name":  away.get("name", a),
+                    "badge": away.get("badge", ""),
+                    "venue": away.get("venue", ""),
                 },
             }
             all_matches.append(enriched)
@@ -76,12 +67,10 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
 
 def get_live_score_from_supabase(match_id: str) -> Dict:
     """
-    Query Supabase live_scores table for a given match_id.
-    Returns a dict with keys: score (JSON or None), minute (str or None), status (str or None).
+    Pulls the row for match_id from live_scores table and parses JSON scores.
     """
-    print(f"⚠️ [DEBUG] get_live_score_from_supabase CALLED for: {match_id}")
     try:
-        result = (
+        res = (
             supabase
             .table("live_scores")
             .select("*")
@@ -89,29 +78,24 @@ def get_live_score_from_supabase(match_id: str) -> Dict:
             .limit(1)
             .execute()
         )
-        print(f"🧾 Supabase result: data={result.data}, count={result.count}")
-        if not result.data:
+        if not res.data:
             return {"score": None, "minute": None, "status": None}
 
-        row = result.data[0]
-        print(f"📛 Raw row from DB: {row}")
-
-        raw_score = row.get("score")
-        score = None
-        if isinstance(raw_score, str):
+        row = res.data[0]
+        raw = row.get("score")
+        parsed = None
+        if isinstance(raw, str):
             try:
-                score = json.loads(raw_score)
+                parsed = json.loads(raw)
             except json.JSONDecodeError:
-                print(f"⚠️ Failed to parse score JSON: {raw_score}")
-                score = None
+                parsed = None
         else:
-            score = raw_score
+            parsed = raw
 
         return {
-            "score": score,
+            "score":  parsed,
             "minute": row.get("minute"),
             "status": row.get("status"),
         }
-    except Exception as e:
-        print(f"❌ Error fetching live score from Supabase: {e}")
+    except Exception:
         return {"score": None, "minute": None, "status": None}

@@ -1,13 +1,8 @@
-# app.py
-
-import os
-import json
-from datetime import datetime, timezone
-from typing import Optional
-
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from typing import Optional
+from datetime import datetime, timezone
 
 from helpers import (
     load_teams,
@@ -18,32 +13,19 @@ from helpers import (
 
 app = FastAPI()
 
-# ─── CORS CONFIGURATION ──────────────────────────────────────────────────────
+# CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # adjust to your front-end origin if desired
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ─── SERVE STATIC “data” FOLDER ───────────────────────────────────────────────
+# Static JSON data
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
 
-# ─── DEBUG / TEST ROUTE: Query Supabase Directly ──────────────────────────────
-@app.get("/test-live-score/{match_id}")
-async def test_live_score(match_id: str):
-    """
-    Isolate a single Supabase lookup for debugging.
-    """
-    print(f"⚠️ [DEBUG] test-live-score called for: {match_id}")
-    live = get_live_score_from_supabase(match_id)
-    print(f"🧪 Test live result: {live}")
-    return {"match_id": match_id, "live": live}
-
-
-# ─── GET ALL MATCHES (with optional filters) ──────────────────────────────────
 @app.get("/matches")
 async def get_matches(
     country: Optional[str] = Query(None),
@@ -52,136 +34,113 @@ async def get_matches(
     channel: Optional[str] = Query(None),
     date:    Optional[str] = Query(None)
 ):
-    """
-    Returns a list of all enriched matches, optionally filtered by country, league,
-    team, channel, or date. Each match is “enriched” by adding live score info
-    (status, minute, score) from Supabase.
-    """
-    # 1) Load dictionaries
-    leagues_dict = load_leagues()    # { "BRA_A": {...}, "QUALIFIERS_2026": {...}, ... }
-    teams_dict   = load_teams()      # { "BOT": {...}, "NT_PAR": {...}, ... }
+    leagues_dict = load_leagues()
+    teams_dict   = load_teams()
+    all_matches  = load_matches_from_all_leagues(leagues_dict, teams_dict)
 
-    # 2) Read every league’s JSON file and build a flat list of matches
-    all_matches = load_matches_from_all_leagues(leagues_dict, teams_dict)
-
-    # 3) Apply optional filters:
+    # Apply filters
     if country:
-        # Only keep matches whose league’s country matches
-        leagues_in_country = [
+        codes = [
             code for code, info in leagues_dict.items()
             if info.get("country", "").lower() == country.lower()
         ]
-        all_matches = [m for m in all_matches if m.get("league") in leagues_in_country]
+        all_matches = [m for m in all_matches if m["league"] in codes]
 
     if league:
-        all_matches = [m for m in all_matches if m.get("league") == league]
+        all_matches = [m for m in all_matches if m["league"] == league]
 
     if team:
-        team_upper = team.upper()
+        tu = team.upper()
         all_matches = [
             m for m in all_matches
-            if m.get("home_team", {}).get("id") == team_upper
-               or m.get("away_team", {}).get("id") == team_upper
+            if m["home_team"]["id"] == tu or m["away_team"]["id"] == tu
         ]
 
     if channel:
+        key = channel.lower()
         all_matches = [
             m for m in all_matches
             if any(
-                channel.lower() in [c.lower() for c in m.get("broadcasts", {}).get(loc, [])]
-                for loc in m.get("broadcasts", {})
+                key in [c.lower() for c in m["broadcasts"].get(loc, [])]
+                for loc in m["broadcasts"]
             )
         ]
 
     if date:
-        # date must match the ISO prefix (e.g. “2025-06-05”)
-        all_matches = [m for m in all_matches if m.get("kickoff", "").startswith(date)]
+        all_matches = [
+            m for m in all_matches
+            if m["kickoff"].startswith(date)
+        ]
 
-    # 4) Sort by kickoff descending (most recent first)
-    def sort_key(m):
-        return m.get("kickoff", "9999-99-99T99:99:99Z")
+    # Sort by kickoff descending
+    sorted_matches = sorted(
+        all_matches,
+        key=lambda m: m.get("kickoff", ""),
+        reverse=True
+    )
 
-    sorted_matches = sorted(all_matches, key=sort_key, reverse=True)
-
-    # 5) For each match, call Supabase to fill in “status”, “minute”, “score”
-    enriched_matches = []
-    for match in sorted_matches:
-        mid = match["match_id"]
-        print(f"⚠️ [DEBUG] get_live_score_from_supabase CALLED for: {mid}")
-        live = get_live_score_from_supabase(mid)
-        print(f"🧾 Supabase result for {mid}: {live}")
-
-        # If live data exists, merge into the match dict
+    # Enrich with live score
+    enriched = []
+    for m in sorted_matches:
+        live = get_live_score_from_supabase(m["match_id"])
         if live:
-            match.update({
+            m.update({
                 "status": live.get("status"),
                 "minute": live.get("minute"),
-                "score": live.get("score")
+                "score":  live.get("score"),
             })
+        enriched.append(m)
 
-        enriched_matches.append(match)
-
-    return enriched_matches
+    return enriched
 
 
-# ─── GET SINGLE MATCH BY ID ──────────────────────────────────────────────────
 @app.get("/matches/{match_id}")
 async def get_match_detail(match_id: str):
-    """
-    Return one specific match, enriched with live score fields from Supabase.
-    """
     leagues_dict = load_leagues()
     teams_dict   = load_teams()
-    all_matches = load_matches_from_all_leagues(leagues_dict, teams_dict)
+    all_matches  = load_matches_from_all_leagues(leagues_dict, teams_dict)
 
-    for match in all_matches:
-        if match.get("match_id") == match_id:
-            print(f"⚠️ [DEBUG] get_live_score_from_supabase CALLED for: {match_id}")
+    for m in all_matches:
+        if m["match_id"] == match_id:
             live = get_live_score_from_supabase(match_id)
-            print(f"🧾 Supabase result for {match_id}: {live}")
-
             if live:
-                match.update({
+                m.update({
                     "status": live.get("status"),
                     "minute": live.get("minute"),
-                    "score": live.get("score")
+                    "score":  live.get("score"),
                 })
-            return match
+            return m
 
     raise HTTPException(status_code=404, detail="Match not found")
 
 
-# ─── LIST TEAMS (optional filter by league or country) ───────────────────────
 @app.get("/teams")
 async def get_teams(
     league: Optional[str] = Query(None),
     country: Optional[str] = Query(None)
 ):
     teams_dict = load_teams()
-    filtered = []
-
-    for team in teams_dict.values():
-        if league and league not in team.get("leagues", []):
+    out = []
+    for t in teams_dict.values():
+        if league and league not in t.get("leagues", []):
             continue
-        if country and team.get("country", "").lower() != country.lower():
+        if country and t.get("country", "").lower() != country.lower():
             continue
-        filtered.append({
-            "id":         team["id"],
-            "name":       team["name"],
-            "short_name": team.get("short_name", team["id"]),
-            "badge":      team.get("badge", ""),
-            "venue":      team.get("venue", ""),
-            "country":    team.get("country", "")
+        out.append({
+            "id":         t["id"],
+            "name":       t["name"],
+            "short_name": t.get("short_name", t["id"]),
+            "badge":      t.get("badge", ""),
+            "venue":      t.get("venue", ""),
+            "country":    t.get("country", "")
         })
+    return out
 
-    return filtered
 
-
-# ─── TEAM DETAILS (matches for a single team) ────────────────────────────────
 @app.get("/teams/{team_id}")
 async def get_team_details(team_id: str):
-    teams_dict   = load_teams()
-    team         = teams_dict.get(team_id.upper())
+    teams_dict = load_teams()
+    team = teams_dict.get(team_id.upper())
     if not team:
         raise HTTPException(status_code=404, detail="Team not found")
 
@@ -189,28 +148,25 @@ async def get_team_details(team_id: str):
     all_matches  = load_matches_from_all_leagues(leagues_dict, teams_dict)
     team_matches = [
         m for m in all_matches
-        if m.get("home_team", {}).get("id") == team_id.upper()
-           or m.get("away_team", {}).get("id") == team_id.upper()
+        if m["home_team"]["id"] == team_id.upper()
+           or m["away_team"]["id"] == team_id.upper()
     ]
-
     return {"team": team, "matches": team_matches}
 
 
-# ─── COUNTRY PAGE (list leagues in a country) ─────────────────────────────────
 @app.get("/country/{country_name}")
 async def get_country_page(country_name: str):
     leagues_dict = load_leagues()
-    country_leagues = [
+    cl = [
         {"code": code, **info}
         for code, info in leagues_dict.items()
         if info.get("country", "").lower() == country_name.lower()
     ]
-    if not country_leagues:
+    if not cl:
         raise HTTPException(status_code=404, detail="Country not found")
-    return {"country": country_name, "leagues": country_leagues}
+    return {"country": country_name, "leagues": cl}
 
 
-# ─── LEAGUE PAGE (upcoming + past for a league) ───────────────────────────────
 @app.get("/league/{league_code}")
 async def get_league_page(league_code: str):
     leagues_dict = load_leagues()
@@ -218,27 +174,19 @@ async def get_league_page(league_code: str):
     if not league:
         raise HTTPException(status_code=404, detail="League not found")
 
-    teams_dict   = load_teams()
-    all_matches  = load_matches_from_all_leagues(leagues_dict, teams_dict)
-    league_matches = [m for m in all_matches if m.get("league") == league_code]
+    teams_dict    = load_teams()
+    all_matches   = load_matches_from_all_leagues(leagues_dict, teams_dict)
+    league_matches = [m for m in all_matches if m["league"] == league_code]
 
-    def sort_key(m):
-        return m.get("kickoff", "9999-99-99T99:99:99Z")
-
-    sorted_matches = sorted(league_matches, key=sort_key, reverse=True)
-
+    # Sort and split upcoming/past
     now = datetime.now(timezone.utc)
-    upcoming = []
-    past = []
-    for match in sorted_matches:
+    upcoming, past = [], []
+    for m in sorted(league_matches, key=lambda x: x.get("kickoff", ""), reverse=True):
         try:
-            kickoff_time = datetime.fromisoformat(match.get("kickoff").replace("Z", "+00:00"))
-            if kickoff_time >= now:
-                upcoming.append(match)
-            else:
-                past.append(match)
-        except Exception:
-            pass
+            k = datetime.fromisoformat(m["kickoff"].replace("Z", "+00:00"))
+            (upcoming if k >= now else past).append(m)
+        except:
+            continue
 
     return {
         "league":          league,
@@ -247,9 +195,9 @@ async def get_league_page(league_code: str):
     }
 
 
-# ─── TEAM PAGE (matches for a team) ──────────────────────────────────────────
 @app.get("/team/{team_id}")
 async def get_team_page(team_id: str):
+    # same as get_team_details
     teams_dict   = load_teams()
     team         = teams_dict.get(team_id.upper())
     if not team:
@@ -259,8 +207,7 @@ async def get_team_page(team_id: str):
     all_matches  = load_matches_from_all_leagues(leagues_dict, teams_dict)
     team_matches = [
         m for m in all_matches
-        if m.get("home_team", {}).get("id") == team_id.upper()
-           or m.get("away_team", {}).get("id") == team_id.upper()
+        if m["home_team"]["id"] == team_id.upper()
+           or m["away_team"]["id"] == team_id.upper()
     ]
-
     return {"team": team, "matches": team_matches}
