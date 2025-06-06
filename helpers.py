@@ -86,14 +86,13 @@ def get_live_score_from_supabase(match_id: str) -> dict:
         print(f"🧾 Supabase result: data={result.data} count={result.count}")
         if result.data:
             row = result.data[0]
-            print(f"🔎 Row from Supabase: {row}")
+
             score = row.get("score")
             if isinstance(score, str):
                 try:
                     score = json.loads(score)
-                    print(f"✅ Parsed score: {score}")
-                except json.JSONDecodeError:
-                    print(f"❌ JSON decode failed for: {score}")
+                except Exception:
+                    print("⚠️ Failed to parse score as JSON")
                     score = None
 
             return {
@@ -101,16 +100,15 @@ def get_live_score_from_supabase(match_id: str) -> dict:
                 "minute": row.get("minute"),
                 "status": row.get("status")
             }
-        else:
-            print("⚠️ No matching row found.")
     except Exception as e:
-        print(f"❌ Exception: {e}")
+        print(f"❌ Error fetching live score from Supabase: {e}")
 
     return {
         "score": None,
         "minute": None,
         "status": None
     }
+
 
 
 
