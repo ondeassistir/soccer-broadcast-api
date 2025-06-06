@@ -78,9 +78,10 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
     return all_matches
 
 def get_live_score_from_supabase(match_id: str) -> dict:
-    print(f"🔍 Fetching live score for {match_id}")
+    print(f"🔍 Querying Supabase for match_id: {match_id}")
     try:
         result = supabase.table("live_scores").select("*").eq("match_id", match_id).limit(1).execute()
+        print(f"🧾 Supabase result: {result}")
         if result.data:
             row = result.data[0]
             return {
@@ -89,7 +90,13 @@ def get_live_score_from_supabase(match_id: str) -> dict:
                 "status": row.get("status")
             }
     except Exception as e:
-        print(f"⚠️ Error fetching live score from Supabase for {match_id}: {e}")
+        print(f"❌ Error fetching live score from Supabase: {e}")
+    
+    return {
+        "score": None,
+        "minute": None,
+        "status": None
+    }
 
     # fallback if nothing found
     return {
