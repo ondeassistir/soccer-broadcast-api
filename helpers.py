@@ -89,8 +89,8 @@ from scraper import get_live_score
 from supabase import create_client, Client
 import os
 
-SUPABASE_URL = os.getenv("https://pmiwtahbdjzeifauzqun.supabase.co")
-SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBtaXd0YWhiZGp6ZWlmYXV6cXVuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwODc5NzgsImV4cCI6MjA2NDY2Mzk3OH0.of5GtYOz9THx6QdTgljZAbutuRTo4v77B819nRZ5GIM")
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
