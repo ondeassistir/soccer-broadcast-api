@@ -9,3 +9,4 @@ requests
 python-multipart
 requests
 beautifulsoup4
+supabase
