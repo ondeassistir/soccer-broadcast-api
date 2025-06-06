@@ -77,6 +77,8 @@ def load_matches_from_all_leagues(leagues_dict: Dict, teams_dict: Dict) -> List[
 
     return all_matches
 
+import json
+
 def get_live_score_from_supabase(match_id: str) -> dict:
     print(f"🔍 Querying Supabase for match_id: {match_id}")
     try:
@@ -84,12 +86,14 @@ def get_live_score_from_supabase(match_id: str) -> dict:
         print(f"🧾 Supabase result: data={result.data} count={result.count}")
         if result.data:
             row = result.data[0]
-            # Parse JSON from text field
+            print(f"🔎 Row from Supabase: {row}")
             score = row.get("score")
             if isinstance(score, str):
                 try:
                     score = json.loads(score)
+                    print(f"✅ Parsed score: {score}")
                 except json.JSONDecodeError:
+                    print(f"❌ JSON decode failed for: {score}")
                     score = None
 
             return {
@@ -97,14 +101,17 @@ def get_live_score_from_supabase(match_id: str) -> dict:
                 "minute": row.get("minute"),
                 "status": row.get("status")
             }
+        else:
+            print("⚠️ No matching row found.")
     except Exception as e:
-        print(f"❌ Error fetching live score from Supabase: {e}")
-    
+        print(f"❌ Exception: {e}")
+
     return {
         "score": None,
         "minute": None,
         "status": None
     }
+
 
 
     # fallback if nothing found
