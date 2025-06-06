@@ -1,14 +1,17 @@
-# app.py
-
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from typing import Optional
-from helpers import load_teams, load_leagues, load_matches_from_all_leagues, get_live_score
+from datetime import datetime, timezone
+from helpers import (
+    load_teams,
+    load_leagues,
+    load_matches_from_all_leagues,
+    get_live_score_from_supabase
+)
 
 app = FastAPI()
 
-# CORS configuration
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -17,7 +20,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve static files (e.g., JSON data)
 app.mount("/data", StaticFiles(directory="data"), name="data")
 
 @app.get("/matches")
@@ -32,7 +34,6 @@ async def get_matches(
     teams_dict = load_teams()
     all_matches = load_matches_from_all_leagues(leagues_dict, teams_dict)
 
-    # Apply filters
     if country:
         leagues_in_country = [code for code, l in leagues_dict.items() if l.get("country", "").lower() == country.lower()]
         all_matches = [m for m in all_matches if m.get("league") in leagues_in_country]
@@ -51,19 +52,20 @@ async def get_matches(
         all_matches = [m for m in all_matches if m.get("kickoff", "").startswith(date)]
 
     def sort_key(m):
-        kickoff = m.get("kickoff", "No time yet")
-        return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
+        kickoff = m.get("kickoff", "9999-99-99T99:99:99Z")
+        return kickoff
 
     sorted_matches = sorted(all_matches, key=sort_key, reverse=True)
     enriched_matches = []
     for match in sorted_matches:
         try:
-            live = get_live_score(match["match_id"])
-            match.update({
-                "status": live.get("status"),
-                "minute": live.get("minute"),
-                "score": live.get("score")
-            })
+            live = get_live_score_from_supabase(match["match_id"])
+            if live:
+                match.update({
+                    "status": live.get("status"),
+                    "minute": live.get("minute"),
+                    "score": live.get("score")
+                })
         except Exception:
             pass
         enriched_matches.append(match)
@@ -79,12 +81,13 @@ async def get_match_detail(match_id: str):
     for match in all_matches:
         if match.get("match_id") == match_id:
             try:
-                live = get_live_score(match["match_id"])
-                match.update({
-                    "status": live.get("status"),
-                    "minute": live.get("minute"),
-                    "score": live.get("score")
-                })
+                live = get_live_score_from_supabase(match_id)
+                if live:
+                    match.update({
+                        "status": live.get("status"),
+                        "minute": live.get("minute"),
+                        "score": live.get("score")
+                    })
             except Exception:
                 pass
             return match
@@ -152,17 +155,29 @@ async def get_league_page(league_code: str):
     league_matches = [m for m in all_matches if m.get("league") == league_code]
 
     def sort_key(m):
-        kickoff = m.get("kickoff", "No time yet")
-        return kickoff if kickoff != "No time yet" else "9999-99-99T99:99:99Z"
+        kickoff = m.get("kickoff", "9999-99-99T99:99:99Z")
+        return kickoff
 
     sorted_matches = sorted(league_matches, key=sort_key, reverse=True)
-    upcoming = [m for m in sorted_matches if m.get("kickoff", "") >= "2025"][:19]
-    past = [m for m in sorted_matches if m.get("kickoff", "") < "2025"][:19]
+
+    now = datetime.now(timezone.utc)
+    upcoming = []
+    past = []
+
+    for match in sorted_matches:
+        try:
+            kickoff_time = datetime.fromisoformat(match.get("kickoff").replace("Z", "+00:00"))
+            if kickoff_time >= now:
+                upcoming.append(match)
+            else:
+                past.append(match)
+        except Exception:
+            pass
 
     return {
         "league": league,
-        "upcoming_matches": upcoming,
-        "past_matches": past
+        "upcoming_matches": upcoming[:19],
+        "past_matches": past[:19]
     }
 
 @app.get("/team/{team_id}")
