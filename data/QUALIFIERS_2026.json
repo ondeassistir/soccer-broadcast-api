@@ -1,8 +1,8 @@
 [
     {
         "league": "QUALIFIERS_2026"
-	"home_team": "PARAGUAY",
-        "away_team": "URUGUAY",
+	"home_team": "NT_PAR",
+        "away_team": "NT_URU",
         "kickoff": "2025-06-05T23:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -13,8 +13,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"
-	"home_team": "ECUADOR",
-        "away_team": "BRAZIL",
+	"home_team": "NT_ECU",
+        "away_team": "NT_BRA",
         "kickoff": "2025-06-05T23:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -26,8 +26,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"        
-	"home_team": "CHILE",
-        "away_team": "ARGENTINA",
+	"home_team": "NT_CHI",
+        "away_team": "NT_ARG",
         "kickoff": "2025-06-06T01:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -38,8 +38,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"        
-	"home_team": "COLOMBIA",
-        "away_team": "PERU",
+	"home_team": "NT_COL",
+        "away_team": "NT_PER",
         "kickoff": "2025-06-06T20:30:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -50,8 +50,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"        
-	"home_team": "VENEZUELA",
-        "away_team": "BOLIVIA",
+	"home_team": "NT_VEN",
+        "away_team": "NT_BOL",
         "kickoff": "2025-06-06T22:00:00Z",
         "league_week_number": 15,
         "broadcasts": {
@@ -62,8 +62,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"   
-	"home_team": "BOLIVIA",
-        "away_team": "CHILE",
+	"home_team": "NT_BOL",
+        "away_team": "NT_CHI",
         "kickoff": "2025-06-10T20:00:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -74,8 +74,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"        
-	"home_team": "URUGUAY",
-        "away_team": "VENEZUELA",
+	"home_team": "NT_URU",
+        "away_team": "NT_VEN",
         "kickoff": "2025-06-10T23:00:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -86,8 +86,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"
-	"home_team": "ARGENTINA",
-        "away_team": "COLOMBIA",
+	"home_team": "NT_ARG",
+        "away_team": "NT_COL",
         "kickoff": "2025-06-11T00:00:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -98,8 +98,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"        
-	"home_team": "BRAZIL",
-        "away_team": "PARAGUAY",
+	"home_team": "NT_BRA",
+        "away_team": "NT_PAR",
         "kickoff": "2025-06-11T00:45:00Z",
         "league_week_number": 16,
         "broadcasts": {
@@ -111,8 +111,8 @@
     },
     {
 	"league": "QUALIFIERS_2026"       
- 	"home_team": "PERUU",
-        "away_team": "ECUADOR",
+ 	"home_team": "NT_PER",
+        "away_team": "NT_ECU",
         "kickoff": "2025-06-11T01:30:00Z",
         "league_week_number": 16,
         "broadcasts": {

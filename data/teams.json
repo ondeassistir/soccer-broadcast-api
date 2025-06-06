@@ -2304,7 +2304,7 @@
     "leagues": ["CLUB_WC"]
   },
   "ARGENTINA": {
-    "id": "ARGENTINA",
+    "id": "NT_ARG",
     "name": "Argentina",
     "short_name": "ARG",
     "venue": "Estadio Monumental Antonio Vespucio Liberti",
@@ -2313,7 +2313,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "ECUADOR": {
-    "id": "ECUADOR",
+    "id": "NT_ECU",
     "name": "Ecuador",
     "short_name": "ECU",
     "venue": "Estadio Rodrigo Paz Delgado",
@@ -2322,7 +2322,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "URUGUAY": {
-    "id": "URUGUAY",
+    "id": "NT_URU",
     "name": "Uruguay",
     "short_name": "URU",
     "venue": "Estadio Centenario",
@@ -2331,7 +2331,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "BRAZIL": {
-    "id": "BRAZIL",
+    "id": "NT_BRA",
     "name": "Brazil",
     "short_name": "BRA",
     "venue": "Estadio do Maracanã",
@@ -2340,7 +2340,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "PARAGUAY": {
-    "id": "PARAGUAY",
+    "id": "NT_PAR",
     "name": "Paraguay",
     "short_name": "PAR",
     "venue": "Estadio Defensores del Chaco",
@@ -2349,7 +2349,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "COLOMBIA": {
-    "id": "COLOMBIA",
+    "id": "NT_COL",
     "name": "Colombia",
     "short_name": "COL",
     "venue": "Estadio Metropolitano Roberto Meléndez",
@@ -2358,7 +2358,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "VENEZUELA": {
-    "id": "VENEZUELA",
+    "id": "NT_VEN",
     "name": "Venezuela",
     "short_name": "VEN",
     "venue": "Estadio Olímpico de la UCV",
@@ -2367,7 +2367,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "BOLIVIA": {
-    "id": "BOLIVIA",
+    "id": "NT_BOL",
     "name": "Bolivia",
     "short_name": "BOL",
     "venue": "Estadio Hernando Siles",
@@ -2376,7 +2376,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "PERU": {
-    "id": "PERU",
+    "id": "NT_PER",
     "name": "Peru",
     "short_name": "PER",
     "venue": "Estadio Nacional del Perú",
@@ -2385,7 +2385,7 @@
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
   },
   "CHILE": {
-    "id": "CHILE",
+    "id": "NT_CHI",
     "name": "Chile",
     "short_name": "CHI",
     "venue": "Estadio Nacional Julio Martínez Prádanos",
