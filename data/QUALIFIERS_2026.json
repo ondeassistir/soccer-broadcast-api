@@ -1,6 +1,7 @@
 [
     {
-        "home_team": "PARAGUAY",
+        "league": "QUALIFIERS_2026"
+	"home_team": "PARAGUAY",
         "away_team": "URUGUAY",
         "kickoff": "2025-06-05T23:00:00Z",
         "league_week_number": 15,
@@ -11,7 +12,8 @@
         }
     },
     {
-        "home_team": "ECUADOR",
+	"league": "QUALIFIERS_2026"
+	"home_team": "ECUADOR",
         "away_team": "BRAZIL",
         "kickoff": "2025-06-05T23:00:00Z",
         "league_week_number": 15,
@@ -23,7 +25,8 @@
         }
     },
     {
-        "home_team": "CHILE",
+	"league": "QUALIFIERS_2026"        
+	"home_team": "CHILE",
         "away_team": "ARGENTINA",
         "kickoff": "2025-06-06T01:00:00Z",
         "league_week_number": 15,
@@ -34,7 +37,8 @@
         }
     },
     {
-        "home_team": "COLOMBIA",
+	"league": "QUALIFIERS_2026"        
+	"home_team": "COLOMBIA",
         "away_team": "PERU",
         "kickoff": "2025-06-06T20:30:00Z",
         "league_week_number": 15,
@@ -45,7 +49,8 @@
         }
     },
     {
-        "home_team": "VENEZUELA",
+	"league": "QUALIFIERS_2026"        
+	"home_team": "VENEZUELA",
         "away_team": "BOLIVIA",
         "kickoff": "2025-06-06T22:00:00Z",
         "league_week_number": 15,
@@ -56,7 +61,8 @@
         }
     },
     {
-        "home_team": "BOLIVIA",
+	"league": "QUALIFIERS_2026"   
+	"home_team": "BOLIVIA",
         "away_team": "CHILE",
         "kickoff": "2025-06-10T20:00:00Z",
         "league_week_number": 16,
@@ -67,7 +73,8 @@
         }
     },
     {
-        "home_team": "URUGUAY",
+	"league": "QUALIFIERS_2026"        
+	"home_team": "URUGUAY",
         "away_team": "VENEZUELA",
         "kickoff": "2025-06-10T23:00:00Z",
         "league_week_number": 16,
@@ -78,7 +85,8 @@
         }
     },
     {
-        "home_team": "ARGENTINA",
+	"league": "QUALIFIERS_2026"
+	"home_team": "ARGENTINA",
         "away_team": "COLOMBIA",
         "kickoff": "2025-06-11T00:00:00Z",
         "league_week_number": 16,
@@ -89,7 +97,8 @@
         }
     },
     {
-        "home_team": "BRAZIL",
+	"league": "QUALIFIERS_2026"        
+	"home_team": "BRAZIL",
         "away_team": "PARAGUAY",
         "kickoff": "2025-06-11T00:45:00Z",
         "league_week_number": 16,
@@ -101,7 +110,8 @@
         }
     },
     {
-        "home_team": "PERUU",
+	"league": "QUALIFIERS_2026"       
+ 	"home_team": "PERUU",
         "away_team": "ECUADOR",
         "kickoff": "2025-06-11T01:30:00Z",
         "league_week_number": 16,
