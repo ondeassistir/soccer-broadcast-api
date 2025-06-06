@@ -73,6 +73,10 @@ async def get_matches(
     return enriched_matches
 
 @app.get("/matches/{match_id}")
+def test_live_score(match_id: str):
+    live = get_live_score_from_supabase(match_id)
+    print(f"🧪 Test live result: {live}")
+    return {"match_id": match_id, "live": live}
 async def get_match_detail(match_id: str):
     leagues_dict = load_leagues()
     teams_dict = load_teams()
