@@ -22,7 +22,7 @@ supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 # Initialize FastAPI
 app = FastAPI(
     title="OndeAssistir Soccer API",
-    version="1.0.1",
+    version="1.0.2",
     description="Serve upcoming matches and live scores with caching and Flashscore fallback"
 )
 
@@ -31,12 +31,7 @@ app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 
 # — STARTUP DATA LOADING & SANITY CHECKS —
 print(f"🔍 BASE_DIR = {BASE_DIR}")
-print(f"🔍 DATA_DIR = {DATA_DIR}")
-try:
-    files = os.listdir(DATA_DIR)
-    print(f"🔍 DATA_DIR contents: {files}")
-except Exception as e:
-    print(f"⚠️ Could not list DATA_DIR: {e}")
+print(f"🔍 DATA_DIR contents: {os.listdir(DATA_DIR) if os.path.isdir(DATA_DIR) else 'Directory not found'}")
 
 # Load leagues.json
 leagues_path = os.path.join(DATA_DIR, "leagues.json")
@@ -46,50 +41,57 @@ with open(leagues_path, encoding="utf-8") as f:
     leagues_data = json.load(f)
 
 # Extract league IDs
-if isinstance(leagues_data, dict):
-    LEAGUE_IDS = list(leagues_data.keys())
-elif isinstance(leagues_data, list):
-    LEAGUE_IDS = [item.get("id") if isinstance(item, dict) and "id" in item else item
-                  for item in leagues_data if isinstance(item, (dict, str))]
-else:
-    LEAGUE_IDS = []
+def extract_league_ids(data):
+    if isinstance(data, dict):
+        return list(data.keys())
+    if isinstance(data, list):
+        return [item.get("id") if isinstance(item, dict) and "id" in item else item
+                for item in data if isinstance(item, (dict, str))]
+    return []
 
-# Load all matches into memory and build slug/id maps
-ALL_MATCHES = {}   # league_id -> list of match dicts
-SLUG_MAP    = {}   # slug_lower -> match_id
-ID_MAP      = {}   # match_id -> slug
+LEAGUE_IDS = extract_league_ids(leagues_data)
+
+# Load all matches and build maps
+ALL_MATCHES = {}           # league_id -> list of match dicts
+SLUG_TO_SLUG = {}          # key -> original slug
+KEY_TO_SLUG = {}           # identifier key -> slug
+KEY_TYPE_MAP = {}          # identifier key -> 'numeric' or 'synthetic'
 
 for lid in LEAGUE_IDS:
     path = os.path.join(DATA_DIR, f"{lid}.json")
     if not os.path.isfile(path):
         continue
-    try:
-        with open(path, encoding="utf-8") as f:
-            data = json.load(f)
-        assert isinstance(data, list)
-    except Exception as e:
-        print(f"⚠️ Skipping {lid}.json: {e}")
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, list):
         continue
-
     ALL_MATCHES[lid] = data
-    for match in data:
-        if not isinstance(match, dict):
+    for m in data:
+        if not isinstance(m, dict):
             continue
-        # Support various ID key names
-        mid = (match.get("id") or match.get("match_id") or match.get("matchId"))
-        slug = match.get("slug")
-        if mid is None:
-            # debug missing ID
-            print(f"⚠️ Missing ID for slug {slug} in league {lid}")
-            continue
-        # map slug to id
-        if isinstance(slug, str):
-            slug_key = slug.lower()
-            SLUG_MAP[slug_key] = mid
-            if mid not in ID_MAP:
-                ID_MAP[mid] = slug
+        # original numeric ID
+        mid_num = m.get("id") or m.get("match_id") or m.get("matchId")
+        slug = m.get("slug")
+        tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
+        home = m.get("home_team") or m.get("home")
+        away = m.get("away_team") or m.get("away")
+        # map numeric ID
+        if mid_num is not None:
+            key = str(mid_num)
+            if slug:
+                KEY_TO_SLUG[key] = slug
+                KEY_TYPE_MAP[key] = 'numeric'
+        # generate synthetic key
+        if slug and all(isinstance(x, str) for x in (tstr, home, away)):
+            syn = f"{lid.lower()}_{tstr.lower()}_{home.lower()}_x_{away.lower()}"
+            KEY_TO_SLUG[syn] = slug
+            KEY_TYPE_MAP[syn] = 'synthetic'
+        # map slug itself
+        if slug:
+            KEY_TO_SLUG[slug.lower()] = slug
+            KEY_TYPE_MAP[slug.lower()] = 'slug'
 
-print(f"✅ Loaded matches for leagues: {list(ALL_MATCHES.keys())}")
+print(f"✅ KEY_TO_SLUG keys loaded: {len(KEY_TO_SLUG)} entries")
 
 # Helper: parse ISO datetime
 
@@ -104,8 +106,7 @@ def health_check():
 @app.get("/matches")
 def get_upcoming_matches():
     """
-    Return upcoming matches within LOOKAHEAD_DAYS,
-    including matches that lack slugs (flagged via has_slug).
+    Return upcoming matches within LOOKAHEAD_DAYS, including matches without numeric ID (synthetic keys shown).
     """
     now = datetime.now(timezone.utc)
     cutoff = now + timedelta(days=LOOKAHEAD_DAYS)
@@ -113,8 +114,13 @@ def get_upcoming_matches():
 
     for lid, matches in ALL_MATCHES.items():
         for m in matches:
-            # pick kickoff or fallback
-            tstr = (m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime"))
+            # determine kickoff string
+            tstr = (
+                m.get("utcDate")
+                or m.get("kickoff")
+                or m.get("start")
+                or m.get("dateTime")
+            )
             if not isinstance(tstr, str):
                 continue
             try:
@@ -124,14 +130,20 @@ def get_upcoming_matches():
             if not (now <= dt <= cutoff):
                 continue
 
-            # extract fields
-            mid = (m.get("id") or m.get("match_id") or m.get("matchId"))
+            # fetch id, slug, teams
+            mid_num = m.get("id") or m.get("match_id") or m.get("matchId")
             slug = m.get("slug")
             home = m.get("home_team") or m.get("home")
             away = m.get("away_team") or m.get("away")
 
+            # generate key: numeric or synthetic
+            if mid_num is not None:
+                key = str(mid_num)
+            else:
+                key = f"{lid.lower()}_{tstr.lower()}_{home.lower()}_x_{away.lower()}"
+
             results.append({
-                "match_id": mid,
+                "match_id": key,
                 "slug":      slug,
                 "has_slug":  bool(slug),
                 "home":      home,
@@ -139,38 +151,31 @@ def get_upcoming_matches():
                 "kickoff":   tstr,
                 "league":    lid
             })
+
     return results
 
-@app.get("/score/{identifier}")
+@app.get("/score")]}]}/{identifier}")
 def get_live_score(identifier: str):
     """
-    Fetch live score by numeric match_id or Flashscore slug.
-    Uses Supabase caching, then Flashscore fallback.
+    Fetch live score by numeric or synthetic match_id, or Flashscore slug.
     """
-    # 1) resolve match_id and slug
-    if identifier.isdigit():
-        match_id = int(identifier)
-        slug = ID_MAP.get(match_id)
-    else:
-        slug_key = identifier.lower()
-        match_id = SLUG_MAP.get(slug_key)
-        slug = identifier
-
-    if match_id is None:
+    key = identifier
+    slug = KEY_TO_SLUG.get(key.lower())
+    if not slug:
         raise HTTPException(status_code=404, detail=f"Unknown match '{identifier}'")
 
-    # 2) try Supabase cache
-    cache = (
+    # try Supabase cache
+    resp = (
         supabase
         .table("live_scores")
         .select("match_id, status, minute, score, updated_at")
-        .eq("match_id", match_id)
+        .eq("match_id", identifier)
         .single()
         .execute()
     )
-    if getattr(cache, "error", None):
-        raise HTTPException(status_code=500, detail=cache.error.message)
-    record = cache.data
+    if getattr(resp, "error", None):
+        raise HTTPException(status_code=500, detail=resp.error.message)
+    record = resp.data
     if record:
         try:
             record["score"] = json.loads(record.get("score", "{}"))
@@ -178,9 +183,7 @@ def get_live_score(identifier: str):
             record["score"] = {}
         return record
 
-    # 3) fallback scraping requires slug
-    if not slug:
-        raise HTTPException(status_code=404, detail="This match has no slug for live scraping yet.")
+    # fallback: scrape Flashscore
     flash_url = f"https://www.flashscore.ca/game/soccer/{slug}/"
     page = requests.get(flash_url, timeout=10)
     if page.status_code != 200:
@@ -195,7 +198,7 @@ def get_live_score(identifier: str):
     try:
         home = int(home_el.text.strip())
         away = int(away_el.text.strip())
-    except Exception:
+    except:
         raise HTTPException(status_code=502, detail="Failed to parse scores from page")
 
     status = status_el.text.strip() if status_el else "UNKNOWN"
@@ -205,7 +208,7 @@ def get_live_score(identifier: str):
 
     # cache in Supabase
     upsert_data = {
-        "match_id":   match_id,
+        "match_id":   identifier,
         "status":     status,
         "minute":     minute,
         "score":      json.dumps(score_json),
@@ -216,7 +219,7 @@ def get_live_score(identifier: str):
         print("⚠️ Supabase upsert failed:", up.error.message)
 
     return {
-        "match_id":   match_id,
+        "match_id":   identifier,
         "status":     status,
         "minute":     minute,
         "score":      score_json,
