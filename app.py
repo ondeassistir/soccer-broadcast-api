@@ -102,8 +102,12 @@ def health_check():
 
 @app.get("/matches")
 def get_upcoming_matches():
+    """
+    Return matches from 4 days in the past up to LOOKAHEAD_DAYS in the future.
+    """
     now = datetime.now(timezone.utc)
-    cutoff = now + timedelta(days=LOOKAHEAD_DAYS)
+    start = now - timedelta(days=4)
+    end   = now + timedelta(days=LOOKAHEAD_DAYS)
     results = []
 
     for lid, matches in ALL_MATCHES.items():
@@ -115,13 +119,13 @@ def get_upcoming_matches():
                 dt = parse_datetime(tstr)
             except:
                 continue
-            if not (now <= dt <= cutoff):
+            if not (start <= dt <= end):
                 continue
 
             mid_num = m.get("id") or m.get("match_id") or m.get("matchId")
-            slug = m.get("slug")
-            home = m.get("home_team") or m.get("home")
-            away = m.get("away_team") or m.get("away")
+            slug   = m.get("slug")
+            home   = m.get("home_team") or m.get("home")
+            away   = m.get("away_team") or m.get("away")
 
             if mid_num is not None:
                 key = str(mid_num)
