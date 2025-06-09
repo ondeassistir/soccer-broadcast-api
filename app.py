@@ -1,5 +1,6 @@
 import os
 import json
+import re
 import requests
 from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, HTTPException
@@ -24,7 +25,7 @@ def get_supabase_client():
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.1.1",
+    version="1.1.2",
     description="Serve upcoming matches and live scores with caching and Flashscore fallback"
 )
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
@@ -89,7 +90,6 @@ def get_upcoming_matches():
                 continue
             if not (start <= dt <= end):
                 continue
-            # determine match identifier
             mid = m.get("id") or m.get("match_id") or m.get("matchId")
             key = str(mid) if mid is not None else f"{lid.lower()}_{tstr.lower()}_{m['home_team'].lower()}_x_{m['away_team'].lower()}"
             out.append({
@@ -106,7 +106,6 @@ def get_upcoming_matches():
 # Live score endpoint
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
-    # resolve slug for scraping fallback
     slug = KEY_TO_SLUG.get(identifier.lower())
     if not slug:
         raise HTTPException(status_code=404, detail=f"Unknown match '{identifier}'")
@@ -131,20 +130,26 @@ def get_live_score(identifier: str):
             rec["score"] = {}
         return rec
 
-    # 2) Cache miss → scrape Flashscore directly
+    # 2) Cache miss → scrape Flashscore
     url = f"https://www.flashscore.ca/game/soccer/{slug}/"
     page = requests.get(url, timeout=10)
     if page.status_code != 200:
         raise HTTPException(status_code=404, detail="Score not found on Flashscore")
     soup = BeautifulSoup(page.text, "html.parser")
 
-    # parse scores (allow missing/non-numeric)
+    # First try live-score selectors
     home_el = soup.select_one(".home__score")
     away_el = soup.select_one(".away__score")
-    home_txt = home_el.text.strip() if home_el else None
-    away_txt = away_el.text.strip() if away_el else None
-    home = int(home_txt) if home_txt and home_txt.isdigit() else None
-    away = int(away_txt) if away_txt and away_txt.isdigit() else None
+    home = int(home_el.text.strip()) if home_el and home_el.text.strip().isdigit() else None
+    away = int(away_el.text.strip()) if away_el and away_el.text.strip().isdigit() else None
+
+    # Fallback for finished matches
+    if home is None or away is None:
+        score_el = soup.select_one(".detailScore__score")
+        if score_el:
+            nums = re.findall(r"\d+", score_el.text)
+            if len(nums) >= 2:
+                home, away = int(nums[0]), int(nums[1])
 
     status_el = soup.select_one(".detailTime__status")
     minute_el = soup.select_one(".detailTime__minute")
@@ -153,7 +158,7 @@ def get_live_score(identifier: str):
     now_str = datetime.now(timezone.utc).isoformat()
     score_json = {"home": home, "away": away}
 
-    # upsert into Supabase under match_id
+    # Upsert into Supabase under match_id
     upsert_data = {
         "match_id":   identifier,
         "status":     status,
