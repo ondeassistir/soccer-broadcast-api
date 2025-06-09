@@ -25,8 +25,8 @@ def get_supabase_client():
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.1.2",
-    description="Serve upcoming matches and live scores with caching and Flashscore fallback"
+    version="1.2.0",
+    description="Serve upcoming matches and live scores with caching and Flashscore JSON fallback"
 )
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 
@@ -35,8 +35,7 @@ with open(os.path.join(DATA_DIR, "leagues.json"), encoding="utf-8") as f:
     leagues_data = json.load(f)
 
 def extract_league_ids(data):
-    if isinstance(data, dict):
-        return list(data.keys())
+    if isinstance(data, dict): return list(data.keys())
     if isinstance(data, list):
         return [item.get("id") if isinstance(item, dict) and "id" in item else item
                 for item in data if isinstance(item, (dict, str))]
@@ -45,11 +44,9 @@ def extract_league_ids(data):
 LEAGUE_IDS = extract_league_ids(leagues_data)
 ALL_MATCHES = {}
 KEY_TO_SLUG = {}
-
 for lid in LEAGUE_IDS:
     path = os.path.join(DATA_DIR, f"{lid}.json")
-    if not os.path.isfile(path):
-        continue
+    if not os.path.isfile(path): continue
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     ALL_MATCHES[lid] = data
@@ -82,14 +79,12 @@ def get_upcoming_matches():
     for lid, matches in ALL_MATCHES.items():
         for m in matches:
             tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
-            if not tstr:
-                continue
+            if not tstr: continue
             try:
                 dt = parse_datetime(tstr)
             except:
                 continue
-            if not (start <= dt <= end):
-                continue
+            if not (start <= dt <= end): continue
             mid = m.get("id") or m.get("match_id") or m.get("matchId")
             key = str(mid) if mid is not None else f"{lid.lower()}_{tstr.lower()}_{m['home_team'].lower()}_x_{m['away_team'].lower()}"
             out.append({
@@ -103,7 +98,7 @@ def get_upcoming_matches():
             })
     return out
 
-# Live score endpoint
+# Live score endpoint with JSON fallback
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
     slug = KEY_TO_SLUG.get(identifier.lower())
@@ -121,7 +116,6 @@ def get_live_score(identifier: str):
     )
     if getattr(resp, "error", None):
         raise HTTPException(status_code=500, detail=resp.error.message)
-
     if resp.data:
         rec = resp.data[0]
         try:
@@ -137,13 +131,17 @@ def get_live_score(identifier: str):
         raise HTTPException(status_code=404, detail="Score not found on Flashscore")
     soup = BeautifulSoup(page.text, "html.parser")
 
-    # First try live-score selectors
+    # 2a) Live selectors
     home_el = soup.select_one(".home__score")
     away_el = soup.select_one(".away__score")
     home = int(home_el.text.strip()) if home_el and home_el.text.strip().isdigit() else None
     away = int(away_el.text.strip()) if away_el and away_el.text.strip().isdigit() else None
+    status_el = soup.select_one(".detailTime__status")
+    minute_el = soup.select_one(".detailTime__minute")
+    status = status_el.text.strip() if status_el else None
+    minute = minute_el.text.strip() if minute_el else None
 
-    # Fallback for finished matches
+    # 2b) Scoreboard fallback for finished matches
     if home is None or away is None:
         score_el = soup.select_one(".detailScore__score")
         if score_el:
@@ -151,14 +149,31 @@ def get_live_score(identifier: str):
             if len(nums) >= 2:
                 home, away = int(nums[0]), int(nums[1])
 
-    status_el = soup.select_one(".detailTime__status")
-    minute_el = soup.select_one(".detailTime__minute")
-    status = status_el.text.strip() if status_el else None
-    minute = minute_el.text.strip() if minute_el else None
+    # 2c) JSON fallback from Next.js data
+    if home is None or away is None:
+        script = soup.find("script", id="__NEXT_DATA__")
+        if script and script.string:
+            try:
+                data = json.loads(script.string)
+                events = data["props"]["pageProps"]["initialState"]["events"]
+                evt = events.get(slug)
+                if evt:
+                    home = evt.get("homeScore")
+                    away = evt.get("awayScore")
+                    status = evt.get("status")
+                    minute = evt.get("minute")
+            except Exception:
+                pass
+
+    # Final defaults if still missing
+    if home is None or away is None:
+        # mark as finished
+        status = status or "FT"
+        home = home if home is not None else 0
+        away = away if away is not None else 0
+
     now_str = datetime.now(timezone.utc).isoformat()
     score_json = {"home": home, "away": away}
-
-    # Upsert into Supabase under match_id
     upsert_data = {
         "match_id":   identifier,
         "status":     status,
