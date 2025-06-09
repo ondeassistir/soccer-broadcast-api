@@ -10,3 +10,4 @@ python-multipart
 requests
 beautifulsoup4
 supabase
+python-multipart      # if you need file uploads later
