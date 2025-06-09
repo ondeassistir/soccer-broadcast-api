@@ -25,8 +25,8 @@ def get_supabase_client():
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.2.2",
-    description="Serve upcoming matches and live scores with caching and Flashscore JSON fallback"
+    version="1.2.3",
+    description="Serve upcoming matches and live scores with caching and multiple fallback strategies"
 )
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 
@@ -101,11 +101,9 @@ def get_upcoming_matches():
 # Single match details endpoint (includes score)
 @app.get("/matches/{identifier}")
 def get_match(identifier: str):
-    # case-insensitive match lookup
     ident_lc = identifier.lower()
     for m in get_upcoming_matches():
         if m.get("match_id", "").lower() == ident_lc:
-            # enrich with live score
             score = get_live_score(m["match_id"])
             m.update({
                 "status":     score.get("status"),
@@ -116,7 +114,7 @@ def get_match(identifier: str):
             return m
     raise HTTPException(status_code=404, detail="Match not found")
 
-# Live score endpoint with JSON fallback
+# Live score endpoint with multiple fallbacks
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
     slug = KEY_TO_SLUG.get(identifier.lower())
@@ -124,7 +122,7 @@ def get_live_score(identifier: str):
         raise HTTPException(status_code=404, detail=f"Unknown match '{identifier}'")
 
     supabase = get_supabase_client()
-    # 1) Try cache lookup by match_id
+    # 1) Cache lookup
     resp = (
         supabase
         .table("live_scores")
@@ -136,17 +134,13 @@ def get_live_score(identifier: str):
         raise HTTPException(status_code=500, detail=resp.error.message)
     if resp.data:
         rec = resp.data[0]
-        try:
-            rec["score"] = json.loads(rec.get("score", "{}"))
-        except:
-            rec["score"] = {}
-        # normalize finished status
+        rec["score"] = json.loads(rec.get("score", "{}"))
         if rec.get("status") == "FT":
             rec["status"] = "finished"
             rec["minute"] = rec.get("minute") or "90"
         return rec
 
-    # 2) Cache miss → scrape Flashscore
+    # 2) Scrape Flashscore
     url = f"https://www.flashscore.ca/game/soccer/{slug}/"
     page = requests.get(url, timeout=10)
     if page.status_code != 200:
@@ -163,7 +157,7 @@ def get_live_score(identifier: str):
     status = status_el.text.strip() if status_el else None
     minute = minute_el.text.strip() if minute_el else None
 
-    # 2b) Scoreboard fallback for finished matches
+    # 2b) HTML scoreboard fallback
     if home is None or away is None:
         score_el = soup.select_one(".detailScore__score")
         if score_el:
@@ -171,29 +165,41 @@ def get_live_score(identifier: str):
             if len(nums) >= 2:
                 home, away = int(nums[0]), int(nums[1])
 
-    # 2c) JSON fallback
+    # 2c) Next.js JSON fallback
     if home is None or away is None:
         script = soup.find("script", id="__NEXT_DATA__")
         if script and script.string:
             try:
                 data = json.loads(script.string)
-                events = data.get("props", {}).get("pageProps", {}).get("initialState", {}).get("events", {})
-                evt = events.get(slug)
+                evt = data.get("props", {}).get("pageProps", {}).get("initialState", {}).get("events", {}).get(slug)
                 if evt:
                     home = evt.get("homeScore")
                     away = evt.get("awayScore")
                     status = evt.get("status")
                     minute = evt.get("minute")
-            except Exception:
+            except:
                 pass
 
-    # 2d) Final defaults
+    # 2d) JSON-LD schema fallback
+    if home is None or away is None:
+        ld_el = soup.find("script", type="application/ld+json")
+        if ld_el and ld_el.string:
+            try:
+                ld = json.loads(ld_el.string)
+                if ld.get("@type") == "SportsEvent":
+                    home = ld.get("homeScore")
+                    away = ld.get("awayScore")
+                    status = ld.get("eventStatus") or status
+                    minute = minute or None
+            except:
+                pass
+
+    # 3) Final defaults & normalize finished
     if status == "FT":
         status = "finished"
         minute = minute or "90"
-    if home is None or away is None:
-        home = home if home is not None else 0
-        away = away if away is not None else 0
+    home = home if home is not None else 0
+    away = away if away is not None else 0
 
     now_str = datetime.now(timezone.utc).isoformat()
     score_json = {"home": home, "away": away}
