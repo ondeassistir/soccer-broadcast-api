@@ -7,133 +7,151 @@ from fastapi.staticfiles import StaticFiles
 from bs4 import BeautifulSoup
 from supabase import create_client, Client
 
-# — DETERMINE DATA_DIR NAME —
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "data")
-
-# — CONFIGURATION —
+# — CONFIGURATION & INITIALIZATION —
+BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR       = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
 LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
 SUPABASE_URL   = os.getenv("SUPABASE_URL")
 SUPABASE_KEY   = os.getenv("SUPABASE_KEY")
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
 
+# Initialize Supabase
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
+# Initialize FastAPI
 app = FastAPI(
     title="OndeAssistir Soccer API",
-    version="1.4.2",
-    description="Serve /data locally, /matches from that, and /score/{id_or_slug}"
+    version="1.0.0",
+    description="Serve upcoming matches and live scores with caching and Flashscore fallback"
 )
 
-# Serve JSON from the local `data` folder
+# Mount static JSON directory
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 
+# — STARTUP DATA LOADING & SANITY CHECKS —
+print(f"🔍 BASE_DIR = {BASE_DIR}")
+print(f"🔍 DATA_DIR = {DATA_DIR}")
+try:
+    files = os.listdir(DATA_DIR)
+    print(f"🔍 DATA_DIR contents: {files}")
+except Exception as e:
+    print(f"⚠️ Could not list DATA_DIR: {e}")
+
+# Load leagues.json
+leagues_path = os.path.join(DATA_DIR, "leagues.json")
+if not os.path.isfile(leagues_path):
+    raise RuntimeError(f"Missing leagues.json in {DATA_DIR}")
+with open(leagues_path, encoding="utf-8") as f:
+    leagues_data = json.load(f)
+
+# Extract league IDs
+if isinstance(leagues_data, dict):
+    LEAGUE_IDS = list(leagues_data.keys())
+elif isinstance(leagues_data, list):
+    LEAGUE_IDS = [item.get("id") if isinstance(item, dict) and "id" in item else item
+                  for item in leagues_data if isinstance(item, (dict, str))]
+else:
+    LEAGUE_IDS = []
+
+# Load all matches into memory
+ALL_MATCHES = {}    # league_id -> list of match dicts
+SLUG_MAP    = {}    # slug_lower -> match_id
+ID_MAP      = {}    # match_id -> slug
+for lid in LEAGUE_IDS:
+    path = os.path.join(DATA_DIR, f"{lid}.json")
+    if not os.path.isfile(path):
+        continue
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+        if not isinstance(data, list):
+            raise ValueError("Expected list of matches")
+    except Exception as e:
+        print(f"⚠️ Skipping {lid}.json: {e}")
+        continue
+
+    ALL_MATCHES[lid] = data
+    for match in data:
+        if not isinstance(match, dict):
+            continue
+        mid = match.get("id") or match.get("match_id")
+        slug = match.get("slug")
+        if mid is None:
+            continue
+        if slug:
+            slug_key = slug.lower()
+            SLUG_MAP[slug_key] = mid
+            # prefer first slug seen for ID
+            if mid not in ID_MAP:
+                ID_MAP[mid] = slug
+
+print(f"✅ Loaded matches for leagues: {list(ALL_MATCHES.keys())}")
+
+# — HELPER FUNCTIONS —
+def parse_datetime(dt_str: str) -> datetime:
+    """Parse ISO8601 string with Z timezone to datetime"""
+    return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+
+# — ENDPOINTS —
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
 
 @app.get("/matches")
 def get_upcoming_matches():
-    now    = datetime.now(timezone.utc)
+    """
+    Return upcoming matches within LOOKAHEAD_DAYS, including matches that lack slugs.
+    """
+    now = datetime.now(timezone.utc)
     cutoff = now + timedelta(days=LOOKAHEAD_DAYS)
-    upcoming = []
+    results = []
 
-    # Load league index
-    leagues_file = os.path.join(DATA_DIR, "leagues.json")
-    if not os.path.isfile(leagues_file):
-        raise HTTPException(500, f"Missing {leagues_file}")
-    try:
-        leagues = json.load(open(leagues_file, encoding="utf-8"))
-    except Exception as e:
-        raise HTTPException(500, f"Error parsing leagues.json: {e}")
-
-    # Build list of league IDs
-    if isinstance(leagues, dict):
-        league_ids = list(leagues.keys())
-    elif isinstance(leagues, list):
-        league_ids = [
-            item["id"] if isinstance(item, dict) and "id" in item else item
-            for item in leagues if isinstance(item, (dict, str))
-        ]
-    else:
-        league_ids = []
-
-    # Iterate each league file
-    for lid in league_ids:
-        path = os.path.join(DATA_DIR, f"{lid}.json")
-        if not os.path.isfile(path):
-            continue
-        try:
-            matches = json.load(open(path, encoding="utf-8"))
-        except:
-            continue
-        if not isinstance(matches, list):
-            continue
-
+    for lid, matches in ALL_MATCHES.items():
         for m in matches:
-            if not isinstance(m, dict):
+            # get kickoff time field
+            tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
+            if not isinstance(tstr, str):
                 continue
-
-            mid  = m.get("id") or m.get("match_id")
-            slug = m.get("slug")
-            home = m.get("home_team") or m.get("home")
-            away = m.get("away_team") or m.get("away")
-            tstr = (
-                m.get("utcDate")
-                or m.get("kickoff")
-                or m.get("start")
-                or m.get("dateTime")
-            )
-            if not (mid and slug and tstr):
-                continue
-
             try:
-                dt = datetime.fromisoformat(tstr.replace("Z", "+00:00"))
-            except:
+                dt = parse_datetime(tstr)
+            except Exception:
+                continue
+            if not (now <= dt <= cutoff):
                 continue
 
-            if now <= dt <= cutoff:
-                upcoming.append({
-                    "match_id":  mid,
-                    "slug":       slug,
-                    "home_team":  home,
-                    "away_team":  away,
-                    "kickoff":    tstr,
-                    "league":     lid
-                })
+            mid = m.get("id") or m.get("match_id")
+            slug = m.get("slug")
+            results.append({
+                "match_id": mid,
+                "slug":      slug,
+                "has_slug":  bool(slug),
+                "home":      m.get("home_team") or m.get("home"),
+                "away":      m.get("away_team") or m.get("away"),
+                "kickoff":   tstr,
+                "league":    lid
+            })
 
-    return upcoming
-
-
-def resolve_match_id(identifier: str):
-    # Numeric ID?
-    if identifier.isdigit():
-        return int(identifier)
-    # Otherwise scan JSON files
-    for fn in os.listdir(DATA_DIR):
-        if fn == "leagues.json" or not fn.endswith(".json"):
-            continue
-        path = os.path.join(DATA_DIR, fn)
-        try:
-            data = json.load(open(path, encoding="utf-8"))
-        except:
-            continue
-        if not isinstance(data, list):
-            continue
-        for m in data:
-            if isinstance(m, dict) and m.get("slug", "").lower() == identifier.lower():
-                return m.get("id") or m.get("match_id")
-    return None
+    return results
 
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
-    match_id = resolve_match_id(identifier)
+    """
+    Fetch live score by numeric match_id or Flashscore slug.
+    Caches results in Supabase.
+    """
+    # Resolve identifier to numeric match_id
+    if identifier.isdigit():
+        match_id = int(identifier)
+        slug = ID_MAP.get(match_id)
+    else:
+        match_id = SLUG_MAP.get(identifier.lower())
+        slug = identifier
     if match_id is None:
-        raise HTTPException(404, detail=f"No match found for '{identifier}'")
+        raise HTTPException(status_code=404, detail=f"Unknown match '{identifier}'")
 
     # 1) Try Supabase cache
-    resp = (
+    cache = (
         supabase
         .table("live_scores")
         .select("match_id, status, minute, score, updated_at")
@@ -141,9 +159,9 @@ def get_live_score(identifier: str):
         .single()
         .execute()
     )
-    if getattr(resp, "error", None):
-        raise HTTPException(500, detail=resp.error.message)
-    record = resp.data
+    if getattr(cache, "error", None):
+        raise HTTPException(status_code=500, detail=cache.error.message)
+    record = cache.data
     if record:
         try:
             record["score"] = json.loads(record.get("score", "{}"))
@@ -151,13 +169,15 @@ def get_live_score(identifier: str):
             record["score"] = {}
         return record
 
-    # 2) Fallback: scrape Flashscore
-    url = f"https://www.flashscore.ca/game/soccer/{identifier}/"
+    # 2) Fallback to Flashscore scrape (slug required)
+    if not slug:
+        raise HTTPException(status_code=404, detail="This match has no slug for live scraping yet.")
+    url = f"https://www.flashscore.ca/game/soccer/{slug}/"
     page = requests.get(url, timeout=10)
     if page.status_code != 200:
-        raise HTTPException(404, detail="Score not found on Flashscore")
+        raise HTTPException(status_code=404, detail="Score not found on Flashscore")
 
-    soup      = BeautifulSoup(page.text, "html.parser")
+    soup = BeautifulSoup(page.text, "html.parser")
     home_el   = soup.select_one(".home__score")
     away_el   = soup.select_one(".away__score")
     status_el = soup.select_one(".detailTime__status")
@@ -167,23 +187,24 @@ def get_live_score(identifier: str):
         home = int(home_el.text.strip())
         away = int(away_el.text.strip())
     except:
-        raise HTTPException(502, detail="Failed to parse scores")
+        raise HTTPException(status_code=502, detail="Failed to parse scores")
 
     status = status_el.text.strip() if status_el else "UNKNOWN"
     minute = minute_el.text.strip() if minute_el else None
     now_str = datetime.now(timezone.utc).isoformat()
     score_json = {"home": home, "away": away}
 
-    upsert = {
+    # Upsert into Supabase
+    upsert_data = {
         "match_id":   match_id,
         "status":     status,
         "minute":     minute,
         "score":      json.dumps(score_json),
         "updated_at": now_str
     }
-    res = supabase.table("live_scores").upsert(upsert, on_conflict=["match_id"]).execute()
-    if getattr(res, "error", None):
-        print("⚠️ Supabase upsert failed:", res.error.message)
+    up = supabase.table("live_scores").upsert(upsert_data, on_conflict=["match_id"]).execute()
+    if getattr(up, "error", None):
+        print("⚠️ Supabase upsert failed:", up.error.message)
 
     return {
         "match_id":   match_id,
