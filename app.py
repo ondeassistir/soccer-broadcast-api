@@ -1,5 +1,6 @@
 import os
 import json
+import requests
 from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
@@ -22,12 +23,14 @@ app = FastAPI(
     description="Static data under /data, upcoming matches under /matches, and live scores under /score/{identifier}"
 )
 
-# Mount your static JSON folder
+# Serve your static JSON folder
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
+
 
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
+
 
 @app.get("/matches")
 def get_upcoming_matches():
@@ -36,28 +39,36 @@ def get_upcoming_matches():
     upcoming = []
 
     for fn in os.listdir(DATA_DIR):
-        # — SKIP THE LEAGUE INDEX — 
-        if fn == "leagues.json":
-            continue
-        if not fn.endswith(".json"):
+        # skip the league index and any non-JSON
+        if fn == "leagues.json" or not fn.endswith(".json"):
             continue
 
         league_code = os.path.splitext(fn)[0]
-        filepath    = os.path.join(DATA_DIR, fn)
+        path        = os.path.join(DATA_DIR, fn)
         try:
-            with open(filepath, "r", encoding="utf-8") as f:
+            with open(path, "r", encoding="utf-8") as f:
                 matches = json.load(f)
         except Exception:
             continue
 
+        # ensure it’s a list of objects
+        if not isinstance(matches, list):
+            continue
+
         for m in matches:
-            time_str = m.get("utcDate") or m.get("kickoff") or m.get("start")
-            if not time_str:
+            if not isinstance(m, dict):
                 continue
+
+            # pick whichever timestamp field you have
+            time_str = m.get("utcDate") or m.get("kickoff") or m.get("start")
+            if not isinstance(time_str, str):
+                continue
+
             try:
                 dt = datetime.fromisoformat(time_str.replace("Z", "+00:00"))
             except:
                 continue
+
             if now <= dt <= cutoff:
                 info = m.copy()
                 info["league"] = league_code
@@ -65,26 +76,29 @@ def get_upcoming_matches():
 
     return upcoming
 
+
 def find_match_id(slug: str):
-    """Lookup numeric match_id for a Flashscore slug in your static files."""
+    """Lookup numeric match_id for a Flashscore slug."""
     for fn in os.listdir(DATA_DIR):
         if fn == "leagues.json" or not fn.endswith(".json"):
             continue
         data = json.load(open(os.path.join(DATA_DIR, fn), encoding="utf-8"))
-        for m in data:
-            if m.get("slug") == slug:
-                return m.get("id")
+        if isinstance(data, list):
+            for m in data:
+                if isinstance(m, dict) and m.get("slug") == slug:
+                    return m.get("id")
     return None
+
 
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
-    # 1) resolve match_id
+    # 1) resolve numeric match_id
     if identifier.isdigit():
         match_id = int(identifier)
     else:
         match_id = find_match_id(identifier)
         if match_id is None:
-            raise HTTPException(404, detail=f"No match found for slug '{identifier}'")
+            raise HTTPException(status_code=404, detail=f"No match found for slug '{identifier}'")
 
     # 2) try Supabase cache
     resp = (
@@ -96,7 +110,7 @@ def get_live_score(identifier: str):
         .execute()
     )
     if getattr(resp, "error", None):
-        raise HTTPException(500, detail=resp.error.message)
+        raise HTTPException(status_code=500, detail=resp.error.message)
     record = resp.data
     if record:
         try:
@@ -109,10 +123,10 @@ def get_live_score(identifier: str):
     flash_url = f"https://www.flashscore.ca/game/soccer/{identifier}/"
     page = requests.get(flash_url, timeout=10)
     if page.status_code != 200:
-        raise HTTPException(404, detail="Score not found on Flashscore")
+        raise HTTPException(status_code=404, detail="Score not found on Flashscore")
     soup = BeautifulSoup(page.text, "html.parser")
 
-    # — adjust these selectors as needed —
+    # adjust selectors if Flashscore changes its markup
     home_el   = soup.select_one(".home__score")
     away_el   = soup.select_one(".away__score")
     status_el = soup.select_one(".detailTime__status")
@@ -122,20 +136,21 @@ def get_live_score(identifier: str):
         home = int(home_el.text.strip())
         away = int(away_el.text.strip())
     except:
-        raise HTTPException(502, detail="Failed to parse scores")
+        raise HTTPException(status_code=502, detail="Failed to parse scores")
 
     status = status_el.text.strip() if status_el else "UNKNOWN"
     minute = minute_el.text.strip() if minute_el else None
-
     now_str = datetime.now(timezone.utc).isoformat()
+
     score_json = {"home": home, "away": away}
-    record     = {
+    record = {
         "match_id":   match_id,
         "status":     status,
         "minute":     minute,
         "score":      json.dumps(score_json),
         "updated_at": now_str
     }
+
     up = supabase.table("live_scores").upsert(record, on_conflict=["match_id"]).execute()
     if getattr(up, "error", None):
         print("⚠️ Supabase upsert failed:", up.error.message)
