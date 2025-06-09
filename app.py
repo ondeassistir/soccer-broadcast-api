@@ -25,7 +25,7 @@ def get_supabase_client():
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.2.1",
+    version="1.2.2",
     description="Serve upcoming matches and live scores with caching and Flashscore JSON fallback"
 )
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
@@ -101,13 +101,12 @@ def get_upcoming_matches():
 # Single match details endpoint (includes score)
 @app.get("/matches/{identifier}")
 def get_match(identifier: str):
-    # find in upcoming or past within window
-    matches = get_upcoming_matches()
-    for m in matches:
-        if m["match_id"] == identifier:
+    # case-insensitive match lookup
+    ident_lc = identifier.lower()
+    for m in get_upcoming_matches():
+        if m.get("match_id", "").lower() == ident_lc:
             # enrich with live score
-            score = get_live_score(identifier)
-            # combine match info + score
+            score = get_live_score(m["match_id"])
             m.update({
                 "status":     score.get("status"),
                 "minute":     score.get("minute"),
@@ -141,6 +140,10 @@ def get_live_score(identifier: str):
             rec["score"] = json.loads(rec.get("score", "{}"))
         except:
             rec["score"] = {}
+        # normalize finished status
+        if rec.get("status") == "FT":
+            rec["status"] = "finished"
+            rec["minute"] = rec.get("minute") or "90"
         return rec
 
     # 2) Cache miss → scrape Flashscore
@@ -174,7 +177,7 @@ def get_live_score(identifier: str):
         if script and script.string:
             try:
                 data = json.loads(script.string)
-                events = data["props"]["pageProps"]["initialState"]["events"]
+                events = data.get("props", {}).get("pageProps", {}).get("initialState", {}).get("events", {})
                 evt = events.get(slug)
                 if evt:
                     home = evt.get("homeScore")
@@ -185,8 +188,10 @@ def get_live_score(identifier: str):
                 pass
 
     # 2d) Final defaults
+    if status == "FT":
+        status = "finished"
+        minute = minute or "90"
     if home is None or away is None:
-        status = status or "FT"
         home = home if home is not None else 0
         away = away if away is not None else 0
 
