@@ -5,7 +5,7 @@ from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from bs4 import BeautifulSoup
-from supabase import create_client, Client
+from supabase import create_client
 
 # — CONFIGURATION & INITIALIZATION —
 BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
@@ -17,7 +17,6 @@ if not SUPABASE_URL or not SUPABASE_KEY:
     raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
 
 # Supabase client factory
-
 def get_supabase_client():
     return create_client(SUPABASE_URL, SUPABASE_KEY)
 
@@ -25,7 +24,7 @@ def get_supabase_client():
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.1.0",
+    version="1.1.1",
     description="Serve upcoming matches and live scores with caching and Flashscore fallback"
 )
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
@@ -139,16 +138,18 @@ def get_live_score(identifier: str):
         raise HTTPException(status_code=404, detail="Score not found on Flashscore")
     soup = BeautifulSoup(page.text, "html.parser")
 
+    # parse scores (allow missing/non-numeric)
     home_el = soup.select_one(".home__score")
     away_el = soup.select_one(".away__score")
-    try:
-        home = int(home_el.text.strip())
-        away = int(away_el.text.strip())
-    except:
-        raise HTTPException(status_code=502, detail="Failed to parse scores from page")
+    home_txt = home_el.text.strip() if home_el else None
+    away_txt = away_el.text.strip() if away_el else None
+    home = int(home_txt) if home_txt and home_txt.isdigit() else None
+    away = int(away_txt) if away_txt and away_txt.isdigit() else None
 
-    status = soup.select_one(".detailTime__status").text.strip() if soup.select_one(".detailTime__status") else "UNKNOWN"
-    minute = soup.select_one(".detailTime__minute").text.strip() if soup.select_one(".detailTime__minute") else None
+    status_el = soup.select_one(".detailTime__status")
+    minute_el = soup.select_one(".detailTime__minute")
+    status = status_el.text.strip() if status_el else None
+    minute = minute_el.text.strip() if minute_el else None
     now_str = datetime.now(timezone.utc).isoformat()
     score_json = {"home": home, "away": away}
 
