@@ -21,7 +21,7 @@
     "id": "BOT",
     "name": "Botafogo",
     "short_name": "BOT",
-    "venue": "Nilton Santos",
+    "venue": "Lumen Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/BOT.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA", "LBERTADORES"]
@@ -57,7 +57,7 @@
     "id": "FLA",
     "name": "Flamengo",
     "short_name": "FLA",
-    "venue": "Maracanã",
+    "venue": "Lincoln Financial Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FLA.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
@@ -66,7 +66,7 @@
     "id": "FLU",
     "name": "Fluminense",
     "short_name": "FLU",
-    "venue": "Maracanã",
+    "venue": "MetLife Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/FLU.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
@@ -120,7 +120,7 @@
     "id": "PAL",
     "name": "Palmeiras",
     "short_name": "PAL",
-    "venue": "Allianz Parque",
+    "venue": "MetLife Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/brazil/badge/PAL.png",
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
@@ -480,7 +480,7 @@
     "id": "CHE",
     "name": "Chelsea",
     "short_name": "CHE",
-    "venue": "Stamford Bridge",
+    "venue": "Mercedes-Benz Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/CHE.png",
     "country": "EN",
     "leagues": ["EPL"]
@@ -534,7 +534,7 @@
     "id": "MCI",
     "name": "Manchester City",
     "short_name": "MCI",
-    "venue": "Etihad Stadium",
+    "venue": "Lincoln Financial Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/MCI.png",
     "country": "EN",
     "leagues": ["EPL"]
@@ -741,7 +741,7 @@
     "id": "REA",
     "name": "Real Madrid",
     "short_name": "REA",
-    "venue": "Santiago Bernabéu",
+    "venue": "Hard Rock Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/REA.png",
     "country": "ES",
     "leagues": ["LALIGA"]
@@ -1128,7 +1128,7 @@
     "id": "BAY",
     "name": "Bayern Munich",
     "short_name": "BAY",
-    "venue": "Allianz Arena",
+    "venue": "TQL Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BAY.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
@@ -1452,7 +1452,7 @@
     "id": "PSG",
     "name": "Paris Saint-Germain",
     "short_name": "PSG",
-    "venue": "Parc des Princes",
+    "venue": "Rose Bowl",
     "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/PSG.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
@@ -1938,7 +1938,7 @@
     "id": "RIVER_PLATE",
     "name": "River Plate",
     "short_name": "RIV",
-    "venue": "Estadio Mâs Monumental",
+    "venue": "Lumen Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/RIV.png",
     "country": "LA",
     "leagues": ["LIBERTADORES"]
@@ -2181,7 +2181,7 @@
     "id": "BOCA_JUNIORS",
     "name": "Boca Juniors",
     "short_name": "BOC",
-    "venue": "La Bombonera",
+    "venue": "Hard Rock Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/BOC.png",
     "country": "LA",
     "leagues": ["WORLD_CUP_2026"]
@@ -2208,7 +2208,7 @@
     "id": "AL_AIN",
     "name": "Al Ain",
     "short_name": "AIN",
-    "venue": "TBD",
+    "venue": "Audi Field",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AIN.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
@@ -2217,7 +2217,7 @@
     "id": "ULSAN_HD",
     "name": "Ulsan HD",
     "short_name": "ULS",
-    "venue": "TBD",
+    "venue": "Inter&Co Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/ULS.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
@@ -2226,7 +2226,7 @@
     "id": "AL_AHLY",
     "name": "Al Ahly",
     "short_name": "AHL",
-    "venue": "TBD",
+    "venue": "Hard Rock Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AHL.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
@@ -2271,7 +2271,7 @@
     "id": "MONTERREY",
     "name": "Monterrey",
     "short_name": "MTY",
-    "venue": "Estadio BBVA",
+    "venue": "Rose Bowl",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/MTY.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
@@ -2280,7 +2280,7 @@
     "id": "PACHUCA",
     "name": "Pachuca",
     "short_name": "PAC",
-    "venue": "Estadio Hidalgo",
+    "venue": "TQL Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/PAC.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
@@ -2298,7 +2298,7 @@
     "id": "BENFICA",
     "name": "Benfica",
     "short_name": "BEN",
-    "venue": "TBD",
+    "venue": "Inter&Co Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/BEN.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
@@ -2392,5 +2392,24 @@
     "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/NT_CHI.png",
     "country": "International",
     "leagues": ["COPA_AMERICA", "INT_FRIENDLY", "QUALIFIERS_2026"]
+  },
+  "NT_MOL": {
+    "id": "NT_MOL",
+    "name": "Moldova",
+    "short_name": "MOL",
+    "venue": "Moldova",
+    "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/NT_MOL.png",
+    "country": "International",
+    "leagues": ["QUALIFIERS_2026"]
+  },
+  "NT_ITA": {
+    "id": "NT_ITA",
+    "name": "Italy",
+    "short_name": "ITA",
+    "venue": "Italy",
+    "badge": "https://ondeassistir.tv/images-scr/teams/nations/badge/NT_ITA.png",
+    "country": "International",
+    "leagues": ["QUALIFIERS_2026"]
+
   }
 }

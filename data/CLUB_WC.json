@@ -7,8 +7,8 @@
         "league_week_number": "Group Stage",
         "slug": "bqMG0pvB",
         "broadcasts": {
-            "br": ["youtube"],
-            "us": ["dazn"]
+            "br": ["globo", "youtube", "sportv", "dazn"],
+            "us": ["dazn","TBS"]
         }
     },
     {
@@ -19,7 +19,7 @@
         "league_week_number": "Group Stage",
         "slug": "jZ257hie",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -31,8 +31,8 @@
         "league_week_number": "Group Stage",
         "slug": "b3pbDNNG",
         "broadcasts": {
-            "br": ["youtube"],
-            "us": ["dazn"]
+            "br": ["youtube" , "sportv", "dazn"],
+            "us": ["dazn", "truTV", "TNT"]
         }
     },
     {
@@ -43,7 +43,7 @@
         "league_week_number": "Group Stage",
         "slug": "xUX7269b",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -55,7 +55,7 @@
         "league_week_number": "Group Stage",
         "slug": "KIY6B1hT",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -67,8 +67,8 @@
         "league_week_number": "Group Stage",
         "slug": "d8JQoqtC",
         "broadcasts": {
-            "br": ["youtube"],
-            "us": ["dazn"]
+            "br": ["youtube" , "sportv", "dazn"],
+            "us": ["dazn", "truTV", "TBS"]
         }
     },
     {
@@ -79,7 +79,7 @@
         "league_week_number": "Group Stage",
         "slug": "CliE5WL7",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -91,7 +91,7 @@
         "league_week_number": "Group Stage",
         "slug": "YHKeI95D",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -103,8 +103,8 @@
         "league_week_number": "Group Stage",
         "slug": "Wn3Va7lg",
         "broadcasts": {
-            "br": ["globo", "youtube"],
-            "us": ["dazn"]
+            "br": ["globo", "youtube", "sportv", "dazn"],
+            "us": ["dazn", "truTV", "TNT"]
         }
     },
     {
@@ -115,7 +115,7 @@
         "league_week_number": "Group Stage",
         "slug": "0ryPhjsQ",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -127,7 +127,7 @@
         "league_week_number": "Group Stage",
         "slug": "h2ivboJ5",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -139,7 +139,7 @@
         "league_week_number": "Group Stage",
         "slug": "pGCemU4m",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -149,9 +149,9 @@
         "kickoff": "2025-06-18T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "MCI-WAC-CLUB_WC-Group_Stage",
+        "slug": "lndNcxPM",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -161,10 +161,10 @@
         "kickoff": "2025-06-18T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "RMA-HIL-CLUB_WC-Group_Stage",
+        "slug": "MHcYl2ck",
         "broadcasts": {
-            "br": ["youtube"],
-            "us": ["dazn"]
+            "br": ["youtube" , "sportv", "dazn"],
+            "us": ["dazn", "truTV", "TNT"]
         }
     },
     {
@@ -173,9 +173,9 @@
         "kickoff": "2025-06-18T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "PAC-SAL-CLUB_WC-Group_Stage",
+        "slug": "rXosmtS1",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -185,9 +185,9 @@
         "kickoff": "2025-06-18T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "AIN-JUV-CLUB_WC-Group_Stage",
+        "slug": "YJXghGnp",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -197,9 +197,9 @@
         "kickoff": "2025-06-19T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "PAL-AHA-CLUB_WC-Group_Stage",
+        "slug": "p0KObO8N",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -209,10 +209,10 @@
         "kickoff": "2025-06-19T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "MIA-POR-CLUB_WC-Group_Stage",
+        "slug": "4p1eg2Wp",
         "broadcasts": {
-            "br": ["youtube"],
-            "us": ["dazn"]
+            "br": ["youtube" , "sportv", "dazn"],
+            "us": ["dazn", "truTV", "TNT"]
         }
     },
     {
@@ -221,9 +221,9 @@
         "kickoff": "2025-06-19T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "SEA-ATM-CLUB_WC-Group_Stage",
+        "slug": "697PTr8c",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -233,9 +233,9 @@
         "kickoff": "2025-06-19T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "PSG-BOT-CLUB_WC-Group_Stage",
+        "slug": "j1Px6uGj",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -245,9 +245,9 @@
         "kickoff": "2025-06-20T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "BEN-AUC-CLUB_WC-Group_Stage",
+        "slug": "Ygx9RDrR",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -257,10 +257,10 @@
         "kickoff": "2025-06-20T15:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "FLA-CHE-CLUB_WC-Group_Stage",
+        "slug": "OnqEziLs",
         "broadcasts": {
-            "br": ["globo", "youtube"],
-            "us": ["dazn"]
+            "br": ["globo", "youtube", "sportv", "dazn"],
+            "us": ["dazn", "truTV", "TNT"]
         }
     },
     {
@@ -269,9 +269,9 @@
         "kickoff": "2025-06-20T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "LAF-ETU-CLUB_WC-Group_Stage",
+        "slug": "hzDZqNAO",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -281,10 +281,10 @@
         "kickoff": "2025-06-20T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "BAY-BOC-CLUB_WC-Group_Stage",
+        "slug": "veq0TZDE",
         "broadcasts": {
-            "br": ["youtube"],
-            "us": ["dazn"]
+            "br": ["youtube" , "sportv", "dazn"],
+            "us": ["dazn", "TBS"]
         }
     },
     {
@@ -293,9 +293,9 @@
         "kickoff": "2025-06-21T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "SUN-BVB-CLUB_WC-Group_Stage",
+        "slug": "h0CKwHXj",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -305,9 +305,9 @@
         "kickoff": "2025-06-21T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "INT-URA-CLUB_WC-Group_Stage",
+        "slug": "l89Cqn4C",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -317,9 +317,9 @@
         "kickoff": "2025-06-21T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "FLU-ULS-CLUB_WC-Group_Stage",
+        "slug": "0SfndPmI",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -329,9 +329,9 @@
         "kickoff": "2025-06-21T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "RIV-MON-CLUB_WC-Group_Stage",
+        "slug": "htG3o8Za",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -341,9 +341,9 @@
         "kickoff": "2025-06-22T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "JUV-WAC-CLUB_WC-Group_Stage",
+        "slug": "OMFob6z3",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -353,9 +353,9 @@
         "kickoff": "2025-06-22T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "RMA-PAC-CLUB_WC-Group_Stage",
+        "slug": "AwvTAqK8",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -365,9 +365,9 @@
         "kickoff": "2025-06-22T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "SAL-HIL-CLUB_WC-Group_Stage",
+        "slug": "65Xy9NlL",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -377,9 +377,9 @@
         "kickoff": "2025-06-22T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "MCI-AIN-CLUB_WC-Group_Stage",
+        "slug": "6oo1jfHd",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -389,9 +389,9 @@
         "kickoff": "2025-06-23T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "SEA-PSG-CLUB_WC-Group_Stage",
+        "slug": "vN5XRMxA",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -401,9 +401,9 @@
         "kickoff": "2025-06-23T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "ATM-BOT-CLUB_WC-Group_Stage",
+        "slug": "r9ac9EMr",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -413,9 +413,9 @@
         "kickoff": "2025-06-23T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "MIA-PAL-CLUB_WC-Group_Stage",
+        "slug": "dvlsH5Oi",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -425,9 +425,9 @@
         "kickoff": "2025-06-23T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "POR-AHA-CLUB_WC-Group_Stage",
+        "slug": "h6sjFqg4",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -437,9 +437,9 @@
         "kickoff": "2025-06-24T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "AUC-BOC-CLUB_WC-Group_Stage",
+        "slug": "QiHmKVz1",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -449,9 +449,9 @@
         "kickoff": "2025-06-24T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "BEN-BAY-CLUB_WC-Group_Stage",
+        "slug": "UPNvMi6l",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -461,9 +461,9 @@
         "kickoff": "2025-06-24T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "LAF-FLA-CLUB_WC-Group_Stage",
+        "slug": "rahq4Qet",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -473,9 +473,9 @@
         "kickoff": "2025-06-24T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "ETU-CHE-CLUB_WC-Group_Stage",
+        "slug": "lfUwVnkJ",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -485,9 +485,9 @@
         "kickoff": "2025-06-25T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "BVB-ULS-CLUB_WC-Group_Stage",
+        "slug": "tMhFabfA",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -497,9 +497,9 @@
         "kickoff": "2025-06-25T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "SUN-FLU-CLUB_WC-Group_Stage",
+        "slug": "pfa61KPc",
         "broadcasts": {
-            "br": ["globo", "youtube"],
+            "br": ["globo", "youtube", "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -509,9 +509,9 @@
         "kickoff": "2025-06-25T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "INT-RIV-CLUB_WC-Group_Stage",
+        "slug": "ML7KsQYO",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -521,9 +521,9 @@
         "kickoff": "2025-06-25T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "URA-MON-CLUB_WC-Group_Stage",
+        "slug": "OMaN1TJt",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -533,9 +533,9 @@
         "kickoff": "2025-06-26T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "JUV-MCI-CLUB_WC-Group_Stage",
+        "slug": "dzEgdp5F",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -545,9 +545,9 @@
         "kickoff": "2025-06-26T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "WAC-AIN-CLUB_WC-Group_Stage",
+        "slug": "h272fOZR",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -557,9 +557,9 @@
         "kickoff": "2025-06-26T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "HIL-PAC-CLUB_WC-Group_Stage",
+        "slug": "MwZ81use",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -569,9 +569,9 @@
         "kickoff": "2025-06-26T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
-        "slug": "SAL-RMA-CLUB_WC-Group_Stage",
+        "slug": "2yJ731Cr",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -583,7 +583,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1A-G2B-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -595,7 +595,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1C-G2D-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -607,7 +607,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1B-G2A-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -619,7 +619,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1D-G2C-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -631,7 +631,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1E-G2F-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
@@ -643,7 +643,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1G-G2H-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube"],
+            "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     }

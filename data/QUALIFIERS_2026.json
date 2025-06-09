@@ -130,5 +130,18 @@
                 "sportv"
             ]
         }
+     },
+    {
+       "league": "QUALIFIERS_2026",
+        "home_team": "NT_ITA",
+        "away_team": "NT_MOL",
+        "kickoff": "2025-06-09T18:45:00Z",
+        "league_week_number": 16,
+        "slug": "pQcKmrKG",
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
     }
 ]
