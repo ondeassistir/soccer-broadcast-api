@@ -25,7 +25,7 @@ def get_supabase_client():
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.2.0",
+    version="1.2.1",
     description="Serve upcoming matches and live scores with caching and Flashscore JSON fallback"
 )
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
@@ -98,6 +98,25 @@ def get_upcoming_matches():
             })
     return out
 
+# Single match details endpoint (includes score)
+@app.get("/matches/{identifier}")
+def get_match(identifier: str):
+    # find in upcoming or past within window
+    matches = get_upcoming_matches()
+    for m in matches:
+        if m["match_id"] == identifier:
+            # enrich with live score
+            score = get_live_score(identifier)
+            # combine match info + score
+            m.update({
+                "status":     score.get("status"),
+                "minute":     score.get("minute"),
+                "score":      score.get("score"),
+                "updated_at": score.get("updated_at")
+            })
+            return m
+    raise HTTPException(status_code=404, detail="Match not found")
+
 # Live score endpoint with JSON fallback
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
@@ -149,7 +168,7 @@ def get_live_score(identifier: str):
             if len(nums) >= 2:
                 home, away = int(nums[0]), int(nums[1])
 
-    # 2c) JSON fallback from Next.js data
+    # 2c) JSON fallback
     if home is None or away is None:
         script = soup.find("script", id="__NEXT_DATA__")
         if script and script.string:
@@ -165,9 +184,8 @@ def get_live_score(identifier: str):
             except Exception:
                 pass
 
-    # Final defaults if still missing
+    # 2d) Final defaults
     if home is None or away is None:
-        # mark as finished
         status = status or "FT"
         home = home if home is not None else 0
         away = away if away is not None else 0
