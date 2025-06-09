@@ -197,4 +197,9 @@ def get_live_score(identifier: str):
         print("⚠️ Supabase upsert failed:", res.error.message)
 
     return {
-        "match_id":   matc_
+        "match_id":   match_id,
+        "status":     status,
+        "minute":     minute,
+        "score":      score_json,
+        "updated_at": now_str
+    }
