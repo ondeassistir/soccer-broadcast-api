@@ -48,7 +48,7 @@ app.add_middleware(
 
 # Mount static files
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
-app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "static")), name="admin")
+app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "admin")), name="admin")
 
 # OPTIONS for CORS
 @app.options("/matches")
