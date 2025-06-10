@@ -17,7 +17,7 @@
   <button id="saveBtn">Save</button>
 
   <script>
-    // List of your JSON files
+    // List your JSON files here
     const files = [
       "leagues.json",
       "channels.json",
@@ -31,6 +31,7 @@
     const editor = document.getElementById("editor");
     const saveBtn = document.getElementById("saveBtn");
 
+    // Populate dropdown
     files.forEach(f => {
       const opt = document.createElement("option");
       opt.value = f;
@@ -38,6 +39,7 @@
       select.add(opt);
     });
 
+    // Load selected file
     select.addEventListener("change", () => {
       fetch(`/data/${select.value}`)
         .then(res => res.ok ? res.text() : Promise.reject(res))
@@ -45,6 +47,7 @@
         .catch(() => alert("Error loading file"));
     });
 
+    // Save back to server
     saveBtn.addEventListener("click", () => {
       fetch(`/admin/save/${select.value}`, {
         method: "POST",
