@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Editor</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    select, textarea, button { width: 100%; margin: 10px 0; }
+    textarea { height: 60vh; font-family: monospace; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <h1>JSON File Editor</h1>
+  <label for="fileSelect">Select JSON file:</label>
+  <select id="fileSelect"></select>
+  <textarea id="editor"></textarea>
+  <button id="saveBtn">Save</button>
+
+  <script>
+    // List of your JSON files
+    const files = [
+      "leagues.json",
+      "channels.json",
+      "teams.json",
+      "QUALIFIERS_2026.json",
+      "BRA_A.json",
+      "INT_FRIENDLY.json",
+      "CLUB_WC.json"
+    ];
+    const select = document.getElementById("fileSelect");
+    const editor = document.getElementById("editor");
+    const saveBtn = document.getElementById("saveBtn");
+
+    files.forEach(f => {
+      const opt = document.createElement("option");
+      opt.value = f;
+      opt.text = f;
+      select.add(opt);
+    });
+
+    select.addEventListener("change", () => {
+      fetch(`/data/${select.value}`)
+        .then(res => res.ok ? res.text() : Promise.reject(res))
+        .then(text => editor.value = text)
+        .catch(() => alert("Error loading file"));
+    });
+
+    saveBtn.addEventListener("click", () => {
+      fetch(`/admin/save/${select.value}`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: editor.value
+      })
+      .then(res => res.ok ? alert("Saved successfully") : res.text().then(t => alert("Error: " + t)))
+      .catch(() => alert("Error saving file"));
+    });
+
+    // Initial load
+    window.onload = () => {
+      select.value = files[0];
+      select.dispatchEvent(new Event('change'));
+    };
+  </script>
+</body>
+</html>

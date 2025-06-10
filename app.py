@@ -8,6 +8,30 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 from supabase import create_client
+from fastapi import Request
+# ...
+
+@app.post("/admin/save/{filename}")
+async def save_json(filename: str, request: Request):
+    # Only allow safe filenames
+    allowed = {
+      "leagues.json", "channels.json", "teams.json",
+      "QUALIFIERS_2026.json", "BRA_A.json",
+      "INT_FRIENDLY.json", "CLUB_WC.json"
+    }
+    if filename not in allowed:
+        raise HTTPException(status_code=403, detail="File not allowed")
+    body = await request.body()
+    try:
+        # Validate JSON
+        json.loads(body.decode("utf-8"))
+    except json.JSONDecodeError as e:
+        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
+    path = os.path.join(DATA_DIR, filename)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(body.decode("utf-8"))
+    return {"status": "ok"}
+
 
 # — CONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
