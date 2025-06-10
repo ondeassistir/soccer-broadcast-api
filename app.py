@@ -34,15 +34,18 @@ else:
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.4.1",
+    version="1.4.2",
     description="Serve upcoming matches, broadcasts, and live scores with robust fallbacks"
 )
-# CORS middleware\app.add_middleware(
+
+# CORS middleware
+app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # adjust to specific domains in production
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 
 # OPTIONS routes for CORS preflight
@@ -63,8 +66,10 @@ with open(os.path.join(DATA_DIR, "leagues.json"), encoding="utf-8") as f:
     leagues_data = json.load(f)
 
 def extract_league_ids(data):
-    if isinstance(data, dict): return list(data.keys())
-    if isinstance(data, list): return [item.get("id") if isinstance(item, dict) and "id" in item else item for item in data]
+    if isinstance(data, dict):
+        return list(data.keys())
+    if isinstance(data, list):
+        return [item.get("id") if isinstance(item, dict) and "id" in item else item for item in data]
     return []
 
 LEAGUE_IDS = extract_league_ids(leagues_data)
@@ -72,7 +77,8 @@ ALL_MATCHES = {}
 KEY_TO_SLUG = {}
 for lid in LEAGUE_IDS:
     path = os.path.join(DATA_DIR, f"{lid}.json")
-    if not os.path.isfile(path): continue
+    if not os.path.isfile(path):
+        continue
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     ALL_MATCHES[lid] = data
@@ -115,12 +121,14 @@ def get_upcoming_matches():
     for lid, matches in ALL_MATCHES.items():
         for m in matches:
             tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
-            if not tstr: continue
+            if not tstr:
+                continue
             try:
                 dt = parse_datetime(tstr)
             except:
                 continue
-            if not (start <= dt <= end): continue
+            if not (start <= dt <= end):
+                continue
             mid = m.get("id") or m.get("match_id") or m.get("matchId")
             if mid is not None:
                 key = str(mid)
