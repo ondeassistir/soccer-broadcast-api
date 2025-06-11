@@ -89,8 +89,8 @@
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "INT": {
-    "id": "INT",
+  "SCI": {
+    "id": "SCI",
     "name": "Internacional",
     "short_name": "INT",
     "venue": "Beira-Rio",
@@ -98,8 +98,8 @@
     "country": "BR",
     "leagues": ["BRA_A", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
-  "JUV": {
-    "id": "JUV",
+  "JVT": {
+    "id": "JVT",
     "name": "Juventude",
     "short_name": "JUV",
     "venue": "Alfredo Jaconi",
@@ -427,7 +427,7 @@
     "name": "Arsenal",
     "short_name": "ARS",
     "venue": "Emirates Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/ARS.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/ARS.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -436,7 +436,7 @@
     "name": "Aston Villa",
     "short_name": "AVL",
     "venue": "Villa Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/AST.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/AVL.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -445,7 +445,7 @@
     "name": "Bournemouth",
     "short_name": "BOU",
     "venue": "Vitality Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/BOU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/BOU.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -454,7 +454,7 @@
     "name": "Brentford",
     "short_name": "BRE",
     "venue": "Brentford Community Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/BRE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/BRE.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -463,7 +463,7 @@
     "name": "Brighton & Hove Albion",
     "short_name": "BRI",
     "venue": "Amex Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/BRI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/BRI.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -472,7 +472,7 @@
     "name": "Burnley",
     "short_name": "BUR",
     "venue": "Turf Moor",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/BUR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/BUR.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -481,7 +481,7 @@
     "name": "Chelsea",
     "short_name": "CHE",
     "venue": "Mercedes-Benz Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/CHE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/CHE.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -490,7 +490,7 @@
     "name": "Crystal Palace",
     "short_name": "CRY",
     "venue": "Selhurst Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/CRY.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/CRY.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -499,7 +499,7 @@
     "name": "Everton",
     "short_name": "EVE",
     "venue": "Goodison Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/EVE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/EVE.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -508,7 +508,7 @@
     "name": "Fulham",
     "short_name": "FUL",
     "venue": "Craven Cottage",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/FUL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/FUL.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -517,7 +517,7 @@
     "name": "Leeds United",
     "short_name": "LEE",
     "venue": "Elland Road",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/LEE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/LEE.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -526,7 +526,7 @@
     "name": "Liverpool",
     "short_name": "LIV",
     "venue": "Anfield",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/LIV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/LIV.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -535,7 +535,7 @@
     "name": "Manchester City",
     "short_name": "MCI",
     "venue": "Lincoln Financial Field",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/MCI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/MCI.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -544,7 +544,7 @@
     "name": "Manchester United",
     "short_name": "MAN",
     "venue": "Old Trafford",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/MAN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/MAN.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -553,7 +553,7 @@
     "name": "Newcastle United",
     "short_name": "NEW",
     "venue": "St James' Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/NEW.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/NEW.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -562,7 +562,7 @@
     "name": "Nottingham Forest",
     "short_name": "NOT",
     "venue": "City Ground",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/NOT.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/NOT.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -571,7 +571,7 @@
     "name": "Sunderland",
     "short_name": "SUN",
     "venue": "Stadium of Light",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/SUN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/SUN.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -580,7 +580,7 @@
     "name": "Tottenham Hotspur",
     "short_name": "TOT",
     "venue": "Tottenham Hotspur Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/TOT.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/TOT.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -589,7 +589,7 @@
     "name": "West Ham United",
     "short_name": "WES",
     "venue": "London Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/WES.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/WES.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -598,25 +598,25 @@
     "name": "Wolverhampton Wanderers",
     "short_name": "WOL",
     "venue": "Molineux Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/WOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/WOL.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
   "TEY": {
     "id": "TEY",
-    "name": "Team England A",
+    "name": "Team england A",
     "short_name": "TEY",
     "venue": "Wembley Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/TEA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/TEA.png",
     "country": "EN",
     "leagues": ["ENG_FOOTBALL"]
   },
   "TCC": {
     "id": "TCC",
-    "name": "Team England B",
+    "name": "Team england B",
     "short_name": "TCC",
     "venue": "Wembley Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/England/badge/TEB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/england/badge/TEB.png",
     "country": "EN",
     "leagues": ["ENG_FOOTBALL"]
   },
@@ -625,7 +625,7 @@
     "name": "Alavés",
     "short_name": "ALA",
     "venue": "Mendizorrotza",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/ALA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/ALA.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -634,7 +634,7 @@
     "name": "Athletic Bilbao",
     "short_name": "ATH",
     "venue": "San Mamés",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/ATH.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/ATH.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -643,7 +643,7 @@
     "name": "Atlético Madrid",
     "short_name": "ATM",
     "venue": "Civitas Metropolitano",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/ATM.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/ATM.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -652,7 +652,16 @@
     "name": "Barcelona",
     "short_name": "BAR",
     "venue": "Spotify Camp Nou",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/BAR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/BAR.png",
+    "country": "ES",
+    "leagues": ["LALIGA"]
+},
+  "BET": {
+    "id": "BET",
+    "name": "Real Betis",
+    "short_name": "BET",
+    "venue": "Villamarin Stadium",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/BET.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -661,7 +670,7 @@
     "name": "Celta Vigo",
     "short_name": "CEL",
     "venue": "Abanca-Balaídos",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/CEL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/CEL.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -670,7 +679,7 @@
     "name": "Espanyol",
     "short_name": "ESP",
     "venue": "RCDE Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/ESP.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/ESP.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -679,7 +688,7 @@
     "name": "Getafe",
     "short_name": "GET",
     "venue": "Coliseum Alfonso Pérez",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/GET.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/GET.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -688,7 +697,7 @@
     "name": "Girona",
     "short_name": "GIR",
     "venue": "Montilivi",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/GIR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/GIR.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -697,16 +706,16 @@
     "name": "Levante",
     "short_name": "LEV",
     "venue": "Ciutat de València",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/LEV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/LEV.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
-  "MAL": {
-    "id": "MAL",
+  "MLL": {
+    "id": "MLL",
     "name": "Mallorca",
-    "short_name": "MAL",
+    "short_name": "MLL",
     "venue": "Visit Mallorca Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/MAL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/MLL.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -715,7 +724,7 @@
     "name": "Osasuna",
     "short_name": "OSA",
     "venue": "El Sadar",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/OSA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/OSA.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -724,25 +733,16 @@
     "name": "Rayo Vallecano",
     "short_name": "RAY",
     "venue": "Vallecas",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/RAY.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/RAY.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
-  "RBE": {
-    "id": "RBE",
-    "name": "Real Betis",
-    "short_name": "RBE",
-    "venue": "Benito Villamarín",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/RBE.png",
-    "country": "ES",
-    "leagues": ["LALIGA"]
-  },
-  "REA": {
-    "id": "REA",
+  "RMA": {
+    "id": "RMA",
     "name": "Real Madrid",
-    "short_name": "REA",
+    "short_name": "RMA",
     "venue": "Hard Rock Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/REA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/RMA.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -751,7 +751,7 @@
     "name": "Real Sociedad",
     "short_name": "RSO",
     "venue": "Reale Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/RSO.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/RSO.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -760,7 +760,7 @@
     "name": "Sevilla",
     "short_name": "SEV",
     "venue": "Ramón Sánchez Pizjuán",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/SEV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/SEV.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -769,7 +769,7 @@
     "name": "Valencia",
     "short_name": "VAL",
     "venue": "Mestalla",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/VAL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/VAL.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
@@ -778,34 +778,34 @@
     "name": "Villarreal",
     "short_name": "VIL",
     "venue": "Estadio de la Cerámica",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/VIL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/VIL.png",
     "country": "ES",
     "leagues": ["LALIGA"]
   },
   "TSA": {
     "id": "TSA",
-    "name": "Team Spain A",
+    "name": "Team spain A",
     "short_name": "TSA",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/TSA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/TSA.png",
     "country": "ES",
     "leagues": ["CDR"]
   },
   "TSB": {
     "id": "TSB",
-    "name": "Team Spain B",
+    "name": "Team spain B",
     "short_name": "TSB",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/TSB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/TSB.png",
     "country": "ES",
     "leagues": ["CDR"]
   },
   "TSC": {
     "id": "TSC",
-    "name": "Team Spain C",
+    "name": "Team spain C",
     "short_name": "TSC",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Spain/badge/TSC.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/spain/badge/TSC.png",
     "country": "ES",
     "leagues": ["ESP_FOOTBALL"]
   },
@@ -827,12 +827,12 @@
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
-  "BOL": {
-    "id": "BOL",
+  "BLG": {
+    "id": "BLG",
     "name": "Bologna",
     "short_name": "BOL",
     "venue": "Renato Dall'Ara",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Italy/badge/BOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/Italy/badge/BLG.png",
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
@@ -881,8 +881,8 @@
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
-  "INT-MILAN": {
-    "id": "INT-MILAN",
+  "INT": {
+    "id": "INT",
     "name": "Internazionale",
     "short_name": "INT",
     "venue": "San Siro",
@@ -890,7 +890,7 @@
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
-  "JUV-ITA": {
+  "JTS": {
     "id": "JUV-ITA",
     "name": "Juventus",
     "short_name": "JUV",
@@ -998,21 +998,21 @@
     "country": "IT",
     "leagues": ["ITALIAN_FOOTBALL"]
   },
-  "AUG": {
+  "FCA": {
     "id": "AUG",
     "name": "FC Augsburg",
-    "short_name": "AUG",
+    "short_name": "FCA",
     "venue": "WWK Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/AUG.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/FCA.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "UNI": {
+  "FCU": {
     "id": "UNI",
     "name": "Union Berlin",
-    "short_name": "UNI",
+    "short_name": "FCU",
     "venue": "Stadion An der Alten Försterei",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/UNI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/FCU.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1021,7 +1021,7 @@
     "name": "Werder Bremen",
     "short_name": "SVW",
     "venue": "Weserstadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BRE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/BRE.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1030,16 +1030,16 @@
     "name": "Borussia Dortmund",
     "short_name": "DOR",
     "venue": "Signal Iduna Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/DOR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/DOR.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "FRA": {
-    "id": "FRA",
+  "SGE": {
+    "id": "SGE",
     "name": "Eintracht Frankfurt",
-    "short_name": "FRA",
+    "short_name": "SGE",
     "venue": "Deutsche Bank Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/FRA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/SGE.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1048,7 +1048,7 @@
     "name": "SC Freiburg",
     "short_name": "FRE",
     "venue": "Europa-Park Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/FRE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/FRE.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1057,16 +1057,16 @@
     "name": "Hamburger SV",
     "short_name": "HAM",
     "venue": "Volksparkstadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/HAM.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/HAM.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "HEI": {
-    "id": "HEI",
+  "HDH": {
+    "id": "HDH",
     "name": "FC Heidenheim",
-    "short_name": "HEI",
+    "short_name": "HDH",
     "venue": "Voith-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/HEI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/HDH.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1075,7 +1075,7 @@
     "name": "TSG Hoffenheim",
     "short_name": "HOF",
     "venue": "PreZero Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/HOF.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/HOF.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1084,7 +1084,7 @@
     "name": "FC Köln",
     "short_name": "KOL",
     "venue": "RheinEnergieStadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/KOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/KOL.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1093,7 +1093,7 @@
     "name": "RB Leipzig",
     "short_name": "LEI",
     "venue": "Red Bull Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/LEI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/LEI.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1102,16 +1102,16 @@
     "name": "Bayer Leverkusen",
     "short_name": "LEV",
     "venue": "BayArena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/LEV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/LEV.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "MAI": {
-    "id": "MAI",
+  "M05": {
+    "id": "M05",
     "name": "Mainz 05",
-    "short_name": "MAI",
+    "short_name": "M05",
     "venue": "Mewa Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/MAI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/M05.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1120,7 +1120,7 @@
     "name": "Borussia Mönchengladbach",
     "short_name": "BMG",
     "venue": "Borussia-Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/MON.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/MON.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1129,7 +1129,7 @@
     "name": "Bayern Munich",
     "short_name": "BAY",
     "venue": "TQL Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BAY.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/BAY.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1138,16 +1138,16 @@
     "name": "FC St. Pauli",
     "short_name": "STP",
     "venue": "Millerntor-Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/STP.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/STP.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "STT": {
-    "id": "STT",
+  "VFB": {
+    "id": "VFB",
     "name": "VfB Stuttgart",
-    "short_name": "STT",
+    "short_name": "VFB",
     "venue": "Mercedes-Benz Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/STT.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/VFB.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1156,7 +1156,7 @@
     "name": "VfL Wolfsburg",
     "short_name": "WOB",
     "venue": "Volkswagen Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/WOL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/WOL.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1165,7 +1165,7 @@
     "name": "Hertha BSC",
     "short_name": "HER",
     "venue": "Olympiastadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/HER.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/HER.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1174,16 +1174,16 @@
     "name": "Arminia Bielefeld",
     "short_name": "ARM",
     "venue": "SchücoArena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/ARM.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/ARM.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
-  "BOC": {
-    "id": "BOC",
+  "BCH": {
+    "id": "BCH",
     "name": "VfL Bochum",
     "short_name": "BOC",
     "venue": "Vonovia Ruhrstadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BOC.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/BOC.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1192,7 +1192,7 @@
     "name": "Eintracht Braunschweig",
     "short_name": "EBS",
     "venue": "Eintracht-Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/BRA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/BRA.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1201,7 +1201,7 @@
     "name": "Darmstadt 98",
     "short_name": "DAR",
     "venue": "Merck-Stadion am Böllenfalltor",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/DAR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/DAR.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1210,7 +1210,7 @@
     "name": "Dynamo Dresden",
     "short_name": "DYN",
     "venue": "Rudolf-Harbig-Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/DYN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/DYN.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1219,7 +1219,7 @@
     "name": "Fortuna Düsseldorf",
     "short_name": "F95",
     "venue": "Merkur Spiel-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/FOR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/FOR.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1228,7 +1228,7 @@
     "name": "SV Elversberg",
     "short_name": "ELV",
     "venue": "Ursapharm-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/ELV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/ELV.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1237,7 +1237,7 @@
     "name": "Greuther Fürth",
     "short_name": "FUR",
     "venue": "Sportpark Ronhof",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/FUR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/FUR.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1246,7 +1246,7 @@
     "name": "Hannover 96",
     "short_name": "HAN",
     "venue": "HDI-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/HAN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/HAN.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1255,7 +1255,7 @@
     "name": "FC Kaiserslautern",
     "short_name": "KAI",
     "venue": "Fritz-Walter-Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/KAI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/KAI.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1264,16 +1264,16 @@
     "name": "Karlsruher SC",
     "short_name": "KAR",
     "venue": "Wildparkstadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/KAR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/KAR.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
-  "KIE": {
-    "id": "KIE",
+  "KSV": {
+    "id": "KSV",
     "name": "Holstein Kiel",
-    "short_name": "KIE",
+    "short_name": "KSV",
     "venue": "Holstein-Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/KIE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/KSV.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1282,7 +1282,7 @@
     "name": "FC Magdeburg",
     "short_name": "MAG",
     "venue": "MDCC-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/MAG.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/MAG.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1291,7 +1291,7 @@
     "name": "Preußen Münster",
     "short_name": "MUN",
     "venue": "Preußenstadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/MUN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/MUN.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1300,7 +1300,7 @@
     "name": "FC Nürnberg",
     "short_name": "NUR",
     "venue": "Max-Morlock-Stadion",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/NUR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/NUR.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1309,7 +1309,7 @@
     "name": "SC Paderborn",
     "short_name": "PAD",
     "venue": "Benteler-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/PAD.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/PAD.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1318,7 +1318,7 @@
     "name": "Schalke 04",
     "short_name": "SCH",
     "venue": "Veltins-Arena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/SCH.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/SCH.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
   },
@@ -1327,7 +1327,7 @@
     "name": "Team German A",
     "short_name": "TGA",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/TGA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/TGA.png",
     "country": "DE",
     "leagues": ["GER_FOOTBALL"]
   },
@@ -1336,7 +1336,7 @@
     "name": "Team German B",
     "short_name": "TGB",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/Germany/badge/TGB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/germany/badge/TGB.png",
     "country": "DE",
     "leagues": ["GER_FOOTBALL"]
   },
@@ -1345,7 +1345,7 @@
     "name": "Angers",
     "short_name": "ANG",
     "venue": "Stade Raymond Kopa",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/ANG.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/ANG.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1354,7 +1354,7 @@
     "name": "Auxerre",
     "short_name": "AUX",
     "venue": "Stade Abbé-Deschamps",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/AUX.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/AUX.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1363,7 +1363,7 @@
     "name": "Brest",
     "short_name": "BRE",
     "venue": "Stade Francis-Le Blé",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/BRE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/BRE.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1372,7 +1372,7 @@
     "name": "Le Havre",
     "short_name": "HAV",
     "venue": "Stade Océane",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/HAV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/HAV.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1381,7 +1381,7 @@
     "name": "Lens",
     "short_name": "LEN",
     "venue": "Stade Bollaert-Delelis",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/LEN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/LEN.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1390,7 +1390,7 @@
     "name": "Lille",
     "short_name": "LIL",
     "venue": "Stade Pierre-Mauroy",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/LIL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/LIL.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1399,7 +1399,7 @@
     "name": "Lyon",
     "short_name": "LYO",
     "venue": "Groupama Stadium",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/LYO.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/LYO.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1408,7 +1408,7 @@
     "name": "Marseille",
     "short_name": "MAR",
     "venue": "Orange Vélodrome",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/MAR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/MAR.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1417,7 +1417,7 @@
     "name": "Monaco",
     "short_name": "ASM",
     "venue": "Stade Louis II",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/MON.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/ASM.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1426,7 +1426,7 @@
     "name": "Montpellier",
     "short_name": "MON",
     "venue": "Stade de la Mosson",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/MON.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/MON.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1435,7 +1435,7 @@
     "name": "Nantes",
     "short_name": "NAN",
     "venue": "Stade de la Beaujoire",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/NAN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/NAN.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1444,7 +1444,7 @@
     "name": "Nice",
     "short_name": "NIC",
     "venue": "Allianz Riviera",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/NIC.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/NIC.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1453,7 +1453,7 @@
     "name": "Paris Saint-Germain",
     "short_name": "PSG",
     "venue": "Rose Bowl",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/PSG.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/PSG.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1462,7 +1462,7 @@
     "name": "Reims",
     "short_name": "REI",
     "venue": "Stade Auguste Delaune",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/REI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/REI.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1471,7 +1471,7 @@
     "name": "Rennes",
     "short_name": "REN",
     "venue": "Roazhon Park",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/REN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/REN.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1480,7 +1480,7 @@
     "name": "Saint-Étienne",
     "short_name": "SAI",
     "venue": "Stade Geoffroy-Guichard",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/SAI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/SAI.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1489,7 +1489,7 @@
     "name": "Strasbourg",
     "short_name": "STR",
     "venue": "Stade de la Meinau",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/STR.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/STR.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1498,7 +1498,7 @@
     "name": "Toulouse",
     "short_name": "TOU",
     "venue": "Stadium Municipal",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/TOU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/TOU.png",
     "country": "FR",
     "leagues": ["LIGUE_1"]
   },
@@ -1507,7 +1507,7 @@
     "name": "Ajaccio",
     "short_name": "AJA",
     "venue": "Stade François Coty",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/AJA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/AJA.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1516,7 +1516,7 @@
     "name": "Amiens",
     "short_name": "AMI",
     "venue": "Stade de la Licorne",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/AMI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/AMI.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1525,7 +1525,7 @@
     "name": "Annecy",
     "short_name": "ANN",
     "venue": "Parc des Sports",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/ANN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/ANN.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1534,7 +1534,7 @@
     "name": "Bastia",
     "short_name": "BAS",
     "venue": "Stade Armand Cesari",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/BAS.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/BAS.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1543,7 +1543,7 @@
     "name": "Clermont",
     "short_name": "CLE",
     "venue": "Stade Gabriel Montpied",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/CLE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/CLE.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1552,7 +1552,7 @@
     "name": "Dunkerque",
     "short_name": "DUN",
     "venue": "Stade Marcel-Tribut",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/DUN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/DUN.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1561,7 +1561,7 @@
     "name": "Grenoble",
     "short_name": "GF38",
     "venue": "Stade des Alpes",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/GRE.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/GRE.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1570,7 +1570,7 @@
     "name": "Guingamp",
     "short_name": "GUI",
     "venue": "Stade Roudourou",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/GUI.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/GUI.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1579,7 +1579,7 @@
     "name": "Laval",
     "short_name": "LAV",
     "venue": "Stade Francis Le Basser",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/LAV.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/LAV.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1588,7 +1588,7 @@
     "name": "Le Mans",
     "short_name": "LEM",
     "venue": "MMArena",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/LEM.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/LEM.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1597,7 +1597,7 @@
     "name": "Nancy",
     "short_name": "ASN",
     "venue": "Stade Marcel Picot",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/NAN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/NAN.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1606,7 +1606,7 @@
     "name": "Pau",
     "short_name": "PAU",
     "venue": "Nouste Camp",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/PAU.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/PAU.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1615,7 +1615,7 @@
     "name": "Red Star",
     "short_name": "RED",
     "venue": "Stade Bauer",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/RED.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/RED.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1624,7 +1624,7 @@
     "name": "Rodez",
     "short_name": "ROD",
     "venue": "Stade Paul Lignon",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/ROD.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/ROD.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1633,7 +1633,7 @@
     "name": "Troyes",
     "short_name": "TRO",
     "venue": "Stade de l'Aube",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/TRO.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/TRO.png",
     "country": "FR",
     "leagues": ["LIGUE_2"]
   },
@@ -1642,7 +1642,7 @@
     "name": "Team French A",
     "short_name": "FFF",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/TFA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/TFA.png",
     "country": "FR",
     "leagues": ["FRENCH_FOOTBALL"]
   },
@@ -1651,7 +1651,7 @@
     "name": "Team French B",
     "short_name": "FF2",
     "venue": "Various",
-    "badge": "https://ondeassistir.tv/images-scr/teams/France/badge/TFB.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/france/badge/TFB.png",
     "country": "FR",
     "leagues": ["FRENCH_FOOTBALL"]
   },
@@ -1745,9 +1745,9 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "INT-MIA": {
-    "id": "INT-MIA",
-    "name": "Inter Miami CF",
+  "MIA": {
+    "id": "MIA",
+    "name": "Inter Miami",
     "short_name": "MIA",
     "venue": "DRV PNK Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/north_america/badge/MIA.png",
@@ -1792,7 +1792,7 @@
   },
   "NER": {
     "id": "NER",
-    "name": "New England Revolution",
+    "name": "New england Revolution",
     "short_name": "NER",
     "venue": "Gillette Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/north_america/badge/NER.png",
@@ -1835,8 +1835,8 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "POR": {
-    "id": "POR",
+  "TIM": {
+    "id": "TIM",
     "name": "Portland Timbers",
     "short_name": "POR",
     "venue": "Providence Park",
@@ -1876,7 +1876,7 @@
     "name": "Seattle Sounders FC",
     "short_name": "SEA",
     "venue": "Lumen Field",
-    "badge": "https://ondeassistir.tv/images-scr/teamsnorth_america/badge/SEA.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/north_america/badge/SEA.png",
     "country": "NA",
     "leagues": ["MLS"]
   },
@@ -1925,8 +1925,8 @@
     "country": "NA",
     "leagues": ["MLS"]
   },
-  "ESTUDIANTES": {
-    "id": "ESTUDIANTES",
+  "EST": {
+    "id": "EST",
     "name": "Estudiantes",
     "short_name": "EST",
     "venue": "Estadio Jorge Luis Hirschi",
@@ -1934,8 +1934,8 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "RIVER_PLATE": {
-    "id": "RIVER_PLATE",
+  "RIV": {
+    "id": "RIV",
     "name": "River Plate",
     "short_name": "RIV",
     "venue": "Lumen Field",
@@ -1943,7 +1943,7 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "UNIVERSITARIO": {
+  "UNI": {
     "id": "UNIVERSITARIO",
     "name": "Universitario",
     "short_name": "UNI",
@@ -1952,8 +1952,8 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "LDU_QUITO": {
-    "id": "LDU_QUITO",
+  "LDU": {
+    "id": "LDU",
     "name": "LDU Quito",
     "short_name": "LDU",
     "venue": "Estadio Rodrigo Paz Delgado",
@@ -1961,8 +1961,8 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "LIBERTAD": {
-    "id": "LIBERTAD",
+  "LIB": {
+    "id": "LIB",
     "name": "Libertad",
     "short_name": "LIB",
     "venue": "Estadio Tigo La Huerta",
@@ -1970,8 +1970,8 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "RACING": {
-    "id": "RACING",
+  "RAC": {
+    "id": "RAC",
     "name": "Racing",
     "short_name": "RAC",
     "venue": "Estadio Presidente Perón",
@@ -1979,17 +1979,17 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "ATLETICO_NACIONAL": {
-    "id": "ATLETICO_NACIONAL",
+  "ATN": {
+    "id": "ATN",
     "name": "Atlético Nacional",
     "short_name": "NAC",
     "venue": "Estadio Atanasio Girardot",
-    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/NAC.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/ATN.png",
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "CERRO_PORTENO": {
-    "id": "CERRO_PORTENO",
+  "CCP": {
+    "id": "CCP",
     "name": "Cerro Porteño",
     "short_name": "CCP",
     "venue": "Estadio General Pablo Rojas",
@@ -1997,8 +1997,8 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "VELEZ_SARSFIELD": {
-    "id": "VELEZ_SARSFIELD",
+  "VEL": {
+    "id": "VEL",
     "name": "Vélez Sarsfield",
     "short_name": "VEL",
     "venue": "Estadio José Amalfitani",
@@ -2006,7 +2006,7 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "PENAROL": {
+  "PEN": {
     "id": "PENAROL",
     "name": "Peñarol",
     "short_name": "PEN",
@@ -2015,7 +2015,7 @@
     "country": "LA",
     "leagues": ["LIBERTADORES"]
   },
-  "HURACAN": {
+  "HUR": {
     "id": "HURACAN",
     "name": "Huracán",
     "short_name": "HUR",
@@ -2024,7 +2024,7 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "UNIVERSIDAD_CATOLICA": {
+  "UNC": {
     "id": "UNIVERSIDAD_CATOLICA",
     "name": "Universidad Católica",
     "short_name": "UCA",
@@ -2033,8 +2033,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "INDEPENDIENTE": {
-    "id": "INDEPENDIENTE",
+  "IND": {
+    "id": "IND",
     "name": "Independiente",
     "short_name": "IND",
     "venue": "Estadio Libertadores de América",
@@ -2042,8 +2042,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "GODOY_CRUZ": {
-    "id": "GODOY_CRUZ",
+  "GOD": {
+    "id": "GOD",
     "name": "Godoy Cruz",
     "short_name": "GOD",
     "venue": "Estadio Malvinas Argentinas",
@@ -2051,7 +2051,7 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "LANUS": {
+  "LAN": {
     "id": "LANUS",
     "name": "Lanús",
     "short_name": "LAN",
@@ -2060,7 +2060,7 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "CIENCIANO": {
+  "CIE": {
     "id": "CIENCIANO",
     "name": "Cienciano",
     "short_name": "CIE",
@@ -2069,8 +2069,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "ONCE_CALDAS": {
-    "id": "ONCE_CALDAS",
+  "ONC": {
+    "id": "ONC",
     "name": "Once Caldas",
     "short_name": "ONC",
     "venue": "Estadio Palogrande",
@@ -2078,26 +2078,26 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "PALESTINO": {
-    "id": "PALESTINO",
+  "PTN": {
+    "id": "PTN",
     "name": "Palestino",
-    "short_name": "PAL",
+    "short_name": "PTN",
     "venue": "Estadio Municipal de La Cisterna",
-    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/PAL.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/PTN.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "AMERICA_DE_CALI": {
-    "id": "AMERICA_DE_CALI",
+  "AMC": {
+    "id": "AMC",
     "name": "América de Cali",
     "short_name": "AME",
     "venue": "Estadio Olímpico Pascual Guerrero",
-    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/AME.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/AMC.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "GUARANI": {
-    "id": "GUARANI",
+  "GUA": {
+    "id": "GUA",
     "name": "Guaraní",
     "short_name": "GUA",
     "venue": "Estadio Rogelio Livieres",
@@ -2105,8 +2105,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "CERRO_LARGO": {
-    "id": "CERRO_LARGO",
+  "CLG": {
+    "id": "CLG",
     "name": "Cerro Largo",
     "short_name": "CLG",
     "venue": "Estadio Arquitecto Antonio Eleuterio Ubilla",
@@ -2114,17 +2114,17 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "CENTRAL_CORDOBA": {
-    "id": "CENTRAL_CORDOBA",
+  "CTC": {
+    "id": "CTC",
     "name": "Central Córdoba",
     "short_name": "CEN",
     "venue": "Estadio Único Madre de Ciudades",
-    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/CEN.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/CTC.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "UNIVERSIDAD_DE_CHILE": {
-    "id": "UNIVERSIDAD_DE_CHILE",
+  "UCH": {
+    "id": "UCH",
     "name": "Universidad de Chile",
     "short_name": "UCH",
     "venue": "Estadio Nacional Julio Martínez Prádanos",
@@ -2132,8 +2132,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "INDEPENDIENTE_DEL_VALLE": {
-    "id": "INDEPENDIENTE_DEL_VALLE",
+  "IDV": {
+    "id": "IDV",
     "name": "Independiente del Valle",
     "short_name": "IDV",
     "venue": "Estadio Banco Guayaquil",
@@ -2141,8 +2141,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "BOLIVAR": {
-    "id": "BOLIVAR",
+  "BOL": {
+    "id": "BOL",
     "name": "Bolívar",
     "short_name": "BOL",
     "venue": "Estadio Hernando Siles",
@@ -2150,17 +2150,17 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "ATLETICO_BUCARAMANGA": {
-    "id": "ATLETICO_BUCARAMANGA",
-    "name": "Atlético Bucaramanga",
+  "BUC": {
+    "id": "BUC",
+    "name": "BUC",
     "short_name": "BUC",
     "venue": "Estadio Alfonso López",
     "badge": "https://ondeassistir.tv/images-scr/teams/latam/badge/BUC.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "SAN_ANTONIO_BULO_BULO": {
-    "id": "SAN_ANTONIO_BULO_BULO",
+  "SBB": {
+    "id": "SBB",
     "name": "San Antonio Bulo Bulo",
     "short_name": "SAB",
     "venue": "Estadio Municipal de Villa Tunari",
@@ -2168,8 +2168,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "ALIANZA_LIMA": {
-    "id": "ALIANZA_LIMA",
+  "ALI": {
+    "id": "ALI",
     "name": "Alianza Lima",
     "short_name": "ALI",
     "venue": "Estadio Alejandro Villanueva",
@@ -2177,8 +2177,8 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "BOCA_JUNIORS": {
-    "id": "BOCA_JUNIORS",
+  "BOC": {
+    "id": "BOC",
     "name": "Boca Juniors",
     "short_name": "BOC",
     "venue": "Hard Rock Stadium",
@@ -2186,8 +2186,8 @@
     "country": "LA",
     "leagues": ["WORLD_CUP_2026"]
   },
-  "AL_HILAL": {
-    "id": "AL_HILAL",
+  "HIL": {
+    "id": "HIL",
     "name": "Al-Hilal",
     "short_name": "HIL",
     "venue": "TBD",
@@ -2195,8 +2195,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "URAWA_RED_DIAMONDS": {
-    "id": "URAWA_RED_DIAMONDS",
+  "URA": {
+    "id": "URA",
     "name": "Urawa Red Diamonds",
     "short_name": "URA",
     "venue": "TBD",
@@ -2204,8 +2204,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "AL_AIN": {
-    "id": "AL_AIN",
+  "AIN": {
+    "id": "AIN",
     "name": "Al Ain",
     "short_name": "AIN",
     "venue": "Audi Field",
@@ -2213,8 +2213,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "ULSAN_HD": {
-    "id": "ULSAN_HD",
+  "ULS": {
+    "id": "ULS",
     "name": "Ulsan HD",
     "short_name": "ULS",
     "venue": "Inter&Co Stadium",
@@ -2222,8 +2222,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "AL_AHLY": {
-    "id": "AL_AHLY",
+  "AHL": {
+    "id": "AHL",
     "name": "Al Ahly",
     "short_name": "AHL",
     "venue": "Hard Rock Stadium",
@@ -2231,8 +2231,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "WYDAD_AC": {
-    "id": "WYDAD_AC",
+  "WYD": {
+    "id": "WYD",
     "name": "Wydad AC",
     "short_name": "WYD",
     "venue": "TBD",
@@ -2240,8 +2240,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "ESPERANCE_DE_TUNIS": {
-    "id": "ESPERANCE_DE_TUNIS",
+  "ETU": {
+    "id": "ETU",
     "name": "Espérance de Tunis",
     "short_name": "ESP",
     "venue": "TBD",
@@ -2249,8 +2249,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WR"]
   },
-  "MAMELODI_SUNDOWNS": {
-    "id": "MAMELODI_SUNDOWNS",
+  "MAM": {
+    "id": "MAM",
     "name": "Mamelodi Sundowns",
     "short_name": "MAM",
     "venue": "TBD",
@@ -2258,17 +2258,17 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "AUCKLAND_CITY": {
-    "id": "AUCKLAND_CITY",
+  "ACK": {
+    "id": "ACK",
     "name": "Auckland City",
     "short_name": "AUC",
     "venue": "TBD",
-    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AUCF.png",
+    "badge": "https://ondeassistir.tv/images-scr/teams/int/badge/AUC.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "MONTERREY": {
-    "id": "MONTERREY",
+  "MTY": {
+    "id": "MTY",
     "name": "Monterrey",
     "short_name": "MTY",
     "venue": "Rose Bowl",
@@ -2276,8 +2276,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "PACHUCA": {
-    "id": "PACHUCA",
+  "PAC": {
+    "id": "PAC",
     "name": "Pachuca",
     "short_name": "PAC",
     "venue": "TQL Stadium",
@@ -2285,8 +2285,8 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "PORTO": {
-    "id": "PORTO",
+  "POR": {
+    "id": "POR",
     "name": "Porto",
     "short_name": "POR",
     "venue": "TBD",
@@ -2294,12 +2294,21 @@
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },
-  "BENFICA": {
-    "id": "BENFICA",
+  "BEN": {
+    "id": "BEN",
     "name": "Benfica",
     "short_name": "BEN",
     "venue": "Inter&Co Stadium",
     "badge": "https://ondeassistir.tv/images-scr/teams/int/BEN.png",
+    "country": "INT_FOOTBALL",
+    "leagues": ["CLUB_WC"]
+  },
+"SLZ": {
+    "id": "SLZ",
+    "name": "RB Salzburg",
+    "short_name": "SLZ",
+    "venue": "Audi Field",
+    "badge": "https://ondeassistir.tv/images-scr/teams/int/SLZ.png",
     "country": "INT_FOOTBALL",
     "leagues": ["CLUB_WC"]
   },

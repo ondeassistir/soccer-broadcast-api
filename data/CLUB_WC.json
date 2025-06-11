@@ -1,6 +1,6 @@
 [
     {
-        "home_team": "AHA",
+        "home_team": "AHL",
         "away_team": "MIA",
         "kickoff": "2025-06-14T21:00:00Z",
         "league": "CLUB_WC",
@@ -13,7 +13,7 @@
     },
     {
         "home_team": "BAY",
-        "away_team": "AUC",
+        "away_team": "ACK",
         "kickoff": "2025-06-15T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -97,7 +97,7 @@
     },
     {
         "home_team": "FLU",
-        "away_team": "BVB",
+        "away_team": "DOR",
         "kickoff": "2025-06-17T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -121,7 +121,7 @@
     },
     {
         "home_team": "ULS",
-        "away_team": "SUN",
+        "away_team": "MAM",
         "kickoff": "2025-06-17T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -132,7 +132,7 @@
         }
     },
     {
-        "home_team": "MON",
+        "home_team": "MTY",
         "away_team": "INT",
         "kickoff": "2025-06-17T22:00:00Z",
         "league": "CLUB_WC",
@@ -145,7 +145,7 @@
     },
     {
         "home_team": "MCI",
-        "away_team": "WAC",
+        "away_team": "WYD",
         "kickoff": "2025-06-18T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -169,7 +169,7 @@
     },
     {
         "home_team": "PAC",
-        "away_team": "SAL",
+        "away_team": "SLZ",
         "kickoff": "2025-06-18T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -193,7 +193,7 @@
     },
     {
         "home_team": "PAL",
-        "away_team": "AHA",
+        "away_team": "AHL",
         "kickoff": "2025-06-19T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -241,7 +241,7 @@
     },
     {
         "home_team": "BEN",
-        "away_team": "AUC",
+        "away_team": "ACK",
         "kickoff": "2025-06-20T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -325,7 +325,7 @@
     },
     {
         "home_team": "RIV",
-        "away_team": "MON",
+        "away_team": "MTY",
         "kickoff": "2025-06-21T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -337,7 +337,7 @@
     },
     {
         "home_team": "JUV",
-        "away_team": "WAC",
+        "away_team": "WYD",
         "kickoff": "2025-06-22T13:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -360,7 +360,7 @@
         }
     },
     {
-        "home_team": "SAL",
+        "home_team": "SLZ",
         "away_team": "HIL",
         "kickoff": "2025-06-22T19:00:00Z",
         "league": "CLUB_WC",
@@ -421,7 +421,7 @@
     },
     {
         "home_team": "POR",
-        "away_team": "AHA",
+        "away_team": "AHL",
         "kickoff": "2025-06-23T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -432,7 +432,7 @@
         }
     },
     {
-        "home_team": "AUC",
+        "home_team": "ACK",
         "away_team": "BOC",
         "kickoff": "2025-06-24T16:00:00Z",
         "league": "CLUB_WC",
@@ -517,7 +517,7 @@
     },
     {
         "home_team": "URA",
-        "away_team": "MON",
+        "away_team": "MTY",
         "kickoff": "2025-06-25T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -540,7 +540,7 @@
         }
     },
     {
-        "home_team": "WAC",
+        "home_team": "WYD",
         "away_team": "AIN",
         "kickoff": "2025-06-26T16:00:00Z",
         "league": "CLUB_WC",
@@ -564,7 +564,7 @@
         }
     },
     {
-        "home_team": "SAL",
+        "home_team": "SLZ",
         "away_team": "RMA",
         "kickoff": "2025-06-26T22:00:00Z",
         "league": "CLUB_WC",
