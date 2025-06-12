@@ -2,147 +2,147 @@
   "globo": {
     "id": "globo",
     "name": "TV Globo",
-    "logo": "https://ondeassistir.tv/images-scr/channels/globo.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/globo.png",
     "country": "BR",
     "type": "external"
   },
   "globoplay": {
     "id": "globoplay",
     "name": "Globoplay",
-    "logo": "https://ondeassistir.tv/images-scr/channels/globoplay.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/globoplay.png",
     "country": "BR",
     "type": "external"
   },
   "sportv": {
     "id": "sportv",
     "name": "SportV",
-    "logo": "https://ondeassistir.tv/images-scr/channels/sportv.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/sportv.png",
     "country": "BR",
     "type": "external"
   },
   "premiere": {
     "id": "premiere",
     "name": "Premiere",
-    "logo": "https://ondeassistir.tv/images-scr/channels/premiere.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/premiere.png",
     "country": "BR",
     "type": "external"
   },
   "recordtv": {
     "id": "recordtv",
     "name": "Record TV",
-    "logo": "https://ondeassistir.tv/images-scr/channels/recordtv.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/recordtv.png",
     "country": "BR",
     "type": "external"
   },
   "sbt": {
     "id": "sbt",
     "name": "SBT",
-    "logo": "https://ondeassistir.tv/images-scr/channels/sbt.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/sbt.png",
     "country": "BR",
     "type": "external"
   },
   "youtube": {
     "id": "youtube",
     "name": "Youtube (Grátis)",
-    "logo": "https://ondeassistir.tv/images-scr/channels/youtube.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/youtube.png",
     "country": "BR",
     "type": "embedded"
   },
   "primevideo": {
     "id": "primevideo",
     "name": "Amazon Prime",
-    "logo": "https://ondeassistir.tv/images-scr/channels/primevideo.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/primevideo.png",
     "country": "BR",
     "type": "external"
   },
   "cultura": {
     "id": "cultura",
     "name": "TV Cultura",
-    "logo": "https://ondeassistir.tv/images-scr/channels/cultura.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/cultura.png",
     "country": "BR",
     "type": "external"
   },
   "espn": {
     "id": "espn",
     "name": "ESPN/Disney +",
-    "logo": "https://ondeassistir.tv/images-scr/channels/espn.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/espn.png",
     "country": "BR",
     "type": "external"
   },
   "tnt": {
     "id": "tnt",
     "name": "TNT Sports/Max",
-    "logo": "https://ondeassistir.tv/images-scr/channels/tnt.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/tnt.png",
     "country": "BR",
     "type": "external"
   },
   "nossofutebol": {
     "id": "nossofutebol",
     "name": "Nosso Futebol",
-    "logo": "https://ondeassistir.tv/images-scr/channels/nossofutebol.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/nossofutebol.png",
     "country": "BR",
     "type": "external"
   },
   "goat": {
     "id": "goat",
     "name": "Goat",
-    "logo": "https://ondeassistir.tv/images-scr/channels/goat.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/goat.png",
     "country": "BR",
     "type": "external"
   },
   "paramount": {
     "id": "paramount",
     "name": "Paramount +",
-    "logo": "https://ondeassistir.tv/images-scr/channels/paramount.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/paramount.png",
     "country": "BR",
     "type": "external"
   },
   "dazn": {
     "id": "dazn",
     "name": "DAZN",
-    "logo": "https://ondeassistir.tv/images-scr/channels/dazn.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/dazn.png",
     "country": "BR",
     "type": "external"
   },
   "onefootball": {
     "id": "onefootball",
     "name": "OneFootball",
-    "logo": "https://ondeassistir.tv/images-scr/channels/onefootball.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/onefootball.png",
     "country": "BR",
     "type": "external"
   },
   "band": {
     "id": "band",
     "name": "Band",
-    "logo": "https://ondeassistir.tv/images-scr/channels/band.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/band.png",
     "country": "BR",
     "type": "external"
   },
   "redetv": {
     "id": "redetv",
     "name": "RedeTV!",
-    "logo": "https://ondeassistir.tv/images-scr/channels/redetv.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/redetv.png",
     "country": "BR",
     "type": "external"
   },
   "streaming": {
     "id": "streaming",
     "name": "Streaming (Grátis)",
-    "logo": "https://ondeassistir.tv/images-scr/channels/streaming.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/streaming.png",
     "country": "BR",
     "type": "external"
   },
   "react": {
     "id": "react",
     "name": "React (Audio)",
-    "logo": "https://ondeassistir.tv/images-scr/channels/react.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/react.png",
     "country": "BR",
     "type": "embedded"
   },
   "radio2": {
     "id": "radio2",
     "name": "Rádio 2 (Audio)",
-    "logo": "https://ondeassistir.tv/images-scr/channels/radio2.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/radio2.png",
     "country": "BR",
     "type": "free"
   }
