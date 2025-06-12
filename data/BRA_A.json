@@ -74,8 +74,8 @@
     }, 
     {
         "home_team": "CAM",
-        "away_team": "INT",
-        "kickoff": "2025-06-12T00:30:00Z",
+        "away_team": "SCI",
+        "kickoff": "2025-06-13T00:30:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
@@ -90,7 +90,7 @@
     {
         "home_team": "SAO",
         "away_team": "VAS",
-        "kickoff": "2025-06-12T00:30:00Z",
+        "kickoff": "2025-06-13T00:30:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
