@@ -4,146 +4,197 @@
     "name": "TV Globo",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/globo.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free-to-Air", "Free Streaming"],
+    "link": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/"
   },
   "globoplay": {
     "id": "globoplay",
     "name": "Globoplay",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/globoplay.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://globoplay.globo.com/tv-globo/ao-vivo/6120663/"
   },
   "sportv": {
     "id": "sportv",
     "name": "SportV",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/sportv.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://globoplay.globo.com/tv-globo/ao-vivo/7832875/"
   },
   "premiere": {
     "id": "premiere",
     "name": "Premiere",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/premiere.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://premiere.globo.com/agora"
   },
   "recordtv": {
     "id": "recordtv",
     "name": "Record TV",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/recordtv.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free-to-Air", "Free Streaming"],
+    "link": "https://www.playplus.com/live/liveEvent/180?groupId=7"
   },
   "sbt": {
     "id": "sbt",
     "name": "SBT",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/sbt.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free-to-Air", "Free Streaming"],
+    "link": "https://www.sbt.com.br/ao-vivo"
   },
   "youtube": {
     "id": "youtube",
     "name": "Youtube (Grátis)",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/youtube.png",
     "country": "BR",
-    "type": "embedded"
+    "type": "embedded",
+    "method": "Free Streaming",
+    "link": "https://www.youtube.com/@CazeTV/videos"
   },
   "primevideo": {
     "id": "primevideo",
     "name": "Amazon Prime",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/primevideo.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free trial", "Paid Subscription"],
+    "link": "https://www.primevideo.com/offers/nonprimehomepage/ref=atv_nb_lcl_pt_BR"
   },
   "cultura": {
     "id": "cultura",
     "name": "TV Cultura",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/cultura.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free-to-Air", "Free Streaming"],
+    "link": "https://cultura.uol.com.br/aovivo/"
   },
   "espn": {
     "id": "espn",
     "name": "ESPN/Disney +",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/espn.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://www.disneyplus.com/pt-br"
   },
   "tnt": {
     "id": "tnt",
     "name": "TNT Sports/Max",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/tnt.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://www.max.com/br/pt/sports/champions-league?utm_source=TNTSports&utm_medium=Social&utm_campaign=max_champions_brasil&utm_content=portal+banner_home"
   },
   "nossofutebol": {
     "id": "nossofutebol",
     "name": "Nosso Futebol",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/nossofutebol.png",
     "country": "BR",
-    "type": "external"
+    "type": ["external", "channel_number"],
+    "method": "Paid Subscription",
+    "link": "https://www.nossofutebol.com/"
   },
   "goat": {
     "id": "goat",
     "name": "Goat",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/goat.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://canalgoat.com.br/"
   },
   "paramount": {
     "id": "paramount",
     "name": "Paramount +",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/paramount.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free trial", "Paid Subscription"],
+    "link": "https://www.paramountplus.com/br/"
   },
   "dazn": {
     "id": "dazn",
     "name": "DAZN",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/dazn.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://www.dazn.com/pt-BR/welcome"
   },
   "onefootball": {
     "id": "onefootball",
     "name": "OneFootball",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/onefootball.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://tv.onefootball.com/pt-br/live-matches"
   },
   "band": {
     "id": "band",
     "name": "Band",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/band.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free-to-Air", "Free Streaming"],
+    "link": "https://www.band.com.br/ao-vivo"
   },
   "redetv": {
     "id": "redetv",
     "name": "RedeTV!",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/redetv.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": ["Free-to-Air", "Free Streaming"],
+    "link": "https://www.redetv.uol.com.br/aovivo"
   },
   "streaming": {
     "id": "streaming",
     "name": "Streaming (Grátis)",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/streaming.png",
     "country": "BR",
-    "type": "external"
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://www.youtube.com/@CharlaPodcast"
   },
   "react": {
     "id": "react",
-    "name": "React (Audio)",
+    "name": "Charla Podcast (React + Audio)",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/react.png",
     "country": "BR",
-    "type": "embedded"
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://www.youtube.com/@CharlaPodcast"
+  },
+  "radio1": {
+    "id": "radio1",
+    "name": "Rádio Globo (Audio)",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/radio1.png",
+    "country": "BR",
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://radioglobo.globo.com/"
   },
   "radio2": {
     "id": "radio2",
-    "name": "Rádio 2 (Audio)",
+    "name": "Rádio Transamerica FM (Audio)",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/radio2.png",
     "country": "BR",
-    "type": "free"
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://transamericafm.com.br/ouca-agora/sao-paulo-sp"
   }
 }
