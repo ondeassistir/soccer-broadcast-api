@@ -120,7 +120,7 @@
     "id": "paramount",
     "name": "Paramount +",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/paramount.png",
-    "country": "BR",
+    "country": ["BR","US"],
     "type": "external",
     "method": ["Free trial", "Paid Subscription"],
     "link": "https://www.paramountplus.com/br/"
@@ -196,5 +196,41 @@
     "type": "external",
     "method": "Free Streaming",
     "link": "https://transamericafm.com.br/ouca-agora/sao-paulo-sp"
+  },
+  "us_tnt": {
+    "id": "us_tnt",
+    "name": "TNT",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/tntus.png",
+    "country": "US",
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://www.tntdrama.com/watchtnt"
+   },
+  "us_tbs": {
+    "id": "us_tbs",
+    "name": "TBS",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/tbs.png",
+    "country": "US",
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://www.tbs.com/watchtbs"
+   },
+  "us_tru": {
+    "id": "us_tru",
+    "name": "truTV",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/trutv.png",
+    "country": "US",
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://www.trutv.com"
+    },
+  "apl": {
+    "id": "apl",
+    "name": "Apple TV+",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/appletv.png",
+    "country": ["US", "BR"],
+    "type": "external",
+    "method": ["Free trial", "Paid Subscription"],
+    "link": "https://tv.apple.com/"
   }
 }

@@ -8,7 +8,7 @@
         "slug": "bqMG0pvB",
         "broadcasts": {
             "br": ["globo", "youtube", "sportv", "dazn"],
-            "us": ["dazn","TBS"]
+            "us": ["dazn","us_tbs"]
         }
     },
     {
@@ -32,7 +32,7 @@
         "slug": "b3pbDNNG",
         "broadcasts": {
             "br": ["youtube" , "sportv", "dazn"],
-            "us": ["dazn", "truTV", "TNT"]
+            "us": ["dazn", "us_tru", "us_tnt"]
         }
     },
     {
@@ -68,7 +68,7 @@
         "slug": "d8JQoqtC",
         "broadcasts": {
             "br": ["youtube" , "sportv", "dazn"],
-            "us": ["dazn", "truTV", "TBS"]
+            "us": ["dazn", "us_tru", "us_tbs"]
         }
     },
     {
@@ -104,7 +104,7 @@
         "slug": "Wn3Va7lg",
         "broadcasts": {
             "br": ["globo", "youtube", "sportv", "dazn"],
-            "us": ["dazn", "truTV", "TNT"]
+            "us": ["dazn", "us_tru", "us_tnt"]
         }
     },
     {
@@ -164,7 +164,7 @@
         "slug": "MHcYl2ck",
         "broadcasts": {
             "br": ["youtube" , "sportv", "dazn"],
-            "us": ["dazn", "truTV", "TNT"]
+            "us": ["dazn", "us_tru", "us_tnt"]
         }
     },
     {
@@ -212,7 +212,7 @@
         "slug": "4p1eg2Wp",
         "broadcasts": {
             "br": ["youtube" , "sportv", "dazn"],
-            "us": ["dazn", "truTV", "TNT"]
+            "us": ["dazn", "us_tru", "us_tnt"]
         }
     },
     {
@@ -260,7 +260,7 @@
         "slug": "OnqEziLs",
         "broadcasts": {
             "br": ["globo", "youtube", "sportv", "dazn"],
-            "us": ["dazn", "truTV", "TNT"]
+            "us": ["dazn", "us_tru", "us_tnt"]
         }
     },
     {
@@ -284,7 +284,7 @@
         "slug": "veq0TZDE",
         "broadcasts": {
             "br": ["youtube" , "sportv", "dazn"],
-            "us": ["dazn", "TBS"]
+            "us": ["dazn", "us_tbs"]
         }
     },
     {
