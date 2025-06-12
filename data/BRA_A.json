@@ -15,7 +15,7 @@
 {
         "home_team": "RBB",
         "away_team": "BAH",
-        "kickoff": "2025-12-06T22:00:00Z",
+        "kickoff": "2025-06-12T22:00:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
@@ -30,7 +30,7 @@
     {
         "home_team": "VIT",
         "away_team": "CRU",
-        "kickoff": "2025-12-06T22:00:00Z",
+        "kickoff": "2025-06-12T22:00:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
@@ -45,7 +45,7 @@
 {
         "home_team": "FOR",
         "away_team": "SAN",
-        "kickoff": "2025-12-06T22:30:00Z",
+        "kickoff": "2025-06-12T22:30:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
@@ -60,7 +60,7 @@
 {
         "home_team": "GRE",
         "away_team": "COR",
-        "kickoff": "2025-12-06T23:00:00Z",
+        "kickoff": "2025-06-12T23:00:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
@@ -75,7 +75,7 @@
     {
         "home_team": "CAM",
         "away_team": "INT",
-        "kickoff": "2025-13-06T00:30:00Z",
+        "kickoff": "2025-06-12T00:30:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
@@ -90,7 +90,7 @@
     {
         "home_team": "SAO",
         "away_team": "VAS",
-        "kickoff": "2025-13-06T00:30:00Z",
+        "kickoff": "2025-06-12T00:30:00Z",
         "league": "BRA_A",
         "league_week_number": 12,
         "broadcasts": {
