@@ -211,7 +211,7 @@
     "name": "Athletico Paranaense",
     "short_name": "CAP",
     "venue": "Arena da Baixada",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/brazil/badge/ATP.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/brazil/badge/CAP.png",
     "country": "BR",
     "leagues": ["BRASILEIRAO_SERIE_B", "CDB", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -373,7 +373,7 @@
     "name": "Brasil",
     "short_name": "BRA",
     "venue": "Multiple",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/brazil/badge/BRA.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/brazil/badge/XYZ.png",
     "country": "BR",
     "leagues": ["AMISTOSOS_SELECAO", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -382,7 +382,7 @@
     "name": "Brasil F",
     "short_name": "BRF",
     "venue": "Multiple",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/brazil/badge/BRF.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/brazil/badge/XYZ.png",
     "country": "BR",
     "leagues": ["AMISTOSOS_SELECAO", "ESTADUAIS_BRA", "FUT_FEM_BRA"]
   },
@@ -458,12 +458,12 @@
     "country": "EN",
     "leagues": ["EPL"]
   },
-  "BRI": {
-    "id": "BRI",
+  "BHA": {
+    "id": "BHA",
     "name": "Brighton & Hove Albion",
-    "short_name": "BRI",
+    "short_name": "BHA",
     "venue": "Amex Stadium",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/england/badge/BRI.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/england/badge/BHA.png",
     "country": "EN",
     "leagues": ["EPL"]
   },
@@ -1079,12 +1079,12 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "KOL": {
-    "id": "KOL",
+  "KOE": {
+    "id": "KOE",
     "name": "FC Köln",
-    "short_name": "KOL",
+    "short_name": "KOE",
     "venue": "RheinEnergieStadion",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/KOL.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/KOE.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1120,7 +1120,7 @@
     "name": "Borussia Mönchengladbach",
     "short_name": "BMG",
     "venue": "Borussia-Park",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/MON.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/BMG.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
@@ -1678,7 +1678,7 @@
     "name": "Charlotte FC",
     "short_name": "CLT",
     "venue": "Bank of America Stadium",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/north_america/badge/CHA.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/north_america/badge/CLT.png",
     "country": "NA",
     "leagues": ["MLS"]
   },
@@ -2150,12 +2150,12 @@
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
-  "BUC": {
-    "id": "BUC",
-    "name": "BUC",
-    "short_name": "BUC",
+  "BCG": {
+    "id": "BCG",
+    "name": "Bucaramanga",
+    "short_name": "BCG",
     "venue": "Estadio Alfonso López",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/latam/badge/BUC.png",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/latam/badge/BCG.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },

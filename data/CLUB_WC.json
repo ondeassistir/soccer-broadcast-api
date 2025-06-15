@@ -26,7 +26,7 @@
     {
         "home_team": "PSG",
         "away_team": "ATM",
-        "kickoff": "2025-06-15T16:00:00Z",
+        "kickoff": "2025-06-15T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "b3pbDNNG",
@@ -38,7 +38,7 @@
     {
         "home_team": "PAL",
         "away_team": "POR",
-        "kickoff": "2025-06-15T19:00:00Z",
+        "kickoff": "2025-06-15T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "xUX7269b",
@@ -50,7 +50,7 @@
     {
         "home_team": "BOT",
         "away_team": "SEA",
-        "kickoff": "2025-06-15T23:00:00Z",
+        "kickoff": "2025-06-16T02:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "KIY6B1hT",
@@ -62,7 +62,7 @@
     {
         "home_team": "CHE",
         "away_team": "LAF",
-        "kickoff": "2025-06-16T16:00:00Z",
+        "kickoff": "2025-06-16T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "d8JQoqtC",
@@ -74,7 +74,7 @@
     {
         "home_team": "BOC",
         "away_team": "BEN",
-        "kickoff": "2025-06-16T19:00:00Z",
+        "kickoff": "2025-06-16T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "CliE5WL7",
@@ -86,7 +86,7 @@
     {
         "home_team": "FLA",
         "away_team": "ETU",
-        "kickoff": "2025-06-16T22:00:00Z",
+        "kickoff": "2025-06-17T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "YHKeI95D",
@@ -98,7 +98,7 @@
     {
         "home_team": "FLU",
         "away_team": "DOR",
-        "kickoff": "2025-06-17T13:00:00Z",
+        "kickoff": "2025-06-17T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "Wn3Va7lg",
@@ -110,7 +110,7 @@
     {
         "home_team": "RIV",
         "away_team": "URA",
-        "kickoff": "2025-06-17T16:00:00Z",
+        "kickoff": "2025-06-17T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "0ryPhjsQ",
@@ -122,7 +122,7 @@
     {
         "home_team": "ULS",
         "away_team": "MAM",
-        "kickoff": "2025-06-17T19:00:00Z",
+        "kickoff": "2025-06-17T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "h2ivboJ5",
@@ -134,7 +134,7 @@
     {
         "home_team": "MTY",
         "away_team": "INT",
-        "kickoff": "2025-06-17T22:00:00Z",
+        "kickoff": "2025-06-18T201:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "pGCemU4m",
@@ -146,7 +146,7 @@
     {
         "home_team": "MCI",
         "away_team": "WYD",
-        "kickoff": "2025-06-18T13:00:00Z",
+        "kickoff": "2025-06-18T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "lndNcxPM",
@@ -158,7 +158,7 @@
     {
         "home_team": "RMA",
         "away_team": "HIL",
-        "kickoff": "2025-06-18T16:00:00Z",
+        "kickoff": "2025-06-18T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "MHcYl2ck",
@@ -170,7 +170,7 @@
     {
         "home_team": "PAC",
         "away_team": "SLZ",
-        "kickoff": "2025-06-18T19:00:00Z",
+        "kickoff": "2025-06-18T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "rXosmtS1",
@@ -182,7 +182,7 @@
     {
         "home_team": "AIN",
         "away_team": "JUV",
-        "kickoff": "2025-06-18T22:00:00Z",
+        "kickoff": "2025-06-19T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "YJXghGnp",
@@ -194,7 +194,7 @@
     {
         "home_team": "PAL",
         "away_team": "AHL",
-        "kickoff": "2025-06-19T13:00:00Z",
+        "kickoff": "2025-06-19T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "p0KObO8N",
@@ -206,7 +206,7 @@
     {
         "home_team": "MIA",
         "away_team": "POR",
-        "kickoff": "2025-06-19T16:00:00Z",
+        "kickoff": "2025-06-19T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "4p1eg2Wp",
@@ -218,7 +218,7 @@
     {
         "home_team": "SEA",
         "away_team": "ATM",
-        "kickoff": "2025-06-19T19:00:00Z",
+        "kickoff": "2025-06-19T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "697PTr8c",
@@ -230,7 +230,7 @@
     {
         "home_team": "PSG",
         "away_team": "BOT",
-        "kickoff": "2025-06-19T22:00:00Z",
+        "kickoff": "2025-06-20T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "j1Px6uGj",
@@ -242,7 +242,7 @@
     {
         "home_team": "BEN",
         "away_team": "ACK",
-        "kickoff": "2025-06-20T13:00:00Z",
+        "kickoff": "2025-06-20T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "Ygx9RDrR",
@@ -254,7 +254,7 @@
     {
         "home_team": "FLA",
         "away_team": "CHE",
-        "kickoff": "2025-06-20T15:00:00Z",
+        "kickoff": "2025-06-20T18:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "OnqEziLs",
@@ -266,7 +266,7 @@
     {
         "home_team": "LAF",
         "away_team": "ETU",
-        "kickoff": "2025-06-20T19:00:00Z",
+        "kickoff": "2025-06-20T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "hzDZqNAO",
@@ -278,7 +278,7 @@
     {
         "home_team": "BAY",
         "away_team": "BOC",
-        "kickoff": "2025-06-20T22:00:00Z",
+        "kickoff": "2025-06-21T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "veq0TZDE",
@@ -290,7 +290,7 @@
     {
         "home_team": "SUN",
         "away_team": "BVB",
-        "kickoff": "2025-06-21T13:00:00Z",
+        "kickoff": "2025-06-21T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "h0CKwHXj",
@@ -302,7 +302,7 @@
     {
         "home_team": "INT",
         "away_team": "URA",
-        "kickoff": "2025-06-21T16:00:00Z",
+        "kickoff": "2025-06-21T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "l89Cqn4C",
@@ -314,7 +314,7 @@
     {
         "home_team": "FLU",
         "away_team": "ULS",
-        "kickoff": "2025-06-21T19:00:00Z",
+        "kickoff": "2025-06-21T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "0SfndPmI",
@@ -326,7 +326,7 @@
     {
         "home_team": "RIV",
         "away_team": "MTY",
-        "kickoff": "2025-06-21T22:00:00Z",
+        "kickoff": "2025-06-22T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "htG3o8Za",
@@ -338,7 +338,7 @@
     {
         "home_team": "JUV",
         "away_team": "WYD",
-        "kickoff": "2025-06-22T13:00:00Z",
+        "kickoff": "2025-06-22T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "OMFob6z3",
@@ -350,7 +350,7 @@
     {
         "home_team": "RMA",
         "away_team": "PAC",
-        "kickoff": "2025-06-22T16:00:00Z",
+        "kickoff": "2025-06-22T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "AwvTAqK8",
@@ -362,7 +362,7 @@
     {
         "home_team": "SLZ",
         "away_team": "HIL",
-        "kickoff": "2025-06-22T19:00:00Z",
+        "kickoff": "2025-06-22T22:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "65Xy9NlL",
@@ -374,7 +374,7 @@
     {
         "home_team": "MCI",
         "away_team": "AIN",
-        "kickoff": "2025-06-22T22:00:00Z",
+        "kickoff": "2025-06-23T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "6oo1jfHd",
@@ -386,7 +386,7 @@
     {
         "home_team": "SEA",
         "away_team": "PSG",
-        "kickoff": "2025-06-23T16:00:00Z",
+        "kickoff": "2025-06-23T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "vN5XRMxA",
@@ -398,7 +398,7 @@
     {
         "home_team": "ATM",
         "away_team": "BOT",
-        "kickoff": "2025-06-23T16:00:00Z",
+        "kickoff": "2025-06-23T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "r9ac9EMr",
@@ -410,7 +410,7 @@
     {
         "home_team": "MIA",
         "away_team": "PAL",
-        "kickoff": "2025-06-23T22:00:00Z",
+        "kickoff": "2025-06-24T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "dvlsH5Oi",
@@ -422,7 +422,7 @@
     {
         "home_team": "POR",
         "away_team": "AHL",
-        "kickoff": "2025-06-23T22:00:00Z",
+        "kickoff": "2025-06-24T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "h6sjFqg4",
@@ -434,7 +434,7 @@
     {
         "home_team": "ACK",
         "away_team": "BOC",
-        "kickoff": "2025-06-24T16:00:00Z",
+        "kickoff": "2025-06-24T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "QiHmKVz1",
@@ -446,7 +446,7 @@
     {
         "home_team": "BEN",
         "away_team": "BAY",
-        "kickoff": "2025-06-24T16:00:00Z",
+        "kickoff": "2025-06-24T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "UPNvMi6l",
@@ -458,7 +458,7 @@
     {
         "home_team": "LAF",
         "away_team": "FLA",
-        "kickoff": "2025-06-24T22:00:00Z",
+        "kickoff": "2025-06-25T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "rahq4Qet",
@@ -470,7 +470,7 @@
     {
         "home_team": "ETU",
         "away_team": "CHE",
-        "kickoff": "2025-06-24T22:00:00Z",
+        "kickoff": "2025-06-25T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "lfUwVnkJ",
@@ -482,7 +482,7 @@
     {
         "home_team": "BVB",
         "away_team": "ULS",
-        "kickoff": "2025-06-25T16:00:00Z",
+        "kickoff": "2025-06-25T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "tMhFabfA",
@@ -494,7 +494,7 @@
     {
         "home_team": "SUN",
         "away_team": "FLU",
-        "kickoff": "2025-06-25T16:00:00Z",
+        "kickoff": "2025-06-25T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "pfa61KPc",
@@ -506,7 +506,7 @@
     {
         "home_team": "INT",
         "away_team": "RIV",
-        "kickoff": "2025-06-25T22:00:00Z",
+        "kickoff": "2025-06-26T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "ML7KsQYO",
@@ -518,7 +518,7 @@
     {
         "home_team": "URA",
         "away_team": "MTY",
-        "kickoff": "2025-06-25T22:00:00Z",
+        "kickoff": "2025-06-26T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "OMaN1TJt",
@@ -530,7 +530,7 @@
     {
         "home_team": "JUV",
         "away_team": "MCI",
-        "kickoff": "2025-06-26T16:00:00Z",
+        "kickoff": "2025-06-26T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "dzEgdp5F",
@@ -542,7 +542,7 @@
     {
         "home_team": "WYD",
         "away_team": "AIN",
-        "kickoff": "2025-06-26T16:00:00Z",
+        "kickoff": "2025-06-26T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "h272fOZR",
@@ -554,7 +554,7 @@
     {
         "home_team": "HIL",
         "away_team": "PAC",
-        "kickoff": "2025-06-26T22:00:00Z",
+        "kickoff": "2025-06-27T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "MwZ81use",
@@ -566,7 +566,7 @@
     {
         "home_team": "SLZ",
         "away_team": "RMA",
-        "kickoff": "2025-06-26T22:00:00Z",
+        "kickoff": "2025-06-27T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
         "slug": "2yJ731Cr",
@@ -578,7 +578,7 @@
     {
         "home_team": "G1A",
         "away_team": "G2B",
-        "kickoff": "2025-06-28T13:00:00Z",
+        "kickoff": "2025-06-28T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1A-G2B-CLUB_WC-Round_of_16",
@@ -590,7 +590,7 @@
     {
         "home_team": "G1C",
         "away_team": "G2D",
-        "kickoff": "2025-06-28T17:00:00Z",
+        "kickoff": "2025-06-28T20:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1C-G2D-CLUB_WC-Round_of_16",
@@ -602,7 +602,7 @@
     {
         "home_team": "G1B",
         "away_team": "G2A",
-        "kickoff": "2025-06-29T13:00:00Z",
+        "kickoff": "2025-06-29T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1B-G2A-CLUB_WC-Round_of_16",
@@ -614,7 +614,7 @@
     {
         "home_team": "G1D",
         "away_team": "G2C",
-        "kickoff": "2025-06-29T17:00:00Z",
+        "kickoff": "2025-06-29T20:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1D-G2C-CLUB_WC-Round_of_16",
@@ -626,7 +626,7 @@
     {
         "home_team": "G1E",
         "away_team": "G2F",
-        "kickoff": "2025-06-30T16:00:00Z",
+        "kickoff": "2025-06-30T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1E-G2F-CLUB_WC-Round_of_16",
@@ -638,7 +638,7 @@
     {
         "home_team": "G1G",
         "away_team": "G2H",
-        "kickoff": "2025-06-30T22:00:00Z",
+        "kickoff": "2025-06-31T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1G-G2H-CLUB_WC-Round_of_16",
