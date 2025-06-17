@@ -288,8 +288,8 @@
         }
     },
     {
-        "home_team": "SUN",
-        "away_team": "BVB",
+        "home_team": "MAM",
+        "away_team": "DOR",
         "kickoff": "2025-06-21T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Group Stage",
@@ -480,7 +480,7 @@
         }
     },
     {
-        "home_team": "BVB",
+        "home_team": "DOR",
         "away_team": "ULS",
         "kickoff": "2025-06-25T19:00:00Z",
         "league": "CLUB_WC",
@@ -492,7 +492,7 @@
         }
     },
     {
-        "home_team": "SUN",
+        "home_team": "MAM",
         "away_team": "FLU",
         "kickoff": "2025-06-25T19:00:00Z",
         "league": "CLUB_WC",

@@ -890,8 +890,8 @@
     "country": "IT",
     "leagues": ["ITASERIE_A"]
   },
-  "JTS": {
-    "id": "JUV-ITA",
+  "JUV": {
+    "id": "JUV",
     "name": "Juventus",
     "short_name": "JUV",
     "venue": "Allianz Stadium",
