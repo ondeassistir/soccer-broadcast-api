@@ -1,68 +1,146 @@
 [
- {
-        "home_team": "BOT",
-        "away_team": "CEA",
-        "kickoff": "2025-04-06T23:00:00Z",
+    {
+        "home_team": "FLA",
+        "away_team": "SAO",
+        "kickoff": "2025-07-17T19:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 10,
-        "broadcasts": {
-            "br": [ "premiere"],
-            "us": [
-                "paramount"
-            ]
-        }
-    },    
-{
-        "home_team": "RBB",
-        "away_team": "BAH",
-        "kickoff": "2025-06-12T22:00:00Z",
-        "league": "BRA_A",
-        "league_week_number": 12,
+        "league_week_number": "13",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
-            ],
-            "us": [
-                "paramount"
-            ]
-        }
-    },    
-    {
-        "home_team": "VIT",
-        "away_team": "CRU",
-        "kickoff": "2025-06-12T22:00:00Z",
-        "league": "BRA_A",
-        "league_week_number": 12,
-        "broadcasts": {
-            "br": [
-                "premiere" , "sportv"
-            ],
-            "us": [
-                "paramount"
-            ]
-        }
-    },    
-{
-        "home_team": "FOR",
-        "away_team": "SAN",
-        "kickoff": "2025-06-12T22:30:00Z",
-        "league": "BRA_A",
-        "league_week_number": 12,
-        "broadcasts": {
-            "br": [
-                "premiere", "recordtv", "youtube"
             ],
             "us": [
                 "paramount"
             ]
         }
     },
-{
-        "home_team": "GRE",
-        "away_team": "COR",
-        "kickoff": "2025-06-12T23:00:00Z",
+    {
+        "home_team": "VAS",
+        "away_team": "BOT",
+        "kickoff": "2025-07-13T19:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 12,
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "RBB",
+        "kickoff": "2025-07-13T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "recordtv",
+                "youtube",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "PAL",
+        "kickoff": "2025-07-13T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "FLU",
+        "kickoff": "2025-07-13T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "GRE",
+        "kickoff": "2025-06-13T23:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "primevideo"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "VIT",
+        "kickoff": "2025-07-12T19:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "CAM",
+        "kickoff": "2025-07-13T00:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "CEA",
+        "kickoff": "2025-07-13T23:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "13",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -71,45 +149,34 @@
                 "paramount"
             ]
         }
-    }, 
+    },
     {
-        "home_team": "CAM",
-        "away_team": "SCI",
-        "kickoff": "2025-06-13T00:30:00Z",
+        "home_team": "JVT",
+        "away_team": "CAM",
+        "kickoff": "2025-07-14T23:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 12,
+        "league_week_number": "13",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
-                "premiere" , "globo"
+                "premiere"
             ],
             "us": [
                 "paramount"
             ]
         }
-    },          
-    {
-        "home_team": "SAO",
-        "away_team": "VAS",
-        "kickoff": "2025-06-13T00:30:00Z",
-        "league": "BRA_A",
-        "league_week_number": 12,
-        "broadcasts": {
-            "br": [
-                "premiere", "globo"
-            ],
-            "us": [
-                "paramount"
-            ]
-        }
-    },                   
+    },
     {
         "home_team": "FLU",
         "away_team": "CRU",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-17T22:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "recordtv",
+                "youtube",
                 "premiere"
             ],
             "us": [
@@ -120,11 +187,13 @@
     {
         "home_team": "BOT",
         "away_team": "VIT",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-16T00:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "sportv",
                 "premiere"
             ],
             "us": [
@@ -135,9 +204,10 @@
     {
         "home_team": "PAL",
         "away_team": "MIR",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-16T22:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -150,11 +220,13 @@
     {
         "home_team": "SAN",
         "away_team": "FLA",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-17T00:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "globo",
                 "premiere"
             ],
             "us": [
@@ -165,9 +237,10 @@
     {
         "home_team": "RBB",
         "away_team": "SAO",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-16T23:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -180,13 +253,12 @@
     {
         "home_team": "CAM",
         "away_team": "SPT",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
@@ -195,13 +267,12 @@
     {
         "home_team": "GRE",
         "away_team": "FOR",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
@@ -209,14 +280,13 @@
     },
     {
         "home_team": "BAH",
-        "away_team": "INT",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "SCI",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
@@ -225,28 +295,26 @@
     {
         "home_team": "CEA",
         "away_team": "COR",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
         }
     },
     {
-        "home_team": "JUV",
+        "home_team": "JVT",
         "away_team": "VAS",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 14,
+        "league_week_number": "14",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
@@ -255,9 +323,10 @@
     {
         "home_team": "FLA",
         "away_team": "FLU",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-20T22:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -270,12 +339,13 @@
     {
         "home_team": "VAS",
         "away_team": "GRE",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-19T20:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
-                "premiere"
+                "primevideo"
             ],
             "us": [
                 "paramount"
@@ -285,11 +355,13 @@
     {
         "home_team": "PAL",
         "away_team": "CAM",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-20T20:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "globo",
                 "premiere"
             ],
             "us": [
@@ -300,11 +372,13 @@
     {
         "home_team": "SAO",
         "away_team": "COR",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-20T00:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "sportv",
                 "premiere"
             ],
             "us": [
@@ -315,11 +389,14 @@
     {
         "home_team": "MIR",
         "away_team": "SAN",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-19T21:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "recordtv",
+                "youtube",
                 "premiere"
             ],
             "us": [
@@ -329,12 +406,14 @@
     },
     {
         "home_team": "CRU",
-        "away_team": "JUV",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "JVT",
+        "kickoff": "2025-07-20T19:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "sportv",
                 "premiere"
             ],
             "us": [
@@ -343,11 +422,12 @@
         }
     },
     {
-        "home_team": "INT",
+        "home_team": "SCI",
         "away_team": "CEA",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-20T14:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -360,9 +440,10 @@
     {
         "home_team": "VIT",
         "away_team": "RBB",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-19T21:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -375,9 +456,10 @@
     {
         "home_team": "FOR",
         "away_team": "BAH",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-19T19:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -390,11 +472,13 @@
     {
         "home_team": "SPT",
         "away_team": "BOT",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-20T20:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 15,
+        "league_week_number": "15",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "globo",
                 "premiere"
             ],
             "us": [
@@ -404,12 +488,14 @@
     },
     {
         "home_team": "FLU",
-        "away_team": "BAH",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "PAL",
+        "kickoff": "2025-07-23T22:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "sportv",
                 "premiere"
             ],
             "us": [
@@ -418,15 +504,14 @@
         }
     },
     {
-        "home_team": "BOT",
-        "away_team": "FOR",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "home_team": "VAS",
+        "away_team": "BAH",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
@@ -434,12 +519,15 @@
     },
     {
         "home_team": "COR",
-        "away_team": "JUV",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "CRU",
+        "kickoff": "2025-07-23T22:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "recordtv",
+                "youtube",
                 "premiere"
             ],
             "us": [
@@ -449,12 +537,14 @@
     },
     {
         "home_team": "SAN",
-        "away_team": "CRU",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "SCI",
+        "kickoff": "2025-07-24T00:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "globo",
                 "premiere"
             ],
             "us": [
@@ -463,13 +553,15 @@
         }
     },
     {
-        "home_team": "MIR",
+        "home_team": "RBB",
         "away_team": "FLA",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "kickoff": "2025-07-24T00:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "globo",
                 "premiere"
             ],
             "us": [
@@ -479,29 +571,27 @@
     },
     {
         "home_team": "CAM",
-        "away_team": "VAS",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "FOR",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
         }
     },
     {
-        "home_team": "INT",
-        "away_team": "RBB",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "home_team": "GRE",
+        "away_team": "BOT",
+        "kickoff": "",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
-            "br": [
-                "premiere"
-            ],
+            "br": [],
             "us": [
                 "paramount"
             ]
@@ -509,12 +599,14 @@
     },
     {
         "home_team": "VIT",
-        "away_team": "SAO",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "SPT",
+        "kickoff": "2025-07-24T00:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
+                "globo",
                 "premiere"
             ],
             "us": [
@@ -524,10 +616,177 @@
     },
     {
         "home_team": "CEA",
-        "away_team": "PAL",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "MIR",
+        "kickoff": "2025-07-23T22:00:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "16",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "SAO",
+        "kickoff": "2025-07-24T22:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "16",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "CAM",
+        "kickoff": "2025-07-27T23:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "COR",
+        "kickoff": "2025-07-26T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "primevideo"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "GRE",
+        "kickoff": "2025-07-27T00:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "FLU",
+        "kickoff": "2025-07-27T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "VIT",
+        "kickoff": "2025-07-26T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "CEA",
+        "kickoff": "2025-07-27T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "VAS",
+        "kickoff": "2025-06-27T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "recordtv",
+                "youtube",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "JVT",
+        "kickoff": "2025-07-27T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "RBB",
+        "kickoff": "2025-07-26T18:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "17",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"
@@ -539,10 +798,177 @@
     },
     {
         "home_team": "SPT",
-        "away_team": "GRE",
-        "kickoff": "2025-12-06T00:00:00Z",
+        "away_team": "SAN",
+        "kickoff": "2025-07-26T18:30:00.000Z",
         "league": "BRA_A",
-        "league_week_number": 38,
+        "league_week_number": "17",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "GRE",
+        "kickoff": "2025-08-02T21:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "CRU",
+        "kickoff": "2025-08-03T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "FOR",
+        "kickoff": "2025-08-03T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "globo",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "JVT",
+        "kickoff": "2025-08-04T23:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "VAS",
+        "kickoff": "2025-08-02T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "RBB",
+        "kickoff": "2025-08-03T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "SAO",
+        "kickoff": "2025-08-03T23:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "primevideo"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "PAL",
+        "kickoff": "2025-08-03T23:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "FLA",
+        "kickoff": "2025-08-03T21:30:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [
+                "recordtv",
+                "youtube",
+                "premiere"
+            ],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SPT",
+        "away_team": "BAH",
+        "kickoff": "2025-08-02T19:00:00.000Z",
+        "league": "BRA_A",
+        "league_week_number": "18",
+        "slug": "noslug",
         "broadcasts": {
             "br": [
                 "premiere"

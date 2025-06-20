@@ -1,0 +1,15 @@
+[
+    {
+        "home_team": "NT_CAN",
+        "away_team": "NT_UKR",
+        "kickoff": "2025-06-07T19:30:00Z",
+        "league": "INT_FRIENDLY",
+        "league_week_number": 1,
+        "broadcasts": {
+            "br": [
+                "sportv"
+            ]
+        }
+    }
+    
+]

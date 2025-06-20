@@ -58,7 +58,7 @@
     "name": "Youtube (Grátis)",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/youtube.png",
     "country": "BR",
-    "type": "embedded",
+    "type": "external",
     "method": "Free Streaming",
     "link": "https://www.youtube.com/@CazeTV/videos"
   },
