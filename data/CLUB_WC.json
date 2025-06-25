@@ -576,8 +576,8 @@
         }
     },
     {
-        "home_team": "G1A",
-        "away_team": "G2B",
+        "home_team": "PAL",
+        "away_team": "BOT",
         "kickoff": "2025-06-28T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
@@ -588,8 +588,8 @@
         }
     },
     {
-        "home_team": "G1C",
-        "away_team": "G2D",
+        "home_team": "BEN",
+        "away_team": "CHE",
         "kickoff": "2025-06-28T20:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
@@ -600,8 +600,8 @@
         }
     },
     {
-        "home_team": "G1B",
-        "away_team": "G2A",
+        "home_team": "MIA",
+        "away_team": "PSG",
         "kickoff": "2025-06-29T16:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
@@ -612,8 +612,8 @@
         }
     },
     {
-        "home_team": "G1D",
-        "away_team": "G2C",
+        "home_team": "FLA",
+        "away_team": "BAY",
         "kickoff": "2025-06-29T20:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",

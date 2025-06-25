@@ -55,7 +55,7 @@
   },
   "youtube": {
     "id": "youtube",
-    "name": "Youtube (Grátis)",
+    "name": "Youtube",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/youtube.png",
     "country": "BR",
     "type": "external",
