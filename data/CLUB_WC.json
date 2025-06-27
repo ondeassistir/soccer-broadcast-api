@@ -583,7 +583,7 @@
         "league_week_number": "Round of 16",
         "slug": "G1A-G2B-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube" , "sportv", "dazn"],
+            "br": ["youtube" , "sportv", "dazn", "globo"],
             "us": ["dazn"]
         }
     },
@@ -619,26 +619,50 @@
         "league_week_number": "Round of 16",
         "slug": "G1D-G2C-CLUB_WC-Round_of_16",
         "broadcasts": {
-            "br": ["youtube" , "sportv", "dazn"],
+            "br": ["youtube" , "sportv", "dazn", "globo"],
             "us": ["dazn"]
         }
     },
     {
-        "home_team": "G1E",
-        "away_team": "G2F",
+        "home_team": "INT",
+        "away_team": "FLU",
         "kickoff": "2025-06-30T19:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1E-G2F-CLUB_WC-Round_of_16",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
+    },
+    {
+        "home_team": "MCI",
+        "away_team": "HIL",
+        "kickoff": "2025-07-01T01:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Round of 16",
+        "slug": "G1G-G2H-CLUB_WC-Round_of_16",
         "broadcasts": {
             "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
     },
     {
-        "home_team": "G1G",
-        "away_team": "G2H",
-        "kickoff": "2025-06-31T01:00:00Z",
+        "home_team": "RMA",
+        "away_team": "JUV",
+        "kickoff": "2025-07-01T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Round of 16",
+        "slug": "G1G-G2H-CLUB_WC-Round_of_16",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn"],
+            "us": ["dazn"]
+        }
+    },
+       {
+        "home_team": "BVB",
+        "away_team": "MTY",
+        "kickoff": "2025-07-02T01:00:00Z",
         "league": "CLUB_WC",
         "league_week_number": "Round of 16",
         "slug": "G1G-G2H-CLUB_WC-Round_of_16",
