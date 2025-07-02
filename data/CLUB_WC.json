@@ -670,5 +670,53 @@
             "br": ["youtube" , "sportv", "dazn"],
             "us": ["dazn"]
         }
+    },
+       {
+        "home_team": "FLU",
+        "away_team": "HIL",
+        "kickoff": "2025-07-04T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Quarter-final",
+        "slug": "1390817",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
+    },
+       {
+        "home_team": "PAL",
+        "away_team": "CHE",
+        "kickoff": "2025-07-05T01:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Quarter-final",
+        "slug": "1390026",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
+    },
+       {
+        "home_team": "PSG",
+        "away_team": "BAY",
+        "kickoff": "2025-07-05T16:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Quarter-final",
+        "slug": "1390797",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
+    },
+       {
+        "home_team": "RMA",
+        "away_team": "DOR",
+        "kickoff": "2025-07-05T20:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Quarter-final",
+        "slug": "1390818",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
     }
 ]
