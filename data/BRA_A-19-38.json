@@ -1,0 +1,2786 @@
+{
+        "home_team": "FLA",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "19",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "20",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "21",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "22",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "23",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "24",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "25",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "26",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "27",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "28",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "29",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "30",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "31",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "32",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "33",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "34",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "GRE",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "35",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "36",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLA",
+        "away_team": "CEA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VAS",
+        "away_team": "MIR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "PAL",
+        "away_team": "VIT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAO",
+        "away_team": "SCI",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "RBB",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CRU",
+        "away_team": "BOT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "GRE",
+        "away_team": "FLU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BAH",
+        "away_team": "CAM",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FOR",
+        "away_team": "COR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "JVT",
+        "away_team": "SAN",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "37",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "FLU",
+        "away_team": "BAH",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "BOT",
+        "away_team": "FOR",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "COR",
+        "away_team": "JVT",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SAN",
+        "away_team": "CRU",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "MIR",
+        "away_team": "FLA",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CAM",
+        "away_team": "VAS",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "SCI",
+        "away_team": "RBB",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "VIT",
+        "away_team": "SAO",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    },
+    {
+        "home_team": "CEA",
+        "away_team": "PAL",
+        "kickoff": "",
+        "league": "BRA_A",
+        "league_week_number": "38",
+        "slug": "noslug",
+        "broadcasts": {
+            "br": [],
+            "us": [
+                "paramount"
+            ]
+        }
+    }
