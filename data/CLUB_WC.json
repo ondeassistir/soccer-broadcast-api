@@ -718,5 +718,29 @@
             "br": ["youtube" , "sportv", "dazn", "globo"],
             "us": ["dazn"]
         }
+    },
+       {
+        "home_team": "FLU",
+        "away_team": "CHE",
+        "kickoff": "2025-07-08T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Semi-final",
+        "slug": "1390818",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
+    },
+       {
+        "home_team": "PSG",
+        "away_team": "RMA",
+        "kickoff": "2025-07-09T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Semi-final",
+        "slug": "1390818",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
     }
 ]

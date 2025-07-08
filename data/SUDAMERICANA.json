@@ -1,0 +1,258 @@
+[
+  {
+    "home_team": "CTC",
+    "away_team": "CLG",
+    "kickoff": "2025-07-15T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377231",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "SBB",
+    "away_team": "ONC",
+    "kickoff": "2025-07-15T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377219",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BAH",
+    "away_team": "AMC",
+    "kickoff": "2025-07-16T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377225",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "IDV",
+    "away_team": "VAS",
+    "kickoff": "2025-07-16T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377227",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BOL",
+    "away_team": "PLN",
+    "kickoff": "2025-07-16T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377223",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ALI",
+    "away_team": "GRE",
+    "kickoff": "2025-07-17T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377217",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "UCH",
+    "away_team": "CGU",
+    "kickoff": "2025-07-17T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377229",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BCG",
+    "away_team": "CAM",
+    "kickoff": "2025-07-18T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377221",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "CLG",
+    "away_team": "CTC",
+    "kickoff": "2025-07-22T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377232",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "VAS",
+    "away_team": "IDV",
+    "kickoff": "2025-07-23T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377228",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AMC",
+    "away_team": "BAH",
+    "kickoff": "2025-07-23T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377226",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BOL",
+    "away_team": "PLN",
+    "kickoff": "2025-07-23T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377224",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "GRE",
+    "away_team": "ALI",
+    "kickoff": "2025-07-24T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377218",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ONC",
+    "away_team": "SBB",
+    "kickoff": "2025-07-24T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377220",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "CGU",
+    "away_team": "UCH",
+    "kickoff": "2025-07-24T22:00:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377230",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "CAM",
+    "away_team": "BCG",
+    "kickoff": "2025-07-25T00:30:00.000Z",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "slug": "1377222",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  }
+]

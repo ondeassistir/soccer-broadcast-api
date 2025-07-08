@@ -61,6 +61,15 @@
     "type": "external",
     "method": "Free Streaming",
     "link": "https://www.youtube.com/@CazeTV/videos"
+    },
+    "cazetv": {
+    "id": "cazetv",
+    "name": "Cazé TV",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/youtube.png",
+    "country": "BR",
+    "type": "external",
+    "method": "Free Streaming",
+    "link": "https://www.youtube.com/@CazeTV/videos"
   },
   "primevideo": {
     "id": "primevideo",
@@ -224,7 +233,25 @@
     "method": "Paid Subscription",
     "link": "https://www.trutv.com"
     },
-  "apl": {
+    "bein": {
+    "id": "bein",
+    "name": "beIN",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/bein.png",
+    "country": "US",
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://watch.beinsports-apps.com/browse"
+    },
+    "espn_plus": {
+    "id": "espn_plus",
+    "name": "ESPN +",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/espn_plus.png",
+    "country": "US",
+    "type": "external",
+    "method": "Paid Subscription",
+    "link": "https://plus.espn.com"
+    },
+    "apl": {
     "id": "apl",
     "name": "Apple TV+",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/appletv.png",

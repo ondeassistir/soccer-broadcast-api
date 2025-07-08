@@ -1,0 +1,6082 @@
+[
+  {
+    "home_team": "ATH",
+    "away_team": "SEV",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390820",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "RSO",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390827",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "OVI",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390828",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "GET",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390821",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "ATM",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390823",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "OSA",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390826",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "LEVN",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390819",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "RAY",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390824",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "BET",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390822",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "BAR",
+    "kickoff": "2025-08-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "1",
+    "slug": "1390825",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "ELC",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390830",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "RAY",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390829",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "GIR",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390838",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "GET",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390837",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "BAR",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390832",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "ALA",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390831",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "ESP",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390835",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "RMA",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390836",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "VAL",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390834",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "CEL",
+    "kickoff": "2025-08-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "2",
+    "slug": "1390833",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "GET",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390848",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "VIL",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390841",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "OSA",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390843",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "MLL",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390846",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "ATM",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390839",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "ATH",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390840",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "SEV",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390844",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "RSO",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390847",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "BAR",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390845",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "LEVN",
+    "kickoff": "2025-08-31T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "3",
+    "slug": "1390842",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "VAL",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390851",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "VIL",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390850",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "ALA",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390849",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "ELC",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390858",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "GIR",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390852",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "BET",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390855",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "MLL",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390853",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "OVI",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390854",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "RMA",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390857",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "RAY",
+    "kickoff": "2025-09-14T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "4",
+    "slug": "1390856",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "GET",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390860",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "ATH",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390867",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "OSA",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390868",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "ESP",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390866",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "SEV",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390859",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "RSO",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390861",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "LEVN",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390863",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "CEL",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390865",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "OVI",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390862",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "ATM",
+    "kickoff": "2025-09-21T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "5",
+    "slug": "1390864",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "RAY",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390870",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "GIR",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390869",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "VIL",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390878",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "BET",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390871",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "RMA",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390874",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "VAL",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390872",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "ALA",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390873",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "MLL",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390876",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "BAR",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390877",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "ELC",
+    "kickoff": "2025-09-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "6",
+    "slug": "1390875",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "RSO",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390880",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "RMA",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390879",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "OVI",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390887",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "ATH",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390888",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "OSA",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390881",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "LEVN",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390883",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "ESP",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390884",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "SEV",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390886",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "CEL",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390882",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "ALA",
+    "kickoff": "2025-09-28T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "7",
+    "slug": "1390885",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "MLL",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390890",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "BAR",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390898",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "ATM",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390891",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "BET",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390892",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "VIL",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390895",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "ELC",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390889",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "VAL",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390893",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "RAY",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390896",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "LEVN",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390897",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "GET",
+    "kickoff": "2025-10-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "8",
+    "slug": "1390894",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "GIR",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390901",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "OSA",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390900",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "BET",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390908",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "MLL",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390907",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "RSO",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390902",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "RAY",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390905",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "VAL",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390899",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "RMA",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390904",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "ESP",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390906",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "ATH",
+    "kickoff": "2025-10-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "9",
+    "slug": "1390903",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "GET",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390909",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "VIL",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390918",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "ELC",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390911",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "BAR",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390916",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "ATM",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390910",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "OVI",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390912",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "SEV",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390917",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "CEL",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390914",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "ALA",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390915",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "LEVN",
+    "kickoff": "2025-10-26T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "10",
+    "slug": "1390913",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "ELC",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390921",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "SEV",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390920",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "RAY",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390928",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "CEL",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390924",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "VAL",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390925",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "ESP",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390919",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "MLL",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390922",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "GIR",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390923",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "ATH",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390926",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "OSA",
+    "kickoff": "2025-11-02T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "11",
+    "slug": "1390927",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "LEVN",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390930",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "OVI",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390929",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "BET",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390938",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "OSA",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390937",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "BAR",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390931",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "VIL",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390933",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "ALA",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390934",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "RMA",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390936",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "RSO",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390932",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "GET",
+    "kickoff": "2025-11-09T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "12",
+    "slug": "1390935",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "ATH",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390940",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "LEVN",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390947",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "MLL",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390948",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "SEV",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390943",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "CEL",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390939",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "GIR",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390941",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "ATM",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390944",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "RAY",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390946",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "RSO",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390945",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "RMA",
+    "kickoff": "2025-11-23T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "13",
+    "slug": "1390942",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "ALA",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390950",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "OVI",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390949",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "BET",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390958",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "ESP",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390951",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "ATH",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390954",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "ELC",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390952",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "RMA",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390953",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "VIL",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390957",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "VAL",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390956",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "OSA",
+    "kickoff": "2025-11-30T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "14",
+    "slug": "1390955",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "ATM",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390960",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "SEV",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390967",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "GET",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390968",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "RAY",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390963",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "CEL",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390965",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "RSO",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390959",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "BAR",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390961",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "MLL",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390966",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "LEVN",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390964",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "GIR",
+    "kickoff": "2025-12-07T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "15",
+    "slug": "1390962",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "OSA",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390971",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "VAL",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390970",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "OVI",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390978",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "ATH",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390972",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "VIL",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390974",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "RMA",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390969",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "ESP",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390973",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "GIR",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390977",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "BET",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390976",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "ELC",
+    "kickoff": "2025-12-14T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "16",
+    "slug": "1390975",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "ESP",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390979",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "MLL",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390987",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "BAR",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390988",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "RSO",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390983",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "SEV",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390985",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "GET",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390980",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "ATM",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390982",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "CEL",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390986",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "ALA",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390984",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "RAY",
+    "kickoff": "2025-12-21T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "17",
+    "slug": "1390981",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "LEVN",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390998",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "VAL",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390990",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "BAR",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390992",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "BET",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390996",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "OVI",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390989",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "ATM",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390997",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "ATH",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390994",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "GET",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390995",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "VIL",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390991",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "GIR",
+    "kickoff": "2026-01-04T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "18",
+    "slug": "1390993",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "ATM",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391000",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "RMA",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1390999",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "ELC",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391007",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "ALA",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391008",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "CEL",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391006",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "ESP",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391003",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "RSO",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391001",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "OSA",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391002",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "BET",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391005",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "MLL",
+    "kickoff": "2026-01-11T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "19",
+    "slug": "1391004",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "ALA",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391009",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "RAY",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391011",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "GIR",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391013",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "LEVN",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391017",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "VIL",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391010",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "VAL",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391014",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "BAR",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391018",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "OVI",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391016",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "SEV",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391012",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "ATH",
+    "kickoff": "2026-01-18T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "20",
+    "slug": "1391015",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "OVI",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391021",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "MLL",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391020",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "ESP",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391027",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "RMA",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391028",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "ATH",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391026",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "ELC",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391023",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "BET",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391019",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "GET",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391022",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "CEL",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391025",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "OSA",
+    "kickoff": "2026-01-25T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "21",
+    "slug": "1391024",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "RSO",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391029",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "ATM",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391034",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "ALA",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391032",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "RAY",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391037",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "VAL",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391030",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "CEL",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391033",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "GIR",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391038",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "VIL",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391036",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "BAR",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391031",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "SEV",
+    "kickoff": "2026-02-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "22",
+    "slug": "1391035",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "MLL",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391042",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "BET",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391041",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "LEVN",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391040",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "RMA",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391047",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "ESP",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391048",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "GIR",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391046",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "OSA",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391043",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "GET",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391039",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "ELC",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391045",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "OVI",
+    "kickoff": "2026-02-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "23",
+    "slug": "1391044",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "ALA",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391058",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "VAL",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391053",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "CEL",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391050",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "RSO",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391056",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "VIL",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391051",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "BAR",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391052",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "ATH",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391057",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "ATM",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391055",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "OSA",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391049",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "BET",
+    "kickoff": "2026-02-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "24",
+    "slug": "1391054",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "LEVN",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391062",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "ESP",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391061",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "ELC",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391060",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "VAL",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391068",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "MLL",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391064",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "GIR",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391059",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "RAY",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391063",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "SEV",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391065",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "OVI",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391067",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "RMA",
+    "kickoff": "2026-02-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "25",
+    "slug": "1391066",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "VIL",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391069",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "OSA",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391078",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "ALA",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391073",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "GET",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391076",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "SEV",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391070",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "CEL",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391072",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "ATM",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391077",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "ATH",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391075",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "ESP",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391071",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "RSO",
+    "kickoff": "2026-03-01T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "26",
+    "slug": "1391074",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "RSO",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391080",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "BAR",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391079",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "ALA",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391087",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "ELC",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391088",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "RAY",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391086",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "RMA",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391081",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "GIR",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391084",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "OVI",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391082",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "BET",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391083",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "MLL",
+    "kickoff": "2026-03-08T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "27",
+    "slug": "1391085",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "SEV",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391091",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "GET",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391090",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "ELC",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391096",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "VIL",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391089",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "CEL",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391092",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "ATH",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391093",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "OSA",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391097",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "VAL",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391098",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "LEVN",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391095",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "ESP",
+    "kickoff": "2026-03-15T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "28",
+    "slug": "1391094",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "RAY",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391100",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "BET",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391099",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "RSO",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391108",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "VAL",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391107",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "ALA",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391101",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "OVI",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391104",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "GET",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391103",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "ATM",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391106",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "GIR",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391105",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "MLL",
+    "kickoff": "2026-03-22T17:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "29",
+    "slug": "1391102",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "BAR",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391110",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "CEL",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391118",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "OSA",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391109",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "ESP",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391111",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "ATH",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391112",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "VIL",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391113",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "LEVN",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391116",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "SEV",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391117",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "ELC",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391115",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "RMA",
+    "kickoff": "2026-04-05T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "30",
+    "slug": "1391114",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "ESP",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391120",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "VIL",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391119",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "ATM",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391128",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "OVI",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391121",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "GET",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391123",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "GIR",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391126",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "ALA",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391127",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "BET",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391125",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "VAL",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391122",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "RAY",
+    "kickoff": "2026-04-12T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "31",
+    "slug": "1391124",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "ATH",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391130",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "GIR",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391137",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "CEL",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391138",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "LEVN",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391132",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "MLL",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391129",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "RMA",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391131",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "BAR",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391133",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "ELC",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391136",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "SEV",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391134",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "RSO",
+    "kickoff": "2026-04-19T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "32",
+    "slug": "1391135",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "CEL",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391140",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "OSA",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391139",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "SEV",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391143",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "ALA",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391146",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "BET",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391142",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "GET",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391147",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "VIL",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391148",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "ESP",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391145",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "ATM",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391141",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "VAL",
+    "kickoff": "2026-04-22T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "33",
+    "slug": "1391144",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "ATM",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391157",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "LEVN",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391158",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "RSO",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391156",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "ELC",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391151",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "RMA",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391152",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "ATH",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391149",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "OVI",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391150",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "RAY",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391153",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "MLL",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391154",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "BAR",
+    "kickoff": "2026-05-03T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "34",
+    "slug": "1391155",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "RMA",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391161",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "CEL",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391160",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "VAL",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391159",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "ESP",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391168",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "OSA",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391163",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "BET",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391166",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "GET",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391167",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "GIR",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391165",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "ALA",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391162",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "VIL",
+    "kickoff": "2026-05-10T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "35",
+    "slug": "1391164",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "RAY",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391177",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "SEV",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391178",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "LEVN",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391171",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "ATH",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391172",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "OVI",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391176",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "BAR",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391169",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "ELC",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391170",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "MLL",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391173",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "RSO",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391174",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "ATM",
+    "kickoff": "2026-05-13T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "36",
+    "slug": "1391175",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BAR",
+    "away_team": "BET",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391181",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATM",
+    "away_team": "GIR",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391180",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ATH",
+    "away_team": "CEL",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391179",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "SEV",
+    "away_team": "RMA",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391188",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "LEVN",
+    "away_team": "MLL",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391183",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RSO",
+    "away_team": "VAL",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391186",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OVI",
+    "away_team": "ALA",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391187",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "OSA",
+    "away_team": "ESP",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391184",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RAY",
+    "away_team": "VIL",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391185",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ELC",
+    "away_team": "GET",
+    "kickoff": "2026-05-17T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "37",
+    "slug": "1391182",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VAL",
+    "away_team": "BAR",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391197",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "VIL",
+    "away_team": "ATM",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391198",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "CEL",
+    "away_team": "SEV",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391191",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ESP",
+    "away_team": "RSO",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391192",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "RMA",
+    "away_team": "ATH",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391196",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "ALA",
+    "away_team": "RAY",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391189",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "BET",
+    "away_team": "LEVN",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391190",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GET",
+    "away_team": "OSA",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391193",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "GIR",
+    "away_team": "ELC",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391194",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  },
+  {
+    "home_team": "MLL",
+    "away_team": "OVI",
+    "kickoff": "2026-05-24T16:00:00.000Z",
+    "league": "LALIGA",
+    "league_week_number": "38",
+    "slug": "1391195",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "dazn"
+      ]
+    }
+  }
+]

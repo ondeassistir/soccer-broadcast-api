@@ -1079,7 +1079,7 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "KOE": {
+  "KOL": {
     "id": "KOE",
     "name": "FC Köln",
     "short_name": "KOE",
@@ -2420,5 +2420,244 @@
     "country": "International",
     "leagues": ["QUALIFIERS_2026"]
 
+  },
+  "OVI": {
+    "id": "OVI",
+    "name": "Oviedo",
+    "short_name": "OVI",
+    "venue": "Carlos Tartiere",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/spain/badge/OVI.png",
+    "country": "Spain",
+    "leagues": ["LALIGA"]
+
+  },
+  "ELC": {
+    "id": "ELC",
+    "name": "Elche",
+    "short_name": "ELC",
+    "venue": "Estadio Martínez Valero",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/spain/badge/ELC.png",
+    "country": "Spain",
+    "leagues": ["LALIGA"]
+
+  },
+  "LOR": {
+    "id": "LOR",
+    "name": "Lorient",
+    "short_name": "ITA",
+    "venue": "Stade du Moustoir",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/france/badge/NT_ITA.png",
+    "country": "France",
+    "leagues": ["LIGUE_1"]
+
+  },
+  "PFC": {
+    "id": "PFC",
+    "name": "Paris FC",
+    "short_name": "PFC",
+    "venue": "Stade du Moustoir",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/france/badge/PFC.png",
+    "country": "France",
+    "leagues": ["LIGUE_1"]
+
+  },
+  "MET": {
+    "id": "MET",
+    "name": "Metz",
+    "short_name": "MET",
+    "venue": "Stade Saint-Symphorien",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/france/badge/MET.png",
+    "country": "France",
+    "leagues": ["LIGUE_1"]
+  },
+  "CRE": {
+    "id": "CRE",
+    "name": "Cremonese",
+    "short_name": "CRE",
+    "venue": "Stade Saint-Symphorien",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CRE.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+
+  },
+  "TAL": {
+    "id": "TAL",
+    "name": "Talleres Córdoba",
+    "short_name": "TAL",
+    "venue": "Estadio Mario Alberto Kempes",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/TAL.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "ELN": {
+    "id": "ELN",
+    "name": "El Nacional",
+    "short_name": "ELN",
+    "venue": "Estadio Olímpico Atahualpa",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/ELN.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "BARQ": {
+    "id": "BARQ",
+    "name": "Barcelona S.C",
+    "short_name": "BARQ",
+    "venue": "Estadio Monumental Banco Pichincha",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/BARQ.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "MEL": {
+    "id": "MEL",
+    "name": "FBC Melgar",
+    "short_name": "MEL",
+    "venue": "Estadio Virgen de Chapi",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/MEL.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "TOL": {
+    "id": "TOL",
+    "name": "Deportes Tolima",
+    "short_name": "TOL",
+    "venue": "Estadio Manuel Murillo Toro",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/TOL.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "IQU": {
+    "id": "IQU",
+    "name": "Deportes Iquique",
+    "short_name": "IQU",
+    "venue": "Estadio Tierra de Campeones",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/IQU.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "SCR": {
+    "id": "SCR",
+    "name": "Sporting Cristal",
+    "short_name": "SCR",
+    "venue": "Estadio Alberto Gallardo",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/SCR.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "CNF": {
+    "id": "CNF",
+    "name": "Club Nacional",
+    "short_name": "CNF",
+    "venue": "Gran Parque Central",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CNF.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "OLI": {
+    "id": "OLI",
+    "name": "Olimpia",
+    "short_name": "OLI",
+    "venue": "Estadio Osvaldo Domínguez Dibb",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/OLI.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "CLC": {
+    "id": "CLC",
+    "name": "Colo-Colo",
+    "short_name": "CLC",
+    "venue": "Estadio Monumental David Arellano",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CLC.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "DTF": {
+    "id": "DTF",
+    "name": "Deportivo Táchira F.C.",
+    "short_name": "DTF",
+    "venue": "Polideportivo de Pueblo Nuevo",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/DTF.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "CBB": {
+    "id": "CBB",
+    "name": "Carabobo F.C.",
+    "short_name": "CBB",
+    "venue": "Estadio Misael Delgado",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CBB.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "BSR": {
+    "id": "BSR",
+    "name": "Boston River",
+    "short_name": "BSR",
+    "venue": "Estadio Campeones Olímpicos",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/BSR.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "MNG": {
+    "id": "MNG",
+    "name": "Monagas S.C.",
+    "short_name": "MNG",
+    "venue": "Estadio Monumental de Maturín",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/MNG.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "DSP": {
+    "id": "DSP",
+    "name": "Defensor Sporting",
+    "short_name": "DSP",
+    "venue": "Estadio Luis Franzini",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/DSP.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "CNA": {
+    "id": "CNA",
+    "name": "Nacional Asunción",
+    "short_name": "CNA",
+    "venue": "Estadio Arsenio Erico",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CNA.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "ISF": {
+    "id": "ISF",
+    "name": "Santa Fe",
+    "short_name": "ISF",
+    "venue": "El Campín",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/ISF.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "TST": {
+    "id": "TST",
+    "name": "The Strongest",
+    "short_name": "TST",
+    "venue": "Estadio Hernando Siles",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/TST.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "NUB": {
+    "id": "NUB",
+    "name": "Ñublense",
+    "short_name": "NUB",
+    "venue": "Estadio Municipal Nelson Oyarzún Arenas",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/NUB.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
+  },
+  "CGU": {
+    "id": "CGU",
+    "name": "Club Guaraní",
+    "short_name": "CGU",
+    "venue": "Estadio Rogelio Livieres",
+    "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CGU.png",
+    "country": "International",
+    "leagues": ["LIBERTADORES", "SUDAMERICANA"]
   }
 }

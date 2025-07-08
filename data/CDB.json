@@ -11,7 +11,7 @@
                 "sportv",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -26,7 +26,7 @@
                 "sportv",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -40,7 +40,7 @@
             "br": [
                 "primevideo"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -54,7 +54,7 @@
             "br": [
                 "primevideo"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -71,7 +71,7 @@
                 "primevideo",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -88,7 +88,7 @@
                 "primevideo",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -105,7 +105,7 @@
                 "primevideo",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -122,7 +122,7 @@
                 "primevideo",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -136,7 +136,7 @@
             "br": [
                 "primevideo"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -150,7 +150,7 @@
             "br": [
                 "primevideo"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -164,7 +164,7 @@
             "br": [
                 "primevideo"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -178,7 +178,7 @@
             "br": [
                 "primevideo"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -193,7 +193,7 @@
                 "sportv",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -208,7 +208,7 @@
                 "sportv",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -223,7 +223,7 @@
                 "sportv",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     },
     {
@@ -238,7 +238,7 @@
                 "sportv",
                 "premiere"
             ],
-            "us": []
+            "us": ["primevideo"]
         }
     }
 ]

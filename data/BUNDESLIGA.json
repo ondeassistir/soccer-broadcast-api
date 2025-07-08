@@ -1,0 +1,9794 @@
+[
+  {
+    "home_team": "BAY",
+    "away_team": "LEI",
+    "kickoff": "2025-08-22T18:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388308",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "FCA",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388312",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "HSV",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388310",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "KOE",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388314",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "HOF",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388309",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "SVW",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388311",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "WOB",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388313",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "VFB",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388316",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "DOR",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388315",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "M05",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388325",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "LEV",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388324",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "FCU",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388318",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "SGE",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388321",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "BAY",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388317",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "BMG",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388323",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "HDH",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388322",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "STP",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388320",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "FRE",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388319",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "HSV",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388327",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "VFB",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388329",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "KOE",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388334",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "SVW",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388328",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "LEI",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388331",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "SGE",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388326",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "DOR",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388330",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "HOF",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388333",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "FCA",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388332",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "FRE",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388343",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "WOB",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388337",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "BAY",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388340",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "BMG",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388336",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "FCU",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388338",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "M05",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388335",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "STP",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388342",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "KOE",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388341",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "HDH",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388339",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "SVW",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388344",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "HOF",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388347",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "LEI",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388352",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "SGE",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388345",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "DOR",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388349",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "FCA",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388348",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "HSV",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388351",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "LEV",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388350",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "VFB",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388346",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "STP",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388361",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "FRE",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388355",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "LEI",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388356",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "KOE",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388359",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "FCU",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388354",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "BAY",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388357",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "WOB",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388353",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "HDH",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388360",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "M05",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388358",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "DOR",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388362",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "SGE",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388364",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "VFB",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388370",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "LEV",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388366",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "HSV",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388367",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "SVW",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388365",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "BMG",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388369",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "HOF",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388368",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "FCA",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388363",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "FCU",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388379",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "BAY",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388373",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "KOE",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388374",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "HDH",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388377",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "FRE",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388372",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "STP",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388375",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "LEI",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388371",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "M05",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388378",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "WOB",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388376",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "LEV",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388381",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "HOF",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388388",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "SVW",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388384",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "DOR",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388380",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "VFB",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388385",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "SGE",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388383",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "FRE",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388387",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "BMG",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388386",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "HSV",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388382",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "STP",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388392",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "WOB",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388397",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "KOE",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388390",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "LEI",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388394",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "HDH",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388389",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "M05",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388391",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "FCA",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388395",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "DOR",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388393",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "BAY",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388396",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "FRE",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388399",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "LEV",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388406",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "HOF",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388403",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "VFB",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388400",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "HSV",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388398",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "SVW",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388404",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "BMG",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388402",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "FCU",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388405",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "SGE",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388401",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "STP",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388408",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "M05",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388411",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "KOE",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388415",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "LEI",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388409",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "FCA",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388413",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "DOR",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388407",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "WOB",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388410",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "VFB",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388412",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "HDH",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388414",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "FCU",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388424",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "BMG",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388421",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "HOF",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388417",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "LEV",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388416",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "BAY",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388423",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "SGE",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388422",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "SVW",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388419",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "FRE",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388420",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "STP",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388418",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "M05",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388426",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "DOR",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388429",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "VFB",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388433",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "WOB",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388427",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "HSV",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388430",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "KOE",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388425",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "FCA",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388428",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "LEI",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388432",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "HDH",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388431",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "FRE",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388442",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "STP",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388439",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "BMG",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388435",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "SVW",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388434",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "HOF",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388441",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "LEV",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388440",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "SGE",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388437",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "BAY",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388438",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "FCU",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388436",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "WOB",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388444",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "HSV",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388447",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "HOF",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388451",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "FCA",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388445",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "VFB",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388443",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "DOR",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388446",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "KOE",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388448",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "M05",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388450",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "LEI",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388449",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "STP",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388460",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "HDH",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388457",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "SVW",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388453",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "BMG",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388456",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "FCU",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388452",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "SGE",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388459",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "FRE",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388458",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "LEV",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388455",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "BAY",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388454",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "HDH",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388469",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "SGE",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388468",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "STP",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388462",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "LEV",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388465",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "FRE",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388461",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "FCU",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388467",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "BAY",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388466",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "BMG",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388464",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "M05",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388463",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "FCA",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388471",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "KOE",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388474",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "VFB",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388472",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "WOB",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388476",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "SVW",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388470",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "HOF",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388473",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "LEI",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388475",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "DOR",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388478",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "HSV",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388477",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "BMG",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388487",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "HDH",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388480",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "FCU",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388484",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "LEV",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388481",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "STP",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388479",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "FRE",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388486",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "M05",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388485",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "BAY",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388483",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "WOB",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388482",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "HOF",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388488",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "SVW",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388491",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "DOR",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388496",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "LEV",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388489",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "FCA",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388493",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "HSV",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388492",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "SGE",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388495",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "VFB",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388494",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "LEI",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388490",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "BAY",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388505",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "M05",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388499",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "FRE",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388502",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "STP",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388498",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "BMG",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388500",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "HDH",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388497",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "KOE",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388504",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "WOB",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388503",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "FCU",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388501",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "SGE",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388506",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "BMG",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388508",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "FCA",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388514",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "HSV",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388510",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "DOR",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388511",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "VFB",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388509",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "LEV",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388513",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "SVW",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388512",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "HOF",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388507",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "HDH",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388523",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "FCU",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388517",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "BAY",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388518",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "STP",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388521",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "M05",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388516",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "FRE",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388519",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "KOE",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388515",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "WOB",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388522",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "LEI",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388520",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "BMG",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388524",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "LEV",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388526",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "HSV",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388532",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "VFB",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388528",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "FCA",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388529",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "HOF",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388527",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "SVW",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388531",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "SGE",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388530",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "DOR",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388525",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "FCU",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388537",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "M05",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388541",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "STP",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388534",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "FCA",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388535",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "WOB",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388539",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "BAY",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388533",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "HDH",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388536",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "LEI",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388540",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "KOE",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388538",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "FCU",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388543",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "SVW",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388550",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "SGE",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388547",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "HSV",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388544",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "VFB",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388542",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "HOF",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388548",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "LEV",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388546",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "FRE",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388549",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "BMG",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388545",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "BAY",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388554",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "LEI",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388559",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "HDH",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388552",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "M05",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388556",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "WOB",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388551",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "KOE",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388553",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "DOR",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388557",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "FCA",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388555",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "STP",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388558",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "SGE",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388568",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "FRE",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388564",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "LEV",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388561",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "HOF",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388560",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "HSV",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388567",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "BMG",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388565",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "FCU",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388563",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "BAY",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388566",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "SVW",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388562",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "VFB",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388570",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "HDH",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388573",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "HSV",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388577",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "M05",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388571",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "DOR",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388574",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "FCA",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388569",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "LEI",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388572",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "WOB",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388576",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "KOE",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388575",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "BMG",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388586",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "BAY",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388583",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "FRE",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388579",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "SGE",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388578",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "SVW",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388585",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "FCU",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388584",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "HOF",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388581",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "STP",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388582",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "LEV",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388580",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "HDH",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388588",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "WOB",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388591",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "FCA",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388595",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "DOR",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388589",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "VFB",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388592",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "LEI",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388587",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "HSV",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388590",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "KOE",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388594",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "M05",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388593",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "BAY",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388604",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "FCU",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388601",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "SGE",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388597",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "SVW",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388600",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "BMG",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388596",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "LEV",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388603",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "STP",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388602",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "FRE",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388599",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "HDH",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388598",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "KOE",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388606",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "LEI",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388609",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "DOR",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388613",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "HOF",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388607",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "HSV",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388605",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "VFB",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388608",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "M05",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388610",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "FCA",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388612",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "WOB",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388611",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "LEI",
+    "kickoff": "2025-08-22T18:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388308",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "FCA",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388312",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "HSV",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388310",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "KOE",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388314",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "HOF",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388309",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "SVW",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388311",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "WOB",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388313",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "VFB",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388316",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "DOR",
+    "kickoff": "2025-08-23T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "1",
+    "slug": "1388315",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "M05",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388325",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "LEV",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388324",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "FCU",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388318",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "SGE",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388321",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "BAY",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388317",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "BMG",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388323",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "HDH",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388322",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "STP",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388320",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "FRE",
+    "kickoff": "2025-08-30T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "2",
+    "slug": "1388319",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "HSV",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388327",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "VFB",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388329",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "KOE",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388334",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "SVW",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388328",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "LEI",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388331",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "SGE",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388326",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "DOR",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388330",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "HOF",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388333",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "FCA",
+    "kickoff": "2025-09-13T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "3",
+    "slug": "1388332",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "FRE",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388343",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "WOB",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388337",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "BAY",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388340",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "BMG",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388336",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "FCU",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388338",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "M05",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388335",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "STP",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388342",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "KOE",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388341",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "HDH",
+    "kickoff": "2025-09-20T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "4",
+    "slug": "1388339",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "SVW",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388344",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "HOF",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388347",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "LEI",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388352",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "SGE",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388345",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "DOR",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388349",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "FCA",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388348",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "HSV",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388351",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "LEV",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388350",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "VFB",
+    "kickoff": "2025-09-27T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "5",
+    "slug": "1388346",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "STP",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388361",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "FRE",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388355",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "LEI",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388356",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "KOE",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388359",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "FCU",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388354",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "BAY",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388357",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "WOB",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388353",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "HDH",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388360",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "M05",
+    "kickoff": "2025-10-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "6",
+    "slug": "1388358",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "DOR",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388362",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "SGE",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388364",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "VFB",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388370",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "LEV",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388366",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "HSV",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388367",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "SVW",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388365",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "BMG",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388369",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "HOF",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388368",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "FCA",
+    "kickoff": "2025-10-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "7",
+    "slug": "1388363",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "FCU",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388379",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "BAY",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388373",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "KOE",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388374",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "HDH",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388377",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "FRE",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388372",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "STP",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388375",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "LEI",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388371",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "M05",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388378",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "WOB",
+    "kickoff": "2025-10-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "8",
+    "slug": "1388376",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "LEV",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388381",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "HOF",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388388",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "SVW",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388384",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "DOR",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388380",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "VFB",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388385",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "SGE",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388383",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "FRE",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388387",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "BMG",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388386",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "HSV",
+    "kickoff": "2025-11-01T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "9",
+    "slug": "1388382",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "STP",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388392",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "WOB",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388397",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "KOE",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388390",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "LEI",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388394",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "HDH",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388389",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "M05",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388391",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "FCA",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388395",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "DOR",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388393",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "BAY",
+    "kickoff": "2025-11-08T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "10",
+    "slug": "1388396",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "FRE",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388399",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "LEV",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388406",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "HOF",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388403",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "VFB",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388400",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "HSV",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388398",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "SVW",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388404",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "BMG",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388402",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "FCU",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388405",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "SGE",
+    "kickoff": "2025-11-22T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "11",
+    "slug": "1388401",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "STP",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388408",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "M05",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388411",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "KOE",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388415",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "LEI",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388409",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "FCA",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388413",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "DOR",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388407",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "WOB",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388410",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "VFB",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388412",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "HDH",
+    "kickoff": "2025-11-29T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "12",
+    "slug": "1388414",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "FCU",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388424",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "BMG",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388421",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "HOF",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388417",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "LEV",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388416",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "BAY",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388423",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "SGE",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388422",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "SVW",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388419",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "FRE",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388420",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "STP",
+    "kickoff": "2025-12-06T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "13",
+    "slug": "1388418",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "M05",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388426",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "DOR",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388429",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "VFB",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388433",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "WOB",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388427",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "HSV",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388430",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "KOE",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388425",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "FCA",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388428",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "LEI",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388432",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "HDH",
+    "kickoff": "2025-12-13T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "14",
+    "slug": "1388431",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "FRE",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388442",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "STP",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388439",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "BMG",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388435",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "SVW",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388434",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "HOF",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388441",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "LEV",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388440",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "SGE",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388437",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "BAY",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388438",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "FCU",
+    "kickoff": "2025-12-20T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "15",
+    "slug": "1388436",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "WOB",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388444",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "HSV",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388447",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "HOF",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388451",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "FCA",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388445",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "VFB",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388443",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "DOR",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388446",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "KOE",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388448",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "M05",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388450",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "LEI",
+    "kickoff": "2026-01-10T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "16",
+    "slug": "1388449",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "STP",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388460",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "HDH",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388457",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "SVW",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388453",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "BMG",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388456",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "FCU",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388452",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "SGE",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388459",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "FRE",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388458",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "LEV",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388455",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "BAY",
+    "kickoff": "2026-01-14T19:00:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "17",
+    "slug": "1388454",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "HDH",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388469",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "SGE",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388468",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "STP",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388462",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "LEV",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388465",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "FRE",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388461",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "FCU",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388467",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "BAY",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388466",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "BMG",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388464",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "M05",
+    "kickoff": "2026-01-17T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "18",
+    "slug": "1388463",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "FCA",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388471",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "KOE",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388474",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "VFB",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388472",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "WOB",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388476",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "SVW",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388470",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "HOF",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388473",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "LEI",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388475",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "DOR",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388478",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "HSV",
+    "kickoff": "2026-01-24T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "19",
+    "slug": "1388477",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "BMG",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388487",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "HDH",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388480",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "FCU",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388484",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "LEV",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388481",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "STP",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388479",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "FRE",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388486",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "M05",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388485",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "BAY",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388483",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "WOB",
+    "kickoff": "2026-01-31T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "20",
+    "slug": "1388482",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "HOF",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388488",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "SVW",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388491",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "DOR",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388496",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "LEV",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388489",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "FCA",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388493",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "HSV",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388492",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "SGE",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388495",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "VFB",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388494",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "LEI",
+    "kickoff": "2026-02-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "21",
+    "slug": "1388490",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "BAY",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388505",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "M05",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388499",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "FRE",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388502",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "STP",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388498",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "BMG",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388500",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "HDH",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388497",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "KOE",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388504",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "WOB",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388503",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "FCU",
+    "kickoff": "2026-02-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "22",
+    "slug": "1388501",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "SGE",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388506",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "BMG",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388508",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "FCA",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388514",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "HSV",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388510",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "DOR",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388511",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "VFB",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388509",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "LEV",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388513",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "SVW",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388512",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "HOF",
+    "kickoff": "2026-02-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "23",
+    "slug": "1388507",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "HDH",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388523",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "FCU",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388517",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "BAY",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388518",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "STP",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388521",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "M05",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388516",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "FRE",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388519",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "KOE",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388515",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "WOB",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388522",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "LEI",
+    "kickoff": "2026-02-28T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "24",
+    "slug": "1388520",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "BMG",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388524",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "LEV",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388526",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "HSV",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388532",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "VFB",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388528",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "FCA",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388529",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "HOF",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388527",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "SVW",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388531",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "SGE",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388530",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "DOR",
+    "kickoff": "2026-03-07T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "25",
+    "slug": "1388525",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "FCU",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388537",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "M05",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388541",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "STP",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388534",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "FCA",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388535",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "WOB",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388539",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "BAY",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388533",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "HDH",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388536",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "LEI",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388540",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "KOE",
+    "kickoff": "2026-03-14T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "26",
+    "slug": "1388538",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "FCU",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388543",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "SVW",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388550",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "SGE",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388547",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "HSV",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388544",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "VFB",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388542",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "HOF",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388548",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "LEV",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388546",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "FRE",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388549",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "BMG",
+    "kickoff": "2026-03-21T14:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "27",
+    "slug": "1388545",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "BAY",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388554",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "LEI",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388559",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "HDH",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388552",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "M05",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388556",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "WOB",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388551",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "KOE",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388553",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "DOR",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388557",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "FCA",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388555",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "STP",
+    "kickoff": "2026-04-04T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "28",
+    "slug": "1388558",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "SGE",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388568",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "FRE",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388564",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "LEV",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388561",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "HOF",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388560",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "HSV",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388567",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "BMG",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388565",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "FCU",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388563",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "BAY",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388566",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "SVW",
+    "kickoff": "2026-04-11T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "29",
+    "slug": "1388562",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "VFB",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388570",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "HDH",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388573",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "HSV",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388577",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "M05",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388571",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "DOR",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388574",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "FCA",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388569",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "LEI",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388572",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "WOB",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388576",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "KOE",
+    "kickoff": "2026-04-18T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "30",
+    "slug": "1388575",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "BMG",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388586",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "BAY",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388583",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "FRE",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388579",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "SGE",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388578",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "SVW",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388585",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "FCU",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388584",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "HOF",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388581",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "STP",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388582",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "LEV",
+    "kickoff": "2026-04-25T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "31",
+    "slug": "1388580",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "HDH",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388588",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "WOB",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388591",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "FCA",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388595",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "DOR",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388589",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "VFB",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388592",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "LEI",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388587",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "HSV",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388590",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "KOE",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388594",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "M05",
+    "kickoff": "2026-05-02T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "32",
+    "slug": "1388593",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "WOB",
+    "away_team": "BAY",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388604",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "M05",
+    "away_team": "FCU",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388601",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "DOR",
+    "away_team": "SGE",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388597",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HOF",
+    "away_team": "SVW",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388600",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCA",
+    "away_team": "BMG",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388596",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "VFB",
+    "away_team": "LEV",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388603",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEI",
+    "away_team": "STP",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388602",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HSV",
+    "away_team": "FRE",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388599",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "KOE",
+    "away_team": "HDH",
+    "kickoff": "2026-05-09T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "33",
+    "slug": "1388598",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BAY",
+    "away_team": "KOE",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388606",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FRE",
+    "away_team": "LEI",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388609",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SVW",
+    "away_team": "DOR",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388613",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "BMG",
+    "away_team": "HOF",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388607",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "LEV",
+    "away_team": "HSV",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388605",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "SGE",
+    "away_team": "VFB",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388608",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "HDH",
+    "away_team": "M05",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388610",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "FCU",
+    "away_team": "FCA",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388612",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  },
+  {
+    "home_team": "STP",
+    "away_team": "WOB",
+    "kickoff": "2026-05-16T13:30:00.000Z",
+    "league": "BUNDESLIGA",
+    "league_week_number": "34",
+    "slug": "1388611",
+    "broadcasts": {
+      "br": [
+        "onefootball"
+      ],
+      "us": [
+        "espn_plus"
+      ]
+    }
+  }
+]

@@ -1,0 +1,6082 @@
+[
+  {
+    "home_team": "SAS",
+    "away_team": "NAP",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377872",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "CRE",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377870",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "FIO",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377865",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "VER",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377873",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "LEC",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377867",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "PAR",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377869",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "BLG",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377871",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "PIS",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377864",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "TOR",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377868",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "LAZ",
+    "kickoff": "2025-08-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "1",
+    "slug": "1377866",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "VER",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377878",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "CAG",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377880",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "JUV",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377876",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "COM",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377874",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "FIO",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377883",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "UDI",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377877",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "SAS",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377875",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "ATA",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377881",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "ROM",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377882",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "ACM",
+    "kickoff": "2025-08-31T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "2",
+    "slug": "1377879",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "LAZ",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377892",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "BLG",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377889",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "PAR",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377885",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "INT",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377888",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "TOR",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377891",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "LEC",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377884",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "NAP",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377887",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "CRE",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377893",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "UDI",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377890",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "GEN",
+    "kickoff": "2025-09-14T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "3",
+    "slug": "1377886",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "ROM",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377898",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "PIS",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377900",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "ACM",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377902",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "GEN",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377894",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "COM",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377896",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "ATA",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377901",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "JUV",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377903",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "SAS",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377897",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "PAR",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377895",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "CAG",
+    "kickoff": "2025-09-21T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "4",
+    "slug": "1377899",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "UDI",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377913",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "NAP",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377909",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "INT",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377904",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "LAZ",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377906",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "ATA",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377907",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "VER",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377912",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "TOR",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377910",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "FIO",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377911",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "BLG",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377908",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "CRE",
+    "kickoff": "2025-09-28T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "5",
+    "slug": "1377905",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "TOR",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377919",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "GEN",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377920",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "CAG",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377922",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "ACM",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377918",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "COM",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377914",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "PIS",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377915",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "ROM",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377916",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "SAS",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377923",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "CRE",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377917",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "LEC",
+    "kickoff": "2025-10-05T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "6",
+    "slug": "1377921",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "FIO",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377930",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "BLG",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377925",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "PAR",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377928",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "INT",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377932",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "LAZ",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377924",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "NAP",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377933",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "UDI",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377927",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "VER",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377931",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "SAS",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377929",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "JUV",
+    "kickoff": "2025-10-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "7",
+    "slug": "1377926",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "JUV",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377936",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "ROM",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377940",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "PIS",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377937",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "INT",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377938",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "LEC",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377942",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "BLG",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377935",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "GEN",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377941",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "CAG",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377943",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "ATA",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377934",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "COM",
+    "kickoff": "2025-10-26T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "8",
+    "slug": "1377939",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "SAS",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377946",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "CRE",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377948",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "UDI",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377950",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "PAR",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377953",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "ACM",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377944",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "TOR",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377945",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "FIO",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377949",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "LAZ",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377952",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "NAP",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377951",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "VER",
+    "kickoff": "2025-10-29T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "9",
+    "slug": "1377947",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "CAG",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377956",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "GEN",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377960",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "ROM",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377957",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "COM",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377958",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "ATA",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377962",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "LEC",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377955",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "PIS",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377961",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "INT",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377963",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "JUV",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377954",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "BLG",
+    "kickoff": "2025-11-02T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "10",
+    "slug": "1377959",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "FIO",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377967",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "TOR",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377969",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "UDI",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377973",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "SAS",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377964",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "NAP",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377965",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "LAZ",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377968",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "ACM",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377971",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "CRE",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377972",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "VER",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377970",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "CAG",
+    "kickoff": "2025-11-09T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "11",
+    "slug": "1377966",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "LEC",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377978",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "PIS",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377980",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "GEN",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377974",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "ATA",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377979",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "BLG",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377982",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "JUV",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377976",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "COM",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377981",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "PAR",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377983",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "ACM",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377977",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "ROM",
+    "kickoff": "2025-11-23T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "12",
+    "slug": "1377975",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "LAZ",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377990",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "VER",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377987",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "CAG",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377988",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "NAP",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377993",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "FIO",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377984",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "CRE",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377985",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "UDI",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377991",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "INT",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377992",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "TOR",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377989",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "SAS",
+    "kickoff": "2025-11-30T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "13",
+    "slug": "1377986",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "BLG",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1377997",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "FIO",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1378000",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "ROM",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1377994",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "JUV",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1377998",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "GEN",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1378002",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "ACM",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1378001",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "ATA",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1378003",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "COM",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1377996",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "LEC",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1377995",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "PAR",
+    "kickoff": "2025-12-07T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "14",
+    "slug": "1377999",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "SAS",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378009",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "NAP",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378013",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "INT",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378007",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "COM",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378011",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "CAG",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378004",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "JUV",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378005",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "VER",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378006",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "CRE",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378012",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "LAZ",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378010",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "PIS",
+    "kickoff": "2025-12-14T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "15",
+    "slug": "1378008",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "CRE",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378020",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "TOR",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378022",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "PIS",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378014",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "PAR",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378021",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "ATA",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378017",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "ROM",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378019",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "UDI",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378016",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "BLG",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378023",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "LEC",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378018",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "ACM",
+    "kickoff": "2025-12-21T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "16",
+    "slug": "1378015",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "VER",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378028",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "LAZ",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378033",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "GEN",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378031",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "INT",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378024",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "SAS",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378025",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "CAG",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378032",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "NAP",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378026",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "FIO",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378029",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "JUV",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378030",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "COM",
+    "kickoff": "2025-12-28T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "17",
+    "slug": "1378027",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "NAP",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378041",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "PAR",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378042",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "ACM",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378035",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "PIS",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378038",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "LEC",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378040",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "ROM",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378034",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "CRE",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378037",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "TOR",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378043",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "BLG",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378039",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "UDI",
+    "kickoff": "2026-01-03T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "18",
+    "slug": "1378036",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "FIO",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378046",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "JUV",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378052",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "GEN",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378048",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "VER",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378049",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "ATA",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378044",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "UDI",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378053",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "CAG",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378045",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "INT",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378050",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "COM",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378051",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "ROM",
+    "kickoff": "2026-01-06T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "19",
+    "slug": "1378047",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "PIS",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378062",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "CAG",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378057",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "CRE",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378059",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "SAS",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378061",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "TOR",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378054",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "ACM",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378056",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "LAZ",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378063",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "NAP",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378058",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "PAR",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378060",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "BLG",
+    "kickoff": "2026-01-11T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "20",
+    "slug": "1378055",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "COM",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378067",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "LEC",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378068",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "JUV",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378065",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "SAS",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378069",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "INT",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378073",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "FIO",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378064",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "ROM",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378072",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "VER",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378066",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "GEN",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378070",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "ATA",
+    "kickoff": "2026-01-18T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "21",
+    "slug": "1378071",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "CRE",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378082",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "BLG",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378077",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "NAP",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378079",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "ACM",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378081",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "PAR",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378074",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "CAG",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378076",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "UDI",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378083",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "PIS",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378078",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "LAZ",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378080",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "TOR",
+    "kickoff": "2026-01-25T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "22",
+    "slug": "1378075",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "GEN",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378088",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "VER",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378085",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "FIO",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378089",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "ROM",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378093",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "ACM",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378084",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "LEC",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378092",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "INT",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378087",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "JUV",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378090",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "SAS",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378091",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "ATA",
+    "kickoff": "2026-02-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "23",
+    "slug": "1378086",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "INT",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378102",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "COM",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378100",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "NAP",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378097",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "LAZ",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378098",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "CAG",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378101",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "CRE",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378094",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "PAR",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378095",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "TOR",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378096",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "PIS",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378103",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "UDI",
+    "kickoff": "2026-02-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "24",
+    "slug": "1378099",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "ATA",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378108",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "LEC",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378104",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "ROM",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378109",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "SAS",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378113",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "BLG",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378112",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "JUV",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378107",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "GEN",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378106",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "VER",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378110",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "ACM",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378111",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "FIO",
+    "kickoff": "2026-02-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "25",
+    "slug": "1378105",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "VER",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378123",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "PAR",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378121",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "LAZ",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378116",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "TOR",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378118",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "COM",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378119",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "CRE",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378122",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "NAP",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378114",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "UDI",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378115",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "PIS",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378117",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "INT",
+    "kickoff": "2026-02-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "26",
+    "slug": "1378120",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "ATA",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378130",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "FIO",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378132",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "JUV",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378129",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "LAZ",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378131",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "NAP",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378133",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "GEN",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378126",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "ACM",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378125",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "CAG",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378127",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "BLG",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378128",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "LEC",
+    "kickoff": "2026-03-01T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "27",
+    "slug": "1378124",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "SAS",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378140",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "INT",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378142",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "COM",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378136",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "TOR",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378143",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "ROM",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378138",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "PIS",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378139",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "UDI",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378134",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "VER",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378135",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "PAR",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378137",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "CRE",
+    "kickoff": "2026-03-08T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "28",
+    "slug": "1378141",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "ACM",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378147",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "BLG",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378150",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "LEC",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378148",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "JUV",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378152",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "PAR",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378151",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "GEN",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378153",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "ATA",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378146",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "FIO",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378145",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "CAG",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378149",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "ROM",
+    "kickoff": "2026-03-15T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "29",
+    "slug": "1378144",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "TOR",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378161",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "NAP",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378156",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "UDI",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378159",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "SAS",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378160",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "LEC",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378163",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "VER",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378154",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "LAZ",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378155",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "INT",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378158",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "CRE",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378162",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "PIS",
+    "kickoff": "2026-03-22T14:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "30",
+    "slug": "1378157",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "PAR",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378167",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "CAG",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378171",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "ACM",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378169",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "COM",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378172",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "GEN",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378166",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "FIO",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378173",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "ROM",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378165",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "BLG",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378164",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "TOR",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378170",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "ATA",
+    "kickoff": "2026-04-04T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "31",
+    "slug": "1378168",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "UDI",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378180",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "CRE",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378176",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "SAS",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378179",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "PIS",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378182",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "JUV",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378174",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "LEC",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378175",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "LAZ",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378178",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "VER",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378183",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "NAP",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378181",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "INT",
+    "kickoff": "2026-04-12T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "32",
+    "slug": "1378177",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "COM",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378191",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "LAZ",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378188",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "PAR",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378192",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "BLG",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378186",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "ATA",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378190",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "ACM",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378193",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "CAG",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378185",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "TOR",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378184",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "GEN",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378189",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "FIO",
+    "kickoff": "2026-04-19T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "33",
+    "slug": "1378187",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "UDI",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378198",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "JUV",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378199",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "ATA",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378195",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "CRE",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378200",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "COM",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378197",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "ROM",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378194",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "SAS",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378196",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "INT",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378202",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "LEC",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378203",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "PIS",
+    "kickoff": "2026-04-26T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "34",
+    "slug": "1378201",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "ACM",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378212",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "TOR",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378213",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "VER",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378209",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "FIO",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378211",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "GEN",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378204",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "CAG",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378205",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "PAR",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378208",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "LAZ",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378207",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "LEC",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378210",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "NAP",
+    "kickoff": "2026-05-03T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "35",
+    "slug": "1378206",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "INT",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378217",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "ATA",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378219",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "UDI",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378214",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "BLG",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378220",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "GEN",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378216",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "SAS",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378222",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "COM",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378223",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "PIS",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378215",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "ROM",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378221",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "JUV",
+    "kickoff": "2026-05-10T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "36",
+    "slug": "1378218",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SAS",
+    "away_team": "LEC",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378232",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAG",
+    "away_team": "TOR",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378225",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UDI",
+    "away_team": "CRE",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378233",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GEN",
+    "away_team": "ACM",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378227",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "JUV",
+    "away_team": "FIO",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378229",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ROM",
+    "away_team": "LAZ",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378231",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ATA",
+    "away_team": "BLG",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378224",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "INT",
+    "away_team": "VER",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378228",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PIS",
+    "away_team": "NAP",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378230",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "COM",
+    "away_team": "PAR",
+    "kickoff": "2026-05-17T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "37",
+    "slug": "1378226",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LAZ",
+    "away_team": "PIS",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378237",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ACM",
+    "away_team": "CAG",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378239",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "NAP",
+    "away_team": "UDI",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378240",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BLG",
+    "away_team": "INT",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378234",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FIO",
+    "away_team": "ATA",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378236",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "TOR",
+    "away_team": "JUV",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378242",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VER",
+    "away_team": "ROM",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378243",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRE",
+    "away_team": "COM",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378235",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PAR",
+    "away_team": "SAS",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378241",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "LEC",
+    "away_team": "GEN",
+    "kickoff": "2026-05-24T13:00:00.000Z",
+    "league": "ITASERIE_A",
+    "league_week_number": "38",
+    "slug": "1378238",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  }
+]
