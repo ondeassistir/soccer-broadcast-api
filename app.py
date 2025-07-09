@@ -247,9 +247,9 @@ async def register_fcm_token(payload: RegisterFCMToken):
         .table("user_fcm_tokens")
         .upsert({
             "user_id":    payload.user_id,
-            "token":      payload.fcm_token,
-            "platform":   payload.device_type,
-            "updated_at": now_iso
+            "fcm_token":   payload.fcm_token,
+            "device_type": payload.device_type,
+            "created_at": now_iso
         }, on_conflict="user_id,platform")
         .execute()
     )
