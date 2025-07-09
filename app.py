@@ -8,6 +8,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 from supabase import create_client
+from pydantic import BaseModel
 
 # — CONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -227,3 +228,31 @@ def get_live_score(identifier: str):
         "score": score,
         "updated_at": updated_at
     }
+# ─── FCM TOKEN REGISTRATION ────────────────────────────────────────────────
+class RegisterFCMToken(BaseModel):
+    user_id: str
+    fcm_token: str
+    device_type: str
+
+@app.post("/register-fcm-token", status_code=201)
+async def register_fcm_token(payload: RegisterFCMToken):
+    """
+    Save or update the FCM token for this user into user_fcm_tokens.
+    """
+    supabase = get_supabase_client()
+    # use UTC ISO timestamp
+    now_iso = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
+    result = (
+        supabase
+        .table("user_fcm_tokens")
+        .upsert({
+            "user_id":    payload.user_id,
+            "token":      payload.fcm_token,
+            "platform":   payload.device_type,
+            "updated_at": now_iso
+        }, on_conflict="user_id,platform")
+        .execute()
+    )
+    if getattr(result, "error", None):
+        raise HTTPException(status_code=500, detail=result.error.message)
+    return {"message": "Token saved"}
