@@ -42,7 +42,7 @@ app = FastAPI(
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # adjust to specific domains in production
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -250,7 +250,7 @@ async def register_fcm_token(payload: RegisterFCMToken):
             "fcm_token":   payload.fcm_token,
             "device_type": payload.device_type,
             "created_at":  now_iso
-        }, on_conflict="user_id,device_type")
+        })
         .execute()
     )
     if getattr(result, "error", None):
