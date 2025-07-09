@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from supabase import create_client
 from pydantic import BaseModel
 
-# — CONFIGURATION & INITIALIZATION —
+# — CCONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
 LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
