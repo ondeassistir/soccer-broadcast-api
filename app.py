@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 from supabase import create_client
 from pydantic import BaseModel
 
-# — CCONFIGURATION & INITIALIZATION —
+# — CONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
 LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
@@ -209,7 +209,7 @@ def get_live_score(identifier: str):
         updated_at = rec.get("updated_at")
     else:
         # Scrape and normalize logic remains the same as previous version
-        # ...
+        # …
         status = status or "unknown"
         minute = minute or ""
         score = {"home": home or 0, "away": away or 0}
@@ -228,6 +228,7 @@ def get_live_score(identifier: str):
         "score": score,
         "updated_at": updated_at
     }
+
 # ─── FCM TOKEN REGISTRATION ────────────────────────────────────────────────
 class RegisterFCMToken(BaseModel):
     user_id: str
@@ -240,16 +241,15 @@ async def register_fcm_token(payload: RegisterFCMToken):
     Save or update the FCM token for this user into user_fcm_tokens.
     """
     supabase = get_supabase_client()
-    # use UTC ISO timestamp
     now_iso = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
     result = (
         supabase
         .table("user_fcm_tokens")
         .upsert({
-            "user_id":    payload.user_id,
+            "user_id":     payload.user_id,
             "fcm_token":   payload.fcm_token,
             "device_type": payload.device_type,
-            "created_at": now_iso
+            "created_at":  now_iso
         }, on_conflict="user_id,device_type")
         .execute()
     )
