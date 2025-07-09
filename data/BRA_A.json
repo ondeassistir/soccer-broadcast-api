@@ -2083,7 +2083,7 @@
   {
     "home_team": "BAH",
     "away_team": "CAM",
-    "kickoff": "2025-07-12T00:00:00.000Z",
+    "kickoff": "2025-07-13T00:00:00.000Z",
     "league": "BRA_A",
     "league_week_number": "13",
     "slug": "1351170",
@@ -2116,7 +2116,7 @@
   {
     "home_team": "COR",
     "away_team": "RBB",
-    "kickoff": "2025-07-12T00:00:00.000Z",
+    "kickoff": "2025-07-12T22:00:00.000Z",
     "league": "BRA_A",
     "league_week_number": "13",
     "slug": "1351165",
@@ -2134,7 +2134,7 @@
   {
     "home_team": "CRU",
     "away_team": "GRE",
-    "kickoff": "2025-07-12T00:00:00.000Z",
+    "kickoff": "2025-07-12T23:30:00.000Z",
     "league": "BRA_A",
     "league_week_number": "13",
     "slug": "1351168",
@@ -2150,7 +2150,7 @@
   {
     "home_team": "JVT",
     "away_team": "SPT",
-    "kickoff": "2025-07-12T00:00:00.000Z",
+    "kickoff": "2025-07-12T23:00:00.000Z",
     "league": "BRA_A",
     "league_week_number": "13",
     "slug": "1351172",
@@ -2166,7 +2166,7 @@
   {
     "home_team": "FOR",
     "away_team": "CEA",
-    "kickoff": "2025-07-12T00:00:00.000Z",
+    "kickoff": "2025-07-12T23:30:00.000Z",
     "league": "BRA_A",
     "league_week_number": "13",
     "slug": "1351171",
