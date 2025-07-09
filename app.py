@@ -250,7 +250,7 @@ async def register_fcm_token(payload: RegisterFCMToken):
             "fcm_token":   payload.fcm_token,
             "device_type": payload.device_type,
             "created_at":  now_iso
-        })
+        }, on_conflict="fcm_token")
         .execute()
     )
     if getattr(result, "error", None):
