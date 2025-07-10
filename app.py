@@ -236,10 +236,21 @@ class RegisterFCMToken(BaseModel):
     device_type: str
 
 @app.post("/register-fcm-token", status_code=201)
-async def register_fcm_token(payload: RegisterFCMToken):
+async def register_fcm_token(request: Request):
     """
     Save or update the FCM token for this user into user_fcm_tokens.
+    Includes debug logging for request body and validation errors.
     """
+    raw_body = await request.body()
+    print(f"📥 Raw request body: {raw_body}")
+    try:
+        payload = RegisterFCMToken.parse_raw(raw_body)
+    except Exception as e:
+        # Return Pydantic validation errors
+        error_details = getattr(e, 'errors', lambda: str(e))()
+        print(f"❌ Validation error: {error_details}")
+        raise HTTPException(status_code=422, detail=error_details)
+
     supabase = get_supabase_client()
     now_iso = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
     result = (
@@ -253,6 +264,8 @@ async def register_fcm_token(payload: RegisterFCMToken):
         }, on_conflict="fcm_token")
         .execute()
     )
+    print(f"🗄️ Supabase response: {result}")
     if getattr(result, "error", None):
+        print(f"❌ Supabase error: {result.error}")
         raise HTTPException(status_code=500, detail=result.error.message)
     return {"message": "Token saved"}
