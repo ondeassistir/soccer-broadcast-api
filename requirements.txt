@@ -9,5 +9,6 @@ requests
 python-multipart
 requests
 beautifulsoup4
+apscheduler
 supabase
 python-multipart      # if you need file uploads later

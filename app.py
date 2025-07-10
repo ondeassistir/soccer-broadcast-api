@@ -6,10 +6,11 @@ from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, HTTPException, Request, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
-from bs4 import BeautifulSoup
 from supabase import create_client
 from pydantic import BaseModel
-from typing import List, Optional
+from apscheduler.schedulers.background import BackgroundScheduler
+import atexit
+import logging
 
 # — CONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -19,6 +20,10 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("ondeassistir")
 
 # Supabase client factory
 def get_supabase_client():
@@ -48,39 +53,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Mount static files
-app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
-app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "admin")), name="admin")
-
-# OPTIONS for CORS
-@app.options("/matches")
-def options_matches():
-    return {}
-
-@app.options("/matches/{identifier}")
-def options_match(identifier: str):
-    return {}
-
-@app.options("/score/{identifier}")
-def options_score(identifier: str):
-    return {}
-
-# Admin save endpoint
-@app.post("/admin/save/{filename}")
-async def save_json(filename: str, request: Request):
-    allowed = {"leagues.json", "channels.json", "teams.json", "QUALIFIERS_2026.json",
-               "BRA_A.json", "INT_FRIENDLY.json", "CLUB_WC.json"}
-    if filename not in allowed:
-        raise HTTPException(status_code=403, detail="File not allowed")
-    body = await request.body()
-    try:
-        json.loads(body.decode("utf-8"))
-    except json.JSONDecodeError as e:
-        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
-    path = os.path.join(DATA_DIR, filename)
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(body.decode("utf-8"))
-    return {"status": "ok"}
+# ======================== CORE FUNCTIONALITY ======================== #
 
 # Load leagues
 with open(os.path.join(DATA_DIR, "leagues.json"), encoding="utf-8") as f:
@@ -118,6 +91,94 @@ for lid in LEAGUE_IDS:
 
 def parse_datetime(dt_str: str) -> datetime:
     return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+
+# ======================== CALENDAR UPDATE LOGIC ======================== #
+
+def get_season_from_date(dt: datetime) -> str:
+    """Determine season format (YYYY/YYYY) from a date"""
+    year = dt.year
+    return f"{year-1}/{year}" if dt.month < 7 else f"{year}/{year+1}"
+
+def update_league_calendar_from_json():
+    """Update league_calendar table from JSON files"""
+    try:
+        supabase = get_supabase_client()
+        logger.info("⏳ Starting league calendar update from JSON files")
+        
+        for league_id in LEAGUE_IDS:
+            file_path = os.path.join(DATA_DIR, f"{league_id}.json")
+            if not os.path.exists(file_path):
+                continue
+                
+            try:
+                with open(file_path, encoding="utf-8") as f:
+                    matches = json.load(f)
+                
+                logger.info(f"🔁 Processing {league_id} with {len(matches)} matches")
+                update_count = 0
+                
+                for match in matches:
+                    # Extract API football ID
+                    api_id = match.get("id") or match.get("match_id") or match.get("api_football_id")
+                    if not api_id:
+                        continue
+                    
+                    # Get kickoff time
+                    kickoff_str = match.get("utcDate") or match.get("kickoff")
+                    if not kickoff_str:
+                        continue
+                    
+                    try:
+                        kickoff_dt = parse_datetime(kickoff_str)
+                        season = get_season_from_date(kickoff_dt)
+                    except Exception as e:
+                        logger.warning(f"⚠️ Error parsing date for match {api_id}: {str(e)}")
+                        continue
+                    
+                    # Prepare data
+                    match_data = {
+                        "api_football_id": int(api_id),
+                        "match_id": match.get("match_id") or f"{league_id}_{kickoff_str}_{match.get('home_team')}_x_{match.get('away_team')}",
+                        "league": league_id,
+                        "home": match.get("home_team") or match.get("home"),
+                        "away": match.get("away_team") or match.get("away"),
+                        "kickoff": kickoff_str,
+                        "round": match.get("matchday") or match.get("round"),
+                        "season": season,
+                        "status": "scheduled"
+                    }
+                    
+                    # Upsert without overwriting live data
+                    response = supabase.table("league_calendar").upsert(
+                        match_data,
+                        on_conflict="api_football_id"
+                    ).execute()
+                    
+                    if not getattr(response, "error", None):
+                        update_count += 1
+                
+                logger.info(f"✅ Updated {update_count}/{len(matches)} matches for {league_id}")
+            except Exception as e:
+                logger.error(f"❌ Error updating {league_id}: {str(e)}")
+        
+        logger.info("🎉 League calendar update completed")
+    except Exception as e:
+        logger.error(f"🔥 Critical error in calendar update: {str(e)}")
+
+# Initialize scheduler
+scheduler = BackgroundScheduler()
+scheduler.add_job(
+    update_league_calendar_from_json,
+    'interval',
+    hours=6,
+    next_run_time=datetime.now()
+)
+scheduler.start()
+
+# Shut down the scheduler when exiting the app
+atexit.register(lambda: scheduler.shutdown())
+
+# ======================== API ENDPOINTS ======================== #
 
 # Health check
 @app.get("/health")
@@ -209,13 +270,12 @@ def get_live_score(identifier: str):
         minute = rec.get("minute") or ""
         updated_at = rec.get("updated_at")
     else:
-        # Scrape and normalize logic remains the same as previous version
-        # ...
-        status = status or "unknown"
-        minute = minute or ""
-        score = {"home": home or 0, "away": away or 0}
+        # Simplified fallback logic
+        status = "scheduled"
+        minute = ""
+        score = {"home": 0, "away": 0}
         updated_at = now.isoformat()
-        get_supabase_client().table("live_scores").upsert({
+        supabase.table("live_scores").upsert({
             "match_id": identifier,
             "status": status,
             "minute": minute,
@@ -230,7 +290,7 @@ def get_live_score(identifier: str):
         "updated_at": updated_at
     }
 
-# ─── FCM TOKEN REGISTRATION ────────────────────────────────────────────────
+# FCM Token Registration
 class RegisterFCMToken(BaseModel):
     user_id: str
     fcm_token: str
@@ -238,69 +298,55 @@ class RegisterFCMToken(BaseModel):
 
 @app.post("/register-fcm-token", status_code=201)
 async def register_fcm_token(request: Request):
-    """
-    Save or update the FCM token for this user into user_fcm_tokens.
-    Includes debug logging for request body and validation errors.
-    """
-    raw_body = await request.body()
-    print(f"📥 Raw request body: {raw_body}")
     try:
-        payload = RegisterFCMToken.parse_raw(raw_body)
+        payload = await request.json()
+        user_id = payload.get("user_id")
+        fcm_token = payload.get("fcm_token")
+        device_type = payload.get("device_type")
+        
+        if not all([user_id, fcm_token, device_type]):
+            raise HTTPException(status_code=422, detail="Missing required fields")
+        
+        supabase = get_supabase_client()
+        result = supabase.table("user_fcm_tokens").upsert({
+            "user_id": user_id,
+            "fcm_token": fcm_token,
+            "device_type": device_type,
+            "created_at": datetime.utcnow().isoformat()
+        }, on_conflict="fcm_token").execute()
+        
+        if getattr(result, "error", None):
+            raise HTTPException(status_code=500, detail=result.error.message)
+            
+        return {"message": "Token saved"}
     except Exception as e:
-        # Return Pydantic validation errors
-        error_details = getattr(e, 'errors', lambda: str(e))()
-        print(f"❌ Validation error: {error_details}")
-        raise HTTPException(status_code=422, detail=error_details)
+        raise HTTPException(status_code=500, detail=str(e))
 
-    supabase = get_supabase_client()
-    now_iso = datetime.utcnow().replace(tzinfo=timezone.utc).isoformat()
-    result = (
-        supabase
-        .table("user_fcm_tokens")
-        .upsert({
-            "user_id":     payload.user_id,
-            "fcm_token":   payload.fcm_token,
-            "device_type": payload.device_type,
-            "created_at":  now_iso
-        }, on_conflict="fcm_token")
-        .execute()
-    )
-    print(f"🗄️ Supabase response: {result}")
-    if getattr(result, "error", None):
-        print(f"❌ Supabase error: {result.error}")
-        raise HTTPException(status_code=500, detail=result.error.message)
-    return {"message": "Token saved"}
+# ======================== CALENDAR ENDPOINTS ======================== #
 
-# ========== NEW LEAGUE CALENDAR ENDPOINTS ========== #
-
-# Get all matches for a specific team
 @app.get("/team-calendar/{team_name}")
 def get_team_calendar(team_name: str, limit: int = 100):
     supabase = get_supabase_client()
     try:
-        # Query using case-insensitive matching
         response = supabase.table("league_calendar") \
             .select("*") \
-            .or_(f"home.ilike.{team_name}", f"away.ilike.{team_name}") \
-            .order("kickoff", desc=False) \
+            .or_(f"home.ilike.%{team_name}%", f"away.ilike.%{team_name}%") \
+            .order("kickoff") \
             .limit(limit) \
             .execute()
         
-        if response.data:
-            return response.data
-        else:
-            raise HTTPException(status_code=404, detail="No matches found for this team")
-            
+        if not response.data:
+            raise HTTPException(status_code=404, detail="No matches found")
+        return response.data
     except Exception as e:
-        print(f"Error fetching team calendar: {str(e)}")
+        logger.error(f"Team calendar error: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error")
 
-# Get full calendar for a specific league
 @app.get("/league-calendar/{league_id}")
 def get_league_calendar(
     league_id: str,
-    season: str = Query(default="2023/2024", description="Season in YYYY/YYYY format"),
-    include_finished: bool = Query(default=True, description="Include finished matches")
+    season: str = Query(default="2023/2024"),
+    include_finished: bool = True
 ):
     supabase = get_supabase_client()
     try:
@@ -308,69 +354,47 @@ def get_league_calendar(
             .select("*") \
             .eq("league", league_id) \
             .eq("season", season) \
-            .order("kickoff", desc=False)
+            .order("kickoff")
         
         if not include_finished:
-            query = query.neq("match_status", "finished")
+            query = query.not_.in_("match_status", ["FT", "AET", "PEN", "CANC", "ABD", "AWD", "WO"])
             
         response = query.execute()
-        
-        if response.data:
-            return response.data
-        else:
-            raise HTTPException(status_code=404, detail="No matches found for this league")
-            
+        return response.data
     except Exception as e:
-        print(f"Error fetching league calendar: {str(e)}")
+        logger.error(f"League calendar error: {str(e)}")
         raise HTTPException(status_code=500, detail="Internal server error")
 
-# Admin endpoint to load league calendar data
-@app.post("/admin/load-league-calendar")
-async def load_league_calendar(request: Request):
+# ======================== ADMIN ENDPOINTS ======================== #
+
+@app.post("/admin/save/{filename}")
+async def save_json(filename: str, request: Request):
+    allowed = {"leagues.json", "channels.json", "teams.json", "QUALIFIERS_2026.json",
+               "BRA_A.json", "INT_FRIENDLY.json", "CLUB_WC.json"}
+    if filename not in allowed:
+        raise HTTPException(status_code=403, detail="File not allowed")
+    body = await request.body()
     try:
-        data = await request.json()
-        league_id = data.get("league_id")
-        season = data.get("season")
-        matches = data.get("matches")
-        
-        if not league_id or not season or not matches:
-            raise HTTPException(status_code=400, detail="Missing required parameters")
-        
-        supabase = get_supabase_client()
-        results = []
-        
-        for match in matches:
-            # Extract required fields with fallbacks
-            match_data = {
-                "api_football_id": match.get("api_football_id"),
-                "match_id": match.get("id") or match.get("match_id"),
-                "league": league_id,
-                "home": match.get("home_team") or match.get("home"),
-                "away": match.get("away_team") or match.get("away"),
-                "kickoff": match.get("utcDate") or match.get("kickoff"),
-                "round": match.get("matchday") or match.get("round"),
-                "season": season,
-                "status": "scheduled"
-            }
-            
-            # Insert or update
-            response = supabase.table("league_calendar") \
-                .upsert(match_data, on_conflict="api_football_id") \
-                .execute()
-                
-            results.append(response.data)
-        
-        return {"status": "success", "count": len(results)}
-        
-    except Exception as e:
-        print(f"Error loading league calendar: {str(e)}")
-        raise HTTPException(status_code=500, detail=str(e))
-    # Add CORS OPTIONS for new admin endpoint
-@app.options("/admin/load-league-calendar")
-async def options_load_league_calendar():
-    return {}
+        json.loads(body.decode("utf-8"))
+    except json.JSONDecodeError as e:
+        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
+    path = os.path.join(DATA_DIR, filename)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(body.decode("utf-8"))
+    
+    # Trigger immediate calendar update when league files change
+    if filename.endswith(".json") and filename != "channels.json":
+        update_league_calendar_from_json()
+    
+    return {"status": "ok"}
 
 # ======================== STATIC FILES ======================== #
-# Mount static files AFTER API endpoints
+# Mount static files LAST to avoid route conflicts
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "admin")), name="admin")
+
+# Initial calendar update on startup
+@app.on_event("startup")
+def startup_event():
+    logger.info("🚀 Starting application...")
+    update_league_calendar_from_json()
