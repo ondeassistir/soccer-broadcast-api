@@ -3,12 +3,13 @@ import json
 import re
 import requests
 from datetime import datetime, timedelta, timezone
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 from supabase import create_client
 from pydantic import BaseModel
+from typing import List, Optional
 
 # — CONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -35,8 +36,8 @@ else:
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
-    version="1.4.3",
-    description="Serve upcoming matches, broadcasts, and live scores with robust fallbacks and admin editing"
+    version="1.5.0",
+    description="Serve upcoming matches, broadcasts, live scores, and league calendars"
 )
 
 # CORS middleware
@@ -209,7 +210,7 @@ def get_live_score(identifier: str):
         updated_at = rec.get("updated_at")
     else:
         # Scrape and normalize logic remains the same as previous version
-        # …
+        # ...
         status = status or "unknown"
         minute = minute or ""
         score = {"home": home or 0, "away": away or 0}
@@ -269,3 +270,98 @@ async def register_fcm_token(request: Request):
         print(f"❌ Supabase error: {result.error}")
         raise HTTPException(status_code=500, detail=result.error.message)
     return {"message": "Token saved"}
+
+# ========== NEW LEAGUE CALENDAR ENDPOINTS ========== #
+
+# Get all matches for a specific team
+@app.get("/team-calendar/{team_name}")
+def get_team_calendar(team_name: str, limit: int = 100):
+    supabase = get_supabase_client()
+    try:
+        # Query using case-insensitive matching
+        response = supabase.table("league_calendar") \
+            .select("*") \
+            .or_(f"home.ilike.{team_name}", f"away.ilike.{team_name}") \
+            .order("kickoff", desc=False) \
+            .limit(limit) \
+            .execute()
+        
+        if response.data:
+            return response.data
+        else:
+            raise HTTPException(status_code=404, detail="No matches found for this team")
+            
+    except Exception as e:
+        print(f"Error fetching team calendar: {str(e)}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+# Get full calendar for a specific league
+@app.get("/league-calendar/{league_id}")
+def get_league_calendar(
+    league_id: str,
+    season: str = Query(default="2023/2024", description="Season in YYYY/YYYY format"),
+    include_finished: bool = Query(default=True, description="Include finished matches")
+):
+    supabase = get_supabase_client()
+    try:
+        query = supabase.table("league_calendar") \
+            .select("*") \
+            .eq("league", league_id) \
+            .eq("season", season) \
+            .order("kickoff", desc=False)
+        
+        if not include_finished:
+            query = query.neq("match_status", "finished")
+            
+        response = query.execute()
+        
+        if response.data:
+            return response.data
+        else:
+            raise HTTPException(status_code=404, detail="No matches found for this league")
+            
+    except Exception as e:
+        print(f"Error fetching league calendar: {str(e)}")
+        raise HTTPException(status_code=500, detail="Internal server error")
+
+# Admin endpoint to load league calendar data
+@app.post("/admin/load-league-calendar")
+async def load_league_calendar(request: Request):
+    try:
+        data = await request.json()
+        league_id = data.get("league_id")
+        season = data.get("season")
+        matches = data.get("matches")
+        
+        if not league_id or not season or not matches:
+            raise HTTPException(status_code=400, detail="Missing required parameters")
+        
+        supabase = get_supabase_client()
+        results = []
+        
+        for match in matches:
+            # Extract required fields with fallbacks
+            match_data = {
+                "api_football_id": match.get("api_football_id"),
+                "match_id": match.get("id") or match.get("match_id"),
+                "league": league_id,
+                "home": match.get("home_team") or match.get("home"),
+                "away": match.get("away_team") or match.get("away"),
+                "kickoff": match.get("utcDate") or match.get("kickoff"),
+                "round": match.get("matchday") or match.get("round"),
+                "season": season,
+                "status": "scheduled"
+            }
+            
+            # Insert or update
+            response = supabase.table("league_calendar") \
+                .upsert(match_data, on_conflict="api_football_id") \
+                .execute()
+                
+            results.append(response.data)
+        
+        return {"status": "success", "count": len(results)}
+        
+    except Exception as e:
+        print(f"Error loading league calendar: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
