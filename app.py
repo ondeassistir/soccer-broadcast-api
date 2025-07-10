@@ -108,6 +108,7 @@ def update_league_calendar_from_json():
         for league_id in LEAGUE_IDS:
             file_path = os.path.join(DATA_DIR, f"{league_id}.json")
             if not os.path.exists(file_path):
+                logger.info(f"ℹ️ Skipping {league_id} - file not found")
                 continue
                 
             try:
@@ -116,55 +117,84 @@ def update_league_calendar_from_json():
                 
                 logger.info(f"🔁 Processing {league_id} with {len(matches)} matches")
                 update_count = 0
+                error_count = 0
                 
-                for match in matches:
-                    # Extract API football ID
-                    api_id = match.get("id") or match.get("match_id") or match.get("api_football_id")
-                    if not api_id:
-                        continue
-                    
-                    # Get kickoff time
-                    kickoff_str = match.get("utcDate") or match.get("kickoff")
-                    if not kickoff_str:
-                        continue
-                    
+                for idx, match in enumerate(matches, 1):
                     try:
-                        kickoff_dt = parse_datetime(kickoff_str)
-                        season = get_season_from_date(kickoff_dt)
-                    except Exception as e:
-                        logger.warning(f"⚠️ Error parsing date for match {api_id}: {str(e)}")
-                        continue
-                    
-                    # Prepare data
-                    match_data = {
-                        "api_football_id": int(api_id),
-                        "match_id": match.get("match_id") or f"{league_id}_{kickoff_str}_{match.get('home_team')}_x_{match.get('away_team')}",
-                        "league": league_id,
-                        "home": match.get("home_team") or match.get("home"),
-                        "away": match.get("away_team") or match.get("away"),
-                        "kickoff": kickoff_str,
-                        "round": match.get("matchday") or match.get("round"),
-                        "season": season,
-                        "status": "scheduled"
-                    }
-                    
-                    # Upsert without overwriting live data
-                    response = supabase.table("league_calendar").upsert(
-                        match_data,
-                        on_conflict="api_football_id"
-                    ).execute()
-                    
-                    if not getattr(response, "error", None):
-                        update_count += 1
+                        # Extract API football ID
+                        api_id = match.get("id") or match.get("match_id") or match.get("api_football_id")
+                        if not api_id:
+                            logger.warning(f"⚠️ Match {idx} missing ID: {match.get('home_team')} vs {match.get('away_team')}")
+                            error_count += 1
+                            continue
+                        
+                        # Convert to integer if possible
+                        try:
+                            api_id = int(api_id)
+                        except (TypeError, ValueError):
+                            pass
+                        
+                        # Get kickoff time
+                        kickoff_str = match.get("utcDate") or match.get("kickoff")
+                        if not kickoff_str:
+                            logger.warning(f"⚠️ Match {api_id} missing kickoff time")
+                            error_count += 1
+                            continue
+                        
+                        try:
+                            kickoff_dt = parse_datetime(kickoff_str)
+                            season = get_season_from_date(kickoff_dt)
+                        except Exception as e:
+                            logger.warning(f"⚠️ Error parsing date for match {api_id}: {str(e)}")
+                            error_count += 1
+                            continue
+                        
+                        # Prepare data
+                        match_data = {
+                            "api_football_id": api_id,
+                            "match_id": match.get("match_id") or f"{league_id}_{kickoff_str}_{match.get('home_team')}_x_{match.get('away_team')}",
+                            "league": league_id,
+                            "home": match.get("home_team") or match.get("home"),
+                            "away": match.get("away_team") or match.get("away"),
+                            "kickoff": kickoff_str,
+                            "round": match.get("matchday") or match.get("round"),
+                            "season": season,
+                            "status": "scheduled"
+                        }
+                        
+                        # Debug log first 5 matches
+                        if idx <= 5:
+                            logger.info(f"📝 Sample match data ({idx}): {json.dumps(match_data, indent=2)}")
+                        
+                        # Upsert without overwriting live data
+                        response = supabase.table("league_calendar").upsert(
+                            match_data,
+                            on_conflict="api_football_id"
+                        ).execute()
+                        
+                        if getattr(response, "error", None):
+                            logger.error(f"❌ Upsert error for match {api_id}: {response.error}")
+                            error_count += 1
+                        else:
+                            update_count += 1
+                            # Log progress every 50 matches
+                            if update_count % 50 == 0:
+                                logger.info(f"✳️ Updated {update_count} matches so far...")
                 
                 logger.info(f"✅ Updated {update_count}/{len(matches)} matches for {league_id}")
+                if error_count:
+                    logger.warning(f"⚠️ Failed to update {error_count} matches")
             except Exception as e:
                 logger.error(f"❌ Error updating {league_id}: {str(e)}")
+                import traceback
+                logger.error(traceback.format_exc())
         
         logger.info("🎉 League calendar update completed")
     except Exception as e:
         logger.error(f"🔥 Critical error in calendar update: {str(e)}")
-
+        import traceback
+        logger.error(traceback.format_exc())
+        
 # Initialize scheduler
 scheduler = BackgroundScheduler()
 scheduler.add_job(
