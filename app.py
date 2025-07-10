@@ -365,3 +365,12 @@ async def load_league_calendar(request: Request):
     except Exception as e:
         print(f"Error loading league calendar: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+    # Add CORS OPTIONS for new admin endpoint
+@app.options("/admin/load-league-calendar")
+async def options_load_league_calendar():
+    return {}
+
+# ======================== STATIC FILES ======================== #
+# Mount static files AFTER API endpoints
+app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
+app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "admin")), name="admin")
