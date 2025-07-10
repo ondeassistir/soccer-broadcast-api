@@ -2,6 +2,7 @@ import os
 import json
 import re
 import requests
+import traceback
 from datetime import datetime, timedelta, timezone
 from fastapi import FastAPI, HTTPException, Request, Query
 from fastapi.staticfiles import StaticFiles
@@ -71,7 +72,8 @@ ALL_MATCHES = {}
 KEY_TO_SLUG = {}
 for lid in LEAGUE_IDS:
     path = os.path.join(DATA_DIR, f"{lid}.json")
-    if not os.path.isfile(path): continue
+    if not os.path.isfile(path): 
+        continue
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     ALL_MATCHES[lid] = data
@@ -180,21 +182,26 @@ def update_league_calendar_from_json():
                             # Log progress every 50 matches
                             if update_count % 50 == 0:
                                 logger.info(f"✳️ Updated {update_count} matches so far...")
+                    
+                    except Exception as e:
+                        logger.error(f"❌ Error processing match: {str(e)}")
+                        error_count += 1
+                        continue
                 
                 logger.info(f"✅ Updated {update_count}/{len(matches)} matches for {league_id}")
                 if error_count:
                     logger.warning(f"⚠️ Failed to update {error_count} matches")
+            
             except Exception as e:
                 logger.error(f"❌ Error updating {league_id}: {str(e)}")
-                import traceback
                 logger.error(traceback.format_exc())
         
         logger.info("🎉 League calendar update completed")
+    
     except Exception as e:
         logger.error(f"🔥 Critical error in calendar update: {str(e)}")
-        import traceback
         logger.error(traceback.format_exc())
-        
+
 # Initialize scheduler
 scheduler = BackgroundScheduler()
 scheduler.add_job(
@@ -232,12 +239,14 @@ def get_upcoming_matches():
     for lid, matches in ALL_MATCHES.items():
         for m in matches:
             tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
-            if not tstr: continue
+            if not tstr: 
+                continue
             try:
                 dt = parse_datetime(tstr)
             except:
                 continue
-            if not (start <= dt <= end): continue
+            if not (start <= dt <= end): 
+                continue
             mid = m.get("id") or m.get("match_id") or m.get("matchId")
             if mid is not None:
                 key = str(mid)
