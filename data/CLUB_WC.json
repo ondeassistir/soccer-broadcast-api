@@ -742,5 +742,17 @@
             "br": ["youtube" , "sportv", "dazn", "globo"],
             "us": ["dazn"]
         }
+    },
+       {
+        "home_team": "CHE",
+        "away_team": "PSG",
+        "kickoff": "2025-07-13T19:00:00Z",
+        "league": "CLUB_WC",
+        "league_week_number": "Final",
+        "slug": "1390818",
+        "broadcasts": {
+            "br": ["youtube" , "sportv", "dazn", "globo"],
+            "us": ["dazn"]
+        }
     }
 ]

@@ -1088,10 +1088,10 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "LEI": {
-    "id": "LEI",
+  "RBL": {
+    "id": "RBL",
     "name": "RB Leipzig",
-    "short_name": "LEI",
+    "short_name": "RBL",
     "venue": "Red Bull Arena",
     "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/LEI.png",
     "country": "DE",
@@ -2007,7 +2007,7 @@
     "leagues": ["LIBERTADORES"]
   },
   "PEN": {
-    "id": "PENAROL",
+    "id": "PEN",
     "name": "Peñarol",
     "short_name": "PEN",
     "venue": "Estadio Campeón del Siglo",
@@ -2093,15 +2093,6 @@
     "short_name": "AME",
     "venue": "Estadio Olímpico Pascual Guerrero",
     "badge": "https://img.ondeassistir.tv/images-scr/teams/latam/badge/AMC.png",
-    "country": "LA",
-    "leagues": ["SUDAMERICANA"]
-  },
-  "GUA": {
-    "id": "GUA",
-    "name": "Guaraní",
-    "short_name": "GUA",
-    "venue": "Estadio Rogelio Livieres",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/latam/badge/GUA.png",
     "country": "LA",
     "leagues": ["SUDAMERICANA"]
   },
@@ -2653,8 +2644,8 @@
   },
   "CGU": {
     "id": "CGU",
-    "name": "Club Guaraní",
-    "short_name": "CGU",
+    "name": "Guaraní",
+    "short_name": "GUA",
     "venue": "Estadio Rogelio Livieres",
     "badge": "https://img.ondeassistir.tv/images-scr/teams/int/badge/CGU.png",
     "country": "International",
