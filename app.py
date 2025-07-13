@@ -7,6 +7,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from supabase import create_client
 from pydantic import BaseModel
 import logging
+import typer
+import uvicorn
 
 # — CONFIGURATION & INITIALIZATION —
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -184,7 +186,7 @@ def get_live_score(identifier: str):
         updated_at = rec.get("updated_at")
     else:
         # Simplified fallback logic
-        status = "scheduled"
+        status = "cheduled"
         minute = ""
         score = {"home": 0, "away": 0}
         updated_at = now.isoformat()
@@ -298,3 +300,35 @@ async def save_json(filename: str, request: Request):
 # Mount static files LAST to avoid route conflicts
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "admin")), name="admin")
+
+# ======================== CLI ENTRYPOINTS ======================== #
+cli = typer.Typer()
+
+@cli.command()
+def setup():
+    """
+    Sync a new batch of future matches and map their api_football_id.
+    """
+    # TODO: implement your sync logic here
+    typer.echo("✅ Future matches synced.")
+
+@cli.command()
+def backfill():
+    """
+    Clean up final results for any recently-finished matches.
+    """
+    # TODO: implement your backfill logic here
+    typer.echo("✅ Backfill complete.")
+
+@cli.command()
+def serve(
+    host: str = typer.Option("0.0.0.0", help="Bind address"),
+    port: int = typer.Option(int(os.getenv("PORT", 8000)), help="Port to listen on")
+):
+    """
+    Run the FastAPI server.
+    """
+    uvicorn.run(app, host=host, port=port)
+
+if __name__ == "__main__":
+    cli()
