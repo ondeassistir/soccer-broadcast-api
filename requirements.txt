@@ -1,15 +1,24 @@
+# Web frameworks / servers
 Flask==3.0.3
 Flask-Cors==4.0.0
-gunicorn==21.2.0
 fastapi
 uvicorn
+gunicorn==21.2.0
+
+# Validation & parsing
 pydantic
-cachetools
-requests
-python-multipart
+
+# HTTP + scraping
 requests
 beautifulsoup4
+python-multipart   # for file uploads
+
+# Scheduling & caching
 apscheduler
+cachetools
+
+# Supabase client
 supabase
-python-multipart      # if you need file uploads later
+
+# CLI tooling
 typer[all]>=0.9.0

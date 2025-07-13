@@ -2,12 +2,11 @@
   "name": "soccer-broadcast-api",
   "version": "1.0.0",
   "private": true,
-  "description": "Utility scripts and middleware for the OndeAssistir Soccer Broadcast API",
-  "main": "middleware.js",
+  "description": "OndeAssistir Soccer Broadcast API (FastAPI + CLI)",
   "scripts": {
-    "setup": "node scripts/setup.js",
-    "backfill": "node scripts/backfill.js",
-    "start": "node middleware.js"
+    "setup": "python app.py setup",
+    "backfill": "python app.py backfill",
+    "start": "python app.py serve"
   },
   "engines": {
     "node": ">=14"
