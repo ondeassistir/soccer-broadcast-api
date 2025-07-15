@@ -55,6 +55,13 @@ except Exception as e:
 from pydantic import BaseModel
 
 # -----------------------
+# Supabase Client
+# -----------------------
+from supabase import create_client
+# Create and cache Supabase client
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+# -----------------------
 # Logging Configuration
 # -----------------------
 logging.basicConfig(level=logging.INFO)
