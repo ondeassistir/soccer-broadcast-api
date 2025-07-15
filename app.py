@@ -12,27 +12,26 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 
 from pydantic import BaseModel
-from pydantic_settings import BaseSettings
-
-from supabase import create_client
-import typer
-import uvicorn
 
 # -----------------------
-# Application Settings
+# Environment Variables
 # -----------------------
-class Settings(BaseSettings):
-    SUPABASE_URL: str
-    SUPABASE_KEY: str
-    FIREBASE_CREDENTIALS_JSON: str
-    DATA_DIR: Optional[str] = None
-    LOOKAHEAD_DAYS: int = 5
+# Core configuration loaded directly from environment
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+FIREBASE_CREDENTIALS_JSON = os.getenv("FIREBASE_CREDENTIALS_JSON")
+DATA_DIR = os.getenv("DATA_DIR")
+LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
 
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
+# Validate required environment variables
+if not SUPABASE_URL or not SUPABASE_KEY:
+    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
+if not FIREBASE_CREDENTIALS_JSON:
+    raise RuntimeError("Missing FIREBASE_CREDENTIALS_JSON environment variable")
 
-settings = Settings()
+# Pydantic model for incoming payloads
+from pydantic import BaseModel
+
 
 # -----------------------
 # Logging Configuration
