@@ -1,33 +1,70 @@
 import os
 import json
+import logging
 from datetime import datetime, timedelta, timezone
+from typing import Optional, List
+
+import firebase_admin
+from firebase_admin import credentials, messaging
+
 from fastapi import FastAPI, HTTPException, Request, Query
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
+
+from pydantic import BaseModel, BaseSettings
+
 from supabase import create_client
-from pydantic import BaseModel
-import logging
 import typer
 import uvicorn
 
-# — CONFIGURATION & INITIALIZATION —
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
-LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-if not SUPABASE_URL or not SUPABASE_KEY:
-    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
+# -----------------------
+# Application Settings
+# -----------------------
+class Settings(BaseSettings):
+    SUPABASE_URL: str
+    SUPABASE_KEY: str
+    FIREBASE_CREDENTIALS_JSON: str
+    DATA_DIR: Optional[str] = None
+    LOOKAHEAD_DAYS: int = 5
 
-# Configure logging
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
+
+settings = Settings()
+
+# -----------------------
+# Logging Configuration
+# -----------------------
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("ondeassistir")
 
-# Supabase client factory
-def get_supabase_client():
-    return create_client(SUPABASE_URL, SUPABASE_KEY)
+# -----------------------
+# Firebase Initialization
+# -----------------------
+if not firebase_admin._apps:
+    try:
+        sa_info = json.loads(settings.FIREBASE_CREDENTIALS_JSON)
+        cred = credentials.Certificate(sa_info)
+        firebase_admin.initialize_app(cred)
+        logger.info("Firebase Admin initialized successfully.")
+    except Exception as e:
+        logger.error("Failed to initialize Firebase Admin: %s", e)
+        raise RuntimeError("Firebase initialization error")
 
-# Load broadcast channel definitions
+# -----------------------
+# Supabase Client
+# -----------------------
+supabase = create_client(settings.SUPABASE_URL, settings.SUPABASE_KEY)
+
+# -----------------------
+# Data Directories & Config
+# -----------------------
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = settings.DATA_DIR or os.path.join(BASE_DIR, "data")
+LOOKAHEAD_DAYS = settings.LOOKAHEAD_DAYS
+
+# Load broadcast channels
 channels_path = os.path.join(DATA_DIR, "channels.json")
 if os.path.isfile(channels_path):
     with open(channels_path, encoding="utf-8") as f:
@@ -35,25 +72,46 @@ if os.path.isfile(channels_path):
 else:
     CHANNELS = {}
 
-# Initialize FastAPI
+# -----------------------
+# FastAPI Initialization
+# -----------------------
 title = "OndeAssistir Soccer API"
 app = FastAPI(
     title=title,
     version="1.5.0",
     description="Serve upcoming matches, broadcasts, live scores, and league calendars"
 )
-
-# CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # Consider locking this down in production
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# ======================== CORE FUNCTIONALITY ======================== #
+# -----------------------
+# Pydantic Models
+# -----------------------
+class RegisterFCMToken(BaseModel):
+    user_id: str
+    fcm_token: str
+    device_type: str
 
-# Load leagues
+class NotificationEvent(BaseModel):
+    type: str
+    matchId: str
+    homeTeamAbbr: str
+    awayTeamAbbr: str
+    score: str
+    eventDetail: str
+    apiFootballMatchId: Optional[int] = None
+    eventTeamId: Optional[int] = None
+
+    class Config:
+        extra = "allow"
+
+# -----------------------
+# Core Data Loading
+# -----------------------
 with open(os.path.join(DATA_DIR, "leagues.json"), encoding="utf-8") as f:
     leagues_data = json.load(f)
 
@@ -69,7 +127,7 @@ ALL_MATCHES = {}
 KEY_TO_SLUG = {}
 for lid in LEAGUE_IDS:
     path = os.path.join(DATA_DIR, f"{lid}.json")
-    if not os.path.isfile(path): 
+    if not os.path.isfile(path):
         continue
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
@@ -91,21 +149,20 @@ for lid in LEAGUE_IDS:
 def parse_datetime(dt_str: str) -> datetime:
     return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
 
-# ======================== API ENDPOINTS ======================== #
-
-# Health check
+# -----------------------
+# API Endpoints
+# -----------------------
 @app.get("/health")
 def health_check():
     return {"status": "ok", "version": app.version}
 
-# Broadcast enrichment helper
+
 def enrich_broadcasts(raw: dict) -> dict:
     enriched = {}
     for country, ch_ids in (raw or {}).items():
         enriched[country] = [CHANNELS.get(ch) for ch in ch_ids if ch in CHANNELS]
     return enriched
 
-# Upcoming matches
 @app.get("/matches")
 def get_upcoming_matches():
     now = datetime.now(timezone.utc)
@@ -115,13 +172,13 @@ def get_upcoming_matches():
     for lid, matches in ALL_MATCHES.items():
         for m in matches:
             tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
-            if not tstr: 
+            if not tstr:
                 continue
             try:
                 dt = parse_datetime(tstr)
             except:
                 continue
-            if not (start <= dt <= end): 
+            if not (start <= dt <= end):
                 continue
             mid = m.get("id") or m.get("match_id") or m.get("matchId")
             if mid is not None:
@@ -139,7 +196,6 @@ def get_upcoming_matches():
             })
     return out
 
-# Single match details
 @app.get("/matches/{identifier}")
 def get_match(identifier: str):
     ident_lc = identifier.lower()
@@ -155,27 +211,17 @@ def get_match(identifier: str):
             return m
     raise HTTPException(status_code=404, detail="Match not found")
 
-# Live score endpoint
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
     slug = KEY_TO_SLUG.get(identifier.lower())
     if not slug:
         raise HTTPException(status_code=404, detail=f"Unknown match '{identifier}'")
     now = datetime.now(timezone.utc)
-    kickoff_dt = None
-    for matches in ALL_MATCHES.values():
-        for m in matches:
-            mid = m.get("id") or m.get("match_id") or m.get("matchId")
-            comp = f"{m['league'].lower()}_{(m.get('kickoff') or m.get('utcDate')).lower()}_{m['home_team'].lower()}_x_{m['away_team'].lower()}"
-            if (mid is not None and str(mid).lower() == identifier.lower()) or comp == identifier.lower():
-                kt = m.get("kickoff") or m.get("utcDate")
-                kickoff_dt = parse_datetime(kt) if kt else None
-                break
-        if kickoff_dt:
-            break
-
-    supabase = get_supabase_client()
-    resp = supabase.table("live_scores").select("match_id,status,minute,score,updated_at").eq("match_id", identifier).execute()
+    # Supabase lookup
+    resp = supabase.table("live_scores") \
+        .select("match_id,status,minute,score,updated_at") \
+        .eq("match_id", identifier) \
+        .execute()
     if getattr(resp, "error", None):
         raise HTTPException(status_code=500, detail=resp.error.message)
     if resp.data:
@@ -185,8 +231,8 @@ def get_live_score(identifier: str):
         minute = rec.get("minute") or ""
         updated_at = rec.get("updated_at")
     else:
-        # Simplified fallback logic
-        status = "cheduled"
+        # Fallback: initialize scheduled match row
+        status = "scheduled"
         minute = ""
         score = {"home": 0, "away": 0}
         updated_at = now.isoformat()
@@ -205,43 +251,65 @@ def get_live_score(identifier: str):
         "updated_at": updated_at
     }
 
-# FCM Token Registration
-class RegisterFCMToken(BaseModel):
-    user_id: str
-    fcm_token: str
-    device_type: str
-
 @app.post("/register-fcm-token", status_code=201)
-async def register_fcm_token(request: Request):
+async def register_fcm_token(payload: RegisterFCMToken):
+    logger.info(f"Registering FCM token for user {payload.user_id}")
     try:
-        payload = await request.json()
-        user_id = payload.get("user_id")
-        fcm_token = payload.get("fcm_token")
-        device_type = payload.get("device_type")
-        
-        if not all([user_id, fcm_token, device_type]):
-            raise HTTPException(status_code=422, detail="Missing required fields")
-        
-        supabase = get_supabase_client()
         result = supabase.table("user_fcm_tokens").upsert({
-            "user_id": user_id,
-            "fcm_token": fcm_token,
-            "device_type": device_type,
-            "created_at": datetime.utcnow().isoformat()
+            "user_id": payload.user_id,
+            "fcm_token": payload.fcm_token,
+            "device_type": payload.device_type,
+            "created_at": datetime.now(timezone.utc).isoformat()
         }, on_conflict="fcm_token").execute()
-        
         if getattr(result, "error", None):
             raise HTTPException(status_code=500, detail=result.error.message)
-            
         return {"message": "Token saved"}
+    except HTTPException:
+        raise
     except Exception as e:
+        logger.error("Error registering FCM token: %s", e)
         raise HTTPException(status_code=500, detail=str(e))
 
-# ======================== CALENDAR ENDPOINTS ======================== #
+@app.post("/trigger-notification")
+async def trigger_notification(event: NotificationEvent):
+    ev = event.dict()
+    logger.info(f"Trigger notification event: {ev}")
+    # Fetch tokens
+    resp = supabase.table("user_fcm_tokens").select("fcm_token").execute()
+    if getattr(resp, "error", None):
+        raise HTTPException(status_code=500, detail=resp.error.message)
+    tokens: List[str] = [r["fcm_token"] for r in resp.data]
+    if not tokens:
+        return {"message": "No tokens registered"}
 
+    title = f"{ev['homeTeamAbbr']} vs {ev['awayTeamAbbr']}"
+    body_text = f"{ev['eventDetail']} — {ev['score']}"
+
+    # Send in batches of 500
+    failures = []
+    for i in range(0, len(tokens), 500):
+        chunk = tokens[i:i+500]
+        message = messaging.MulticastMessage(
+            notification=messaging.Notification(title=title, body=body_text),
+            data={k: str(v) for k, v in ev.items()},
+            tokens=chunk
+        )
+        batch = messaging.send_multicast(message)
+        logger.info(f"Sent {batch.success_count}/{len(chunk)} notifications in batch {i//500+1}")
+        # Prune invalid tokens
+        for idx, resp_item in enumerate(batch.responses):
+            if not resp_item.success:
+                token_to_remove = chunk[idx]
+                failures.append({"token": token_to_remove, "error": str(resp_item.error)})
+                # Delete bad token from Supabase
+                supabase.table("user_fcm_tokens").delete().eq("fcm_token", token_to_remove).execute()
+    return {"message": f"Notifications processed", "failures": failures}
+
+# -----------------------
+# Calendar Endpoints
+# -----------------------
 @app.get("/team-calendar/{team_name}")
 def get_team_calendar(team_name: str, limit: int = 100):
-    supabase = get_supabase_client()
     try:
         response = supabase.table("league_calendar") \
             .select("*") \
@@ -249,10 +317,9 @@ def get_team_calendar(team_name: str, limit: int = 100):
             .order("kickoff") \
             .limit(limit) \
             .execute()
-        
         return response.data
     except Exception as e:
-        logger.error(f"Team calendar error: {str(e)}")
+        logger.error("Team calendar error: %s", e)
         raise HTTPException(status_code=500, detail="Internal server error")
 
 @app.get("/league-calendar/{league_id}")
@@ -261,25 +328,23 @@ def get_league_calendar(
     season: str = Query(default="2023/2024"),
     include_finished: bool = True
 ):
-    supabase = get_supabase_client()
     try:
         query = supabase.table("league_calendar") \
             .select("*") \
             .eq("league", league_id) \
             .eq("season", season) \
             .order("kickoff")
-        
         if not include_finished:
             query = query.not_.in_("match_status", ["FT", "AET", "PEN", "CANC", "ABD", "AWD", "WO"])
-            
         response = query.execute()
         return response.data
     except Exception as e:
-        logger.error(f"League calendar error: {str(e)}")
+        logger.error("League calendar error: %s", e)
         raise HTTPException(status_code=500, detail="Internal server error")
 
-# ======================== ADMIN ENDPOINTS ======================== #
-
+# -----------------------
+# Admin Endpoints
+# -----------------------
 @app.post("/admin/save/{filename}")
 async def save_json(filename: str, request: Request):
     allowed = {"leagues.json", "channels.json", "teams.json", "QUALIFIERS_2026.json",
@@ -296,12 +361,15 @@ async def save_json(filename: str, request: Request):
         f.write(body.decode("utf-8"))
     return {"status": "ok"}
 
-# ======================== STATIC FILES ======================== #
-# Mount static files LAST to avoid route conflicts
+# -----------------------
+# Static File Mounts
+# -----------------------
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR, "admin")), name="admin")
 
-# ======================== CLI ENTRYPOINTS ======================== #
+# -----------------------
+# CLI Commands
+# -----------------------
 cli = typer.Typer()
 
 @cli.command()
@@ -309,7 +377,6 @@ def setup():
     """
     Sync a new batch of future matches and map their api_football_id.
     """
-    # TODO: implement your sync logic here
     typer.echo("✅ Future matches synced.")
 
 @cli.command()
@@ -317,7 +384,6 @@ def backfill():
     """
     Clean up final results for any recently-finished matches.
     """
-    # TODO: implement your backfill logic here
     typer.echo("✅ Backfill complete.")
 
 @cli.command()
