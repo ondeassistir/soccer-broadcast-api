@@ -239,80 +239,57 @@ async def register_fcm_token(payload: RegisterFCMToken):
 async def trigger_notification(event: NotificationEvent):
     ev = event.dict()
     logger.info("Notification event: %s", ev)
-    resp = supabase.table("user_fcm_tokens").select("fcm_token").execute()
-    if resp.error:
-        raise HTTPException(status_code=500, detail=resp.error.message)
-    tokens = [r["fcm_token"] for r in resp.data]
+
+    # 1) Determine which team(s) to notify
+    team_ids = []
+    if ev.get("eventTeamId") is not None:
+        team_ids = [ev["eventTeamId"]]
+
+    # 2) Fetch users who favorited these teams
+    try:
+        fav_query = supabase.table("user_favorite_teams").select("user_id")
+        if team_ids:
+            fav_query = fav_query.in_("team_id", team_ids)
+        fav_resp = fav_query.execute()
+    except Exception as e:
+        logger.error("Error fetching favorite teams: %s", e)
+        raise HTTPException(status_code=500, detail="Failed to fetch favorite teams")
+    if getattr(fav_resp, "error", None):
+        raise HTTPException(status_code=500, detail=fav_resp.error.message)
+    user_ids = [r["user_id"] for r in fav_resp.data]
+    if not user_ids:
+        return {"message": "No subscribers for these teams"}
+
+    # 3) Fetch all tokens, then filter in Python by user_ids
+    try:
+        token_resp = supabase.table("user_fcm_tokens").select("user_id, fcm_token").execute()
+    except Exception as e:
+        logger.error("Error fetching user tokens: %s", e)
+        raise HTTPException(status_code=500, detail="Failed to fetch user tokens")
+    if getattr(token_resp, "error", None):
+        raise HTTPException(status_code=500, detail=token_resp.error.message)
+    tokens = [r["fcm_token"] for r in token_resp.data if r["user_id"] in user_ids]
     if not tokens:
-        return {"message": "No tokens"}
-    title = f"{ev['homeTeamAbbr']} vs {ev['awayTeamAbbr']}"
-    body = f"{ev['eventDetail']} — {ev['score']}"
+        return {"message": "No tokens registered for favorited teams"}
+
+    # 4) Build and send notifications in batches of 500
+    title = f"{ev.get('homeTeamAbbr')} vs {ev.get('awayTeamAbbr')}"
+    body = f"{ev.get('eventDetail')} — {ev.get('score')}"
     failures = []
     for i in range(0, len(tokens), 500):
-        chunk = tokens[i:i+500]
-        msg = messaging.MulticastMessage(
+        chunk = tokens[i : i + 500]
+        message = messaging.MulticastMessage(
             notification=messaging.Notification(title=title, body=body),
             data={k: str(v) for k, v in ev.items()},
-            tokens=chunk
+            tokens=chunk,
         )
-        batch = messaging.send_multicast(msg)
-        logger.info("Batch %d: %d/%d sent", i//500+1, batch.success_count, len(chunk))
-        for idx, r in enumerate(batch.responses):
-            if not r.success:
-                failures.append({"token": chunk[idx], "error": str(r.error)})
-                supabase.table("user_fcm_tokens").delete().eq("fcm_token", chunk[idx]).execute()
+        batch = messaging.send_multicast(message)
+        logger.info("Batch %d: %d/%d sent", i // 500 + 1, batch.success_count, len(chunk))
+        # Prune invalid tokens
+        for idx, resp_item in enumerate(batch.responses):
+            if not resp_item.success:
+                bad = chunk[idx]
+                failures.append({"token": bad, "error": str(resp_item.error)})
+                supabase.table("user_fcm_tokens").delete().eq("fcm_token", bad).execute()
+
     return {"failures": failures}
-
-@app.get("/team-calendar/{team_name}")
-def get_team_calendar(team_name: str, limit: int = 100):
-    try:
-        data = supabase.table("league_calendar").select("*")
-        data = data.or_(f"home.ilike.%{team_name}%", f"away.ilike.%{team_name}%").order("kickoff").limit(limit).execute()
-        return data.data
-    except Exception as e:
-        logger.error("Team calendar error: %s", e)
-        raise HTTPException(status_code=500, detail="Server error")
-
-@app.get("/league-calendar/{league_id}")
-def get_league_calendar(league_id: str, season: str = Query("2023/2024"), include_finished: bool = True):
-    try:
-        q = supabase.table("league_calendar").select("*").eq("league", league_id).eq("season", season).order("kickoff")
-        if not include_finished:
-            q = q.not_.in_("match_status", ["FT","AET","PEN","CANC","ABD","AWD","WO"])
-        return q.execute().data
-    except Exception as e:
-        logger.error("League calendar error: %s", e)
-        raise HTTPException(status_code=500, detail="Server error")
-
-@app.post("/admin/save/{filename}")
-async def save_json(filename: str, request: Request):
-    allowed = {"leagues.json","channels.json","teams.json","QUALIFIERS_2026.json","BRA_A.json","INT_FRIENDLY.json","CLUB_WC.json"}
-    if filename not in allowed:
-        raise HTTPException(status_code=403, detail="Forbidden")
-    body = await request.body()
-    try:
-        json.loads(body)
-    except json.JSONDecodeError as e:
-        raise HTTPException(status_code=400, detail=f"Invalid JSON: {e}")
-    with open(os.path.join(DATA_DIR, filename), "w", encoding="utf-8") as f:
-        f.write(body.decode())
-    return {"status": "ok"}
-
-app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
-app.mount("/admin", StaticFiles(directory=os.path.join(BASE_DIR,"admin")), name="admin")
-
-cli = typer.Typer()
-@cli.command()
-def setup():
-    typer.echo("✅ Future matches synced.")
-
-@cli.command()
-def backfill():
-    typer.echo("✅ Backfill complete.")
-
-@cli.command()
-def serve(host: str = typer.Option("0.0.0.0"), port: int = typer.Option(int(os.getenv("PORT", 8000)))):
-    uvicorn.run(app, host=host, port=port)
-
-if __name__ == "__main__":
-    cli()
