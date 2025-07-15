@@ -4,6 +4,12 @@ import logging
 from datetime import datetime, timedelta, timezone
 from typing import Optional, List
 
+# -----------------------
+# Logging Configuration
+# -----------------------
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("ondeassistir")
+
 import firebase_admin
 from firebase_admin import credentials, messaging
 
@@ -47,7 +53,6 @@ except Exception as e:
 
 # Pydantic model for incoming payloads
 from pydantic import BaseModel
-
 
 # -----------------------
 # Logging Configuration
