@@ -29,6 +29,22 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 if not FIREBASE_CREDENTIALS_JSON:
     raise RuntimeError("Missing FIREBASE_CREDENTIALS_JSON environment variable")
 
+# -----------------------
+# Initialize Firebase
+# -----------------------
+# Parse the service account JSON and initialize the Admin SDK
+try:
+    sa_info = json.loads(FIREBASE_CREDENTIALS_JSON)
+except json.JSONDecodeError as e:
+    raise RuntimeError(f"Invalid FIREBASE_CREDENTIALS_JSON: {e}")
+
+try:
+    cred = credentials.Certificate(sa_info)
+    firebase_admin.initialize_app(cred)
+    logger.info("Firebase Admin initialized successfully.")
+except Exception as e:
+    raise RuntimeError(f"Firebase initialization error: {e}")
+
 # Pydantic model for incoming payloads
 from pydantic import BaseModel
 
