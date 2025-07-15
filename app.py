@@ -54,6 +54,18 @@ except Exception as e:
 # Pydantic model for incoming payloads
 from pydantic import BaseModel
 
+# -----------------------
+# Supabase Client
+# -----------------------
+# -----------------------
+# Supabase Client
+# -----------------------
+from supabase import create_client
+# Create and cache Supabase client using environment variables
+from supabase import create_client
+# Create and cache Supabase client using environment variables
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 
 # -----------------------
 # Logging Configuration
