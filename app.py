@@ -4,12 +4,6 @@ import logging
 from datetime import datetime, timedelta, timezone
 from typing import Optional, List
 
-# -----------------------
-# Logging Configuration
-# -----------------------
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("ondeassistir")
-
 import firebase_admin
 from firebase_admin import credentials, messaging
 
@@ -19,17 +13,23 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from pydantic import BaseModel
 
+from supabase import create_client
+
+# -----------------------
+# Logging Configuration
+# -----------------------
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("ondeassistir")
+
 # -----------------------
 # Environment Variables
 # -----------------------
-# Core configuration loaded directly from environment
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 FIREBASE_CREDENTIALS_JSON = os.getenv("FIREBASE_CREDENTIALS_JSON")
 DATA_DIR = os.getenv("DATA_DIR")
 LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
 
-# Validate required environment variables
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
 if not FIREBASE_CREDENTIALS_JSON:
@@ -38,7 +38,6 @@ if not FIREBASE_CREDENTIALS_JSON:
 # -----------------------
 # Initialize Firebase
 # -----------------------
-# Parse the service account JSON and initialize the Admin SDK
 try:
     sa_info = json.loads(FIREBASE_CREDENTIALS_JSON)
 except json.JSONDecodeError as e:
@@ -51,19 +50,10 @@ try:
 except Exception as e:
     raise RuntimeError(f"Firebase initialization error: {e}")
 
-# Pydantic model for incoming payloads
-from pydantic import BaseModel
-
 # -----------------------
 # Supabase Client
 # -----------------------
-# -----------------------
-# Supabase Client
-# -----------------------
-from supabase import create_client
-# Create and cache Supabase client using environment variables
-from supabase import create_client
-# Create and cache Supabase client using environment variables
+# Initialize once using environment variables
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 
