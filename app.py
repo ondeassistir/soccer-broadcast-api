@@ -7,14 +7,11 @@ from typing import Optional, List
 import firebase_admin
 from firebase_admin import credentials, messaging
 
-from fastapi import FastAPI, HTTPException, Request, Query
-from fastapi.staticfiles import StaticFiles
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
 from pydantic import BaseModel
 from supabase import create_client
-import typer
-import uvicorn
 
 # -----------------------
 # Logging Configuration
@@ -32,7 +29,6 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
 LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
 
-# Validate required environment variables
 if not SUPABASE_URL or not SUPABASE_KEY:
     raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
 if not FIREBASE_CREDENTIALS_JSON:
@@ -43,10 +39,6 @@ if not FIREBASE_CREDENTIALS_JSON:
 # -----------------------
 try:
     sa_info = json.loads(FIREBASE_CREDENTIALS_JSON)
-except json.JSONDecodeError as e:
-    raise RuntimeError(f"Invalid FIREBASE_CREDENTIALS_JSON: {e}")
-
-try:
     cred = credentials.Certificate(sa_info)
     firebase_admin.initialize_app(cred)
     logger.info("Firebase Admin initialized successfully.")
@@ -85,30 +77,16 @@ def extract_league_ids(data):
 def parse_datetime(dt_str: str) -> datetime:
     return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
 
-# Build match lookup
+# -----------------------
+# Load per‑league match files
+# -----------------------
 LEAGUE_IDS = extract_league_ids(leagues_data)
 ALL_MATCHES = {}
-KEY_TO_SLUG = {}
 for lid in LEAGUE_IDS:
     path = os.path.join(DATA_DIR, f"{lid}.json")
-    if not os.path.isfile(path):
-        continue
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    ALL_MATCHES[lid] = data
-    for m in data:
-        slug = m.get("slug")
-        tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
-        home = m.get("home_team") or m.get("home")
-        away = m.get("away_team") or m.get("away")
-        mid = m.get("id") or m.get("match_id") or m.get("matchId")
-        if slug:
-            if mid is not None:
-                KEY_TO_SLUG[str(mid).lower()] = slug
-            if tstr and home and away:
-                comp = f"{lid.lower()}_{tstr.lower()}_{home.lower()}_x_{away.lower()}"
-                KEY_TO_SLUG[comp.lower()] = slug
-            KEY_TO_SLUG[slug.lower()] = slug
+    if os.path.isfile(path):
+        with open(path, encoding="utf-8") as f:
+            ALL_MATCHES[lid] = json.load(f)
 
 # -----------------------
 # FastAPI Application
@@ -120,7 +98,7 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # restrict in production
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -157,29 +135,41 @@ def get_upcoming_matches():
     now = datetime.now(timezone.utc)
     start = now - timedelta(days=4)
     end = now + timedelta(days=LOOKAHEAD_DAYS)
+
     out = []
-    for lid, matches in ALL_MATCHES.items():
+    for league, matches in ALL_MATCHES.items():
         for m in matches:
-            tstr = m.get("utcDate") or m.get("kickoff") or m.get("start") or m.get("dateTime")
-            if not tstr:
+            kickoff_str = m.get("kickoff")
+            if not kickoff_str:
                 continue
             try:
-                dt = parse_datetime(tstr)
+                dt = parse_datetime(kickoff_str)
             except ValueError:
                 continue
             if not (start <= dt <= end):
                 continue
-            mid = m.get("id") or m.get("match_id") or m.get("matchId")
-            key = str(mid) if mid is not None else f"{lid.lower()}_{tstr.lower()}_{m['home_team'].lower()}_x_{m['away_team'].lower()}"
+
+            match_id = (
+                f"{league.lower()}_{kickoff_str.lower()}_"
+                f"{m['home_team'].lower()}_x_{m['away_team'].lower()}"
+            )
+
+            enriched_broadcasts = {}
+            for country, ch_ids in (m.get("broadcasts") or {}).items():
+                enriched_broadcasts[country] = [CHANNELS[c] for c in ch_ids if c in CHANNELS]
+
             out.append({
-                "match_id": key,
-                "slug": m.get("slug"),
-                "home": m.get("home_team"),
-                "away": m.get("away_team"),
-                "kickoff": tstr,
-                "league": lid,
-                "broadcasts": {country: [CHANNELS[c] for c in ch_ids if c in CHANNELS]
-                               for country, ch_ids in (m.get("broadcasts") or {}).items()}
+                "match_id":            match_id,
+                "home_team":           m.get("home_team"),
+                "home_id":             m.get("home_id"),
+                "away_team":           m.get("away_team"),
+                "away_id":             m.get("away_id"),
+                "league":              league,
+                "league_id":           m.get("league_id"),
+                "league_week_number":  m.get("league_week_number"),
+                "api_football_id":     m.get("api_football_id"),
+                "kickoff":             kickoff_str,
+                "broadcasts":          enriched_broadcasts
             })
     return out
 
@@ -194,24 +184,19 @@ def get_match(identifier: str):
 
 @app.get("/score/{identifier}")
 def get_live_score(identifier: str):
-    slug = KEY_TO_SLUG.get(identifier.lower())
-    if not slug:
-        raise HTTPException(status_code=404, detail=f"Unknown match '{identifier}'")
     now = datetime.now(timezone.utc)
-    resp = supabase.table("live_scores").select("match_id,status,minute,score,updated_at")
-    resp = resp.eq("match_id", identifier).execute()
+    resp = supabase.table("live_scores").select("match_id,status,minute,score,updated_at").eq("match_id", identifier).execute()
     if resp.error:
         raise HTTPException(status_code=500, detail=resp.error.message)
     if resp.data:
         rec = resp.data[0]
         return {
-            "match_id": rec["match_id"],
-            "status": rec.get("status", "unknown"),
-            "minute": rec.get("minute", ""),
-            "score": json.loads(rec.get("score", "{}")),
-            "updated_at": rec.get("updated_at")
+            "match_id":  rec["match_id"],
+            "status":    rec.get("status", "unknown"),
+            "minute":    rec.get("minute", ""),
+            "score":     json.loads(rec.get("score", "{}")),
+            "updated_at":rec.get("updated_at")
         }
-    # initialize
     initial = {"home": 0, "away": 0}
     supabase.table("live_scores").upsert({
         "match_id": identifier,
@@ -240,12 +225,8 @@ async def trigger_notification(event: NotificationEvent):
     ev = event.dict()
     logger.info("Notification event: %s", ev)
 
-    # 1) Determine which team(s) to notify
-    team_ids = []
-    if ev.get("eventTeamId") is not None:
-        team_ids = [ev["eventTeamId"]]
+    team_ids = [ev["eventTeamId"]] if ev.get("eventTeamId") is not None else []
 
-    # 2) Fetch users who favorited these teams
     try:
         fav_query = supabase.table("user_favorite_teams").select("user_id")
         if team_ids:
@@ -260,7 +241,6 @@ async def trigger_notification(event: NotificationEvent):
     if not user_ids:
         return {"message": "No subscribers for these teams"}
 
-    # 3) Fetch all tokens, then filter in Python by user_ids
     try:
         token_resp = supabase.table("user_fcm_tokens").select("user_id, fcm_token").execute()
     except Exception as e:
@@ -272,12 +252,11 @@ async def trigger_notification(event: NotificationEvent):
     if not tokens:
         return {"message": "No tokens registered for favorited teams"}
 
-    # 4) Build and send notifications in batches of 500
     title = f"{ev.get('homeTeamAbbr')} vs {ev.get('awayTeamAbbr')}"
     body = f"{ev.get('eventDetail')} — {ev.get('score')}"
     failures = []
     for i in range(0, len(tokens), 500):
-        chunk = tokens[i : i + 500]
+        chunk = tokens[i: i + 500]
         message = messaging.MulticastMessage(
             notification=messaging.Notification(title=title, body=body),
             data={k: str(v) for k, v in ev.items()},
@@ -285,7 +264,6 @@ async def trigger_notification(event: NotificationEvent):
         )
         batch = messaging.send_multicast(message)
         logger.info("Batch %d: %d/%d sent", i // 500 + 1, batch.success_count, len(chunk))
-        # Prune invalid tokens
         for idx, resp_item in enumerate(batch.responses):
             if not resp_item.success:
                 bad = chunk[idx]
