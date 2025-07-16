@@ -1,14 +1,16 @@
+# app.py
 import os
 import json
 import logging
 from datetime import datetime, timedelta, timezone
-from typing import Optional, List
+from typing import Optional
 
 import firebase_admin
 from firebase_admin import credentials, messaging
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from pydantic import BaseModel
 from supabase import create_client
@@ -49,7 +51,7 @@ except Exception as e:
 # -----------------------
 # Supabase Client
 # -----------------------
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+ supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # -----------------------
 # Load Static Data
@@ -78,7 +80,7 @@ def parse_datetime(dt_str: str) -> datetime:
     return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
 
 # -----------------------
-# Load per‑league match files
+# Load per-league match files
 # -----------------------
 LEAGUE_IDS = extract_league_ids(leagues_data)
 ALL_MATCHES = {}
@@ -102,6 +104,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+# Serve static league JSON files at root (e.g., /BRA_A.json)
+app.mount("/", StaticFiles(directory=DATA_DIR), name="static")
 
 # -----------------------
 # Pydantic Models
