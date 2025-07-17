@@ -223,8 +223,8 @@ async def register_fcm_token(payload: RegisterFCMToken):
         raise HTTPException(status_code=500, detail=result.error.message)
     return {"message": "Token saved"}
 
-@app.post("/trigger-notification")
-async def	trigger_notification(event: NotificationEvent):
+## @app.post("/trigger-notification")
+# async def	trigger_notification(event: NotificationEvent):
     ev = event.dict()
     logger.info("Notification event: %s", ev)
 
@@ -260,7 +260,7 @@ async def	trigger_notification(event: NotificationEvent):
             data={k: str(v) for k, v in ev.items()},
             tokens=chunk,
         )
-        
+
         batch = messaging.send_multicast(message)
         for idx, resp_item in enumerate(batch.responses):
             if not resp_item.success:
