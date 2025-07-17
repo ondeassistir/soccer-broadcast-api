@@ -1,7 +1,7 @@
 import os
 import json
 import logging
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 from typing import Optional, List, Dict, Any
 
 import firebase_admin
@@ -19,7 +19,6 @@ from supabase import create_client
 # -----------------------
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR      = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
-LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
 SUPABASE_URL  = os.getenv("SUPABASE_URL")
 SUPABASE_KEY  = os.getenv("SUPABASE_KEY")
 FIREBASE_JSON = os.getenv("FIREBASE_SERVICE_ACCOUNT_KEY_JSON")
@@ -57,7 +56,6 @@ app = FastAPI(
     description="Serve upcoming matches, broadcasts, live scores, and notifications"
 )
 
-# CORS Middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -65,7 +63,6 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
-# Static files mount
 app.mount("/data", StaticFiles(directory=DATA_DIR), name="data")
 
 # -----------------------
@@ -100,15 +97,16 @@ async def health():
 # -----------------------
 @app.get("/matches")
 async def get_matches() -> List[Dict[str, Any]]:
-    rows, count, error = supabase.table("matches") \
+    resp = supabase.table("matches") \
         .select(
             "match_id, api_football_id, league_id, home_id, away_id, home_team, away_team, league_week_number, broadcasts, kickoff"
         ) \
         .execute()
-    if error:
-        raise HTTPException(status_code=500, detail=error.message)
+    if resp.error:
+        raise HTTPException(status_code=500, detail=resp.error.message)
+
     result = []
-    for m in rows:
+    for m in resp.data or []:
         result.append({
             "match_id":           m["match_id"],
             "home_team":          m.get("home_team"),
@@ -128,16 +126,16 @@ async def get_matches() -> List[Dict[str, Any]]:
 # -----------------------
 @app.get("/matches/{match_id}")
 async def get_match_details(match_id: str) -> Dict[str, Any]:
-    rows, count, error = supabase.table("matches") \
+    resp = supabase.table("matches") \
         .select("*") \
         .eq("match_id", match_id) \
         .single() \
         .execute()
-    if error:
-        raise HTTPException(status_code=500, detail=error.message)
-    if not rows:
+    if resp.error:
+        raise HTTPException(status_code=500, detail=resp.error.message)
+    m = resp.data
+    if not m:
         raise HTTPException(status_code=404, detail="Match not found")
-    m = rows
     return {
         "match_id": m["match_id"],
         "home_team": m.get("home_team"),
@@ -161,14 +159,14 @@ async def get_match_details(match_id: str) -> Dict[str, Any]:
 # -----------------------
 @app.get("/score/{match_id}")
 async def get_live_score(match_id: str) -> Dict[str, Any]:
-    rows, count, error = supabase.table("matches") \
+    resp = supabase.table("matches") \
         .select("live_home_score, live_away_score, match_status, live_minutes_elapsed") \
         .eq("match_id", match_id) \
         .single() \
         .execute()
-    if error:
-        raise HTTPException(status_code=500, detail=error.message)
-    m = rows
+    if resp.error:
+        raise HTTPException(status_code=500, detail=resp.error.message)
+    m = resp.data or {}
     return {
         "home": m.get("live_home_score", 0),
         "away": m.get("live_away_score", 0),
@@ -181,14 +179,15 @@ async def get_live_score(match_id: str) -> Dict[str, Any]:
 # -----------------------
 @app.post("/register-fcm-token", status_code=201)
 async def register_fcm_token(payload: RegisterFCMToken) -> Dict[str, str]:
-    data, count, error = supabase.table("user_fcm_tokens").upsert({
+    resp = supabase.table("user_fcm_tokens").upsert({
         "user_id": payload.user_id,
         "fcm_token": payload.fcm_token,
         "device_type": payload.device_type,
         "created_at": datetime.now(timezone.utc).isoformat()
-    }, on_conflict=["fcm_token"]).execute()
-    if error:
-        raise HTTPException(status_code=500, detail=error.message)
+    }, on_conflict=["fcm_token"])\
+        .execute()
+    if resp.error:
+        raise HTTPException(status_code=500, detail=resp.error.message)
     return {"message": "Token saved"}
 
 # -----------------------
