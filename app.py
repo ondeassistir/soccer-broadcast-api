@@ -96,6 +96,8 @@ app = FastAPI(
     version="1.5.0",
     description="Serve upcoming matches, broadcasts, live scores, and league calendars"
 )
+app.mount("/data", StaticFiles(directory=DATA_DIR), name="data"
+)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -213,18 +215,22 @@ def get_live_score(identifier: str):
 @app.post("/register-fcm-token", status_code=201)
 async def register_fcm_token(payload: RegisterFCMToken):
     logger.info("Register FCM token: %s", payload.user_id)
-    result = supabase.table("user_fcm_tokens").upsert({
+    data, count, error = supabase.table("user_fcm_tokens")\
+    .upsert({
         "user_id":     payload.user_id,
         "fcm_token":   payload.fcm_token,
         "device_type": payload.device_type,
         "created_at":  datetime.now(timezone.utc).isoformat()
-    }, on_conflict=["fcm_token"]).execute()
-    if result.error:
-        raise HTTPException(status_code=500, detail=result.error.message)
+    }, on_conflict=["fcm_token"])\
+    .execute()
+
+    if error:
+        # error is a SupabaseError instance
+        raise HTTPException(status_code=500, detail=error.message)
     return {"message": "Token saved"}
 
-## @app.post("/trigger-notification")
-# async def	trigger_notification(event: NotificationEvent):
+@app.post("/trigger-notification")
+async def	trigger_notification(event: NotificationEvent):
     ev = event.dict()
     logger.info("Notification event: %s", ev)
 
