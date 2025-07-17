@@ -49,8 +49,6 @@ except Exception as e:
 
 # -----------------------
 # Supabase Client
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
-
 # -----------------------
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
@@ -105,8 +103,11 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# Serve static league JSON files at root (e.g., /BRA_A.json)
-app.mount("/", StaticFiles(directory=DATA_DIR), name="static")
+
+# Serve static league JSON files under /data (e.g., /data/BRA_A.json)
+app.mount(
+    "/data", StaticFiles(directory=DATA_DIR), name="league-data"
+)
 
 # -----------------------
 # Pydantic Models
