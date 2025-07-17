@@ -1,7 +1,7 @@
 import os
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from typing import Optional, List, Dict, Any
 
 import firebase_admin
@@ -20,11 +20,11 @@ from supabase import create_client, SupabaseException
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR      = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
 SUPABASE_URL  = os.getenv("SUPABASE_URL")
-SUPABASE_KEY  = os.getenv("SUPABASE_KEY")
+SUPABASE_KEY  = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 FIREBASE_JSON = os.getenv("FIREBASE_SERVICE_ACCOUNT_KEY_JSON")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
+    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY environment variables")
 if not FIREBASE_JSON:
     raise RuntimeError("Missing FIREBASE_SERVICE_ACCOUNT_KEY_JSON environment variable")
 
@@ -97,11 +97,17 @@ async def health():
 # -----------------------
 @app.get("/matches")
 async def get_matches() -> List[Dict[str, Any]]:
+    # compute filter window
+    now = datetime.now(timezone.utc)
+    lookback = now - timedelta(days=3)
+    lookahead = now + timedelta(days=7)
     try:
         resp = supabase.table("matches") \
             .select(
                 "match_id, api_football_id, league, league_id, home_id, away_id, home_team, away_team, league_week_number, broadcasts, kickoff"
             ) \
+            .gte("kickoff", lookback.isoformat()) \
+            .lte("kickoff", lookahead.isoformat()) \
             .execute()
         rows = resp.data or []
     except SupabaseException as e:
