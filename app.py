@@ -20,11 +20,11 @@ from supabase import create_client, SupabaseException
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR      = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
 SUPABASE_URL  = os.getenv("SUPABASE_URL")
-SUPABASE_KEY  = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+SUPABASE_KEY  = os.getenv("SUPABASE_KEY")
 FIREBASE_JSON = os.getenv("FIREBASE_SERVICE_ACCOUNT_KEY_JSON")
 
 if not SUPABASE_URL or not SUPABASE_KEY:
-    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY environment variables")
+    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
 if not FIREBASE_JSON:
     raise RuntimeError("Missing FIREBASE_SERVICE_ACCOUNT_KEY_JSON environment variable")
 
