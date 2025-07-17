@@ -1,4 +1,3 @@
-# app.py
 import os
 import json
 import logging
@@ -50,8 +49,10 @@ except Exception as e:
 
 # -----------------------
 # Supabase Client
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+
 # -----------------------
- supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # -----------------------
 # Load Static Data
