@@ -26,18 +26,30 @@ async function syncMatches(league) {
     console.error(`Failed to fetch ${url}:`, e.message);
     process.exit(1);
   }
+  
+  if (!Array.isArray(matches)) {
+    console.error('Invalid response: Expected array of matches');
+    process.exit(1);
+  }
+  
   console.log(`Found ${matches.length} matches to sync.`);
 
   const rows = matches.map(m => {
-    const kickoff = (m.kickoff || '').toLowerCase();
-    const lg = (m.league || league || '').toLowerCase();
-    const computedId = `${lg}_${kickoff}_${m.home_team.toLowerCase()}_x_${m.away_team.toLowerCase()}`;
+    // Handle potential undefined/null values
+    const kickoff = m.kickoff ? m.kickoff.toLowerCase().replace(/\s+/g, '_') : '';
+    const leagueName = m.league || league || '';
+    const lg = leagueName.toLowerCase().replace(/\s+/g, '_');
+    
+    const home = m.home_team ? m.home_team.toLowerCase().replace(/\s+/g, '_') : '';
+    const away = m.away_team ? m.away_team.toLowerCase().replace(/\s+/g, '_') : '';
+    
+    const computedId = `${lg}_${kickoff}_${home}_x_${away}`;
     const matchId = m.match_id || computedId;
 
     return {
       match_id:           matchId,
       api_football_id:    m.api_football_id,
-      league:             m.league,
+      league:             m.league || league,
       league_id:          m.league_id,
       league_week_number: m.league_week_number,
       home_team:          m.home_team,
@@ -46,20 +58,22 @@ async function syncMatches(league) {
       away_id:            m.away_id,
       kickoff:            m.kickoff,
       broadcasts:         m.broadcasts,
-      match_status:       'NS'
+      match_status:       'NS'  // Not Started
     };
   });
 
-  const { error } = await supabase
-    .from('matches')
-    .upsert(rows, { onConflict: 'match_id' });
+  try {
+    const { error } = await supabase
+      .from('matches')
+      .upsert(rows, { onConflict: 'match_id' });
 
-  if (error) {
+    if (error) throw error;
+    
+    console.log(`✅ Synced ${rows.length} matches to Supabase!`);
+  } catch (error) {
     console.error('Upsert error:', error.message);
     process.exit(1);
   }
-
-  console.log(`✅ Synced ${rows.length} matches to Supabase!`);
 }
 
 if (require.main === module) {
