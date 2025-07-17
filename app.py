@@ -116,6 +116,7 @@ async def get_matches() -> List[Dict[str, Any]]:
             "away_team":          m.get("away_team"),
             "api_football_id":    m.get("api_football_id"),
             "kickoff":            m.get("kickoff"),
+            "league":             m.get("league"),
             "league_id":          m.get("league_id"),
             "home_id":            m.get("home_id"),
             "away_id":            m.get("away_id"),
