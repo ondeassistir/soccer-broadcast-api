@@ -1,288 +1,85 @@
-import os
-import json
-import logging
-from datetime import datetime, timedelta, timezone
-from typing import Optional
+// sync_matches.js
+// Usage: node sync_matches.js [LEAGUE]
+// If a LEAGUE (e.g. "BRA_A") is provided, it fetches /data/LEAGUE.json
+// Otherwise it fetches the generic /matches endpoint
 
-import firebase_admin
-from firebase_admin import credentials, messaging
+const axios = require('axios');
+const { createClient } = require('@supabase/supabase-js');
 
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
+// Supabase client (SERVICE_ROLE_KEY)
+const supabase = createClient(
+  process.env.SUPABASE_URL,
+  process.env.SUPABASE_SERVICE_ROLE_KEY
+);
 
-from pydantic import BaseModel
-from supabase import create_client
+// Base URL for your FastAPI service
+const API_URL = process.env.API_BASE_URL || 'https://soccer-api-7ykx.onrender.com';
 
-# -----------------------
-# Logging Configuration
-# -----------------------
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger("ondeassistir")
+async function syncMatches(league) {
+  // Determine source URL
+  const url = league
+    ? `${API_URL}/data/${league}.json`
+    : `${API_URL}/matches`;
+  console.log(`🔄 Fetching matches from ${url}…`);
 
-# -----------------------
-# Environment Variables
-# -----------------------
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-FIREBASE_CREDENTIALS_JSON = os.getenv("FIREBASE_CREDENTIALS_JSON")
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.getenv("DATA_DIR", os.path.join(BASE_DIR, "data"))
-LOOKAHEAD_DAYS = int(os.getenv("LOOKAHEAD_DAYS", "5"))
+  // Fetch JSON array
+  let matches;
+  try {
+    const resp = await axios.get(url);
+    matches = resp.data;
+  } catch (e) {
+    console.error(`❌ Failed to fetch ${url}:`, e.message);
+    process.exit(1);
+  }
+  console.log(`Found ${matches.length} matches to sync.`);
 
-if not SUPABASE_URL or not SUPABASE_KEY:
-    raise RuntimeError("Missing SUPABASE_URL or SUPABASE_KEY environment variables")
-if not FIREBASE_CREDENTIALS_JSON:
-    raise RuntimeError("Missing FIREBASE_CREDENTIALS_JSON environment variable")
+  // Transform into Supabase rows, computing match_id if missing
+  const rows = matches.map(m => {
+    // Kickoff string (must exist)
+    const kickoff = (m.kickoff || '').toLowerCase();
+    // League code (fallback to m.league)
+    const lg = (m.league || league || '').toLowerCase();
+    // Compute match_id:
+    // {league}_{kickoff}_{home}_x_{away}
+    const computedId = `${lg}_${kickoff}_${m.home_team.toLowerCase()}_x_${m.away_team.toLowerCase()}`;
+    const matchId = m.match_id || computedId;
 
-# -----------------------
-# Initialize Firebase
-# -----------------------
-try:
-    sa_info = json.loads(FIREBASE_CREDENTIALS_JSON)
-    cred = credentials.Certificate(sa_info)
-    firebase_admin.initialize_app(cred)
-    logger.info("Firebase Admin initialized successfully.")
-except Exception as e:
-    logger.error("Firebase initialization error: %s", e)
-    raise RuntimeError(f"Firebase initialization error: {e}")
+    return {
+      match_id:           matchId,
+      api_football_id:    m.api_football_id,
+      league:             m.league,
+      league_id:          m.league_id,
+      league_week_number: m.league_week_number,
+      home_team:          m.home_team,
+      home_id:            m.home_id,
+      away_team:          m.away_team,
+      away_id:            m.away_id,
+      kickoff:            m.kickoff,
+      broadcasts:         m.broadcasts,
+      match_status:       'NS'
+    };
+  });
 
-# -----------------------
-# Supabase Client
-# -----------------------
-supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
+  // Bulk upsert by match_id
+  const { error } = await supabase
+    .from('matches')
+    .upsert(rows, { onConflict: 'match_id' });
 
-# -----------------------
-# Load Static Data
-# -----------------------
-channels_path = os.path.join(DATA_DIR, "channels.json")
-if os.path.isfile(channels_path):
-    with open(channels_path, encoding="utf-8") as f:
-        CHANNELS = json.load(f)
-else:
-    CHANNELS = {}
+  if (error) {
+    console.error('❌ Upsert error:', error.message);
+    process.exit(1);
+  }
+  console.log(`✅ Synced ${rows.length} matches to Supabase!`);
+}
 
-with open(os.path.join(DATA_DIR, "leagues.json"), encoding="utf-8") as f:
-    leagues_data = json.load(f)
+// When run directly:
+if (require.main === module) {
+  const leagueArg = process.argv[2];
+  syncMatches(leagueArg)
+    .catch(err => {
+      console.error('💥 Sync failed:', err.message || err);
+      process.exit(1);
+    });
+}
 
-# -----------------------
-# Helper Functions
-# -----------------------
-def extract_league_ids(data):
-    if isinstance(data, dict):
-        return list(data.keys())
-    if isinstance(data, list):
-        return [item.get("id") if isinstance(item, dict) and "id" in item else item for item in data]
-    return []
-
-def parse_datetime(dt_str: str) -> datetime:
-    return datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
-
-# -----------------------
-# Load per-league match files
-# -----------------------
-LEAGUE_IDS = extract_league_ids(leagues_data)
-ALL_MATCHES = {}
-for lid in LEAGUE_IDS:
-    path = os.path.join(DATA_DIR, f"{lid}.json")
-    if os.path.isfile(path):
-        with open(path, encoding="utf-8") as f:
-            ALL_MATCHES[lid] = json.load(f)
-
-# -----------------------
-# FastAPI Application
-# -----------------------
-app = FastAPI(
-    title="OndeAssistir Soccer API",
-    version="1.5.0",
-    description="Serve upcoming matches, broadcasts, live scores, and league calendars"
-)
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Explicit endpoint to serve per-league JSON files
-@app.get("/data/{league}.json")
-def get_league_file(league: str):
-    filename = f"{league}.json"
-    filepath = os.path.join(DATA_DIR, filename)
-    if not os.path.isfile(filepath):
-        raise HTTPException(status_code=404, detail="Not Found")
-    with open(filepath, encoding="utf-8") as f:
-        return json.load(f)
-
-app.mount(
-    "/data", StaticFiles(directory=DATA_DIR), name="league-data"
-)
-
-# -----------------------
-# Pydantic Models
-# -----------------------
-class RegisterFCMToken(BaseModel):
-    user_id: str
-    fcm_token: str
-    device_type: str
-
-class NotificationEvent(BaseModel):
-    type: str
-    matchId: str
-    homeTeamAbbr: str
-    awayTeamAbbr: str
-    score: str
-    eventDetail: str
-    apiFootballMatchId: Optional[int] = None
-    eventTeamId: Optional[int] = None
-    class Config:
-        extra = "allow"
-
-# -----------------------
-# API Endpoints
-# -----------------------
-@app.get("/health")
-def health_check():
-    return {"status": "ok", "version": app.version}
-
-@app.get("/matches")
-def get_upcoming_matches():
-    now = datetime.now(timezone.utc)
-    start = now - timedelta(days=4)
-    end = now + timedelta(days=LOOKAHEAD_DAYS)
-
-    out = []
-    for league, matches in ALL_MATCHES.items():
-        for m in matches:
-            kickoff_str = m.get("kickoff")
-            if not kickoff_str:
-                continue
-            try:
-                dt = parse_datetime(kickoff_str)
-            except ValueError:
-                continue
-            if not (start <= dt <= end):
-                continue
-
-            match_id = (
-                f"{league.lower()}_{kickoff_str.lower()}_"
-                f"{m['home_team'].lower()}_x_{m['away_team'].lower()}"
-            )
-
-            enriched_broadcasts = {}
-            for country, ch_ids in (m.get("broadcasts") or {}).items():
-                enriched_broadcasts[country] = [CHANNELS[c] for c in ch_ids if c in CHANNELS]
-
-            out.append({
-                "match_id":            match_id,
-                "home_team":           m.get("home_team"),
-                "home_id":             m.get("home_id"),
-                "away_team":           m.get("away_team"),
-                "away_id":             m.get("away_id"),
-                "league":              league,
-                "league_id":           m.get("league_id"),
-                "league_week_number":  m.get("league_week_number"),
-                "api_football_id":     m.get("api_football_id"),
-                "kickoff":             kickoff_str,
-                "broadcasts":          enriched_broadcasts
-            })
-    return out
-
-@app.get("/matches/{identifier}")
-def get_match(identifier: str):
-    for m in get_upcoming_matches():
-        if m["match_id"].lower() == identifier.lower():
-            score = get_live_score(m["match_id"])
-            m.update(score)
-            return m
-    raise HTTPException(status_code=404, detail="Match not found")
-
-@app.get("/score/{identifier}")
-def get_live_score(identifier: str):
-    now = datetime.now(timezone.utc)
-    resp = supabase.table("live_scores").select("match_id,status,minute,score,updated_at").eq("match_id", identifier).execute()
-    if resp.error:
-        raise HTTPException(status_code=500, detail=resp.error.message)
-    if resp.data:
-        rec = resp.data[0]
-        return {
-            "match_id":  rec["match_id"],
-            "status":    rec.get("status", "unknown"),
-            "minute":    rec.get("minute", ""),
-            "score":     json.loads(rec.get("score", "{}")),
-            "updated_at":rec.get("updated_at")
-        }
-    initial = {"home": 0, "away": 0}
-    supabase.table("live_scores").upsert({
-        "match_id": identifier,
-        "status": "scheduled",
-        "minute": "",
-        "score": json.dumps(initial),
-        "updated_at": now.isoformat()
-    }, on_conflict=["match_id"]).execute()
-    return {"match_id": identifier, "status": "scheduled", "minute": "", "score": initial, "updated_at": now.isoformat()}
-
-@app.post("/register-fcm-token", status_code=201)
-async def register_fcm_token(payload: RegisterFCMToken):
-    logger.info("Register FCM token: %s", payload.user_id)
-    result = supabase.table("user_fcm_tokens").upsert({
-        "user_id": payload.user_id,
-        "fcm_token": payload.fcm_token,
-        "device_type": payload.device_type,
-        "created_at": datetime.now(timezone.utc).isoformat()
-    }, on_conflict=["fcm_token"]).execute()
-    if result.error:
-        raise HTTPException(status_code=500, detail=result.error.message)
-    return {"message": "Token saved"}
-
-@app.post("/trigger-notification")
-async def trigger_notification(event: NotificationEvent):
-    ev = event.dict()
-    logger.info("Notification event: %s", ev)
-
-    team_ids = [ev["eventTeamId"]] if ev.get("eventTeamId") is not None else []
-
-    try:
-        fav_query = supabase.table("user_favorite_teams").select("user_id")
-        if team_ids:
-            fav_query = fav_query.in_("team_id", team_ids)
-        fav_resp = fav_query.execute()
-    except Exception as e:
-        logger.error("Error fetching favorite teams: %s", e)
-        raise HTTPException(status_code=500, detail="Failed to fetch favorite teams")
-    if getattr(fav_resp, "error", None):
-        raise HTTPException(status_code=500, detail=fav_resp.error.message)
-    user_ids = [r["user_id"] for r in fav_resp.data]
-    if not user_ids:
-        return {"message": "No subscribers for these teams"}
-
-    try:
-        token_resp = supabase.table("user_fcm_tokens").select("user_id, fcm_token").execute()
-    except Exception as e:
-        logger.error("Error fetching user tokens: %s", e)
-        raise HTTPException(status_code=500, detail="Failed to fetch user tokens")
-    if getattr(token_resp, "error", None):
-        raise HTTPException(status_code=500, detail=token_resp.error.message)
-    tokens = [r["fcm_token"] for r in token_resp.data if r["user_id"] in user_ids]
-    if not tokens:
-        return {"message": "No tokens registered for favorited teams"}
-
-    title = f"{ev.get('homeTeamAbbr')} vs {ev.get('awayTeamAbbr')}"
-    body = f"{ev.get('eventDetail')} — {ev.get('score')}"
-    failures = []
-    for i in range(0, len(tokens), 500):
-        chunk = tokens[i: i + 500]
-        message = messaging.MulticastMessage(
-            notification=messaging.Notification(title=title, body=body),
-            data={k: str(v) for k, v in ev.items()},
-            tokens=chunk,
-        )
-        batch = messaging.send_multicast(message)
-        logger.info("Batch %d: %d/%d sent", i // 500 + 1, batch.success_count, len(chunk))
-        for idx, resp_item in enumerate(batch.responses):
-            if not resp_item.success:
-                bad = chunk[idx]
-                failures.append({"token": bad, "error": str(resp_item.error)})
-                supabase.table("user_fcm_tokens").delete().eq("fcm_token", bad).execute()
-
-    return {"failures": failures}
+module.exports = { syncMatches };
