@@ -104,7 +104,16 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve static league JSON files under /data (e.g., /data/BRA_A.json)
+# Explicit endpoint to serve per-league JSON files
+@app.get("/data/{league}.json")
+def get_league_file(league: str):
+    filename = f"{league}.json"
+    filepath = os.path.join(DATA_DIR, filename)
+    if not os.path.isfile(filepath):
+        raise HTTPException(status_code=404, detail="Not Found")
+    with open(filepath, encoding="utf-8") as f:
+        return json.load(f)
+
 app.mount(
     "/data", StaticFiles(directory=DATA_DIR), name="league-data"
 )
