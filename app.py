@@ -148,6 +148,7 @@ async def get_match_details(match_id: str) -> Dict[str, Any]:
         "api_football_id": m.get("api_football_id"),
         "kickoff": m.get("kickoff"),
         "league_id": m.get("league_id"),
+        "league": m.get("league"),
         "home_id": m.get("home_id"),
         "away_id": m.get("away_id"),
         "league_week_number": m.get("league_week_number"),
