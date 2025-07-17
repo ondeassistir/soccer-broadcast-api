@@ -1,8 +1,5 @@
 // sync_matches.js
 // Usage: node sync_matches.js [LEAGUE]
-// If a LEAGUE (e.g. "BRA_A") is provided, it fetches /data/LEAGUE.json
-// Otherwise it fetches the generic /matches endpoint
-
 const axios = require('axios');
 const { createClient } = require('@supabase/supabase-js');
 
@@ -16,31 +13,24 @@ const supabase = createClient(
 const API_URL = process.env.API_BASE_URL || 'https://soccer-api-7ykx.onrender.com';
 
 async function syncMatches(league) {
-  // Determine source URL
   const url = league
     ? `${API_URL}/data/${league}.json`
     : `${API_URL}/matches`;
-  console.log(`🔄 Fetching matches from ${url}…`);
+  console.log(`Fetching matches from ${url}…`);
 
-  // Fetch JSON array
   let matches;
   try {
     const resp = await axios.get(url);
     matches = resp.data;
   } catch (e) {
-    console.error(`❌ Failed to fetch ${url}:`, e.message);
+    console.error(`Failed to fetch ${url}:`, e.message);
     process.exit(1);
   }
   console.log(`Found ${matches.length} matches to sync.`);
 
-  // Transform into Supabase rows, computing match_id if missing
   const rows = matches.map(m => {
-    // Kickoff string (must exist)
     const kickoff = (m.kickoff || '').toLowerCase();
-    // League code (fallback to m.league)
     const lg = (m.league || league || '').toLowerCase();
-    // Compute match_id:
-    // {league}_{kickoff}_{home}_x_{away}
     const computedId = `${lg}_${kickoff}_${m.home_team.toLowerCase()}_x_${m.away_team.toLowerCase()}`;
     const matchId = m.match_id || computedId;
 
@@ -60,26 +50,24 @@ async function syncMatches(league) {
     };
   });
 
-  // Bulk upsert by match_id
   const { error } = await supabase
     .from('matches')
     .upsert(rows, { onConflict: 'match_id' });
 
   if (error) {
-    console.error('❌ Upsert error:', error.message);
+    console.error('Upsert error:', error.message);
     process.exit(1);
   }
+
   console.log(`✅ Synced ${rows.length} matches to Supabase!`);
 }
 
-// When run directly:
 if (require.main === module) {
   const leagueArg = process.argv[2];
-  syncMatches(leagueArg)
-    .catch(err => {
-      console.error('💥 Sync failed:', err.message || err);
-      process.exit(1);
-    });
+  syncMatches(leagueArg).catch(err => {
+    console.error('Sync failed:', err.message || err);
+    process.exit(1);
+  });
 }
 
 module.exports = { syncMatches };
