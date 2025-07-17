@@ -260,6 +260,7 @@ async def	trigger_notification(event: NotificationEvent):
             data={k: str(v) for k, v in ev.items()},
             tokens=chunk,
         )
+        
         batch = messaging.send_multicast(message)
         for idx, resp_item in enumerate(batch.responses):
             if not resp_item.success:
