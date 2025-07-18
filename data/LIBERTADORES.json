@@ -1,8 +1,8 @@
 [
   {
-    "home_team": "Monagas SC",
+    "home_team": "MNG",
     "home_id": "2811",
-    "away_team": "Defensor Sporting",
+    "away_team": "DSP",
     "away_id": "2350",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -19,7 +19,7 @@
     }
   },
   {
-    "home_team": "Nacional Asuncion",
+    "home_team": "CNA",
     "home_id": "1175",
     "away_team": "ALI",
     "away_id": "2553",
@@ -40,7 +40,7 @@
   {
     "home_team": "Blooming",
     "home_id": "3701",
-    "away_team": "El Nacional",
+    "away_team": "ELN",
     "away_id": "1150",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -57,9 +57,9 @@
     }
   },
   {
-    "home_team": "Defensor Sporting",
+    "home_team": "DSP",
     "home_id": "2350",
-    "away_team": "Monagas SC",
+    "away_team": "MNG",
     "away_id": "2811",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -78,7 +78,7 @@
   {
     "home_team": "ALI",
     "home_id": "2553",
-    "away_team": "Nacional Asuncion",
+    "away_team": "CNA",
     "away_id": "1175",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -95,7 +95,7 @@
     }
   },
   {
-    "home_team": "El Nacional",
+    "home_team": "ELN",
     "home_id": "1150",
     "away_team": "Blooming",
     "away_id": "3701",
@@ -114,9 +114,9 @@
     }
   },
   {
-    "home_team": "Deportes Iquique",
+    "home_team": "IQU",
     "home_id": "2319",
-    "away_team": "Santa Fe",
+    "away_team": "ISF",
     "away_id": "1139",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -135,7 +135,7 @@
   {
     "home_team": "ALI",
     "home_id": "2553",
-    "away_team": "Boca Juniors",
+    "away_team": "BOC",
     "away_id": "451",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -152,7 +152,7 @@
     }
   },
   {
-    "home_team": "The Strongest",
+    "home_team": "TST",
     "home_id": "3711",
     "away_team": "BAH",
     "away_id": "118",
@@ -171,9 +171,9 @@
     }
   },
   {
-    "home_team": "Boston River",
+    "home_team": "BSR",
     "home_id": "2361",
-    "away_team": "Nublense",
+    "away_team": "NUB",
     "away_id": "2337",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -190,7 +190,7 @@
     }
   },
   {
-    "home_team": "El Nacional",
+    "home_team": "ELN",
     "home_id": "1150",
     "away_team": "BARQ",
     "away_id": "1152",
@@ -211,7 +211,7 @@
   {
     "home_team": "UCV",
     "home_id": "2840",
-    "away_team": "Corinthians",
+    "away_team": "COR",
     "away_id": "131",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -228,7 +228,7 @@
     }
   },
   {
-    "home_team": "Monagas SC",
+    "home_team": "MNG",
     "home_id": "2811",
     "away_team": "CCP",
     "away_id": "1176",
@@ -247,9 +247,9 @@
     }
   },
   {
-    "home_team": "Deportes Tolima",
+    "home_team": "TOL",
     "home_id": "1142",
-    "away_team": "FBC Melgar",
+    "away_team": "MEL",
     "away_id": "2554",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -266,9 +266,9 @@
     }
   },
   {
-    "home_team": "Santa Fe",
+    "home_team": "ISF",
     "home_id": "1139",
-    "away_team": "Deportes Iquique",
+    "away_team": "IQU",
     "away_id": "2319",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -287,7 +287,7 @@
   {
     "home_team": "BAH",
     "home_id": "118",
-    "away_team": "The Strongest",
+    "away_team": "TST",
     "away_id": "3711",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -304,7 +304,7 @@
     }
   },
   {
-    "home_team": "Boca Juniors",
+    "home_team": "BOC",
     "home_id": "451",
     "away_team": "ALI",
     "away_id": "2553",
@@ -323,9 +323,9 @@
     }
   },
   {
-    "home_team": "Nublense",
+    "home_team": "NUB",
     "home_id": "2337",
-    "away_team": "Boston River",
+    "away_team": "BSR",
     "away_id": "2361",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -342,7 +342,7 @@
     }
   },
   {
-    "home_team": "Corinthians",
+    "home_team": "COR",
     "home_id": "131",
     "away_team": "UCV",
     "away_id": "2840",
@@ -363,7 +363,7 @@
   {
     "home_team": "BARQ",
     "home_id": "1152",
-    "away_team": "El Nacional",
+    "away_team": "ELN",
     "away_id": "1150",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -382,7 +382,7 @@
   {
     "home_team": "CCP",
     "home_id": "1176",
-    "away_team": "Monagas SC",
+    "away_team": "MNG",
     "away_id": "2811",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -399,9 +399,9 @@
     }
   },
   {
-    "home_team": "FBC Melgar",
+    "home_team": "MEL",
     "home_id": "2554",
-    "away_team": "Deportes Tolima",
+    "away_team": "TOL",
     "away_id": "1142",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -418,7 +418,7 @@
     }
   },
   {
-    "home_team": "Deportes Iquique",
+    "home_team": "IQU",
     "home_id": "2319",
     "away_team": "ALI",
     "away_id": "2553",
@@ -437,7 +437,7 @@
     }
   },
   {
-    "home_team": "FBC Melgar",
+    "home_team": "MEL",
     "home_id": "2554",
     "away_team": "CCP",
     "away_id": "1176",
@@ -458,7 +458,7 @@
   {
     "home_team": "BARQ",
     "home_id": "1152",
-    "away_team": "Corinthians",
+    "away_team": "COR",
     "away_id": "131",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -475,7 +475,7 @@
     }
   },
   {
-    "home_team": "Boston River",
+    "home_team": "BSR",
     "home_id": "2361",
     "away_team": "BAH",
     "away_id": "118",
@@ -496,7 +496,7 @@
   {
     "home_team": "ALI",
     "home_id": "2553",
-    "away_team": "Deportes Iquique",
+    "away_team": "IQU",
     "away_id": "2319",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -515,7 +515,7 @@
   {
     "home_team": "CCP",
     "home_id": "1176",
-    "away_team": "FBC Melgar",
+    "away_team": "MEL",
     "away_id": "2554",
     "league_id": "13",
     "league": "LIBERTADORES",
@@ -532,7 +532,7 @@
     }
   },
   {
-    "home_team": "Corinthians",
+    "home_team": "COR",
     "home_id": "131",
     "away_team": "BARQ",
     "away_id": "1152",
@@ -553,7 +553,7 @@
   {
     "home_team": "BAH",
     "home_id": "118",
-    "away_team": "Boston River",
+    "away_team": "BSR",
     "away_id": "2361",
     "league_id": "13",
     "league": "LIBERTADORES",
