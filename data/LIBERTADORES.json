@@ -1,2273 +1,2699 @@
 [
   {
-    "home_team": "MNG",
-    "away_team": "DSP",
-    "kickoff": "2025-02-05T00:30:00.000Z",
+    "home_team": "Monagas SC",
+    "home_id": "2811",
+    "away_team": "Defensor Sporting",
+    "away_id": "2350",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "1st Round",
-    "slug": "1325649",
+    "api_football_id": "1325649",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "CNA",
+    "home_team": "Nacional Asuncion",
+    "home_id": "1175",
     "away_team": "ALI",
-    "kickoff": "2025-02-06T00:30:00.000Z",
+    "away_id": "2553",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "1st Round",
-    "slug": "1325647",
+    "api_football_id": "1325647",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "Blooming",
-    "away_team": "ELN",
-    "kickoff": "2025-02-07T00:30:00.000Z",
+    "home_id": "3701",
+    "away_team": "El Nacional",
+    "away_id": "1150",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "1st Round",
-    "slug": "1327684",
+    "api_football_id": "1327684",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "DSP",
-    "away_team": "MNG",
-    "kickoff": "2025-02-12T00:30:00.000Z",
+    "home_team": "Defensor Sporting",
+    "home_id": "2350",
+    "away_team": "Monagas SC",
+    "away_id": "2811",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "1st Round",
-    "slug": "1325650",
+    "api_football_id": "1325650",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ALI",
-    "away_team": "CNA",
-    "kickoff": "2025-02-13T00:30:00.000Z",
+    "home_id": "2553",
+    "away_team": "Nacional Asuncion",
+    "away_id": "1175",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "1st Round",
-    "slug": "1325648",
+    "api_football_id": "1325648",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "ELN",
+    "home_team": "El Nacional",
+    "home_id": "1150",
     "away_team": "Blooming",
-    "kickoff": "2025-02-14T00:30:00.000Z",
+    "away_id": "3701",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "1st Round",
-    "slug": "1327685",
+    "api_football_id": "1327685",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "IQU",
-    "away_team": "ISF",
-    "kickoff": "2025-02-18T22:00:00.000Z",
+    "home_team": "Deportes Iquique",
+    "home_id": "2319",
+    "away_team": "Santa Fe",
+    "away_id": "1139",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1325641",
+    "api_football_id": "1325641",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ALI",
-    "away_team": "BOC",
-    "kickoff": "2025-02-19T00:30:00.000Z",
+    "home_id": "2553",
+    "away_team": "Boca Juniors",
+    "away_id": "451",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1350680",
+    "api_football_id": "1350680",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "TST",
+    "home_team": "The Strongest",
+    "home_id": "3711",
     "away_team": "BAH",
-    "kickoff": "2025-02-19T00:30:00.000Z",
+    "away_id": "118",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1327682",
+    "api_football_id": "1327682",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "BSR",
-    "away_team": "NUB",
-    "kickoff": "2025-02-19T22:00:00.000Z",
+    "home_team": "Boston River",
+    "home_id": "2361",
+    "away_team": "Nublense",
+    "away_id": "2337",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1325645",
+    "api_football_id": "1325645",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "ELN",
+    "home_team": "El Nacional",
+    "home_id": "1150",
     "away_team": "BARQ",
-    "kickoff": "2025-02-20T00:30:00.000Z",
+    "away_id": "1152",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1350682",
+    "api_football_id": "1350682",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "UCV",
-    "away_team": "COR",
-    "kickoff": "2025-02-20T00:30:00.000Z",
+    "home_id": "2840",
+    "away_team": "Corinthians",
+    "away_id": "131",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1325643",
+    "api_football_id": "1325643",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "MNG",
+    "home_team": "Monagas SC",
+    "home_id": "2811",
     "away_team": "CCP",
-    "kickoff": "2025-02-20T22:00:00.000Z",
+    "away_id": "1176",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1350298",
+    "api_football_id": "1350298",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "TOL",
-    "away_team": "MEL",
-    "kickoff": "2025-02-21T00:30:00.000Z",
+    "home_team": "Deportes Tolima",
+    "home_id": "1142",
+    "away_team": "FBC Melgar",
+    "away_id": "2554",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1327868",
+    "api_football_id": "1327868",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "ISF",
-    "away_team": "IQU",
-    "kickoff": "2025-02-25T22:00:00.000Z",
+    "home_team": "Santa Fe",
+    "home_id": "1139",
+    "away_team": "Deportes Iquique",
+    "away_id": "2319",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1325642",
+    "api_football_id": "1325642",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BAH",
-    "away_team": "TST",
-    "kickoff": "2025-02-26T00:30:00.000Z",
+    "home_id": "118",
+    "away_team": "The Strongest",
+    "away_id": "3711",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1327683",
+    "api_football_id": "1327683",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "BOC",
+    "home_team": "Boca Juniors",
+    "home_id": "451",
     "away_team": "ALI",
-    "kickoff": "2025-02-26T00:30:00.000Z",
+    "away_id": "2553",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1350681",
+    "api_football_id": "1350681",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "NUB",
-    "away_team": "BSR",
-    "kickoff": "2025-02-26T22:00:00.000Z",
+    "home_team": "Nublense",
+    "home_id": "2337",
+    "away_team": "Boston River",
+    "away_id": "2361",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1325646",
+    "api_football_id": "1325646",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "COR",
+    "home_team": "Corinthians",
+    "home_id": "131",
     "away_team": "UCV",
-    "kickoff": "2025-02-27T00:30:00.000Z",
+    "away_id": "2840",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1325644",
+    "api_football_id": "1325644",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BARQ",
-    "away_team": "ELN",
-    "kickoff": "2025-02-27T00:30:00.000Z",
+    "home_id": "1152",
+    "away_team": "El Nacional",
+    "away_id": "1150",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1350683",
+    "api_football_id": "1350683",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CCP",
-    "away_team": "MNG",
-    "kickoff": "2025-02-27T22:00:00.000Z",
+    "home_id": "1176",
+    "away_team": "Monagas SC",
+    "away_id": "2811",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1350299",
+    "api_football_id": "1350299",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "MEL",
-    "away_team": "TOL",
-    "kickoff": "2025-02-28T00:30:00.000Z",
+    "home_team": "FBC Melgar",
+    "home_id": "2554",
+    "away_team": "Deportes Tolima",
+    "away_id": "1142",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "2nd Round",
-    "slug": "1327869",
+    "api_football_id": "1327869",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "IQU",
+    "home_team": "Deportes Iquique",
+    "home_id": "2319",
     "away_team": "ALI",
-    "kickoff": "2025-03-04T22:00:00.000Z",
+    "away_id": "2553",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355039",
+    "api_football_id": "1355039",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "MEL",
+    "home_team": "FBC Melgar",
+    "home_id": "2554",
     "away_team": "CCP",
-    "kickoff": "2025-03-05T22:00:00.000Z",
+    "away_id": "1176",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355636",
+    "api_football_id": "1355636",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BARQ",
-    "away_team": "COR",
-    "kickoff": "2025-03-06T00:30:00.000Z",
+    "home_id": "1152",
+    "away_team": "Corinthians",
+    "away_id": "131",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355043",
+    "api_football_id": "1355043",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "BSR",
+    "home_team": "Boston River",
+    "home_id": "2361",
     "away_team": "BAH",
-    "kickoff": "2025-03-07T00:30:00.000Z",
+    "away_id": "118",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355041",
+    "api_football_id": "1355041",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ALI",
-    "away_team": "IQU",
-    "kickoff": "2025-03-11T22:00:00.000Z",
+    "home_id": "2553",
+    "away_team": "Deportes Iquique",
+    "away_id": "2319",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355040",
+    "api_football_id": "1355040",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CCP",
-    "away_team": "MEL",
-    "kickoff": "2025-03-12T22:00:00.000Z",
+    "home_id": "1176",
+    "away_team": "FBC Melgar",
+    "away_id": "2554",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355637",
+    "api_football_id": "1355637",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "COR",
+    "home_team": "Corinthians",
+    "home_id": "131",
     "away_team": "BARQ",
-    "kickoff": "2025-03-13T00:30:00.000Z",
+    "away_id": "1152",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355044",
+    "api_football_id": "1355044",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BAH",
-    "away_team": "BSR",
-    "kickoff": "2025-03-14T00:30:00.000Z",
+    "home_id": "118",
+    "away_team": "Boston River",
+    "away_id": "2361",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "3rd Round",
-    "slug": "1355042",
+    "api_football_id": "1355042",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CCP",
+    "home_id": "1176",
     "away_team": "BOL",
-    "kickoff": "2025-04-01T22:00:00.000Z",
+    "away_id": "3702",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361868",
+    "api_football_id": "1361868",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "CBB FC",
+    "home_team": "CBB",
+    "home_id": "2810",
     "away_team": "EST",
-    "kickoff": "2025-04-01T22:00:00.000Z",
+    "away_id": "450",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361856",
+    "api_football_id": "1361856",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FOR",
+    "home_id": "154",
     "away_team": "RAC",
-    "kickoff": "2025-04-02T00:30:00.000Z",
+    "away_id": "436",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361865",
+    "api_football_id": "1361865",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BCG",
+    "home_id": "1131",
     "away_team": "CLC",
-    "kickoff": "2025-04-02T00:30:00.000Z",
+    "away_id": "2315",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361864",
+    "api_football_id": "1361864",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BARQ",
+    "home_id": "1152",
     "away_team": "IDV",
-    "kickoff": "2025-04-02T02:00:00.000Z",
+    "away_id": "1153",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361858",
+    "api_football_id": "1361858",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ALI",
+    "home_id": "2553",
     "away_team": "LIB",
-    "kickoff": "2025-04-02T02:00:00.000Z",
+    "away_id": "1179",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361862",
+    "api_football_id": "1361862",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "VEL",
+    "home_id": "438",
     "away_team": "PEN",
-    "kickoff": "2025-04-02T22:00:00.000Z",
+    "away_id": "2348",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361871",
+    "api_football_id": "1361871",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SBB",
+    "home_id": "17760",
     "away_team": "OLI",
-    "kickoff": "2025-04-02T22:00:00.000Z",
+    "away_id": "1182",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361870",
+    "api_football_id": "1361870",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "TAL",
+    "home_id": "456",
     "away_team": "SAO",
-    "kickoff": "2025-04-03T00:30:00.000Z",
+    "away_id": "126",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361863",
+    "api_football_id": "1361863",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "UCH",
+    "home_id": "2323",
     "away_team": "BOT",
-    "kickoff": "2025-04-03T00:30:00.000Z",
+    "away_id": "120",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361857",
+    "api_football_id": "1361857",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "UNIVERSITARIO",
+    "home_id": "2540",
     "away_team": "RIV",
-    "kickoff": "2025-04-03T00:30:00.000Z",
+    "away_id": "435",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361859",
+    "api_football_id": "1361859",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ATN",
+    "home_id": "1137",
     "away_team": "CNF",
-    "kickoff": "2025-04-03T02:00:00.000Z",
+    "away_id": "2356",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361867",
+    "api_football_id": "1361867",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BAH",
+    "home_id": "118",
     "away_team": "SCI",
-    "kickoff": "2025-04-03T22:00:00.000Z",
+    "away_id": "119",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361866",
+    "api_football_id": "1361866",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CTC",
+    "home_id": "1065",
     "away_team": "LDU",
-    "kickoff": "2025-04-03T22:00:00.000Z",
+    "away_id": "1158",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361860",
+    "api_football_id": "1361860",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCR",
+    "home_id": "2546",
     "away_team": "PAL",
-    "kickoff": "2025-04-03T22:00:00.000Z",
+    "away_id": "121",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361869",
+    "api_football_id": "1361869",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "DTF",
+    "home_id": "2807",
     "away_team": "FLA",
-    "kickoff": "2025-04-04T00:30:00.000Z",
+    "away_id": "127",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 1",
-    "slug": "1361861",
+    "api_football_id": "1361861",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOT",
-    "away_team": "CBB FC",
-    "kickoff": "2025-04-08T22:00:00.000Z",
+    "home_id": "120",
+    "away_team": "CBB",
+    "away_id": "2810",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361873",
+    "api_football_id": "1361873",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LIB",
+    "home_id": "1179",
     "away_team": "TAL",
-    "kickoff": "2025-04-08T22:00:00.000Z",
+    "away_id": "456",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361878",
+    "api_football_id": "1361878",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PEN",
+    "home_id": "2348",
     "away_team": "SBB",
-    "kickoff": "2025-04-09T00:00:00.000Z",
+    "away_id": "17760",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361887",
+    "api_football_id": "1361887",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RIV",
+    "home_id": "435",
     "away_team": "BARQ",
-    "kickoff": "2025-04-09T00:30:00.000Z",
+    "away_id": "1152",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361875",
+    "api_football_id": "1361875",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "EST",
+    "home_id": "450",
     "away_team": "UCH",
-    "kickoff": "2025-04-09T00:30:00.000Z",
+    "away_id": "2323",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361872",
+    "api_football_id": "1361872",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "IDV",
-    "away_team": "UNI",
-    "kickoff": "2025-04-09T02:00:00.000Z",
+    "home_id": "1153",
+    "away_team": "UNIVERSITARIO",
+    "away_id": "2540",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361874",
+    "api_football_id": "1361874",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "OLI",
+    "home_id": "1182",
     "away_team": "VEL",
-    "kickoff": "2025-04-09T22:00:00.000Z",
+    "away_id": "438",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361886",
+    "api_football_id": "1361886",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CNF",
+    "home_id": "2356",
     "away_team": "BAH",
-    "kickoff": "2025-04-09T22:00:00.000Z",
+    "away_id": "118",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361883",
+    "api_football_id": "1361883",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PAL",
+    "home_id": "121",
     "away_team": "CCP",
-    "kickoff": "2025-04-10T00:30:00.000Z",
+    "away_id": "1176",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361885",
+    "api_football_id": "1361885",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FLA",
+    "home_id": "127",
     "away_team": "CTC",
-    "kickoff": "2025-04-10T00:30:00.000Z",
+    "away_id": "1065",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361877",
+    "api_football_id": "1361877",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOL",
+    "home_id": "3702",
     "away_team": "SCR",
-    "kickoff": "2025-04-10T00:30:00.000Z",
+    "away_id": "2546",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361884",
+    "api_football_id": "1361884",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LDU",
+    "home_id": "1158",
     "away_team": "DTF",
-    "kickoff": "2025-04-10T02:00:00.000Z",
+    "away_id": "2807",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361876",
+    "api_football_id": "1361876",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCI",
+    "home_id": "119",
     "away_team": "ATN",
-    "kickoff": "2025-04-10T22:00:00.000Z",
+    "away_id": "1137",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361882",
+    "api_football_id": "1361882",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RAC",
+    "home_id": "436",
     "away_team": "BCG",
-    "kickoff": "2025-04-10T22:00:00.000Z",
+    "away_id": "1131",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361881",
+    "api_football_id": "1361881",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CLC",
+    "home_id": "2315",
     "away_team": "FOR",
-    "kickoff": "2025-04-11T00:00:00.000Z",
+    "away_id": "154",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361880",
+    "api_football_id": "1361880",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SAO",
+    "home_id": "126",
     "away_team": "ALI",
-    "kickoff": "2025-04-11T00:30:00.000Z",
+    "away_id": "2553",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 2",
-    "slug": "1361879",
+    "api_football_id": "1361879",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LDU",
+    "home_id": "1158",
     "away_team": "FLA",
-    "kickoff": "2025-04-22T22:00:00.000Z",
+    "away_id": "127",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361892",
+    "api_football_id": "1361892",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ALI",
+    "home_id": "2553",
     "away_team": "TAL",
-    "kickoff": "2025-04-22T22:00:00.000Z",
+    "away_id": "456",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361895",
+    "api_football_id": "1361895",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "CBB FC",
+    "home_team": "CBB",
+    "home_id": "2810",
     "away_team": "UCH",
-    "kickoff": "2025-04-22T23:00:00.000Z",
+    "away_id": "2323",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361889",
+    "api_football_id": "1361889",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCI",
+    "home_id": "119",
     "away_team": "CNF",
-    "kickoff": "2025-04-23T00:30:00.000Z",
+    "away_id": "2356",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361898",
+    "api_football_id": "1361898",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CLC",
+    "home_id": "2315",
     "away_team": "RAC",
-    "kickoff": "2025-04-23T00:30:00.000Z",
+    "away_id": "436",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361896",
+    "api_football_id": "1361896",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BARQ",
-    "away_team": "UNI",
-    "kickoff": "2025-04-23T02:00:00.000Z",
+    "home_id": "1152",
+    "away_team": "UNIVERSITARIO",
+    "away_id": "2540",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361891",
+    "api_football_id": "1361891",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "OLI",
+    "home_id": "1182",
     "away_team": "PEN",
-    "kickoff": "2025-04-23T22:00:00.000Z",
+    "away_id": "2348",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361902",
+    "api_football_id": "1361902",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SBB",
+    "home_id": "17760",
     "away_team": "VEL",
-    "kickoff": "2025-04-23T22:00:00.000Z",
+    "away_id": "438",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361903",
+    "api_football_id": "1361903",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "EST",
+    "home_id": "450",
     "away_team": "BOT",
-    "kickoff": "2025-04-24T00:30:00.000Z",
+    "away_id": "120",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361888",
+    "api_football_id": "1361888",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "IDV",
+    "home_id": "1153",
     "away_team": "RIV",
-    "kickoff": "2025-04-24T00:30:00.000Z",
+    "away_id": "435",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361890",
+    "api_football_id": "1361890",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LIB",
+    "home_id": "1179",
     "away_team": "SAO",
-    "kickoff": "2025-04-24T00:30:00.000Z",
+    "away_id": "126",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361894",
+    "api_football_id": "1361894",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BCG",
+    "home_id": "1131",
     "away_team": "FOR",
-    "kickoff": "2025-04-24T02:00:00.000Z",
+    "away_id": "154",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361897",
+    "api_football_id": "1361897",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CTC",
+    "home_id": "1065",
     "away_team": "DTF",
-    "kickoff": "2025-04-24T22:00:00.000Z",
+    "away_id": "2807",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361893",
+    "api_football_id": "1361893",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOL",
+    "home_id": "3702",
     "away_team": "PAL",
-    "kickoff": "2025-04-24T22:00:00.000Z",
+    "away_id": "121",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361900",
+    "api_football_id": "1361900",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BAH",
+    "home_id": "118",
     "away_team": "ATN",
-    "kickoff": "2025-04-25T00:00:00.000Z",
+    "away_id": "1137",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361899",
+    "api_football_id": "1361899",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CCP",
+    "home_id": "1176",
     "away_team": "SCR",
-    "kickoff": "2025-04-25T00:30:00.000Z",
+    "away_id": "2546",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 3",
-    "slug": "1361901",
+    "api_football_id": "1361901",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BCG",
+    "home_id": "1131",
     "away_team": "RAC",
-    "kickoff": "2025-05-06T22:00:00.000Z",
+    "away_id": "436",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361967",
+    "api_football_id": "1361967",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ALI",
+    "home_id": "2553",
     "away_team": "SAO",
-    "kickoff": "2025-05-06T22:00:00.000Z",
+    "away_id": "126",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361965",
+    "api_football_id": "1361965",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "CBB FC",
+    "home_team": "CBB",
+    "home_id": "2810",
     "away_team": "BOT",
-    "kickoff": "2025-05-06T22:00:00.000Z",
+    "away_id": "120",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361959",
+    "api_football_id": "1361959",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FOR",
+    "home_id": "154",
     "away_team": "CLC",
-    "kickoff": "2025-05-07T00:30:00.000Z",
+    "away_id": "2315",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361966",
+    "api_football_id": "1361966",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SBB",
+    "home_id": "17760",
     "away_team": "PEN",
-    "kickoff": "2025-05-07T02:00:00.000Z",
+    "away_id": "2348",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361973",
+    "api_football_id": "1361973",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BAH",
+    "home_id": "118",
     "away_team": "CNF",
-    "kickoff": "2025-05-07T22:00:00.000Z",
+    "away_id": "2356",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361969",
+    "api_football_id": "1361969",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "DTF",
+    "home_id": "2807",
     "away_team": "LDU",
-    "kickoff": "2025-05-07T22:00:00.000Z",
+    "away_id": "1158",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361962",
+    "api_football_id": "1361962",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "UCH",
+    "home_id": "2323",
     "away_team": "EST",
-    "kickoff": "2025-05-08T00:00:00.000Z",
+    "away_id": "450",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361958",
+    "api_football_id": "1361958",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CTC",
+    "home_id": "1065",
     "away_team": "FLA",
-    "kickoff": "2025-05-08T00:30:00.000Z",
+    "away_id": "127",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361963",
+    "api_football_id": "1361963",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CCP",
+    "home_id": "1176",
     "away_team": "PAL",
-    "kickoff": "2025-05-08T00:30:00.000Z",
+    "away_id": "121",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361971",
+    "api_football_id": "1361971",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCR",
+    "home_id": "2546",
     "away_team": "BOL",
-    "kickoff": "2025-05-08T02:00:00.000Z",
+    "away_id": "3702",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361970",
+    "api_football_id": "1361970",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "VEL",
+    "home_id": "438",
     "away_team": "OLI",
-    "kickoff": "2025-05-08T22:00:00.000Z",
+    "away_id": "1182",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361972",
+    "api_football_id": "1361972",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "TAL",
+    "home_id": "456",
     "away_team": "LIB",
-    "kickoff": "2025-05-08T22:00:00.000Z",
+    "away_id": "1179",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361964",
+    "api_football_id": "1361964",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ATN",
+    "home_id": "1137",
     "away_team": "SCI",
-    "kickoff": "2025-05-09T00:30:00.000Z",
+    "away_id": "119",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361968",
+    "api_football_id": "1361968",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BARQ",
+    "home_id": "1152",
     "away_team": "RIV",
-    "kickoff": "2025-05-09T00:30:00.000Z",
+    "away_id": "435",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361961",
+    "api_football_id": "1361961",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "UNIVERSITARIO",
+    "home_id": "2540",
     "away_team": "IDV",
-    "kickoff": "2025-05-09T02:00:00.000Z",
+    "away_id": "1153",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 4",
-    "slug": "1361960",
+    "api_football_id": "1361960",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "DTF",
+    "home_id": "2807",
     "away_team": "CTC",
-    "kickoff": "2025-05-13T22:00:00.000Z",
+    "away_id": "1065",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361979",
+    "api_football_id": "1361979",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FOR",
+    "home_id": "154",
     "away_team": "BCG",
-    "kickoff": "2025-05-14T00:30:00.000Z",
+    "away_id": "1131",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361983",
+    "api_football_id": "1361983",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "UCH",
-    "away_team": "CBB FC",
-    "kickoff": "2025-05-14T00:30:00.000Z",
+    "home_id": "2323",
+    "away_team": "CBB",
+    "away_id": "2810",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361975",
+    "api_football_id": "1361975",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCR",
+    "home_id": "2546",
     "away_team": "CCP",
-    "kickoff": "2025-05-14T00:30:00.000Z",
+    "away_id": "1176",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361987",
+    "api_football_id": "1361987",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "VEL",
+    "home_id": "438",
     "away_team": "SBB",
-    "kickoff": "2025-05-14T22:00:00.000Z",
+    "away_id": "17760",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361989",
+    "api_football_id": "1361989",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ATN",
+    "home_id": "1137",
     "away_team": "BAH",
-    "kickoff": "2025-05-14T22:00:00.000Z",
+    "away_id": "118",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361985",
+    "api_football_id": "1361985",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PEN",
+    "home_id": "2348",
     "away_team": "OLI",
-    "kickoff": "2025-05-14T22:00:00.000Z",
+    "away_id": "1182",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361988",
+    "api_football_id": "1361988",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOT",
+    "home_id": "120",
     "away_team": "EST",
-    "kickoff": "2025-05-15T00:30:00.000Z",
+    "away_id": "450",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361974",
+    "api_football_id": "1361974",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SAO",
+    "home_id": "126",
     "away_team": "LIB",
-    "kickoff": "2025-05-15T00:30:00.000Z",
+    "away_id": "1179",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361980",
+    "api_football_id": "1361980",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RAC",
+    "home_id": "436",
     "away_team": "CLC",
-    "kickoff": "2025-05-15T00:30:00.000Z",
+    "away_id": "2315",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361982",
+    "api_football_id": "1361982",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "UNIVERSITARIO",
+    "home_id": "2540",
     "away_team": "BARQ",
-    "kickoff": "2025-05-15T02:00:00.000Z",
+    "away_id": "1152",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361977",
+    "api_football_id": "1361977",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PAL",
+    "home_id": "121",
     "away_team": "BOL",
-    "kickoff": "2025-05-15T22:00:00.000Z",
+    "away_id": "3702",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361986",
+    "api_football_id": "1361986",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "TAL",
+    "home_id": "456",
     "away_team": "ALI",
-    "kickoff": "2025-05-15T22:00:00.000Z",
+    "away_id": "2553",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361981",
+    "api_football_id": "1361981",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CNF",
+    "home_id": "2356",
     "away_team": "SCI",
-    "kickoff": "2025-05-15T22:00:00.000Z",
+    "away_id": "119",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361984",
+    "api_football_id": "1361984",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FLA",
+    "home_id": "127",
     "away_team": "LDU",
-    "kickoff": "2025-05-16T00:30:00.000Z",
+    "away_id": "1158",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361978",
+    "api_football_id": "1361978",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RIV",
+    "home_id": "435",
     "away_team": "IDV",
-    "kickoff": "2025-05-16T00:30:00.000Z",
+    "away_id": "1153",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 5",
-    "slug": "1361976",
+    "api_football_id": "1361976",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SAO",
+    "home_id": "126",
     "away_team": "TAL",
-    "kickoff": "2025-05-27T22:00:00.000Z",
+    "away_id": "456",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361996",
+    "api_football_id": "1361996",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LIB",
+    "home_id": "1179",
     "away_team": "ALI",
-    "kickoff": "2025-05-27T22:30:00.000Z",
+    "away_id": "2553",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361997",
+    "api_football_id": "1361997",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOT",
+    "home_id": "120",
     "away_team": "UCH",
-    "kickoff": "2025-05-28T00:30:00.000Z",
+    "away_id": "2323",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361990",
+    "api_football_id": "1361990",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RIV",
-    "away_team": "UNI",
-    "kickoff": "2025-05-28T00:30:00.000Z",
+    "home_id": "435",
+    "away_team": "UNIVERSITARIO",
+    "away_id": "2540",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361992",
+    "api_football_id": "1361992",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "EST",
-    "away_team": "CBB FC",
-    "kickoff": "2025-05-28T00:30:00.000Z",
+    "home_id": "450",
+    "away_team": "CBB",
+    "away_id": "2810",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361991",
+    "api_football_id": "1361991",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "IDV",
+    "home_id": "1153",
     "away_team": "BARQ",
-    "kickoff": "2025-05-28T00:30:00.000Z",
+    "away_id": "1152",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361993",
+    "api_football_id": "1361993",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCI",
+    "home_id": "119",
     "away_team": "BAH",
-    "kickoff": "2025-05-28T22:00:00.000Z",
+    "away_id": "118",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1362001",
+    "api_football_id": "1362001",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CNF",
+    "home_id": "2356",
     "away_team": "ATN",
-    "kickoff": "2025-05-28T22:00:00.000Z",
+    "away_id": "1137",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1362000",
+    "api_football_id": "1362000",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PAL",
+    "home_id": "121",
     "away_team": "SCR",
-    "kickoff": "2025-05-29T00:30:00.000Z",
+    "away_id": "2546",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1362002",
+    "api_football_id": "1362002",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FLA",
+    "home_id": "127",
     "away_team": "DTF",
-    "kickoff": "2025-05-29T00:30:00.000Z",
+    "away_id": "2807",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361994",
+    "api_football_id": "1361994",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LDU",
+    "home_id": "1158",
     "away_team": "CTC",
-    "kickoff": "2025-05-29T00:30:00.000Z",
+    "away_id": "1065",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361995",
+    "api_football_id": "1361995",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOL",
+    "home_id": "3702",
     "away_team": "CCP",
-    "kickoff": "2025-05-29T00:30:00.000Z",
+    "away_id": "1176",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1362003",
+    "api_football_id": "1362003",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "OLI",
+    "home_id": "1182",
     "away_team": "SBB",
-    "kickoff": "2025-05-29T22:00:00.000Z",
+    "away_id": "17760",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1362005",
+    "api_football_id": "1362005",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PEN",
+    "home_id": "2348",
     "away_team": "VEL",
-    "kickoff": "2025-05-29T22:00:00.000Z",
+    "away_id": "438",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1362004",
+    "api_football_id": "1362004",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RAC",
+    "home_id": "436",
     "away_team": "FOR",
-    "kickoff": "2025-05-30T00:30:00.000Z",
+    "away_id": "154",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361998",
+    "api_football_id": "1361998",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CLC",
+    "home_id": "2315",
     "away_team": "BCG",
-    "kickoff": "2025-05-30T00:30:00.000Z",
+    "away_id": "1131",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Group Stage - 6",
-    "slug": "1361999",
+    "api_football_id": "1361999",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FOR",
+    "home_id": "154",
     "away_team": "VEL",
-    "kickoff": "2025-08-12T22:00:00.000Z",
+    "away_id": "438",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377443",
+    "api_football_id": "1377443",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "ATN",
+    "home_id": "1137",
     "away_team": "SAO",
-    "kickoff": "2025-08-13T00:30:00.000Z",
+    "away_id": "126",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377441",
+    "api_football_id": "1377441",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PEN",
+    "home_id": "2348",
     "away_team": "RAC",
-    "kickoff": "2025-08-13T00:30:00.000Z",
+    "away_id": "436",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377453",
+    "api_football_id": "1377453",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "CCP",
+    "home_id": "1176",
     "away_team": "EST",
-    "kickoff": "2025-08-13T22:00:00.000Z",
+    "away_id": "450",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377451",
+    "api_football_id": "1377451",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "FLA",
+    "home_id": "127",
     "away_team": "SCI",
-    "kickoff": "2025-08-14T00:30:00.000Z",
+    "away_id": "119",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377445",
+    "api_football_id": "1377445",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "BOT",
+    "home_id": "120",
     "away_team": "LDU",
-    "kickoff": "2025-08-14T22:00:00.000Z",
+    "away_id": "1158",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377455",
+    "api_football_id": "1377455",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LIB",
+    "home_id": "1179",
     "away_team": "RIV",
-    "kickoff": "2025-08-15T00:30:00.000Z",
+    "away_id": "435",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377449",
+    "api_football_id": "1377449",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "UNIVERSITARIO",
+    "home_id": "2540",
     "away_team": "PAL",
-    "kickoff": "2025-08-15T00:30:00.000Z",
+    "away_id": "121",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377447",
+    "api_football_id": "1377447",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "VEL",
+    "home_id": "438",
     "away_team": "FOR",
-    "kickoff": "2025-08-19T22:00:00.000Z",
+    "away_id": "154",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377444",
+    "api_football_id": "1377444",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SAO",
+    "home_id": "126",
     "away_team": "ATN",
-    "kickoff": "2025-08-20T00:30:00.000Z",
+    "away_id": "1137",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377442",
+    "api_football_id": "1377442",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RAC",
+    "home_id": "436",
     "away_team": "PEN",
-    "kickoff": "2025-08-20T00:30:00.000Z",
+    "away_id": "2348",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377454",
+    "api_football_id": "1377454",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "EST",
+    "home_id": "450",
     "away_team": "CCP",
-    "kickoff": "2025-08-20T22:00:00.000Z",
+    "away_id": "1176",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377452",
+    "api_football_id": "1377452",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "SCI",
+    "home_id": "119",
     "away_team": "FLA",
-    "kickoff": "2025-08-21T00:30:00.000Z",
+    "away_id": "127",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377446",
+    "api_football_id": "1377446",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "LDU",
+    "home_id": "1158",
     "away_team": "BOT",
-    "kickoff": "2025-08-21T22:00:00.000Z",
+    "away_id": "120",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377456",
+    "api_football_id": "1377456",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "PAL",
-    "away_team": "UNI",
-    "kickoff": "2025-08-22T00:30:00.000Z",
+    "home_id": "121",
+    "away_team": "UNIVERSITARIO",
+    "away_id": "2540",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377448",
+    "api_football_id": "1377448",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   },
   {
     "home_team": "RIV",
+    "home_id": "435",
     "away_team": "LIB",
-    "kickoff": "2025-08-22T00:30:00.000Z",
+    "away_id": "1179",
+    "league_id": "13",
     "league": "LIBERTADORES",
     "league_week_number": "Round of 16",
-    "slug": "1377450",
+    "api_football_id": "1377450",
     "broadcasts": {
       "br": [
-        "espn"
+        "espn",
+        "sportv"
       ],
       "us": [
-        "bein"
+        "paramount"
       ]
     }
   }
