@@ -1,0 +1,1351 @@
+[
+  {
+    "home_team": "Sportivo Luqueno",
+    "home_id": "1183",
+    "away_team": "Sportivo Ameliano",
+    "away_id": "10487",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326748",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UNIVERSIDAD_CATOLICA",
+    "home_id": "2994",
+    "away_team": "PLN",
+    "away_id": "2318",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326743",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Universitario de Vinto",
+    "home_id": "17762",
+    "away_team": "Nacional Potosí",
+    "away_id": "3706",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1327870",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ADT",
+    "home_id": "10492",
+    "away_team": "CIE",
+    "away_id": "2562",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326750",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Union Espanola",
+    "home_id": "2321",
+    "away_team": "Everton de Vina",
+    "away_id": "2325",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326744",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Racing Montevideo",
+    "home_id": "2359",
+    "away_team": "Wanderers",
+    "away_id": "2360",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326752",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Puerto Cabello",
+    "home_id": "2827",
+    "away_team": "Metropolitanos FC",
+    "away_id": "2825",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326754",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Aurora",
+    "home_id": "3637",
+    "away_team": "Gualberto Villarroel SJ",
+    "away_id": "22266",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1333254",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ONC",
+    "home_id": "1136",
+    "away_team": "Millonarios",
+    "away_id": "1125",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1327872",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Mushuc Runa SC",
+    "home_id": "1162",
+    "away_team": "Orense SC",
+    "away_id": "1992",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326746",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CGU",
+    "home_id": "1174",
+    "away_team": "2 de Mayo",
+    "away_id": "2140",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326749",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CLG",
+    "home_id": "2369",
+    "away_team": "Danubio",
+    "away_id": "2352",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326753",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Junior",
+    "home_id": "1135",
+    "away_team": "AMC",
+    "away_id": "1138",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326745",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Atletico Grau",
+    "home_id": "2564",
+    "away_team": "Cusco",
+    "away_id": "10013",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326751",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Real Esppor Club",
+    "home_id": "2813",
+    "away_team": "Caracas FC",
+    "away_id": "2808",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326755",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Universidad Catolica",
+    "home_id": "1157",
+    "away_team": "Aucas",
+    "away_id": "1156",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "1st Round",
+    "api_football_id": "1326747",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Union Santa Fe",
+    "home_id": "441",
+    "away_team": "CRU",
+    "away_id": "135",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 1",
+    "api_football_id": "1362101",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "IQU",
+    "home_id": "2319",
+    "away_team": "Caracas FC",
+    "away_id": "2808",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 1",
+    "api_football_id": "1362106",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Boston River",
+    "home_id": "2361",
+    "away_team": "CGU",
+    "away_id": "1174",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 1",
+    "api_football_id": "1362092",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+    {
+    "home_team": "Racing Montevideo",
+    "home_id": "2359",
+    "away_team": "Huracan",
+    "away_id": "445",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377222",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+{
+    "home_team": "Racing Montevideo",
+    "home_id": "2359",
+    "away_team": "Huracan",
+    "away_id": "445",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 4",
+    "api_football_id": "1362144",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Gualberto Villarroel SJ",
+    "home_id": "22266",
+    "away_team": "FLU",
+    "away_id": "124",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 4",
+    "api_football_id": "1362151",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CIE",
+    "home_id": "2562",
+    "away_team": "Caracas FC",
+    "away_id": "2808",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 4",
+    "api_football_id": "1362154",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GRE",
+    "home_id": "130",
+    "away_team": "Godoy Cruz",
+    "away_id": "439",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362162",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Nacional Potosí",
+    "home_id": "3706",
+    "away_team": "Boston River",
+    "away_id": "2361",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362157",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Union Santa Fe",
+    "home_id": "441",
+    "away_team": "Mushuc Runa SC",
+    "away_id": "1162",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362165",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Lanus",
+    "home_id": "446",
+    "away_team": "VAS",
+    "away_id": "133",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362168",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Puerto Cabello",
+    "home_id": "2827",
+    "away_team": "MEL",
+    "away_id": "2554",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362169",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FLU",
+    "home_id": "124",
+    "away_team": "Union Espanola",
+    "away_id": "2321",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362166",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "DYJ",
+    "home_id": "442",
+    "away_team": "Universidad Catolica",
+    "away_id": "1157",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362158",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Sportivo Luqueno",
+    "home_id": "1183",
+    "away_team": "Atletico Grau",
+    "away_id": "2564",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362163",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRU",
+    "home_id": "135",
+    "away_team": "PLN",
+    "away_id": "2318",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362164",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CLG",
+    "home_id": "2369",
+    "away_team": "Vitoria",
+    "away_id": "136",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362159",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "AMC",
+    "home_id": "1138",
+    "away_team": "Huracan",
+    "away_id": "445",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362160",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Independiente",
+    "home_id": "453",
+    "away_team": "CGU",
+    "away_id": "1174",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362156",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Racing Montevideo",
+    "home_id": "2359",
+    "away_team": "COR",
+    "away_id": "131",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362161",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAM",
+    "home_id": "1062",
+    "away_team": "Caracas FC",
+    "away_id": "2808",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362170",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ONC",
+    "home_id": "1136",
+    "away_team": "Gualberto Villarroel SJ",
+    "away_id": "22266",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362167",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CIE",
+    "home_id": "2562",
+    "away_team": "IQU",
+    "away_id": "2319",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 5",
+    "api_football_id": "1362171",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VAS",
+    "home_id": "133",
+    "away_team": "MEL",
+    "away_id": "2554",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362185",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Lanus",
+    "home_id": "446",
+    "away_team": "Puerto Cabello",
+    "away_id": "2827",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362184",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Huracan",
+    "home_id": "445",
+    "away_team": "COR",
+    "away_id": "131",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362177",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "AMC",
+    "home_id": "1138",
+    "away_team": "Racing Montevideo",
+    "away_id": "2359",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362176",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Independiente",
+    "home_id": "453",
+    "away_team": "Nacional Potosí",
+    "away_id": "3706",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362172",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CGU",
+    "home_id": "1174",
+    "away_team": "Boston River",
+    "away_id": "2361",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362173",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CRU",
+    "home_id": "135",
+    "away_team": "Union Santa Fe",
+    "away_id": "441",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362180",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "DYJ",
+    "home_id": "442",
+    "away_team": "CLG",
+    "away_id": "2369",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362174",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Universidad Catolica",
+    "home_id": "1157",
+    "away_team": "Vitoria",
+    "away_id": "136",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362175",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PLN",
+    "home_id": "2318",
+    "away_team": "Mushuc Runa SC",
+    "away_id": "1162",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362181",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GRE",
+    "home_id": "130",
+    "away_team": "Sportivo Luqueno",
+    "away_id": "1183",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362178",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Godoy Cruz",
+    "home_id": "439",
+    "away_team": "Atletico Grau",
+    "away_id": "2564",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362179",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "FLU",
+    "home_id": "124",
+    "away_team": "ONC",
+    "away_id": "1136",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362182",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAM",
+    "home_id": "1062",
+    "away_team": "CIE",
+    "away_id": "2562",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362186",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Union Espanola",
+    "home_id": "2321",
+    "away_team": "Gualberto Villarroel SJ",
+    "away_id": "22266",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362183",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Caracas FC",
+    "home_id": "2808",
+    "away_team": "IQU",
+    "away_id": "2319",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Group Stage - 6",
+    "api_football_id": "1362187",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CTC",
+    "home_id": "1065",
+    "away_team": "CLG",
+    "away_id": "2369",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377231",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BAH",
+    "home_id": "118",
+    "away_team": "AMC",
+    "away_id": "1138",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377225",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "IDV",
+    "home_id": "1153",
+    "away_team": "VAS",
+    "away_id": "133",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377227",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "Bolivar",
+    "home_id": "3702",
+    "away_team": "PLN",
+    "away_id": "2318",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377223",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ALI",
+    "home_id": "2553",
+    "away_team": "GRE",
+    "away_id": "130",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377217",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "SBB",
+    "home_id": "17760",
+    "away_team": "ONC",
+    "away_id": "1136",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377219",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "UCH",
+    "home_id": "2323",
+    "away_team": "CGU",
+    "away_id": "1174",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377229",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "BCG",
+    "home_id": "1131",
+    "away_team": "CAM",
+    "away_id": "1062",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377221",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CLG",
+    "home_id": "2369",
+    "away_team": "CTC",
+    "away_id": "1065",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377232",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "VAS",
+    "home_id": "133",
+    "away_team": "IDV",
+    "away_id": "1153",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377228",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "AMC",
+    "home_id": "1138",
+    "away_team": "BAH",
+    "away_id": "118",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377226",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "PLN",
+    "home_id": "2318",
+    "away_team": "Bolivar",
+    "away_id": "3702",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377224",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "GRE",
+    "home_id": "130",
+    "away_team": "ALI",
+    "away_id": "2553",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377218",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "ONC",
+    "home_id": "1136",
+    "away_team": "SBB",
+    "away_id": "17760",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377220",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CGU",
+    "home_id": "1174",
+    "away_team": "UCH",
+    "away_id": "2323",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377230",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  },
+  {
+    "home_team": "CAM",
+    "home_id": "1062",
+    "away_team": "BCG",
+    "away_id": "1131",
+    "league_id": "11",
+    "league": "SUDAMERICANA",
+    "league_week_number": "Knockout Round Play-offs",
+    "api_football_id": "1377222",
+    "broadcasts": {
+      "br": [
+        "espn",
+        "sportv"
+      ],
+      "us": [
+        "paramount"
+      ]
+    }
+  }
+]
