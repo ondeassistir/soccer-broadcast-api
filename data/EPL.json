@@ -1,6081 +1,6841 @@
 [
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "BOU",
-    "kickoff": "2025-08-15T19:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378969",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378969",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "NEW",
-    "kickoff": "2025-08-16T11:30:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378970",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378970",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "BUR",
-    "kickoff": "2025-08-16T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378974",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378974",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "FUL",
-    "kickoff": "2025-08-16T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378971",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378971",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "WHU",
-    "kickoff": "2025-08-16T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378973",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378973",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "MCI",
-    "kickoff": "2025-08-16T16:30:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378975",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378975",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "CRY",
-    "kickoff": "2025-08-17T13:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378976",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378976",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "BRE",
-    "kickoff": "2025-08-17T13:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378972",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378972",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "ARS",
-    "kickoff": "2025-08-17T15:30:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378977",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378977",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "EVE",
-    "kickoff": "2025-08-18T19:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "1",
-    "slug": "1378978",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1378978",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "NEW",
-    "away_team": "LIV",
-    "kickoff": "2025-08-23T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378987",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "BOU",
-    "away_team": "WOL",
-    "kickoff": "2025-08-23T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378980",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "FUL",
-    "away_team": "MAN",
-    "kickoff": "2025-08-23T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378985",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "ARS",
-    "away_team": "LEE",
-    "kickoff": "2025-08-23T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378979",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "BUR",
-    "away_team": "SUN",
-    "kickoff": "2025-08-23T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378982",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "EVE",
-    "away_team": "BHA",
-    "kickoff": "2025-08-23T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378984",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "CHE",
-    "kickoff": "2025-08-23T14:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378988",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378988",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "TOT",
-    "kickoff": "2025-08-23T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378986",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378986",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
-    "home_team": "CRY",
-    "away_team": "NOT",
-    "kickoff": "2025-08-23T14:00:00.000Z",
+    "home_team": "BOU",
+    "home_id": "35",
+    "away_team": "WOL",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378983",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378980",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "BUR",
+    "home_id": "44",
+    "away_team": "SUN",
+    "away_id": "746",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378982",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "AVL",
-    "kickoff": "2025-08-23T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "2",
-    "slug": "1378981",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378981",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "ARS",
+    "home_id": "42",
+    "away_team": "LEE",
+    "away_id": "63",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378979",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "EVE",
+    "home_id": "45",
+    "away_team": "BHA",
+    "away_id": "51",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378984",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "CRY",
+    "home_id": "52",
+    "away_team": "NOT",
+    "away_id": "65",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378983",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "FUL",
+    "home_id": "36",
+    "away_team": "MAN",
+    "away_id": "33",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378985",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "NEW",
+    "home_id": "34",
+    "away_team": "LIV",
+    "away_id": "40",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1378987",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "AVL",
+    "home_id": "66",
+    "away_team": "CRY",
+    "away_id": "52",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378989",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "BUR",
-    "kickoff": "2025-08-30T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378994",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378994",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "EVE",
-    "kickoff": "2025-08-30T14:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378998",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378998",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "TOT",
+    "home_id": "47",
+    "away_team": "BOU",
+    "away_id": "35",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378997",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "CHE",
+    "home_id": "49",
+    "away_team": "FUL",
+    "away_id": "36",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378991",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "SUN",
+    "home_id": "746",
+    "away_team": "BRE",
+    "away_id": "55",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378996",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "LEE",
+    "home_id": "63",
+    "away_team": "NEW",
+    "away_id": "34",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378992",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "BHA",
+    "home_id": "51",
+    "away_team": "MCI",
+    "away_id": "50",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378990",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
+      ]
+    }
+  },
+  {
+    "home_team": "NOT",
+    "home_id": "65",
+    "away_team": "WHU",
+    "away_id": "48",
+    "league_id": "39",
+    "league": "EPL",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378995",
+    "broadcasts": {
+      "br": [
+        "espn"
+      ],
+      "us": [
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "ARS",
-    "kickoff": "2025-08-30T14:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378993",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1378993",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "TOT",
-    "away_team": "BOU",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378997",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "CHE",
-    "away_team": "FUL",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378991",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "BHA",
-    "away_team": "MCI",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378990",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "LEE",
-    "away_team": "NEW",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378992",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "NOT",
-    "away_team": "WHU",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378995",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "AVL",
-    "away_team": "CRY",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378989",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
-      ]
-    }
-  },
-  {
-    "home_team": "SUN",
-    "away_team": "BRE",
-    "kickoff": "2025-08-30T14:00:00.000Z",
-    "league": "EPL",
-    "league_week_number": "3",
-    "slug": "1378996",
-    "broadcasts": {
-      "br": [
-        "espn"
-      ],
-      "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "WOL",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379007",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379007",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "BHA",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379000",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379000",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "LEE",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379005",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379005",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "NOT",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1378999",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1378999",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "LIV",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379002",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379002",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "AVL",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379004",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379004",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "TOT",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379008",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379008",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "MAN",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379006",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379006",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "SUN",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379003",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379003",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "CHE",
-    "kickoff": "2025-09-13T14:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "4",
-    "slug": "1379001",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1379001",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "CHE",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379015",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379015",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "NEW",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379010",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379010",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "BRE",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379013",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379013",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "LEE",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379018",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379018",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "EVE",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379014",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379014",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "MCI",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379009",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379009",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "NOT",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379012",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379012",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "CRY",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379017",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379017",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "TOT",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379011",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379011",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "AVL",
-    "kickoff": "2025-09-20T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "5",
-    "slug": "1379016",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1379016",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "ARS",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379026",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379026",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "WHU",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379023",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379023",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "WOL",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379028",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379028",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "BHA",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379021",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379021",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "BUR",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379025",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379025",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "LIV",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379022",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379022",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "MAN",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379020",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379020",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "BOU",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379024",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379024",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "SUN",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379027",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379027",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "FUL",
-    "kickoff": "2025-09-27T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "6",
-    "slug": "1379019",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1379019",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "SUN",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379036",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379036",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "NOT",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379037",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379037",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "FUL",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379031",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379031",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "BHA",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379038",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379038",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "WHU",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379029",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379029",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "CRY",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379034",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379034",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "LIV",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379033",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379033",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "MCI",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379032",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379032",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "TOT",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379035",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379035",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "BUR",
-    "kickoff": "2025-10-04T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "7",
-    "slug": "1379030",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1379030",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "ARS",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379042",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379042",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "MAN",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379043",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379043",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "LEE",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379040",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379040",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "AVL",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379047",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379047",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "BRE",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379048",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379048",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "EVE",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379044",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379044",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "NEW",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379039",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379039",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "BOU",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379041",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379041",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "CHE",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379045",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379045",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "WOL",
-    "kickoff": "2025-10-18T14:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "8",
-    "slug": "1379046",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1379046",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "BHA",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379056",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379056",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "FUL",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379057",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379057",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "NOT",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379051",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379051",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "BUR",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379058",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379058",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "CRY",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379049",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379049",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "TOT",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379054",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379054",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "SUN",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379053",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379053",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "LIV",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379052",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379052",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "WHU",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379055",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379055",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "MCI",
-    "kickoff": "2025-10-25T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "9",
-    "slug": "1379050",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1379050",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "WOL",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379062",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379062",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "AVL",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379063",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379063",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "ARS",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379060",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379060",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "CHE",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379067",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379067",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "NEW",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379068",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379068",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "BOU",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379064",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379064",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "LEE",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379059",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379059",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "BRE",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379061",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379061",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "MAN",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379065",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379065",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "EVE",
-    "kickoff": "2025-11-01T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "10",
-    "slug": "1379066",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1379066",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "FUL",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379073",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379073",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "MAN",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379077",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379077",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "BUR",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379078",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379078",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "WOL",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379071",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379071",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "LIV",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379074",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379074",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "BHA",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379072",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379072",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "NEW",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379070",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379070",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "LEE",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379075",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379075",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "BOU",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379069",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379069",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "ARS",
-    "kickoff": "2025-11-08T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "11",
-    "slug": "1379076",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1379076",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "EVE",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379086",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379086",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "MCI",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379087",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379087",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "WHU",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379080",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379080",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "SUN",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379083",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379083",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "CRY",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379088",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379088",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "NOT",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379085",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379085",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "TOT",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379079",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379079",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "CHE",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379082",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379082",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "BRE",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379081",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379081",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "AVL",
-    "kickoff": "2025-11-22T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "12",
-    "slug": "1379084",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1379084",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "NEW",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379093",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379093",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "FUL",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379097",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379097",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "LIV",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379098",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379098",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "ARS",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379091",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379091",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "LEE",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379094",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379094",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "MAN",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379092",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379092",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "BUR",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379090",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379090",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "BHA",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379095",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379095",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "WOL",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379089",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379089",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "BOU",
-    "kickoff": "2025-11-29T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "13",
-    "slug": "1379096",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1379096",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "WHU",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379106",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379106",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "TOT",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379107",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379107",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "EVE",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379100",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379100",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "MCI",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379103",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379103",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "NOT",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379108",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379108",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "SUN",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379105",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379105",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "BRE",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379099",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379099",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "CRY",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379102",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379102",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "AVL",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379101",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379101",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "CHE",
-    "kickoff": "2025-12-03T20:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "14",
-    "slug": "1379104",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1379104",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "BUR",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379116",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379116",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "CHE",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379110",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379110",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "CRY",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379113",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379113",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "MAN",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379118",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379118",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "NOT",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379112",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379112",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "BRE",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379117",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379117",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "SUN",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379115",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379115",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "WHU",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379111",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379111",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "LIV",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379114",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379114",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "ARS",
-    "kickoff": "2025-12-06T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "15",
-    "slug": "1379109",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1379109",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "BOU",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379125",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379125",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "BHA",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379124",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379124",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "WOL",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379119",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379119",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "FUL",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379121",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379121",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "AVL",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379128",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379128",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "EVE",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379122",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379122",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "MCI",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379123",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379123",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "LEE",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379120",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379120",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "TOT",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379126",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379126",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "NEW",
-    "kickoff": "2025-12-13T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "16",
-    "slug": "1379127",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1379127",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "CHE",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379136",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379136",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "BUR",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379130",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379130",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "NOT",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379133",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379133",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "BRE",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379138",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379138",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "ARS",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379132",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379132",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "LIV",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379137",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379137",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "WHU",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379135",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379135",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "SUN",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379131",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379131",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "CRY",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379134",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379134",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "MAN",
-    "kickoff": "2025-12-20T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "17",
-    "slug": "1379129",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1379129",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "NEW",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379145",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379145",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "WOL",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379144",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379144",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "BHA",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379139",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379139",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "EVE",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379141",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379141",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "FUL",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379148",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379148",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "AVL",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379142",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379142",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "TOT",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379143",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379143",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "BOU",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379140",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379140",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "MCI",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379146",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379146",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "LEE",
-    "kickoff": "2025-12-27T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "18",
-    "slug": "1379147",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1379147",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "WOL",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379155",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379155",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "LEE",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379154",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379154",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "AVL",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379149",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379149",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "NEW",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379151",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379151",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "BHA",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379158",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379158",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "BOU",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379152",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379152",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "FUL",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379153",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379153",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "TOT",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379150",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379150",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "EVE",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379156",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379156",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "MCI",
-    "kickoff": "2025-12-30T20:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "19",
-    "slug": "1379157",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1379157",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "CRY",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379166",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379166",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "ARS",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379160",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379160",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "LIV",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379163",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379163",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "WHU",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379168",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379168",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "BRE",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379162",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379162",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "SUN",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379167",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379167",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "CHE",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379165",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379165",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "BUR",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379161",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379161",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "MAN",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379164",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379164",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "NOT",
-    "kickoff": "2026-01-03T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "20",
-    "slug": "1379159",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1379159",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "LEE",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379177",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379177",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "TOT",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379170",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379170",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "CHE",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379175",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379175",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "LIV",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379169",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379169",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "MAN",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379172",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379172",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "WOL",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379174",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379174",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "NOT",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379178",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379178",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "BHA",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379176",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379176",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "AVL",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379173",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379173",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "SUN",
-    "kickoff": "2026-01-07T20:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "21",
-    "slug": "1379171",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1379171",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "MCI",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379184",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379184",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "NEW",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379188",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379188",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "BUR",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379183",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379183",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "WHU",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379187",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379187",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "BRE",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379181",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379181",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "BOU",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379180",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379180",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "FUL",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379182",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379182",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "ARS",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379185",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379185",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "EVE",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379179",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379179",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "CRY",
-    "kickoff": "2026-01-17T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "22",
-    "slug": "1379186",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1379186",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "AVL",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379197",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379197",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "LIV",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379190",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379190",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "BHA",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379195",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379195",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "MAN",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379189",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379189",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "TOT",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379192",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379192",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "LEE",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379194",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379194",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "SUN",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379198",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379198",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "WOL",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379196",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379196",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "CHE",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379193",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379193",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "NOT",
-    "kickoff": "2026-01-24T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "23",
-    "slug": "1379191",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1379191",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "FUL",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379204",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379204",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "BOU",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379208",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379208",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "NEW",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379203",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379203",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "MCI",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379207",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379207",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "WHU",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379201",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379201",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "EVE",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379200",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379200",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "ARS",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379202",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379202",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "CRY",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379205",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379205",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "BRE",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379199",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379199",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "BUR",
-    "kickoff": "2026-01-31T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "24",
-    "slug": "1379206",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1379206",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "TOT",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379216",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379216",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "BRE",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379217",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379217",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "AVL",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379210",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379210",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "EVE",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379213",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379213",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "CHE",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379218",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379218",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "MCI",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379215",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379215",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "SUN",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379209",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379209",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "WHU",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379212",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379212",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "CRY",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379211",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379211",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "NOT",
-    "kickoff": "2026-02-07T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "25",
-    "slug": "1379214",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1379214",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "BOU",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379223",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379223",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "NEW",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379227",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379227",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "MAN",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379228",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379228",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "LEE",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379221",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379221",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "FUL",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379224",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379224",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "BUR",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379222",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379222",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "ARS",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379220",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379220",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "WOL",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379225",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379225",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "BHA",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379219",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379219",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "LIV",
-    "kickoff": "2026-02-11T20:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "26",
-    "slug": "1379226",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1379226",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "MAN",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379233",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379233",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "ARS",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379237",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379237",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "BOU",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379238",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379238",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "BUR",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379231",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379231",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "NEW",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379234",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379234",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "WOL",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379232",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379232",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "BHA",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379230",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379230",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "LIV",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379235",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379235",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "LEE",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379229",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379229",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "FUL",
-    "kickoff": "2026-02-21T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "27",
-    "slug": "1379236",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1379236",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "CRY",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379246",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379246",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "EVE",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379247",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379247",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "SUN",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379240",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379240",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "TOT",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379243",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379243",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "AVL",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379248",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379248",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "WHU",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379245",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379245",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "CHE",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379239",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379239",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "BRE",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379242",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379242",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "NOT",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379241",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379241",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "MCI",
-    "kickoff": "2026-02-28T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "28",
-    "slug": "1379244",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1379244",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "MAN",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379256",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379256",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "BRE",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379250",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379250",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "WHU",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379253",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379253",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "LIV",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379258",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379258",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "BUR",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379252",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379252",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "CRY",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379257",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379257",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "NOT",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379255",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379255",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "ARS",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379251",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379251",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "SUN",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379254",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379254",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "CHE",
-    "kickoff": "2026-03-04T20:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "29",
-    "slug": "1379249",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1379249",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "AVL",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379265",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379265",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "TOT",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379264",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379264",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "EVE",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379259",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379259",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "BOU",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379261",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379261",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "MCI",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379268",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379268",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "NEW",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379262",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379262",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "LEE",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379263",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379263",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "WOL",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379260",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379260",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "FUL",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379266",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379266",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "BHA",
-    "kickoff": "2026-03-14T15:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "30",
-    "slug": "1379267",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1379267",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "SUN",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379276",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379276",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "MAN",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379270",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379270",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "BUR",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379273",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379273",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "ARS",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379278",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379278",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "CHE",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379272",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379272",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "NOT",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379277",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379277",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "CRY",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379275",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379275",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "LIV",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379271",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379271",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "BRE",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379274",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379274",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "WHU",
-    "kickoff": "2026-03-21T15:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "31",
-    "slug": "1379269",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1379269",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "LEE",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379285",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379285",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "FUL",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379284",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379284",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "BOU",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379279",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379279",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "BHA",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379281",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379281",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "WOL",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379288",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379288",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "MCI",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379282",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379282",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "NEW",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379283",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379283",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "EVE",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379280",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379280",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "AVL",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379286",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379286",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "TOT",
-    "kickoff": "2026-04-11T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "32",
-    "slug": "1379287",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1379287",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "BOU",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379296",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379296",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "LIV",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379293",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379293",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "BHA",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379298",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379298",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "MAN",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379291",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379291",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "ARS",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379295",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379295",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "WHU",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379292",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379292",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "FUL",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379290",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379290",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "WOL",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379294",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379294",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "BUR",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379297",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379297",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "SUN",
-    "kickoff": "2026-04-18T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "33",
-    "slug": "1379289",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1379289",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "BRE",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379305",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379305",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "LEE",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379300",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379300",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "AVL",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379303",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379303",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "TOT",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379308",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379308",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "CRY",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379304",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379304",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "NEW",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379299",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379299",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "MCI",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379302",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379302",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "EVE",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379307",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379307",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "CHE",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379301",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379301",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "NOT",
-    "kickoff": "2026-04-25T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "34",
-    "slug": "1379306",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1379306",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "LIV",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379316",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379316",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "BHA",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379317",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379317",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "CRY",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379311",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379311",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "SUN",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379318",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379318",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "FUL",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379309",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379309",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "MCI",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379314",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379314",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "NOT",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379313",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379313",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "WHU",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379312",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379312",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "BUR",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379315",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379315",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "TOT",
-    "kickoff": "2026-05-02T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "35",
-    "slug": "1379310",
+    "league_week_number": "Regular Season - 35",
+    "api_football_id": "1379310",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "BOU",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379322",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379322",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "CHE",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379323",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379323",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "AVL",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379320",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379320",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "LEE",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379327",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379327",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "ARS",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379328",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379328",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "BRE",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379324",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379324",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "WOL",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379319",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379319",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "EVE",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379321",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379321",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "NEW",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379325",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379325",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "MAN",
-    "kickoff": "2026-05-09T14:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "36",
-    "slug": "1379326",
+    "league_week_number": "Regular Season - 36",
+    "api_football_id": "1379326",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MAN",
+    "home_id": "33",
     "away_team": "NOT",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "65",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379336",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379336",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NEW",
+    "home_id": "34",
     "away_team": "WHU",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "48",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379337",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379337",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BOU",
+    "home_id": "35",
     "away_team": "MCI",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "50",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379331",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379331",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WOL",
+    "home_id": "39",
     "away_team": "FUL",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "36",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379338",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379338",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "ARS",
+    "home_id": "42",
     "away_team": "BUR",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "44",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379329",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379329",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "EVE",
+    "home_id": "45",
     "away_team": "SUN",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "746",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379334",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379334",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CHE",
+    "home_id": "49",
     "away_team": "TOT",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "47",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379333",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379333",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BRE",
+    "home_id": "55",
     "away_team": "CRY",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "52",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379332",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379332",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LEE",
+    "home_id": "63",
     "away_team": "BHA",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "51",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379335",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379335",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "AVL",
+    "home_id": "66",
     "away_team": "LIV",
-    "kickoff": "2026-05-17T14:00:00.000Z",
+    "away_id": "40",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "37",
-    "slug": "1379330",
+    "league_week_number": "Regular Season - 37",
+    "api_football_id": "1379330",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "FUL",
+    "home_id": "36",
     "away_team": "NEW",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "34",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379342",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379342",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "LIV",
+    "home_id": "40",
     "away_team": "BRE",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "55",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379343",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379343",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BUR",
+    "home_id": "44",
     "away_team": "WOL",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "39",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379340",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379340",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "TOT",
+    "home_id": "47",
     "away_team": "EVE",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "45",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379347",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379347",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "WHU",
+    "home_id": "48",
     "away_team": "LEE",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "63",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379348",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379348",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "MCI",
+    "home_id": "50",
     "away_team": "AVL",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "66",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379344",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379344",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "BHA",
+    "home_id": "51",
     "away_team": "MAN",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "33",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379339",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379339",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "CRY",
+    "home_id": "52",
     "away_team": "ARS",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "42",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379341",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379341",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "NOT",
+    "home_id": "65",
     "away_team": "BOU",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "35",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379345",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379345",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   },
   {
     "home_team": "SUN",
+    "home_id": "746",
     "away_team": "CHE",
-    "kickoff": "2026-05-24T15:00:00.000Z",
+    "away_id": "49",
+    "league_id": "39",
     "league": "EPL",
-    "league_week_number": "38",
-    "slug": "1379346",
+    "league_week_number": "Regular Season - 38",
+    "api_football_id": "1379346",
     "broadcasts": {
       "br": [
         "espn"
       ],
       "us": [
-        "dazn"
+        "nbc"
       ]
     }
   }

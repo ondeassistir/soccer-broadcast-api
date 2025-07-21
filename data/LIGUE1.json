@@ -1,27 +1,13 @@
 [
   {
     "home_team": "ANG",
+    "home_id": "77",
     "away_team": "PFC",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387698",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "PSG",
-    "kickoff": "2025-08-17T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387704",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387698",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -33,11 +19,13 @@
   },
   {
     "home_team": "NIC",
+    "home_id": "84",
     "away_team": "TOU",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387705",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387705",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -49,11 +37,13 @@
   },
   {
     "home_team": "ASM",
+    "home_id": "91",
     "away_team": "HAV",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387703",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387703",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -65,11 +55,13 @@
   },
   {
     "home_team": "REN",
+    "home_id": "94",
     "away_team": "MAR",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387706",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387706",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -81,11 +73,13 @@
   },
   {
     "home_team": "BRES",
-    "away_team": "LIL",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "home_id": "106",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387700",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387700",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -97,11 +91,13 @@
   },
   {
     "home_team": "AUX",
+    "home_id": "108",
     "away_team": "LOR",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387699",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387699",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -113,11 +109,13 @@
   },
   {
     "home_team": "MET",
+    "home_id": "112",
     "away_team": "STR",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387702",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387702",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -129,11 +127,13 @@
   },
   {
     "home_team": "LEN",
+    "home_id": "116",
     "away_team": "LYO",
-    "kickoff": "2025-08-17T15:00:00.000Z",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "1",
-    "slug": "1387701",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387701",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -144,12 +144,32 @@
     }
   },
   {
-    "home_team": "LIL",
-    "away_team": "ASM",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387708",
+    "league_week_number": "Regular Season - 1",
+    "api_football_id": "1387704",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387708",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -161,11 +181,13 @@
   },
   {
     "home_team": "LYO",
+    "home_id": "80",
     "away_team": "MET",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387710",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387710",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -177,11 +199,13 @@
   },
   {
     "home_team": "MAR",
+    "home_id": "81",
     "away_team": "PFC",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387711",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387711",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -193,11 +217,13 @@
   },
   {
     "home_team": "NIC",
+    "home_id": "84",
     "away_team": "AUX",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387712",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387712",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -209,11 +235,13 @@
   },
   {
     "home_team": "PSG",
+    "home_id": "85",
     "away_team": "ANG",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387713",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387713",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -225,11 +253,13 @@
   },
   {
     "home_team": "STR",
+    "home_id": "95",
     "away_team": "NAN",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387714",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387714",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -241,11 +271,13 @@
   },
   {
     "home_team": "TOU",
+    "home_id": "96",
     "away_team": "BRES",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "106",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387715",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387715",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -257,11 +289,13 @@
   },
   {
     "home_team": "LOR",
+    "home_id": "97",
     "away_team": "REN",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387709",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387709",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -273,11 +307,13 @@
   },
   {
     "home_team": "HAV",
+    "home_id": "111",
     "away_team": "LEN",
-    "kickoff": "2025-08-24T15:00:00.000Z",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "2",
-    "slug": "1387707",
+    "league_week_number": "Regular Season - 2",
+    "api_football_id": "1387707",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -289,11 +325,13 @@
   },
   {
     "home_team": "ANG",
+    "home_id": "77",
     "away_team": "REN",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387716",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387716",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -305,11 +343,13 @@
   },
   {
     "home_team": "LYO",
+    "home_id": "80",
     "away_team": "MAR",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387720",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387720",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -321,11 +361,13 @@
   },
   {
     "home_team": "NAN",
+    "home_id": "83",
     "away_team": "AUX",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387722",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387722",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -337,11 +379,13 @@
   },
   {
     "home_team": "ASM",
+    "home_id": "91",
     "away_team": "STR",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387721",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387721",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -353,11 +397,13 @@
   },
   {
     "home_team": "TOU",
+    "home_id": "96",
     "away_team": "PSG",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387724",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387724",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -369,11 +415,13 @@
   },
   {
     "home_team": "LOR",
-    "away_team": "LIL",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "home_id": "97",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387719",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387719",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -385,11 +433,13 @@
   },
   {
     "home_team": "HAV",
+    "home_id": "111",
     "away_team": "NIC",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387717",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387717",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -401,11 +451,13 @@
   },
   {
     "home_team": "PFC",
+    "home_id": "114",
     "away_team": "MET",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387723",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387723",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -417,11 +469,13 @@
   },
   {
     "home_team": "LEN",
+    "home_id": "116",
     "away_team": "BRES",
-    "kickoff": "2025-08-31T15:00:00.000Z",
+    "away_id": "106",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "3",
-    "slug": "1387718",
+    "league_week_number": "Regular Season - 3",
+    "api_football_id": "1387718",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -432,12 +486,14 @@
     }
   },
   {
-    "home_team": "LIL",
+    "home_team": "Lille",
+    "home_id": "79",
     "away_team": "TOU",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387727",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387727",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -449,11 +505,13 @@
   },
   {
     "home_team": "MAR",
+    "home_id": "81",
     "away_team": "LOR",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387728",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387728",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -465,11 +523,13 @@
   },
   {
     "home_team": "NIC",
+    "home_id": "84",
     "away_team": "NAN",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387730",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387730",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -481,11 +541,13 @@
   },
   {
     "home_team": "PSG",
+    "home_id": "85",
     "away_team": "LEN",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387731",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387731",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -497,11 +559,13 @@
   },
   {
     "home_team": "REN",
+    "home_id": "94",
     "away_team": "LYO",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387732",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387732",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -513,11 +577,13 @@
   },
   {
     "home_team": "STR",
+    "home_id": "95",
     "away_team": "HAV",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387733",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387733",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -529,11 +595,13 @@
   },
   {
     "home_team": "BRES",
+    "home_id": "106",
     "away_team": "PFC",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387726",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387726",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -545,11 +613,13 @@
   },
   {
     "home_team": "AUX",
+    "home_id": "108",
     "away_team": "ASM",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "91",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387725",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387725",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -561,11 +631,13 @@
   },
   {
     "home_team": "MET",
+    "home_id": "112",
     "away_team": "ANG",
-    "kickoff": "2025-09-14T15:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "4",
-    "slug": "1387729",
+    "league_week_number": "Regular Season - 4",
+    "api_football_id": "1387729",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -577,11 +649,13 @@
   },
   {
     "home_team": "LYO",
+    "home_id": "80",
     "away_team": "ANG",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387738",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387738",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -593,11 +667,13 @@
   },
   {
     "home_team": "MAR",
+    "home_id": "81",
     "away_team": "PSG",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387739",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387739",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -609,11 +685,13 @@
   },
   {
     "home_team": "NAN",
+    "home_id": "83",
     "away_team": "REN",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387741",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387741",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -625,11 +703,13 @@
   },
   {
     "home_team": "ASM",
+    "home_id": "91",
     "away_team": "MET",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387740",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387740",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -641,11 +721,13 @@
   },
   {
     "home_team": "BRES",
+    "home_id": "106",
     "away_team": "NIC",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387735",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387735",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -657,11 +739,13 @@
   },
   {
     "home_team": "AUX",
+    "home_id": "108",
     "away_team": "TOU",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387734",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387734",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -673,11 +757,13 @@
   },
   {
     "home_team": "HAV",
+    "home_id": "111",
     "away_team": "LOR",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387736",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387736",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -689,11 +775,13 @@
   },
   {
     "home_team": "PFC",
+    "home_id": "114",
     "away_team": "STR",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387742",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387742",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -705,11 +793,13 @@
   },
   {
     "home_team": "LEN",
-    "away_team": "LIL",
-    "kickoff": "2025-09-21T15:00:00.000Z",
+    "home_id": "116",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "5",
-    "slug": "1387737",
+    "league_week_number": "Regular Season - 5",
+    "api_football_id": "1387737",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -721,11 +811,13 @@
   },
   {
     "home_team": "ANG",
+    "home_id": "77",
     "away_team": "BRES",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "106",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387743",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387743",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -736,12 +828,14 @@
     }
   },
   {
-    "home_team": "LIL",
+    "home_team": "Lille",
+    "home_id": "79",
     "away_team": "LYO",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387744",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387744",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -753,11 +847,13 @@
   },
   {
     "home_team": "NIC",
+    "home_id": "84",
     "away_team": "PFC",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387747",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387747",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -769,11 +865,13 @@
   },
   {
     "home_team": "PSG",
+    "home_id": "85",
     "away_team": "AUX",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387748",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387748",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -785,11 +883,13 @@
   },
   {
     "home_team": "REN",
+    "home_id": "94",
     "away_team": "LEN",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387749",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387749",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -801,11 +901,13 @@
   },
   {
     "home_team": "STR",
+    "home_id": "95",
     "away_team": "MAR",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387750",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387750",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -817,11 +919,13 @@
   },
   {
     "home_team": "TOU",
+    "home_id": "96",
     "away_team": "NAN",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387751",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387751",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -833,11 +937,13 @@
   },
   {
     "home_team": "LOR",
+    "home_id": "97",
     "away_team": "ASM",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "91",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387745",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387745",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -849,11 +955,13 @@
   },
   {
     "home_team": "MET",
+    "home_id": "112",
     "away_team": "HAV",
-    "kickoff": "2025-09-28T15:00:00.000Z",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "6",
-    "slug": "1387746",
+    "league_week_number": "Regular Season - 6",
+    "api_football_id": "1387746",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -864,12 +972,14 @@
     }
   },
   {
-    "home_team": "LIL",
+    "home_team": "Lille",
+    "home_id": "79",
     "away_team": "PSG",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387755",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387755",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -881,11 +991,13 @@
   },
   {
     "home_team": "LYO",
+    "home_id": "80",
     "away_team": "TOU",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387756",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387756",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -897,11 +1009,13 @@
   },
   {
     "home_team": "ASM",
+    "home_id": "91",
     "away_team": "NIC",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387758",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387758",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -913,11 +1027,13 @@
   },
   {
     "home_team": "STR",
+    "home_id": "95",
     "away_team": "ANG",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387760",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387760",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -929,11 +1045,13 @@
   },
   {
     "home_team": "BRES",
+    "home_id": "106",
     "away_team": "NAN",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387753",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387753",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -945,11 +1063,13 @@
   },
   {
     "home_team": "AUX",
+    "home_id": "108",
     "away_team": "LEN",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387752",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387752",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -961,11 +1081,13 @@
   },
   {
     "home_team": "HAV",
+    "home_id": "111",
     "away_team": "REN",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387754",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387754",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -977,11 +1099,13 @@
   },
   {
     "home_team": "MET",
+    "home_id": "112",
     "away_team": "MAR",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387757",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387757",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -993,11 +1117,13 @@
   },
   {
     "home_team": "PFC",
+    "home_id": "114",
     "away_team": "LOR",
-    "kickoff": "2025-10-05T15:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "7",
-    "slug": "1387759",
+    "league_week_number": "Regular Season - 7",
+    "api_football_id": "1387759",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1009,11 +1135,13 @@
   },
   {
     "home_team": "ANG",
+    "home_id": "77",
     "away_team": "ASM",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "91",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387761",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387761",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1025,11 +1153,13 @@
   },
   {
     "home_team": "MAR",
+    "home_id": "81",
     "away_team": "HAV",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387764",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387764",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1041,11 +1171,13 @@
   },
   {
     "home_team": "NAN",
-    "away_team": "LIL",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "home_id": "83",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387765",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387765",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1057,11 +1189,13 @@
   },
   {
     "home_team": "NIC",
+    "home_id": "84",
     "away_team": "LYO",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387766",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387766",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1073,11 +1207,13 @@
   },
   {
     "home_team": "PSG",
+    "home_id": "85",
     "away_team": "STR",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387767",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387767",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1089,11 +1225,13 @@
   },
   {
     "home_team": "REN",
+    "home_id": "94",
     "away_team": "AUX",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387768",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387768",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1105,11 +1243,13 @@
   },
   {
     "home_team": "TOU",
+    "home_id": "96",
     "away_team": "MET",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387769",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387769",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1121,11 +1261,13 @@
   },
   {
     "home_team": "LOR",
+    "home_id": "97",
     "away_team": "BRES",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "106",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387763",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387763",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1137,27 +1279,13 @@
   },
   {
     "home_team": "LEN",
+    "home_id": "116",
     "away_team": "PFC",
-    "kickoff": "2025-10-19T15:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "8",
-    "slug": "1387762",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "NIC",
-    "kickoff": "2025-10-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387778",
+    "league_week_number": "Regular Season - 8",
+    "api_football_id": "1387762",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1169,11 +1297,13 @@
   },
   {
     "home_team": "ANG",
+    "home_id": "77",
     "away_team": "LOR",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387770",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387770",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1184,12 +1314,14 @@
     }
   },
   {
-    "home_team": "LIL",
+    "home_team": "Lille",
+    "home_id": "79",
     "away_team": "MET",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387774",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387774",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1201,11 +1333,13 @@
   },
   {
     "home_team": "LYO",
+    "home_id": "80",
     "away_team": "STR",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387775",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387775",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1217,11 +1351,31 @@
   },
   {
     "home_team": "ASM",
+    "home_id": "91",
     "away_team": "TOU",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387776",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387776",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387778",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1233,11 +1387,13 @@
   },
   {
     "home_team": "BRES",
+    "home_id": "106",
     "away_team": "PSG",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387772",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387772",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1249,11 +1405,13 @@
   },
   {
     "home_team": "AUX",
+    "home_id": "108",
     "away_team": "HAV",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387771",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387771",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1265,11 +1423,13 @@
   },
   {
     "home_team": "PFC",
+    "home_id": "114",
     "away_team": "NAN",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387777",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387777",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1281,27 +1441,13 @@
   },
   {
     "home_team": "LEN",
+    "home_id": "116",
     "away_team": "MAR",
-    "kickoff": "2025-10-26T16:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "9",
-    "slug": "1387773",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "TOU",
-    "away_team": "REN",
-    "kickoff": "2025-10-29T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387787",
+    "league_week_number": "Regular Season - 9",
+    "api_football_id": "1387773",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1313,11 +1459,13 @@
   },
   {
     "home_team": "MAR",
+    "home_id": "81",
     "away_team": "ANG",
-    "kickoff": "2025-10-29T16:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387781",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387781",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1329,11 +1477,13 @@
   },
   {
     "home_team": "NAN",
+    "home_id": "83",
     "away_team": "ASM",
-    "kickoff": "2025-10-29T16:00:00.000Z",
+    "away_id": "91",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387783",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387783",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1345,11 +1495,13 @@
   },
   {
     "home_team": "NIC",
-    "away_team": "LIL",
-    "kickoff": "2025-10-29T16:00:00.000Z",
+    "home_id": "84",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387784",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387784",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1361,75 +1513,13 @@
   },
   {
     "home_team": "STR",
+    "home_id": "95",
     "away_team": "AUX",
-    "kickoff": "2025-10-29T16:00:00.000Z",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387786",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "PSG",
-    "kickoff": "2025-10-29T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387780",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "BRES",
-    "kickoff": "2025-10-29T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387779",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "LEN",
-    "kickoff": "2025-10-29T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387782",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "LYO",
-    "kickoff": "2025-10-29T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "10",
-    "slug": "1387785",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387786",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1441,11 +1531,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "HAV",
-    "kickoff": "2025-11-02T15:00:00.000Z",
+    "home_id": "96",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387796",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387787",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1456,12 +1548,86 @@
     }
   },
   {
-    "home_team": "LIL",
-    "away_team": "ANG",
-    "kickoff": "2025-11-02T16:00:00.000Z",
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387791",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387780",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387779",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387782",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 10",
+    "api_football_id": "1387785",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387791",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1473,11 +1639,13 @@
   },
   {
     "home_team": "NAN",
+    "home_id": "83",
     "away_team": "MET",
-    "kickoff": "2025-11-02T16:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387793",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387793",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1489,11 +1657,13 @@
   },
   {
     "home_team": "PSG",
+    "home_id": "85",
     "away_team": "NIC",
-    "kickoff": "2025-11-02T16:00:00.000Z",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387794",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387794",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1505,11 +1675,13 @@
   },
   {
     "home_team": "ASM",
+    "home_id": "91",
     "away_team": "PFC",
-    "kickoff": "2025-11-02T16:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387792",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387792",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1521,203 +1693,13 @@
   },
   {
     "home_team": "REN",
+    "home_id": "94",
     "away_team": "STR",
-    "kickoff": "2025-11-02T16:00:00.000Z",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387795",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "LYO",
-    "kickoff": "2025-11-02T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387789",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "MAR",
-    "kickoff": "2025-11-02T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387788",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "LOR",
-    "kickoff": "2025-11-02T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "11",
-    "slug": "1387790",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "LIL",
-    "kickoff": "2025-11-09T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387805",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
-    "away_team": "AUX",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387797",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "PSG",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387800",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "BRES",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387801",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ASM",
-    "away_team": "LEN",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387803",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "TOU",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387799",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "NAN",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387798",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "NIC",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387802",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "REN",
-    "kickoff": "2025-11-09T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "12",
-    "slug": "1387804",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387795",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1729,11 +1711,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "ANG",
-    "kickoff": "2025-11-23T15:00:00.000Z",
+    "home_id": "96",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387814",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387796",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1744,12 +1728,230 @@
     }
   },
   {
-    "home_team": "LIL",
-    "away_team": "PFC",
-    "kickoff": "2025-11-23T16:00:00.000Z",
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387809",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387789",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387788",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 11",
+    "api_football_id": "1387790",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387797",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387800",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387801",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ASM",
+    "home_id": "91",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387803",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387805",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387799",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387798",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387802",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 12",
+    "api_football_id": "1387804",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387809",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1761,11 +1963,13 @@
   },
   {
     "home_team": "NAN",
+    "home_id": "83",
     "away_team": "LOR",
-    "kickoff": "2025-11-23T16:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387810",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387810",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1777,11 +1981,13 @@
   },
   {
     "home_team": "NIC",
+    "home_id": "84",
     "away_team": "MAR",
-    "kickoff": "2025-11-23T16:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387811",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387811",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1793,11 +1999,13 @@
   },
   {
     "home_team": "PSG",
+    "home_id": "85",
     "away_team": "HAV",
-    "kickoff": "2025-11-23T16:00:00.000Z",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387812",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387812",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -1809,203 +2017,13 @@
   },
   {
     "home_team": "REN",
+    "home_id": "94",
     "away_team": "ASM",
-    "kickoff": "2025-11-23T16:00:00.000Z",
+    "away_id": "91",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387813",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "MET",
-    "kickoff": "2025-11-23T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387807",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "LYO",
-    "kickoff": "2025-11-23T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387806",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "STR",
-    "kickoff": "2025-11-23T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "13",
-    "slug": "1387808",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "BRES",
-    "kickoff": "2025-11-30T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387823",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
-    "away_team": "LEN",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387815",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "NAN",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387818",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "TOU",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387819",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ASM",
-    "away_team": "PSG",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387821",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "NIC",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387817",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "LIL",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387816",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "REN",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387820",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "AUX",
-    "kickoff": "2025-11-30T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "14",
-    "slug": "1387822",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387813",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2017,91 +2035,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "STR",
-    "kickoff": "2025-12-07T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387832",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "MAR",
-    "kickoff": "2025-12-07T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387827",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "LEN",
-    "kickoff": "2025-12-07T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387829",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
+    "home_id": "96",
     "away_team": "ANG",
-    "kickoff": "2025-12-07T16:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387830",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PSG",
-    "away_team": "REN",
-    "kickoff": "2025-12-07T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387831",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "LYO",
-    "kickoff": "2025-12-07T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387828",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387814",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2113,123 +2053,13 @@
   },
   {
     "home_team": "BRES",
-    "away_team": "ASM",
-    "kickoff": "2025-12-07T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387825",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
+    "home_id": "106",
     "away_team": "MET",
-    "kickoff": "2025-12-07T16:00:00.000Z",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387824",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "PFC",
-    "kickoff": "2025-12-07T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "15",
-    "slug": "1387826",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "LOR",
-    "kickoff": "2025-12-14T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387841",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
-    "away_team": "NAN",
-    "kickoff": "2025-12-14T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387833",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "HAV",
-    "kickoff": "2025-12-14T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387836",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "ASM",
-    "kickoff": "2025-12-14T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387837",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "BRES",
-    "kickoff": "2025-12-14T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387840",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387807",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2241,43 +2071,13 @@
   },
   {
     "home_team": "AUX",
-    "away_team": "LIL",
-    "kickoff": "2025-12-14T16:00:00.000Z",
+    "home_id": "108",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387834",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "PSG",
-    "kickoff": "2025-12-14T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387838",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "TOU",
-    "kickoff": "2025-12-14T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387839",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387806",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2289,11 +2089,13 @@
   },
   {
     "home_team": "LEN",
-    "away_team": "NIC",
-    "kickoff": "2025-12-14T16:00:00.000Z",
+    "home_id": "116",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "16",
-    "slug": "1387835",
+    "league_week_number": "Regular Season - 13",
+    "api_football_id": "1387808",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2304,12 +2106,14 @@
     }
   },
   {
-    "home_team": "TOU",
+    "home_team": "ANG",
+    "home_id": "77",
     "away_team": "LEN",
-    "kickoff": "2026-01-04T15:00:00.000Z",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387850",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387815",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2320,12 +2124,14 @@
     }
   },
   {
-    "home_team": "LIL",
-    "away_team": "REN",
-    "kickoff": "2026-01-04T16:00:00.000Z",
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387844",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387818",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2337,43 +2143,13 @@
   },
   {
     "home_team": "MAR",
-    "away_team": "NAN",
-    "kickoff": "2026-01-04T16:00:00.000Z",
+    "home_id": "81",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387846",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "STR",
-    "kickoff": "2026-01-04T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387848",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PSG",
-    "away_team": "PFC",
-    "kickoff": "2026-01-04T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387849",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387819",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2385,171 +2161,13 @@
   },
   {
     "home_team": "ASM",
-    "away_team": "LYO",
-    "kickoff": "2026-01-04T16:00:00.000Z",
+    "home_id": "91",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387847",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "MET",
-    "kickoff": "2026-01-04T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387845",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "AUX",
-    "kickoff": "2026-01-04T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387842",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "ANG",
-    "kickoff": "2026-01-04T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "17",
-    "slug": "1387843",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "TOU",
-    "away_team": "NIC",
-    "kickoff": "2026-01-18T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387859",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
-    "away_team": "MAR",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387851",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "BRES",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387853",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "PFC",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387855",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PSG",
-    "away_team": "LIL",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387856",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ASM",
-    "away_team": "LOR",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387854",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "HAV",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387857",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387821",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2561,11 +2179,13 @@
   },
   {
     "home_team": "STR",
-    "away_team": "MET",
-    "kickoff": "2026-01-18T16:00:00.000Z",
+    "home_id": "95",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387858",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387823",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2576,108 +2196,14 @@
     }
   },
   {
-    "home_team": "LEN",
-    "away_team": "AUX",
-    "kickoff": "2026-01-18T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "18",
-    "slug": "1387852",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "LOR",
-    "kickoff": "2026-01-25T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387868",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "STR",
-    "kickoff": "2026-01-25T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387863",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "LEN",
-    "kickoff": "2026-01-25T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387864",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
+    "home_team": "LOR",
+    "home_id": "97",
     "away_team": "NIC",
-    "kickoff": "2026-01-25T16:00:00.000Z",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387866",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "TOU",
-    "kickoff": "2026-01-25T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387861",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "PSG",
-    "kickoff": "2026-01-25T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387860",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387817",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2689,11 +2215,13 @@
   },
   {
     "home_team": "HAV",
-    "away_team": "ASM",
-    "kickoff": "2026-01-25T16:00:00.000Z",
+    "home_id": "111",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387862",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387816",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2705,11 +2233,13 @@
   },
   {
     "home_team": "MET",
-    "away_team": "LYO",
-    "kickoff": "2026-01-25T16:00:00.000Z",
+    "home_id": "112",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387865",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387820",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2721,27 +2251,13 @@
   },
   {
     "home_team": "PFC",
-    "away_team": "ANG",
-    "kickoff": "2026-01-25T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "19",
-    "slug": "1387867",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "TOU",
+    "home_id": "114",
     "away_team": "AUX",
-    "kickoff": "2026-02-01T15:00:00.000Z",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387877",
+    "league_week_number": "Regular Season - 14",
+    "api_football_id": "1387822",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2752,12 +2268,14 @@
     }
   },
   {
-    "home_team": "ANG",
-    "away_team": "MET",
-    "kickoff": "2026-02-01T16:00:00.000Z",
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387869",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387827",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2768,12 +2286,14 @@
     }
   },
   {
-    "home_team": "LYO",
-    "away_team": "LIL",
-    "kickoff": "2026-02-01T16:00:00.000Z",
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387872",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387829",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2785,91 +2305,13 @@
   },
   {
     "home_team": "NIC",
-    "away_team": "BRES",
-    "kickoff": "2026-02-01T16:00:00.000Z",
+    "home_id": "84",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387874",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ASM",
-    "away_team": "REN",
-    "kickoff": "2026-02-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387873",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "PSG",
-    "kickoff": "2026-02-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387876",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "NAN",
-    "kickoff": "2026-02-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387871",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "MAR",
-    "kickoff": "2026-02-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387875",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "HAV",
-    "kickoff": "2026-02-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "20",
-    "slug": "1387870",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387830",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -2881,283 +2323,13 @@
   },
   {
     "home_team": "PSG",
-    "away_team": "MAR",
-    "kickoff": "2026-02-08T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387886",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
-    "away_team": "TOU",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387878",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "LYO",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387884",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "ASM",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387885",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "LOR",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387880",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "PFC",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387879",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "STR",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387881",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "LIL",
-    "kickoff": "2026-02-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387883",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
+    "home_id": "85",
     "away_team": "REN",
-    "kickoff": "2026-02-08T16:00:00.000Z",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "21",
-    "slug": "1387882",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "PSG",
-    "kickoff": "2026-02-15T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387895",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "BRES",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387888",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "NIC",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387890",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "STR",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387891",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ASM",
-    "away_team": "NAN",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387893",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "ANG",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387889",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "TOU",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387887",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "AUX",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387892",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "LEN",
-    "kickoff": "2026-02-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "22",
-    "slug": "1387894",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387831",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3169,219 +2341,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "PFC",
-    "kickoff": "2026-02-22T15:00:00.000Z",
+    "home_id": "96",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387904",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
-    "away_team": "LIL",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387896",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "HAV",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387900",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "LOR",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387901",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PSG",
-    "away_team": "MET",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387902",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "LYO",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387903",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "MAR",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387898",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "REN",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387897",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "ASM",
-    "kickoff": "2026-02-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "23",
-    "slug": "1387899",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "LEN",
-    "kickoff": "2026-03-01T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387913",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "NAN",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387906",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "LYO",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387908",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ASM",
-    "away_team": "ANG",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387910",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "TOU",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387912",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387832",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3393,11 +2359,49 @@
   },
   {
     "home_team": "LOR",
-    "away_team": "AUX",
-    "kickoff": "2026-03-01T16:00:00.000Z",
+    "home_id": "97",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387907",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387828",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387825",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387824",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3409,203 +2413,13 @@
   },
   {
     "home_team": "HAV",
-    "away_team": "PSG",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387905",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "BRES",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387909",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "NIC",
-    "kickoff": "2026-03-01T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "24",
-    "slug": "1387911",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "TOU",
-    "away_team": "MAR",
-    "kickoff": "2026-03-08T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387922",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "LOR",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387917",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
+    "home_id": "111",
     "away_team": "PFC",
-    "kickoff": "2026-03-08T16:00:00.000Z",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387918",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "ANG",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387919",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "REN",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387920",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PSG",
-    "away_team": "ASM",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387921",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "HAV",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387915",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "STR",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387914",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "MET",
-    "kickoff": "2026-03-08T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "25",
-    "slug": "1387916",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "PFC",
-    "kickoff": "2026-03-15T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387931",
+    "league_week_number": "Regular Season - 15",
+    "api_football_id": "1387826",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3617,11 +2431,31 @@
   },
   {
     "home_team": "ANG",
-    "away_team": "NIC",
-    "kickoff": "2026-03-15T16:00:00.000Z",
+    "home_id": "77",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387923",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387833",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387836",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3633,11 +2467,175 @@
   },
   {
     "home_team": "MAR",
-    "away_team": "AUX",
-    "kickoff": "2026-03-15T16:00:00.000Z",
+    "home_id": "81",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387926",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387837",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387840",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387841",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387834",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387838",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387839",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 16",
+    "api_football_id": "1387835",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387844",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387846",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387848",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3649,11 +2647,13 @@
   },
   {
     "home_team": "PSG",
-    "away_team": "NAN",
-    "kickoff": "2026-03-15T16:00:00.000Z",
+    "home_id": "85",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387929",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387849",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3665,155 +2665,13 @@
   },
   {
     "home_team": "ASM",
-    "away_team": "BRES",
-    "kickoff": "2026-03-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387928",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "LIL",
-    "kickoff": "2026-03-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387930",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "LEN",
-    "kickoff": "2026-03-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387925",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
+    "home_id": "91",
     "away_team": "LYO",
-    "kickoff": "2026-03-15T16:00:00.000Z",
+    "away_id": "80",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387924",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "TOU",
-    "kickoff": "2026-03-15T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "26",
-    "slug": "1387927",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "ASM",
-    "kickoff": "2026-03-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387934",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "LIL",
-    "kickoff": "2026-03-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387935",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "STR",
-    "kickoff": "2026-03-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387936",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "PSG",
-    "kickoff": "2026-03-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387937",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "MET",
-    "kickoff": "2026-03-22T16:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387939",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387847",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3825,11 +2683,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "LOR",
-    "kickoff": "2026-03-22T16:00:00.000Z",
+    "home_id": "96",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387940",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387850",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3840,12 +2700,14 @@
     }
   },
   {
-    "home_team": "AUX",
-    "away_team": "BRES",
-    "kickoff": "2026-03-22T16:00:00.000Z",
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387932",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387845",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3856,12 +2718,14 @@
     }
   },
   {
-    "home_team": "PFC",
-    "away_team": "HAV",
-    "kickoff": "2026-03-22T16:00:00.000Z",
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387938",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387842",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3872,12 +2736,14 @@
     }
   },
   {
-    "home_team": "LEN",
+    "home_team": "HAV",
+    "home_id": "111",
     "away_team": "ANG",
-    "kickoff": "2026-03-22T16:00:00.000Z",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "27",
-    "slug": "1387933",
+    "league_week_number": "Regular Season - 17",
+    "api_football_id": "1387843",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3889,11 +2755,13 @@
   },
   {
     "home_team": "ANG",
-    "away_team": "LYO",
-    "kickoff": "2026-04-05T15:00:00.000Z",
+    "home_id": "77",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387941",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387851",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3904,12 +2772,32 @@
     }
   },
   {
-    "home_team": "LIL",
-    "away_team": "LEN",
-    "kickoff": "2026-04-05T15:00:00.000Z",
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387944",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387853",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387855",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3921,11 +2809,13 @@
   },
   {
     "home_team": "PSG",
-    "away_team": "TOU",
-    "kickoff": "2026-04-05T15:00:00.000Z",
+    "home_id": "85",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387948",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387856",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -3937,139 +2827,13 @@
   },
   {
     "home_team": "ASM",
-    "away_team": "MAR",
-    "kickoff": "2026-04-05T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387947",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "NIC",
-    "kickoff": "2026-04-05T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387949",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "PFC",
-    "kickoff": "2026-04-05T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387945",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "REN",
-    "kickoff": "2026-04-05T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387942",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "AUX",
-    "kickoff": "2026-04-05T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387943",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "NAN",
-    "kickoff": "2026-04-05T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "28",
-    "slug": "1387946",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
+    "home_id": "91",
     "away_team": "LOR",
-    "kickoff": "2026-04-12T15:00:00.000Z",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387953",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "MET",
-    "kickoff": "2026-04-12T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387954",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "HAV",
-    "kickoff": "2026-04-12T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387955",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387854",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4081,11 +2845,31 @@
   },
   {
     "home_team": "REN",
-    "away_team": "ANG",
-    "kickoff": "2026-04-12T15:00:00.000Z",
+    "home_id": "94",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387957",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387857",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387858",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4097,59 +2881,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "LIL",
-    "kickoff": "2026-04-12T15:00:00.000Z",
+    "home_id": "96",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387958",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "STR",
-    "kickoff": "2026-04-12T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387951",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "NAN",
-    "kickoff": "2026-04-12T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387950",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "ASM",
-    "kickoff": "2026-04-12T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387956",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387859",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4161,11 +2899,13 @@
   },
   {
     "home_team": "LEN",
-    "away_team": "PSG",
-    "kickoff": "2026-04-12T15:00:00.000Z",
+    "home_id": "116",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "29",
-    "slug": "1387952",
+    "league_week_number": "Regular Season - 18",
+    "api_football_id": "1387852",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4176,12 +2916,14 @@
     }
   },
   {
-    "home_team": "ANG",
-    "away_team": "HAV",
-    "kickoff": "2026-04-19T15:00:00.000Z",
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387959",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387863",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4192,12 +2934,14 @@
     }
   },
   {
-    "home_team": "LIL",
-    "away_team": "NIC",
-    "kickoff": "2026-04-19T15:00:00.000Z",
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387961",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387864",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4209,11 +2953,13 @@
   },
   {
     "home_team": "NAN",
-    "away_team": "BRES",
-    "kickoff": "2026-04-19T15:00:00.000Z",
+    "home_id": "83",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387965",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387866",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4224,12 +2970,158 @@
     }
   },
   {
-    "home_team": "PSG",
-    "away_team": "LYO",
-    "kickoff": "2026-04-19T15:00:00.000Z",
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387966",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387868",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387861",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387860",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387862",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387865",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 19",
+    "api_football_id": "1387867",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387869",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387872",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387874",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4241,11 +3133,13 @@
   },
   {
     "home_team": "ASM",
-    "away_team": "AUX",
-    "kickoff": "2026-04-19T15:00:00.000Z",
+    "home_id": "91",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387964",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387873",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4257,123 +3151,13 @@
   },
   {
     "home_team": "STR",
-    "away_team": "REN",
-    "kickoff": "2026-04-19T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387967",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LOR",
-    "away_team": "MAR",
-    "kickoff": "2026-04-19T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387962",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "PFC",
-    "kickoff": "2026-04-19T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387963",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "TOU",
-    "kickoff": "2026-04-19T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "30",
-    "slug": "1387960",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "ANG",
+    "home_id": "95",
     "away_team": "PSG",
-    "kickoff": "2026-04-26T15:00:00.000Z",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387968",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "AUX",
-    "kickoff": "2026-04-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387972",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "NIC",
-    "kickoff": "2026-04-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387973",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "REN",
-    "away_team": "NAN",
-    "kickoff": "2026-04-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387975",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387876",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4385,11 +3169,13 @@
   },
   {
     "home_team": "TOU",
-    "away_team": "ASM",
-    "kickoff": "2026-04-26T15:00:00.000Z",
+    "home_id": "96",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387976",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387877",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4401,43 +3187,13 @@
   },
   {
     "home_team": "LOR",
-    "away_team": "STR",
-    "kickoff": "2026-04-26T15:00:00.000Z",
+    "home_id": "97",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387971",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "BRES",
-    "away_team": "LEN",
-    "kickoff": "2026-04-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387969",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "MET",
-    "kickoff": "2026-04-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387970",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387871",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4449,59 +3205,13 @@
   },
   {
     "home_team": "PFC",
-    "away_team": "LIL",
-    "kickoff": "2026-04-26T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "31",
-    "slug": "1387974",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "HAV",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387978",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "REN",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387979",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
+    "home_id": "114",
     "away_team": "MAR",
-    "kickoff": "2026-05-03T15:00:00.000Z",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387981",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387875",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4512,92 +3222,14 @@
     }
   },
   {
-    "home_team": "NIC",
-    "away_team": "LEN",
-    "kickoff": "2026-05-03T15:00:00.000Z",
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387982",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PSG",
-    "away_team": "LOR",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387984",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "TOU",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387985",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "ANG",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387977",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "ASM",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387980",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "PFC",
-    "away_team": "BRES",
-    "kickoff": "2026-05-03T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "32",
-    "slug": "1387983",
+    "league_week_number": "Regular Season - 20",
+    "api_football_id": "1387870",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4609,11 +3241,49 @@
   },
   {
     "home_team": "ANG",
-    "away_team": "STR",
-    "kickoff": "2026-05-09T15:00:00.000Z",
+    "home_id": "77",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387986",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387878",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387884",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387885",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4625,11 +3295,157 @@
   },
   {
     "home_team": "PSG",
-    "away_team": "BRES",
-    "kickoff": "2026-05-09T15:00:00.000Z",
+    "home_id": "85",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387992",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387886",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387880",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387879",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387881",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387883",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 21",
+    "api_football_id": "1387882",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387888",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387890",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387891",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4641,11 +3457,13 @@
   },
   {
     "home_team": "ASM",
-    "away_team": "LIL",
-    "kickoff": "2026-05-09T15:00:00.000Z",
+    "home_id": "91",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387991",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387893",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4657,187 +3475,13 @@
   },
   {
     "home_team": "REN",
-    "away_team": "PFC",
-    "kickoff": "2026-05-09T15:00:00.000Z",
+    "home_id": "94",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387993",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "TOU",
-    "away_team": "LYO",
-    "kickoff": "2026-05-09T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387994",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "AUX",
-    "away_team": "NIC",
-    "kickoff": "2026-05-09T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387987",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "HAV",
-    "away_team": "MAR",
-    "kickoff": "2026-05-09T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387988",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MET",
-    "away_team": "LOR",
-    "kickoff": "2026-05-09T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387990",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LEN",
-    "away_team": "NAN",
-    "kickoff": "2026-05-09T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "33",
-    "slug": "1387989",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LIL",
-    "away_team": "AUX",
-    "kickoff": "2026-05-16T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1387996",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "LYO",
-    "away_team": "LEN",
-    "kickoff": "2026-05-16T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1387998",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "MAR",
-    "away_team": "REN",
-    "kickoff": "2026-05-16T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1387999",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NAN",
-    "away_team": "TOU",
-    "kickoff": "2026-05-16T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1388000",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "NIC",
-    "away_team": "MET",
-    "kickoff": "2026-05-16T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1388001",
-    "broadcasts": {
-      "br": [
-        "cazetv"
-      ],
-      "us": [
-        "bein"
-      ]
-    }
-  },
-  {
-    "home_team": "STR",
-    "away_team": "ASM",
-    "kickoff": "2026-05-16T15:00:00.000Z",
-    "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1388003",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387895",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4849,11 +3493,13 @@
   },
   {
     "home_team": "LOR",
-    "away_team": "HAV",
-    "kickoff": "2026-05-16T15:00:00.000Z",
+    "home_id": "97",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1387997",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387889",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4864,12 +3510,32 @@
     }
   },
   {
-    "home_team": "BRES",
-    "away_team": "ANG",
-    "kickoff": "2026-05-16T15:00:00.000Z",
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1387995",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387887",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387892",
     "broadcasts": {
       "br": [
         "cazetv"
@@ -4881,11 +3547,1957 @@
   },
   {
     "home_team": "PFC",
-    "away_team": "PSG",
-    "kickoff": "2026-05-16T15:00:00.000Z",
+    "home_id": "114",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
     "league": "LIGUE_1",
-    "league_week_number": "34",
-    "slug": "1388002",
+    "league_week_number": "Regular Season - 22",
+    "api_football_id": "1387894",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387896",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387900",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387901",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387902",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387903",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "TOU",
+    "home_id": "96",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387904",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387898",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387897",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 23",
+    "api_football_id": "1387899",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387906",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387908",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ASM",
+    "home_id": "91",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387910",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387912",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387913",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387907",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387905",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387909",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 24",
+    "api_football_id": "1387911",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387917",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387918",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387919",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387920",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387921",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "TOU",
+    "home_id": "96",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387922",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387915",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387914",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 25",
+    "api_football_id": "1387916",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387923",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387926",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387929",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ASM",
+    "home_id": "91",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387928",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387930",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387931",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387925",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387924",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 26",
+    "api_football_id": "1387927",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387934",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387935",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387936",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387937",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387939",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387932",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387938",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387933",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "TOU",
+    "home_id": "96",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 27",
+    "api_football_id": "1387940",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387941",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387944",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387948",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ASM",
+    "home_id": "91",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387947",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387949",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387945",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387942",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387943",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 28",
+    "api_football_id": "1387946",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387953",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387954",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387955",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387957",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "TOU",
+    "home_id": "96",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387958",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387951",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387950",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387956",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 29",
+    "api_football_id": "1387952",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387959",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387961",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387965",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387966",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ASM",
+    "home_id": "91",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387964",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387967",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387962",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387963",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 30",
+    "api_football_id": "1387960",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387968",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387972",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387973",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387975",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "TOU",
+    "home_id": "96",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387976",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387971",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387969",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387970",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 31",
+    "api_football_id": "1387974",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387978",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387979",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387981",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387982",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387984",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387985",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387977",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387980",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 32",
+    "api_football_id": "1387983",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ANG",
+    "home_id": "77",
+    "away_team": "STR",
+    "away_id": "95",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387986",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PSG",
+    "home_id": "85",
+    "away_team": "BRES",
+    "away_id": "106",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387992",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "ASM",
+    "home_id": "91",
+    "away_team": "Lille",
+    "away_id": "79",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387991",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "REN",
+    "home_id": "94",
+    "away_team": "PFC",
+    "away_id": "114",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387993",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "TOU",
+    "home_id": "96",
+    "away_team": "LYO",
+    "away_id": "80",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387994",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "AUX",
+    "home_id": "108",
+    "away_team": "NIC",
+    "away_id": "84",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387987",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "HAV",
+    "home_id": "111",
+    "away_team": "MAR",
+    "away_id": "81",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387988",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MET",
+    "home_id": "112",
+    "away_team": "LOR",
+    "away_id": "97",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387990",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LEN",
+    "home_id": "116",
+    "away_team": "NAN",
+    "away_id": "83",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 33",
+    "api_football_id": "1387989",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "Lille",
+    "home_id": "79",
+    "away_team": "AUX",
+    "away_id": "108",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1387996",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LYO",
+    "home_id": "80",
+    "away_team": "LEN",
+    "away_id": "116",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1387998",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "MAR",
+    "home_id": "81",
+    "away_team": "REN",
+    "away_id": "94",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1387999",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NAN",
+    "home_id": "83",
+    "away_team": "TOU",
+    "away_id": "96",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1388000",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "NIC",
+    "home_id": "84",
+    "away_team": "MET",
+    "away_id": "112",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1388001",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "STR",
+    "home_id": "95",
+    "away_team": "ASM",
+    "away_id": "91",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1388003",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "LOR",
+    "home_id": "97",
+    "away_team": "HAV",
+    "away_id": "111",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1387997",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "BRES",
+    "home_id": "106",
+    "away_team": "ANG",
+    "away_id": "77",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1387995",
+    "broadcasts": {
+      "br": [
+        "cazetv"
+      ],
+      "us": [
+        "bein"
+      ]
+    }
+  },
+  {
+    "home_team": "PFC",
+    "home_id": "114",
+    "away_team": "PSG",
+    "away_id": "85",
+    "league_id": "61",
+    "league": "LIGUE_1",
+    "league_week_number": "Regular Season - 34",
+    "api_football_id": "1388002",
     "broadcasts": {
       "br": [
         "cazetv"
