@@ -999,7 +999,7 @@
     "leagues": ["ITALIAN_FOOTBALL"]
   },
   "FCA": {
-    "id": "AUG",
+    "id": "FCA",
     "name": "FC Augsburg",
     "short_name": "FCA",
     "venue": "WWK Arena",
@@ -1008,7 +1008,7 @@
     "leagues": ["BUNDESLIGA"]
   },
   "FCU": {
-    "id": "UNI",
+    "id": "FCU",
     "name": "Union Berlin",
     "short_name": "FCU",
     "venue": "Stadion An der Alten Försterei",
@@ -1079,7 +1079,7 @@
     "country": "DE",
     "leagues": ["BUNDESLIGA"]
   },
-  "KOL": {
+  "KOE": {
     "id": "KOE",
     "name": "FC Köln",
     "short_name": "KOE",
@@ -1330,15 +1330,6 @@
     "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/ULM.png",
     "country": "DE",
     "leagues": ["BUNDESLIGA_2"]
-  },
-  "KOE": {
-    "id": "KOE",
-    "name": "FC Cologne",
-    "short_name": "RheinEnergieSTADION",
-    "venue": "Various",
-    "badge": "https://img.ondeassistir.tv/images-scr/teams/germany/badge/KOE.png",
-    "country": "DE",
-    "leagues": ["BUNDESLIGA"]
   },
   "ANG": {
     "id": "ANG",

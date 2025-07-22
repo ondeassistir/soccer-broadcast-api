@@ -20,7 +20,7 @@
   {
     "home_team": "FRE",
     "home_id": "160",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -90,7 +90,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "VFB",
     "away_id": "172",
@@ -252,7 +252,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "BAY",
     "away_id": "157",
@@ -290,7 +290,7 @@
   {
     "home_team": "DOR",
     "home_id": "165",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -414,7 +414,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "HOF",
     "away_id": "167",
@@ -452,7 +452,7 @@
   {
     "home_team": "STP",
     "home_id": "186",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -540,7 +540,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "M05",
     "away_id": "164",
@@ -596,7 +596,7 @@
   {
     "home_team": "SGE",
     "home_id": "169",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -704,7 +704,7 @@
   {
     "home_team": "HDH",
     "home_id": "180",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -792,7 +792,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "HSV",
     "away_id": "175",
@@ -884,7 +884,7 @@
   {
     "home_team": "LEV",
     "home_id": "168",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -918,7 +918,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "WOB",
     "away_id": "161",
@@ -1080,7 +1080,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "BMG",
     "away_id": "163",
@@ -1118,7 +1118,7 @@
   {
     "home_team": "KOE",
     "home_id": "192",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -1136,7 +1136,7 @@
   {
     "home_team": "SVW",
     "home_id": "162",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -1242,7 +1242,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "RBL",
     "away_id": "173",
@@ -1350,7 +1350,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "DOR",
     "away_id": "165",
@@ -1404,7 +1404,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "FRE",
     "away_id": "160",
@@ -1568,7 +1568,7 @@
   {
     "home_team": "VFB",
     "home_id": "172",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -1602,7 +1602,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "BAY",
     "away_id": "157",
@@ -1692,7 +1692,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "HSV",
     "away_id": "175",
@@ -1748,7 +1748,7 @@
   {
     "home_team": "STP",
     "home_id": "186",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -1856,7 +1856,7 @@
   {
     "home_team": "HOF",
     "home_id": "167",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -1926,7 +1926,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "HDH",
     "away_id": "180",
@@ -1946,7 +1946,7 @@
   {
     "home_team": "WOB",
     "home_id": "161",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -1998,7 +1998,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "LEV",
     "away_id": "168",
@@ -2216,7 +2216,7 @@
   {
     "home_team": "SGE",
     "home_id": "169",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -2232,7 +2232,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "RBL",
     "away_id": "173",
@@ -2322,7 +2322,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "SVW",
     "away_id": "162",
@@ -2414,7 +2414,7 @@
   {
     "home_team": "KOE",
     "home_id": "192",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -2486,7 +2486,7 @@
   {
     "home_team": "BMG",
     "home_id": "163",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -2556,7 +2556,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "M05",
     "away_id": "164",
@@ -2664,9 +2664,9 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -2826,7 +2826,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "FRE",
     "away_id": "160",
@@ -2846,7 +2846,7 @@
   {
     "home_team": "VFB",
     "home_id": "172",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -2918,7 +2918,7 @@
   {
     "home_team": "BAY",
     "home_id": "157",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3042,7 +3042,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "DOR",
     "away_id": "165",
@@ -3116,7 +3116,7 @@
   {
     "home_team": "HOF",
     "home_id": "167",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3150,7 +3150,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "STP",
     "away_id": "186",
@@ -3314,7 +3314,7 @@
   {
     "home_team": "M05",
     "home_id": "164",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3348,7 +3348,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "SGE",
     "away_id": "169",
@@ -3492,7 +3492,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "HDH",
     "away_id": "180",
@@ -3548,7 +3548,7 @@
   {
     "home_team": "HSV",
     "home_id": "175",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3602,7 +3602,7 @@
   {
     "home_team": "WOB",
     "home_id": "161",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3672,7 +3672,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "LEV",
     "away_id": "168",
@@ -3746,7 +3746,7 @@
   {
     "home_team": "BMG",
     "home_id": "163",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3834,7 +3834,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "KOE",
     "away_id": "192",
@@ -3962,7 +3962,7 @@
   {
     "home_team": "RBL",
     "home_id": "173",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -3996,7 +3996,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "SVW",
     "away_id": "162",
@@ -4052,7 +4052,7 @@
   {
     "home_team": "FRE",
     "home_id": "160",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -4106,7 +4106,7 @@
   {
     "home_team": "DOR",
     "home_id": "165",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -4214,7 +4214,7 @@
   {
     "home_team": "BAY",
     "home_id": "157",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -4284,7 +4284,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "VFB",
     "away_id": "172",
@@ -4502,7 +4502,7 @@
   {
     "home_team": "HSV",
     "home_id": "175",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -4518,7 +4518,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "STP",
     "away_id": "186",
@@ -4590,7 +4590,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "HOF",
     "away_id": "167",
@@ -4646,7 +4646,7 @@
   {
     "home_team": "HDH",
     "home_id": "180",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -4790,7 +4790,7 @@
   {
     "home_team": "LEV",
     "home_id": "168",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -4824,7 +4824,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "WOB",
     "away_id": "161",
@@ -4914,7 +4914,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "SGE",
     "away_id": "169",
@@ -4952,7 +4952,7 @@
   {
     "home_team": "RBL",
     "home_id": "173",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -5060,7 +5060,7 @@
   {
     "home_team": "SVW",
     "home_id": "162",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -5148,7 +5148,7 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
     "away_team": "KOE",
     "away_id": "192",
@@ -5204,7 +5204,7 @@
   {
     "home_team": "M05",
     "home_id": "164",
-    "away_team": "UNI",
+    "away_team": "FCU",
     "away_id": "182",
     "league_id": "78",
     "league": "BUNDESLIGA",
@@ -5256,7 +5256,7 @@
     }
   },
   {
-    "home_team": "AUG",
+    "home_team": "FCA",
     "home_id": "170",
     "away_team": "BMG",
     "away_id": "163",
@@ -5472,9 +5472,9 @@
     }
   },
   {
-    "home_team": "UNI",
+    "home_team": "FCU",
     "home_id": "182",
-    "away_team": "AUG",
+    "away_team": "FCA",
     "away_id": "170",
     "league_id": "78",
     "league": "BUNDESLIGA",
