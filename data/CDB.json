@@ -1,244 +1,1832 @@
 [
-    {
-        "home_team": "CAM",
-        "away_team": "FLA",
-        "kickoff": "2025-08-07T00:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  {
+    "home_team": "Tocantinópolis",
+    "home_id": 7878,
+    "away_team": "CAM",
+    "away_id": 1062,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349591,
+    "broadcasts": {
             "br": [
                 "sportv",
                 "premiere"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "FLA",
-        "away_team": "CAM",
-        "kickoff": "2025-08-01T07:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "União Rondonópolis",
+    "home_id": 7788,
+    "away_team": "VAS",
+    "away_id": 133,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349592,
+    "broadcasts": {
             "br": [
                 "sportv",
                 "premiere"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "CAP",
-        "away_team": "SAO",
-        "kickoff": "2025-08-06T22:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de volta",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "Tuna Luso",
+    "home_id": 15611,
+    "away_team": "Sampaio Correa",
+    "away_id": 155,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349594,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Santa Cruz RN",
+    "home_id": 2222,
+    "away_team": "Nautico Recife",
+    "away_id": 755,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349593,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Sao Raimundo",
+    "home_id": 1218,
+    "away_team": "Gremio",
+    "away_id": 130,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349596,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Boavista SC",
+    "home_id": 2206,
+    "away_team": "CSA",
+    "away_id": 150,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349595,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Sergipe",
+    "home_id": 2224,
+    "away_team": "CEA",
+    "away_id": 129,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349626,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Capital Brasilia",
+    "home_id": 12921,
+    "away_team": "Portuguesa RJ",
+    "away_id": 7835,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349600,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Porto Velho",
+    "home_id": 12946,
+    "away_team": "Cuiaba",
+    "away_id": 1193,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349599,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Trem",
+    "home_id": 7868,
+    "away_team": "Brusque",
+    "away_id": 1211,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349597,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Independência",
+    "home_id": 10853,
+    "away_team": "Manaus FC",
+    "away_id": 2214,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349601,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "ASA",
+    "home_id": 1207,
+    "away_team": "Atletico Goianiense",
+    "away_id": 144,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349602,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Rio Branco-VN",
+    "home_id": 12929,
+    "away_team": "Amazonas",
+    "away_id": 10862,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349603,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Olaria",
+    "home_id": 13114,
+    "away_team": "ABC",
+    "away_id": 754,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349604,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maranhão",
+    "home_id": 7832,
+    "away_team": "Vitoria",
+    "away_id": 136,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349605,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maringá",
+    "home_id": 7833,
+    "away_team": "Juventude",
+    "away_id": 152,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349606,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Barcelona BA",
+    "home_id": 15103,
+    "away_team": "Athletic Club",
+    "away_id": 13975,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349607,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Operario Ferroviario",
+    "home_id": 2217,
+    "away_team": "CRI",
+    "away_id": 140,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349608,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CEOV Operário",
+    "home_id": 9999,
+    "away_team": "Sport Recife",
+    "away_id": 123,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349610,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Pouso Alegre",
+    "home_id": 13084,
+    "away_team": "CAP",
+    "away_id": 134,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349609,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Dourados Atlético",
+    "home_id": 16480,
+    "away_team": "Caxias",
+    "away_id": 7770,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349611,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CSE",
+    "home_id": 9127,
+    "away_team": "Tombense",
+    "away_id": 2227,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349598,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Guarany de Bagé",
+    "home_id": 10049,
+    "away_team": "Altos",
+    "away_id": 1203,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349612,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Cascavel",
+    "home_id": 10673,
+    "away_team": "America Mineiro",
+    "away_id": 125,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349614,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Votuporanguense",
+    "home_id": 2230,
+    "away_team": "Aparecidense",
+    "away_id": 1202,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349617,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Águia de Marabá",
+    "home_id": 7879,
+    "away_team": "FLU",
+    "away_id": 124,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349618,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Jequié",
+    "home_id": 15104,
+    "away_team": "RET",
+    "away_id": 13098,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349615,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Parnahyba",
+    "home_id": 7784,
+    "away_team": "Confiança",
+    "away_id": 7772,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349613,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Barcelona RO",
+    "home_id": 7823,
+    "away_team": "Nova Iguaçu",
+    "away_id": 7782,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349619,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Oratório",
+    "home_id": 10858,
+    "away_team": "Sao Jose",
+    "away_id": 2232,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349622,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maracanã",
+    "home_id": 13089,
+    "away_team": "Ferroviario",
+    "away_id": 1195,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349620,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "União Carmolandense",
+    "home_id": 18362,
+    "away_team": "America-RN",
+    "away_id": 2233,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349621,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "GAS",
+    "home_id": 12916,
+    "away_team": "remo",
+    "away_id": 1198,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349616,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Humaitá",
+    "home_id": 10478,
+    "away_team": "Operario-PR",
+    "away_id": 1223,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349623,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Concórdia",
+    "home_id": 12300,
+    "away_team": "Ponte Preta",
+    "away_id": 139,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349624,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Ceilândia",
+    "home_id": 7771,
+    "away_team": "Coritiba",
+    "away_id": 147,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349625,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Sousa",
+    "home_id": 7864,
+    "away_team": "RBB",
+    "away_id": 794,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349629,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Rio Branco ES",
+    "home_id": 10690,
+    "away_team": "Novorizontino",
+    "away_id": 7834,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349628,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Portuguesa",
+    "home_id": 1214,
+    "away_team": "Botafogo PB",
+    "away_id": 1197,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349627,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Inter De Limeira",
+    "home_id": 1201,
+    "away_team": "Vila Nova",
+    "away_id": 142,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "1st Round",
+    "api_football_id": 1349630,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Aparecidense",
+    "home_id": 1202,
+    "away_team": "Cascavel",
+    "away_id": 10673,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355037,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Caxias",
+    "home_id": 7770,
+    "away_team": "FLU",
+    "away_id": 124,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355038,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CAM",
+    "home_id": 1062,
+    "away_team": "Manaus FC",
+    "away_id": 2214,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1352889,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Nova Iguaçu",
+    "home_id": 7782,
+    "away_team": "VAS",
+    "away_id": 133,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355029,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maringá",
+    "home_id": 7833,
+    "away_team": "União Carmolandense",
+    "away_id": 18362,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355033,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Olaria",
+    "home_id": 13114,
+    "away_team": "Brusque",
+    "away_id": 1211,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1352890,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CEOV Operário",
+    "home_id": 9999,
+    "away_team": "Novorizontino",
+    "away_id": 7834,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355627,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "remo",
+    "home_id": 1198,
+    "away_team": "CRI",
+    "away_id": 140,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355036,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "RBB",
+    "home_id": 794,
+    "away_team": "Sao Jose",
+    "away_id": 2232,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355629,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Botafogo PB",
+    "home_id": 1197,
+    "away_team": "Concórdia",
+    "away_id": 12300,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355628,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Vitoria",
+    "home_id": 136,
+    "away_team": "Nautico Recife",
+    "away_id": 755,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355035,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Operario-PR",
+    "home_id": 1223,
+    "away_team": "Tombense",
+    "away_id": 2227,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355030,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Athletic Club",
+    "home_id": 13975,
+    "away_team": "Gremio",
+    "away_id": 130,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355034,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Capital Brasilia",
+    "home_id": 12921,
+    "away_team": "Porto Velho",
+    "away_id": 12946,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1352888,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maracanã",
+    "home_id": 13089,
+    "away_team": "Ceilândia",
+    "away_id": 7771,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355630,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CEA",
+    "home_id": 129,
+    "away_team": "Confiança",
+    "away_id": 7772,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355032,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Atletico Goianiense",
+    "home_id": 144,
+    "away_team": "RET",
+    "away_id": 13098,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355028,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CAP",
+    "home_id": 134,
+    "away_team": "Guarany de Bagé",
+    "away_id": 10049,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355031,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Vila Nova",
+    "home_id": 142,
+    "away_team": "Rio Branco-VN",
+    "away_id": 12929,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1355631,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CSA",
+    "home_id": 150,
+    "away_team": "Tuna Luso",
+    "away_id": 15611,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "2nd Round",
+    "api_football_id": 1352887,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "SCI",
+    "home_id": 119,
+    "away_team": "Maracanã",
+    "away_id": 13089,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370759,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "RET",
+    "home_id": 13098,
+    "away_team": "Fortaleza EC",
+    "away_id": 154,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370761,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maringá",
+    "home_id": 7833,
+    "away_team": "CAM",
+    "away_id": 1062,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370767,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "FLU",
+    "home_id": 124,
+    "away_team": "Aparecidense",
+    "away_id": 1202,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370755,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "SAO",
+    "home_id": 126,
+    "away_team": "Nautico Recife",
+    "away_id": 755,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370771,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "BOT",
+    "home_id": 120,
+    "away_team": "Capital Brasilia",
+    "away_id": 12921,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370751,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CEA",
+    "home_id": 129,
+    "away_team": "PAL",
+    "away_id": 121,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370765,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Paysandu",
+    "home_id": 149,
+    "away_team": "BAH",
+    "away_id": 118,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370757,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CSA",
+    "home_id": 150,
+    "away_team": "Gremio",
+    "away_id": 130,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370781,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Novorizontino",
+    "home_id": 7834,
+    "away_team": "COR",
+    "away_id": 131,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370777,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Brusque",
+    "home_id": 1211,
+    "away_team": "CAP",
+    "away_id": 134,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370763,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Operario-PR",
+    "home_id": 1223,
+    "away_team": "VAS",
+    "away_id": 133,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370753,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "SAN",
+    "home_id": 128,
+    "away_team": "CRB",
+    "away_id": 146,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370775,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CRI",
+    "home_id": 140,
+    "away_team": "RBB",
+    "away_id": 794,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370779,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Botafogo PB",
+    "home_id": 1197,
+    "away_team": "FLA",
+    "away_id": 127,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370769,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CRU",
+    "home_id": 135,
+    "away_team": "Vila Nova",
+    "away_id": 142,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370773,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "VAS",
+    "home_id": 133,
+    "away_team": "Operario-PR",
+    "away_id": 1223,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370754,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CAP",
+    "home_id": 134,
+    "away_team": "Brusque",
+    "away_id": 1211,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370764,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Gremio",
+    "home_id": 130,
+    "away_team": "CSA",
+    "away_id": 150,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370782,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Nautico Recife",
+    "home_id": 755,
+    "away_team": "SAO",
+    "away_id": 126,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370772,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Fortaleza EC",
+    "home_id": 154,
+    "away_team": "RET",
+    "away_id": 13098,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370762,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "BAH",
+    "home_id": 118,
+    "away_team": "Paysandu",
+    "away_id": 149,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370758,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Aparecidense",
+    "home_id": 1202,
+    "away_team": "FLU",
+    "away_id": 124,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370756,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "FLA",
+    "home_id": 127,
+    "away_team": "Botafogo PB",
+    "away_id": 1197,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370770,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "COR",
+    "home_id": 131,
+    "away_team": "Novorizontino",
+    "away_id": 7834,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370778,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CAM",
+    "home_id": 1062,
+    "away_team": "Maringá",
+    "away_id": 7833,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370768,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Vila Nova",
+    "home_id": 142,
+    "away_team": "CRU",
+    "away_id": 135,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370774,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Maracanã",
+    "home_id": 13089,
+    "away_team": "SCI",
+    "away_id": 119,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370760,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "PAL",
+    "home_id": 121,
+    "away_team": "CEA",
+    "away_id": 129,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370766,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CRB",
+    "home_id": 146,
+    "away_team": "SAN",
+    "away_id": 128,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370776,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "RBB",
+    "home_id": 794,
+    "away_team": "CRI",
+    "away_id": 140,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370780,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "Capital Brasilia",
+    "home_id": 12921,
+    "away_team": "BOT",
+    "away_id": 120,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "3rd Round",
+    "api_football_id": 1370752,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "BOT",
+    "home_id": 120,
+    "away_team": "RBB",
+    "away_id": 794,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377538,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CSA",
+    "home_id": 150,
+    "away_team": "VAS",
+    "away_id": 133,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377534,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "BAH",
+    "home_id": 118,
+    "away_team": "RET",
+    "away_id": 13098,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377528,
+    "broadcasts": {
             "br": [
                 "primevideo"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "SAO",
-        "away_team": "CAP",
-        "kickoff": "2025-08-01T05:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "CRU",
+    "home_id": 135,
+    "away_team": "CRB",
+    "away_id": 146,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377532,
+    "broadcasts": {
             "br": [
                 "primevideo"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "PAL",
-        "away_team": "COR",
-        "kickoff": "2025-08-08T00:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de volta",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "SCI",
+    "home_id": 119,
+    "away_team": "FLU",
+    "away_id": 124,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377530,
+    "broadcasts": {
             "br": [
-                "globo",
-                "sportv",
-                "primevideo",
-                "premiere"
+                "tvglobo",
+                "sportv", "primevideo" , "premiere"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "COR",
-        "away_team": "PAL",
-        "kickoff": "2025-07-31T07:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "COR",
+    "home_id": 131,
+    "away_team": "PAL",
+    "away_id": 121,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377536,
+    "broadcasts": {
             "br": [
-                "globo",
-                "sportv",
-                "primevideo",
-                "premiere"
+                "tvglobo",
+                "sportv", "primevideo" , "premiere"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "FLU",
-        "away_team": "SCI",
-        "kickoff": "2025-08-08T00:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de volta",
-        "slug": "noslug",
-        "broadcasts": {
-            "br": [
-                "globo",
-                "sportv",
-                "primevideo",
-                "premiere"
-            ],
-            "us": ["primevideo"]
-        }
-    },
-    {
-        "home_team": "SCI",
-        "away_team": "FLU",
-        "kickoff": "2025-07-30T12:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
-            "br": [
-                "globo",
-                "sportv",
-                "primevideo",
-                "premiere"
-            ],
-            "us": ["primevideo"]
-        }
-    },
-    {
-        "home_team": "CRB",
-        "away_team": "CRU",
-        "kickoff": "2025-08-07T22:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "SAO",
+    "home_id": 126,
+    "away_team": "CAP",
+    "away_id": 134,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377524,
+    "broadcasts": {
             "br": [
                 "primevideo"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "CRU",
-        "away_team": "CRB",
-        "kickoff": "2025-07-31T12:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "FLA",
+    "home_id": 127,
+    "away_team": "CAM",
+    "away_id": 1062,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377526,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "VAS",
+    "home_id": 133,
+    "away_team": "CSA",
+    "away_id": 150,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377535,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "RBB",
+    "home_id": 794,
+    "away_team": "BOT",
+    "away_id": 120,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377539,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "CAP",
+    "home_id": 134,
+    "away_team": "SAO",
+    "away_id": 126,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377525,
+    "broadcasts": {
             "br": [
                 "primevideo"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "RET",
-        "away_team": "BAH",
-        "kickoff": "2025-08-05T22:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de volta",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "CAM",
+    "home_id": 1062,
+    "away_team": "FLA",
+    "away_id": 127,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377527,
+    "broadcasts": {
+            "br": [
+                "sportv",
+                "premiere"
+            ],
+            "us": ["primevideo"]
+        }
+  },
+  {
+    "home_team": "RET",
+    "home_id": 13098,
+    "away_team": "BAH",
+    "away_id": 118,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377529,
+    "broadcasts": {
             "br": [
                 "primevideo"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "BAH",
-        "away_team": "RET",
-        "kickoff": "2025-07-30T22:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "CRB",
+    "home_id": 146,
+    "away_team": "CRU",
+    "away_id": 135,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377533,
+    "broadcasts": {
             "br": [
                 "primevideo"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "VAS",
-        "away_team": "CSA",
-        "kickoff": "2025-08-06T00:30:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de volta",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "PAL",
+    "home_id": 121,
+    "away_team": "COR",
+    "away_id": 131,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377537,
+    "broadcasts": {
             "br": [
-                "sportv",
-                "premiere"
+                "tvglobo",
+                "sportv", "primevideo" , "premiere"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "CSA",
-        "away_team": "VAS",
-        "kickoff": "2025-07-30T22:00:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de ida",
-        "slug": "noslug",
-        "broadcasts": {
+  },
+  {
+    "home_team": "FLU",
+    "home_id": 124,
+    "away_team": "SCI",
+    "away_id": 119,
+    "league_id": 73,
+    "league": "Copa Do Brasil",
+    "league_week_number": "Round of 16",
+    "api_football_id": 1377531,
+    "broadcasts": {
             "br": [
-                "sportv",
-                "premiere"
+                "tvglobo",
+                "sportv", "primevideo" , "premiere"
             ],
             "us": ["primevideo"]
         }
-    },
-    {
-        "home_team": "RBB",
-        "away_team": "BOT",
-        "kickoff": "2025-08-06T22:00:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de Volta",
-        "slug": "noslug",
-        "broadcasts": {
-            "br": [
-                "sportv",
-                "premiere"
-            ],
-            "us": ["primevideo"]
-        }
-    },
-    {
-        "home_team": "BOT",
-        "away_team": "RBB",
-        "kickoff": "2025-07-29T22:00:00.000Z",
-        "league": "CDB",
-        "league_week_number": "Jogo de Ida",
-        "slug": "noslug",
-        "broadcasts": {
-            "br": [
-                "sportv",
-                "premiere"
-            ],
-            "us": ["primevideo"]
-        }
-    }
+  }
 ]
