@@ -5,7 +5,7 @@
     "away_team": "SPT",
     "away_id": "123",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351046",
     "broadcasts": {
       "br": [
@@ -22,7 +22,7 @@
     "away_team": "CAM",
     "away_id": "1062",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351049",
     "broadcasts": {
       "br": [
@@ -39,7 +39,7 @@
     "away_team": "MIR",
     "away_id": "7848",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351048",
     "broadcasts": {
       "br": [
@@ -56,7 +56,7 @@
     "away_team": "VIT",
     "away_id": "136",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351052",
     "broadcasts": {
       "br": [
@@ -73,7 +73,7 @@
     "away_team": "FLU",
     "away_id": "124",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351051",
     "broadcasts": {
       "br": [
@@ -91,7 +91,7 @@
     "away_id": "110",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351043",
     "broadcasts": {
       "br": [
@@ -109,7 +109,7 @@
     "away_id": "120",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351045",
     "broadcasts": {
       "br": [
@@ -127,7 +127,7 @@
     "away_id": "128",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351044",
     "broadcasts": {
       "br": [
@@ -145,7 +145,7 @@
     "away_id": "131",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351050",
     "broadcasts": {
       "br": [
@@ -163,7 +163,7 @@
     "away_id": "129",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "1",
+    "league_week_number": "globo",
     "api_football_id": "1351047",
     "broadcasts": {
       "br": [
@@ -181,7 +181,7 @@
     "away_id": "130",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351061",
     "broadcasts": {
       "br": [
@@ -199,7 +199,7 @@
     "away_id": "133",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351055",
     "broadcasts": {
       "br": [
@@ -217,7 +217,7 @@
     "away_id": "152",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351054",
     "broadcasts": {
       "br": [
@@ -235,7 +235,7 @@
     "away_id": "794",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351053",
     "broadcasts": {
       "br": [
@@ -253,7 +253,7 @@
     "away_id": "126",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351058",
     "broadcasts": {
       "br": [
@@ -271,7 +271,7 @@
     "away_id": "135",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351059",
     "broadcasts": {
       "br": [
@@ -289,7 +289,7 @@
     "away_id": "121",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351062",
     "broadcasts": {
       "br": [
@@ -307,7 +307,7 @@
     "away_id": "127",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351060",
     "broadcasts": {
       "br": [
@@ -325,7 +325,7 @@
     "away_id": "154",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351057",
     "broadcasts": {
       "br": [
@@ -343,7 +343,7 @@
     "away_id": "118",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "2",
+    "league_week_number": "recordtv",
     "api_football_id": "1351056",
     "broadcasts": {
       "br": [
@@ -361,7 +361,7 @@
     "away_id": "129",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351072",
     "broadcasts": {
       "br": [
@@ -379,7 +379,7 @@
     "away_id": "120",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351067",
     "broadcasts": {
       "br": [
@@ -397,7 +397,7 @@
     "away_id": "131",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351065",
     "broadcasts": {
       "br": [
@@ -415,7 +415,7 @@
     "away_id": "123",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351064",
     "broadcasts": {
       "br": [
@@ -433,7 +433,7 @@
     "away_id": "7848",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351070",
     "broadcasts": {
       "br": [
@@ -451,7 +451,7 @@
     "away_id": "135",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351066",
     "broadcasts": {
       "br": [
@@ -469,7 +469,7 @@
     "away_id": "127",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351069",
     "broadcasts": {
       "br": [
@@ -487,7 +487,7 @@
     "away_id": "128",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351063",
     "broadcasts": {
       "br": [
@@ -505,7 +505,7 @@
     "away_id": "110",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351071",
     "broadcasts": {
       "br": [
@@ -523,7 +523,7 @@
     "away_id": "136",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "3",
+    "league_week_number": "sportv",
     "api_football_id": "1351068",
     "broadcasts": {
       "br": [
@@ -541,7 +541,7 @@
     "away_id": "133",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351081",
     "broadcasts": {
       "br": [
@@ -559,7 +559,7 @@
     "away_id": "126",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351074",
     "broadcasts": {
       "br": [
@@ -577,7 +577,7 @@
     "away_id": "794",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351082",
     "broadcasts": {
       "br": [
@@ -595,7 +595,7 @@
     "away_id": "130",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351077",
     "broadcasts": {
       "br": [
@@ -613,7 +613,7 @@
     "away_id": "121",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351079",
     "broadcasts": {
       "br": [
@@ -631,7 +631,7 @@
     "away_id": "124",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351075",
     "broadcasts": {
       "br": [
@@ -649,7 +649,7 @@
     "away_id": "152",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351073",
     "broadcasts": {
       "br": [
@@ -667,7 +667,7 @@
     "away_id": "117",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351076",
     "broadcasts": {
       "br": [
@@ -685,7 +685,7 @@
     "away_id": "154",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351080",
     "broadcasts": {
       "br": [
@@ -703,7 +703,7 @@
     "away_id": "118",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "4",
+    "league_week_number": "primevideo",
     "api_football_id": "1351078",
     "broadcasts": {
       "br": [
@@ -721,7 +721,7 @@
     "away_id": "123",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351085",
     "broadcasts": {
       "br": [
@@ -739,7 +739,7 @@
     "away_id": "127",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351084",
     "broadcasts": {
       "br": [
@@ -757,7 +757,7 @@
     "away_id": "110",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351089",
     "broadcasts": {
       "br": [
@@ -775,7 +775,7 @@
     "away_id": "7848",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351092",
     "broadcasts": {
       "br": [
@@ -793,7 +793,7 @@
     "away_id": "128",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351086",
     "broadcasts": {
       "br": [
@@ -811,7 +811,7 @@
     "away_id": "120",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351088",
     "broadcasts": {
       "br": [
@@ -829,7 +829,7 @@
     "away_id": "136",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351083",
     "broadcasts": {
       "br": [
@@ -847,7 +847,7 @@
     "away_id": "121",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351091",
     "broadcasts": {
       "br": [
@@ -865,7 +865,7 @@
     "away_id": "135",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351087",
     "broadcasts": {
       "br": [
@@ -883,7 +883,7 @@
     "away_id": "129",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "5",
+    "league_week_number": "youtube",
     "api_football_id": "1351090",
     "broadcasts": {
       "br": [
@@ -901,7 +901,7 @@
     "away_id": "152",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351099",
     "broadcasts": {
       "br": [
@@ -919,7 +919,7 @@
     "away_id": "126",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351101",
     "broadcasts": {
       "br": [
@@ -937,7 +937,7 @@
     "away_id": "117",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351097",
     "broadcasts": {
       "br": [
@@ -955,7 +955,7 @@
     "away_id": "154",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351102",
     "broadcasts": {
       "br": [
@@ -973,7 +973,7 @@
     "away_id": "124",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351094",
     "broadcasts": {
       "br": [
@@ -991,7 +991,7 @@
     "away_id": "131",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351093",
     "broadcasts": {
       "br": [
@@ -1009,7 +1009,7 @@
     "away_id": "118",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351095",
     "broadcasts": {
       "br": [
@@ -1027,7 +1027,7 @@
     "away_id": "133",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351098",
     "broadcasts": {
       "br": [
@@ -1045,7 +1045,7 @@
     "away_id": "130",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351100",
     "broadcasts": {
       "br": [
@@ -1063,7 +1063,7 @@
     "away_id": "794",
     "league_id": "71",
     "league": "BRA_A",
-    "league_week_number": "6",
+    "league_week_number": "premiere",
     "api_football_id": "1351096",
     "broadcasts": {
       "br": [
@@ -3279,7 +3279,7 @@
     "api_football_id": "1351230",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3297,7 +3297,7 @@
     "api_football_id": "1351225",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3369,7 +3369,7 @@
     "api_football_id": "1351224",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3387,7 +3387,7 @@
     "api_football_id": "1351228",
     "broadcasts": {
       "br": [
-        "premiere"
+        "recordtv", "youtube", "premiere"
       ],
       "us": [
         "paramount"
@@ -3405,7 +3405,7 @@
     "api_football_id": "1351232",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3423,7 +3423,7 @@
     "api_football_id": "1351231",
     "broadcasts": {
       "br": [
-        "premiere"
+        "primevideo"
       ],
       "us": [
         "paramount"
@@ -3477,7 +3477,7 @@
     "api_football_id": "1351234",
     "broadcasts": {
       "br": [
-        "premiere"
+        "primevideo"
       ],
       "us": [
         "paramount"
@@ -3495,7 +3495,7 @@
     "api_football_id": "1351242",
     "broadcasts": {
       "br": [
-        "premiere"
+        "recordtv", "youtube", "premiere"
       ],
       "us": [
         "paramount"
@@ -3531,7 +3531,7 @@
     "api_football_id": "1351236",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3567,7 +3567,7 @@
     "api_football_id": "1351235",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3603,7 +3603,7 @@
     "api_football_id": "1351238",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3621,7 +3621,7 @@
     "api_football_id": "1351237",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3639,7 +3639,7 @@
     "api_football_id": "1351250",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3693,7 +3693,7 @@
     "api_football_id": "1351243",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3711,7 +3711,7 @@
     "api_football_id": "1351249",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3729,7 +3729,7 @@
     "api_football_id": "1351244",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere" 
       ],
       "us": [
         "paramount"
@@ -3747,7 +3747,7 @@
     "api_football_id": "1351248",
     "broadcasts": {
       "br": [
-        "premiere"
+        "primevideo"
       ],
       "us": [
         "paramount"
@@ -3765,7 +3765,7 @@
     "api_football_id": "1351252",
     "broadcasts": {
       "br": [
-        "premiere"
+        "recordtv", "youtube", "premiere"
       ],
       "us": [
         "paramount"
@@ -3819,7 +3819,7 @@
     "api_football_id": "1351259",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3855,7 +3855,7 @@
     "api_football_id": "1351262",
     "broadcasts": {
       "br": [
-        "premiere"
+        "primevideo"
       ],
       "us": [
         "paramount"
@@ -3873,7 +3873,7 @@
     "api_football_id": "1351253",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3891,7 +3891,7 @@
     "api_football_id": "1351256",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
@@ -3927,7 +3927,7 @@
     "api_football_id": "1351255",
     "broadcasts": {
       "br": [
-        "premiere"
+        "recordtv", "youtube", "premiere"
       ],
       "us": [
         "paramount"
@@ -3945,7 +3945,7 @@
     "api_football_id": "1351258",
     "broadcasts": {
       "br": [
-        "premiere"
+        "sportv", "premiere"
       ],
       "us": [
         "paramount"
@@ -3999,7 +3999,7 @@
     "api_football_id": "1351270",
     "broadcasts": {
       "br": [
-        "premiere"
+        "globo", "premiere"
       ],
       "us": [
         "paramount"
