@@ -107,14 +107,23 @@
     "method": "Paid Subscription",
     "link": "https://www.max.com/br/pt/sports/champions-league?utm_source=TNTSports&utm_medium=Social&utm_campaign=max_champions_brasil&utm_content=portal+banner_home"
   },
-  "nossofutebol": {
-    "id": "nossofutebol",
-    "name": "Nosso Futebol",
-    "logo": "https://img.ondeassistir.tv/images-scr/channels/nossofutebol.png",
+  "sportynet": {
+    "id": "sportynet",
+    "name": "SportyNet",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/sportynet.png",
     "country": "BR",
     "type": ["external", "channel_number"],
-    "method": "Paid Subscription",
-    "link": "https://www.nossofutebol.com/"
+    "method": "Streaming Gratuito",
+    "link": "https://www.youtube.com/@SportyNetBrasil/streams"
+    },
+  "xsports": {
+    "id": "xsports",
+    "name": "Xsports",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/xsports.png",
+    "country": "BR",
+    "type": ["external", "channel_number"],
+    "method": "TV Aberta",
+    "link": "https://www.xsports.com.br/"
   },
   "goat": {
     "id": "goat",
