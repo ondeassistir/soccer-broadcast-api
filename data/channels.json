@@ -125,6 +125,24 @@
     "method": "TV Aberta",
     "link": "https://www.xsports.com.br/"
   },
+  "desimpedidos": {
+    "id": "desimpedidos",
+    "name": "Desimpedidos",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/desimpedidos.png",
+    "country": "BR",
+    "type": ["external"],
+    "method": "Streaming Gratuito",
+    "link": "https://www.youtube.com/@desimpedidos/streams"
+    },
+  "kwai": {
+    "id": "kwai",
+    "name": "Kwai",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/kwai.png",
+    "country": "BR",
+    "type": ["external"],
+    "method": "Streaming Gratuito",
+    "link": "https://www.xsports.com.br/"
+  },
   "goat": {
     "id": "goat",
     "name": "Goat",
