@@ -112,7 +112,7 @@
     "name": "SportyNet",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/sportynet.png",
     "country": "BR",
-    "type": ["external", "channel_number"],
+    "type": "external",
     "method": "Streaming Gratuito",
     "link": "https://www.youtube.com/@SportyNetBrasil/streams"
     },
@@ -121,8 +121,8 @@
     "name": "Xsports",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/xsports.png",
     "country": "BR",
-    "type": ["external", "channel_number"],
-    "method": "TV Aberta",
+    "type": "external",
+    "method": ["TV Aberta", "Digital e Antena"],
     "link": "https://www.xsports.com.br/"
   },
   "desimpedidos": {
@@ -130,7 +130,7 @@
     "name": "Desimpedidos",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/desimpedidos.png",
     "country": "BR",
-    "type": ["external"],
+    "type": "external",
     "method": "Streaming Gratuito",
     "link": "https://www.youtube.com/@desimpedidos/streams"
     },
@@ -139,7 +139,7 @@
     "name": "Kwai",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/kwai.png",
     "country": "BR",
-    "type": ["external"],
+    "type": "external",
     "method": "Streaming Gratuito",
     "link": "https://www.xsports.com.br/"
   },
