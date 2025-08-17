@@ -119,7 +119,7 @@
   "xsports": {
     "id": "xsports",
     "name": "Xsports",
-    "logo": "https://img.ondeassistir.tv/images-scr/channels/xsports.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/xsports.jpg",
     "country": "BR",
     "type": "external",
     "method": ["TV Aberta", "Digital e Antena"],
@@ -128,7 +128,7 @@
   "desimpedidos": {
     "id": "desimpedidos",
     "name": "Desimpedidos",
-    "logo": "https://img.ondeassistir.tv/images-scr/channels/desimpedidos.png",
+    "logo": "https://img.ondeassistir.tv/images-scr/channels/desimpedidos.jpg",
     "country": "BR",
     "type": "external",
     "method": "Streaming Gratuito",
