@@ -122,7 +122,7 @@
     "logo": "https://img.ondeassistir.tv/images-scr/channels/xsports.jpg",
     "country": "BR",
     "type": "external",
-    "method": ["TV Aberta", "Digital e Antena"],
+    "method": "TV Aberta",
     "link": "https://www.xsports.com.br/"
   },
   "desimpedidos": {
