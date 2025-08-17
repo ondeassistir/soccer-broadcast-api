@@ -115,15 +115,15 @@
     "type": "external",
     "method": "Streaming Gratuito",
     "link": "https://www.youtube.com/@SportyNetBrasil/streams"
-    },
-  "xsports": {
-    "id": "xsports",
-    "name": "Xsports",
+   },
+  "sbt2": {
+    "id": "sbt2",
+    "name": "XSports",
     "logo": "https://img.ondeassistir.tv/images-scr/channels/xsports.jpg",
     "country": "BR",
     "type": "external",
-    "method": "TV Aberta",
-    "link": "https://www.xsports.com.br/"
+    "method": ["TV Aberta", "Streaming Gratuito"],
+    "link": "https://www.xsports.com.br/#comoSintonizar"
   },
   "desimpedidos": {
     "id": "desimpedidos",
